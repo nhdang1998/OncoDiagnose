@@ -1,0 +1,31 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "Ung thư phổi";
+    Layout = "_Layout";
+}
+
+<div class="row" id="body-row">
+    @await Html.PartialAsync("_PartialSidebar")
+    <!-- MAIN -->
+    <div class="col">
+
+        <div class="row">
+            <div class="col">
+                <div style="margin-top: 26px;">
+                    <h1 style="font-weight: bold;">Ung thư phổi</h1>
+                    <p style="text-align: justify;padding-right: 15px;">Mặc dù tỷ lệ mắc bệnh ung thư phổi đang giảm nhưng không may là hơn 160.000 người vẫn chết vì căn bệnh này hàng năm và nó vẫn là nguyên nhân gây tử vong do ung thư hàng đầu ở Hoa Kỳ. Theo truyền thống, ung thư phổi được phân loại là small cell (tạm dịch là ung thư phổi tế bào nhỏ) và non-small cell (tạm dịch là ung thư phổi không tế bào nhỏ). Ung thư phổi không phải tế bào nhỏ có thể được phân loại thành ung thư biểu mô tuyến, ung thư biểu mô tế bào vảy và ung thư biểu mô tế bào lớn. Về mặt mô học, ung thư phổi tế bào nhỏ và ung thư phổi không phải tế bào nhỏ có lịch sử tự nhiên và cách tiếp cận điều trị khác nhau. Trước năm 2004, không cần phải phân biệt các loại phụ khác nhau của ung thư phổi không phải tế bào nhỏ vì việc quản lý điều trị là tương tự nhau trong tất cả các loại phụ.<br></p>
+                    <div style="text-align: center;padding-right: 15px;">
+                        <img class="img-fluid" src="~/photo/LungCanerRibbon.jpg" style="width: 500px;">
+                        <p style="font-size: 12px;font-style: italic;padding-top: 5px;">Ảnh: Dải ruy băng màu trắnglà biểu tượng quốc tế về nhận thức ung thư phổi</p>
+                    </div>
+                    <p style="text-align: justify;padding-right: 15px;">Tuy nhiên, việc quản lý và điều trị ung thư phổi đã có nhiều thay đổi trong thập kỷ qua. Điều này đặc biệt thay đổi vào năm 2004 khi một tỷ lệ nhỏ ung thư biểu mô tuyến phổi được xác định có đột biến trên gen EGFR khiến những khối u này nhạy cảm với chất ức chế EGFR tyrosine kinase. Kể từ đó, đã có sự gia tăng của các đột biến có thể hành động khác trong bệnh ung thư phổi. Có tới 69% bệnh nhân ung thư phổi giai đoạn cuối có các đột biến có thể hành động được. Phần lớn trong số đó là KRAS (25%), nhạy cảm EGFR (17%), ALK (7%), MET (3%), HER-2 (2%), ROS1 (2%), BRAF (2%), RET (2%), NTRK1 (1%), PIK3CA (1%) và MEK1 (1%). Ngoài ra, 31% bệnh nhân được phát hiện có đột biến trình điều khiển gây ung thư chưa biết mà chúng tôi hiện không có bất kỳ mục tiêu nào. Nhờ những tiến bộ này, các hướng dẫn hiện tại như Hiệp hội Ung thư Lâm sàng Hoa Kỳ (ASCO) hoặc Hướng dẫn của Mạng lưới Ung thư Toàn diện Quốc gia (NCCN) khuyến nghị lập hồ sơ phân tử hoặc giải trình tự thế hệ tiếp theo để xác định các lựa chọn điều trị tốt nhất cho từng bệnh nhân hoặc nhóm nhỏ bệnh nhân mới mắc bệnh nhân ung thư phổi được chẩn đoán. Ngày càng có nhiều hiểu biết rằng ngày càng có nhiều sự thay đổi bộ gen thông qua các dòng điều trị, và người ta nhấn mạnh hơn vào việc hiểu rõ hơn về cơ chế kháng thuốc và sự tiến hóa vô tính của khối u. Do đó, y học chính xác hoặc cá nhân hóa đã trở thành một cách tiếp cận mới nổi để điều trị và nghiên cứu ung thư phổi có tính đến cảnh quan di truyền được cá nhân hóa, môi trường vi mô khối u và phương pháp điều trị có sẵn.<br></p>
+                    <div style="text-align: center; padding-right: 15px;">
+                        <img class="img-fluid" src="~/photo/cancerfeature_1280x720.jpg" style="width: 500px;">
+                    </div>
+                    <p style="text-align: justify;padding-right: 15px;margin-top: 15px;">Tóm lại, việc điều trị ung thư phổi đã phát triển nhanh chóng với sự xuất hiện của liệu pháp nhắm mục tiêu, liệu pháp miễn dịch, phương pháp điều trị dựa trên marker sinh học và sự sẵn có của các thử nghiệm lâm sàng mới. Y học chính xác có thể ngày càng trở nên quan trọng trong tương lai của việc điều trị ung thư phổi. Hiện nay, xét nghiệm mức độ biểu hiện PD-L1, đột biến EGFR, chuyển vị ALK và ROS1 là điều cần thiết để lựa chọn liệu pháp tốt nhất cho bệnh nhân ung thư phổi, đặc biệt là những người bị ung thư biểu mô tuyến phổi, mô học tế bào lớn và ung thư phổi không phải tế bào nhỏ. Các xét nghiệm đó cũng có thể được mở rộng cho những bệnh nhân không bao giờ hút thuốc hoặc hút thuốc nhẹ có mô học tế bào vảy. Hơn nữa, việc lập hồ sơ bộ gen rộng để xác định các thay đổi phân tử như chèn HER2, đột biến BRAF, thay đổi MET, TRK và RET có thể giúp xác định các tác nhân nhắm mục tiêu điều tra đang trong các thử nghiệm lâm sàng.<br></p>
+                </div>
+            </div>
+        </div>
+    </div><!-- Main Col END -->
+</div><!-- body-row END -->

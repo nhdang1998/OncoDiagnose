@@ -1,0 +1,72 @@
+﻿@model IEnumerable<OncoDiagnose.Models.Gene>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HugoSymbol)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OncoGene)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grch37Isoform)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grch37RefSeq)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grch38Isoform)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grch38RefSeq)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tsg)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HugoSymbol)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OncoGene)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grch37Isoform)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grch37RefSeq)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grch38Isoform)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grch38RefSeq)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tsg)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

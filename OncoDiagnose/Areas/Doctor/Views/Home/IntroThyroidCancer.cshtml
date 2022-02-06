@@ -1,0 +1,34 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "Ung thư tuyến giáp";
+    Layout = "_Layout";
+}
+
+<div class="row" id="body-row">
+    @await Html.PartialAsync("_PartialSidebar")
+    <!-- MAIN -->
+    <div class="col">
+
+        <div class="row">
+            <div class="col">
+                <div style="margin-top: 26px;">
+                    <h1 style="font-weight: bold;">Ung thư tuyến giáp</h1>
+                    <p style="text-align: justify;padding-right: 15px;">Ung thư tuyến giáp là bệnh ác tính nội tiết phổ biến nhất và tỷ lệ mắc ung thư biểu mô tuyến giáp thể nhú (PTC) đã tăng lên trong vài thập kỷ qua do chẩn đoán được cải thiện. Ung thư biểu mô: PTC, ung thư biểu mô tuyến giáp dạng nang (FTC), và ung thư biểu mô tuyến giáp bất sản (ATC) và ung thư biểu mô kém biệt hóa (PDC). Một bệnh ung thư tuyến giáp khác bắt nguồn từ các tế bào nang giáp (C) là ung thư biểu mô tuyến giáp thể tuỷ (MTC). Là kết quả của sự biệt hóa tốt và khối u phát triển không rõ ràng trong PTC và FTC, chúng còn được gọi là ung thư tuyến giáp biệt hóa (DTC). PTC liên quan đến 85–90%, FTC 5–10%, MTC khoảng 5%, và ATC ít hơn 2% trong tổng số các trường hợp ung thư tuyến giáp và tỷ lệ mắc của chúng tiếp tục tăng theo tuổi. Rất gần đây người ta đã xem xét rằng một số đột biến di truyền và tính đa hình so với DTC nên được tính đến khi lựa chọn các chiến lược điều trị hiệu quả cao. Ví dụ, một số thay đổi di truyền này là đột biến BRAF, đột biến yếu tố tăng trưởng nội mô mạch máu (VEGF), đột biến 13 KDR (VEGFR2), 14 KIT / Đột biến PDGFRA, 15 đa hình trình tự khởi động PDGFRA, 16 biểu hiện tử phối tử 1 (PD-L1) được lập trình, 17 và JAK2.<br></p>
+                    <p style="text-align: justify;padding-right: 15px;">Dữ liệu toàn diện về di truyền học ung thư tuyến giáp được cung cấp bởi cơ sở dữ liệu The Cancer Genome Atlas chỉ ra các đột biến trong BRAF (cụ thể là BRAF-V600E) hoặc RAS dưới dạng bộ điều chỉnh lộ trình truyền tín hiệu kinase kích hoạt mitogen (MAPK) và gen trình điều khiển mới thay đổi EIF1AX làm trung gian của con đường MAPK.<br></p>
+                    <div style="text-align: center;padding-right: 15px;">
+                        <img class="img-fluid" src="~/photo/Thyroid cancer.jpg" style="width: 500px;">
+                        <p style="font-size: 12px;font-style: italic;padding-top: 5px;">Ảnh: Dải ruy băng với ba màu (xanh, tím, hồng) là biểu tượng quốc tế về nhận thức ung thư tuyến giáp</p>
+                    </div>
+                    <p style="text-align: justify;padding-right: 15px;">Từ chính xác của "y học cá nhân hóa" được định nghĩa để phân chia mọi người dựa trên thông tin di truyền của họ để phân bổ các phân nhóm điều trị khác nhau và dự đoán hiệu quả đáp ứng, hành vi bệnh hoặc nguy cơ mắc bệnh. Một số thuật ngữ được sử dụng cho y học cá nhân hóa như y học cá nhân hóa , y học chính xác, y học phân tầng được sử dụng để phân biệt cụ thể nhưng giống nhau về cơ bản. Y học cá nhân hóa nhấn mạnh rằng các bác sĩ lâm sàng không phải đối mặt với căn bệnh bằng một định nghĩa chính xác cho tất cả mọi người mà đang đối mặt với từng bệnh nhân có thông tin di truyền duy nhất.<br></p>
+                    <p style="text-align: justify;padding-right: 15px;">Thuốc điều trị ung thư được cá nhân hóa là một phân nhóm của y học được cá nhân hóa trong đó thông tin di truyền của một người hỗ trợ việc tìm ra các chiến lược phòng ngừa, sàng lọc và điều trị hiệu quả hơn. Thập kỷ cuối cùng của thế kỷ XX được đánh dấu là thời đại gen vì các công nghệ phân tử thông lượng cao như tiếp theo- giải trình tự thế hệ (NGS), và vi mô biểu hiện gen cung cấp nhiều loại thông tin di truyền ung thư. Trên thực tế, trong phương pháp quản lý ung thư cá nhân hóa, một số nỗ lực được thực hiện để xác định mối liên hệ giữa các đặc điểm phân tử của bệnh nhân với khả năng sống sót hoặc phản ứng với thuốc của họ. Việc xét nghiệm di truyền tế bào ung thư và tế bào bình thường hỗ trợ các bác sĩ lâm sàng làm cho chiến lược điều trị tương thích hơn với nhu cầu của từng bệnh nhân mà có thể gây ra ít tác dụng phụ hơn so với các lựa chọn tiêu chuẩn. Thuốc cá nhân hóa ung thư bao gồm: (a) dự đoán nguy cơ phát triển ung thư và lựa chọn các chiến lược sàng lọc để giảm nguy cơ, (b) phù hợp với những người có phương pháp điều trị hiệu quả hơn với ít tác dụng phụ hơn, (c) dự đoán nguy cơ tái phát. Sự phát triển và cải tiến của hóa trị liệu đã tạo ra một cuộc cách mạng trong điều trị ung thư, nhưng vẫn có một số bệnh nhân không đáp ứng với phương pháp điều trị. Bí mật của một số hiệu quả đối với cùng một chiến lược dùng thuốc nằm ở yếu tố di truyền và biểu sinh và cần được xác định để có một phương pháp điều trị ung thư được cá nhân hóa cho tư duy “một phương pháp điều trị phù hợp với tất cả ”.<br></p>
+                    <div style="text-align: center;padding-right: 15px;">
+                        <img class="img-fluid" src="~/photo/cancerfeature_1280x720.jpg" style="width: 500px;">
+                    </div>
+                    <p style="text-align: justify;padding-right: 15px;margin-top: 15px;">Mặc dù thực tế là ung thư tuyến giáp thường được chẩn đoán bằng xét nghiệm FNA, nhưng có một số kết quả tế bào học là “không xác định” hoặc “Vùng xám”. Cấu hình phân tử của tế bào học FNAB không chỉ có thể cải thiện độ chính xác chẩn đoán trong vùng xám, mà còn hỗ trợ điều trị ung thư tuyến giáp theo hướng thuận lợi hơn. Sự kết nối của một số đột biến gen và vật liệu chịu nhiệt được cá nhân hóa với điều trị có thể cải thiện hậu quả tiên lượng với các chiến lược điều trị chính xác được tối ưu hóa hơn nhiều. Mỗi bệnh nhân ung thư tuyến giáp có thể được xem xét dựa trên nền tảng di truyền của họ để lựa chọn thành phần điều trị chính xác.<br></p>
+                </div>
+            </div>
+        </div>
+    </div><!-- Main Col END -->
+</div><!-- body-row END -->
+

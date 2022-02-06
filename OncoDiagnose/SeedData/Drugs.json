@@ -1,0 +1,746 @@
+[
+  {
+    "DrugId": 1,
+    "NcitCode": "C101790",
+    "DrugName": "Alectinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 2,
+    "NcitCode": "C102564",
+    "DrugName": "AZD5363",
+    "Priority": 1
+  },
+  {
+    "DrugId": 3,
+    "NcitCode": "C103273",
+    "DrugName": "Erdafitinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 4,
+    "NcitCode": "C106261",
+    "DrugName": "GSK2636771",
+    "Priority": 1
+  },
+  {
+    "DrugId": 5,
+    "NcitCode": "C106432",
+    "DrugName": "Pembrolizumab",
+    "Priority": 1
+  },
+  {
+    "DrugId": 6,
+    "NcitCode": "C107506",
+    "DrugName": "Tazemetostat",
+    "Priority": 1
+  },
+  {
+    "DrugId": 7,
+    "NcitCode": "C107684",
+    "DrugName": "AZD8186",
+    "Priority": 1
+  },
+  {
+    "DrugId": 8,
+    "NcitCode": "C111573",
+    "DrugName": "Enasidenib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 9,
+    "NcitCode": "C111988",
+    "DrugName": "Debio1347",
+    "Priority": 1
+  },
+  {
+    "DrugId": 10,
+    "NcitCode": "C113330",
+    "DrugName": "PLX8394",
+    "Priority": 1
+  },
+  {
+    "DrugId": 11,
+    "NcitCode": "C113655",
+    "DrugName": "Lorlatinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 12,
+    "NcitCode": "C114383",
+    "DrugName": "Ivosidenib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 13,
+    "NcitCode": "C114494",
+    "DrugName": "Asciminib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 14,
+    "NcitCode": "C114984",
+    "DrugName": "Entrectinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 15,
+    "NcitCode": "C115112",
+    "DrugName": "Ceritinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 16,
+    "NcitCode": "C115977",
+    "DrugName": "Larotrectinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 17,
+    "NcitCode": "C116377",
+    "DrugName": "Osimertinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 18,
+    "NcitCode": "C116722",
+    "DrugName": "Gilteritinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 19,
+    "NcitCode": "C121540",
+    "DrugName": "Cemiplimab",
+    "Priority": 1
+  },
+  {
+    "DrugId": 20,
+    "NcitCode": "C121553",
+    "DrugName": "Pemigatinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 21,
+    "NcitCode": "C121854",
+    "DrugName": "Bemcentinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 22,
+    "NcitCode": "C122834",
+    "DrugName": "AZD9496",
+    "Priority": 1
+  },
+  {
+    "DrugId": 23,
+    "NcitCode": "C123827",
+    "DrugName": "Avapritinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 24,
+    "NcitCode": "C124067",
+    "DrugName": "Ripretinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 25,
+    "NcitCode": "C124993",
+    "DrugName": "Amivantamab",
+    "Priority": 1
+  },
+  {
+    "DrugId": 26,
+    "NcitCode": "C125657",
+    "DrugName": "TK216",
+    "Priority": 1
+  },
+  {
+    "DrugId": 27,
+    "NcitCode": "C126752",
+    "DrugName": "Mobocertinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 28,
+    "NcitCode": "C128799",
+    "DrugName": "Trastuzumab Deruxtecan",
+    "Priority": 1
+  },
+  {
+    "DrugId": 29,
+    "NcitCode": "C129546",
+    "DrugName": "H3B-8800",
+    "Priority": 1
+  },
+  {
+    "DrugId": 30,
+    "NcitCode": "C132295",
+    "DrugName": "Pralsetinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 31,
+    "NcitCode": "C134987",
+    "DrugName": "Selpercatinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 32,
+    "NcitCode": "C137800",
+    "DrugName": "Rucaparib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 33,
+    "NcitCode": "C1379",
+    "DrugName": "Fulvestrant",
+    "Priority": 1
+  },
+  {
+    "DrugId": 34,
+    "NcitCode": "C141432",
+    "DrugName": "Milademetan",
+    "Priority": 1
+  },
+  {
+    "DrugId": 35,
+    "NcitCode": "C146825",
+    "DrugName": "PLX2853",
+    "Priority": 1
+  },
+  {
+    "DrugId": 36,
+    "NcitCode": "C152948",
+    "DrugName": "Zenocutuzumab",
+    "Priority": 1
+  },
+  {
+    "DrugId": 37,
+    "NcitCode": "C154287",
+    "DrugName": "Sotorasib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 38,
+    "NcitCode": "C157493",
+    "DrugName": "Adagrasib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 39,
+    "NcitCode": "C157494",
+    "DrugName": "Adagrasib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 40,
+    "NcitCode": "C157495",
+    "DrugName": "Adagrasib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 41,
+    "NcitCode": "C157496",
+    "DrugName": "Adagrasib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 42,
+    "NcitCode": "C157497",
+    "DrugName": "Adagrasib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 43,
+    "NcitCode": "C1647",
+    "DrugName": "Trastuzumab",
+    "Priority": 1
+  },
+  {
+    "DrugId": 44,
+    "NcitCode": "C1703",
+    "DrugName": "Tipifarnib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 45,
+    "NcitCode": "C1723",
+    "DrugName": "Cetuximab",
+    "Priority": 1
+  },
+  {
+    "DrugId": 46,
+    "NcitCode": "C1844",
+    "DrugName": "Temsirolimus",
+    "Priority": 1
+  },
+  {
+    "DrugId": 47,
+    "NcitCode": "C1855",
+    "DrugName": "Gefitinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 48,
+    "NcitCode": "C1857",
+    "DrugName": "Panitumumab",
+    "Priority": 1
+  },
+  {
+    "DrugId": 49,
+    "NcitCode": "C1872",
+    "DrugName": "Midostaurin",
+    "Priority": 1
+  },
+  {
+    "DrugId": 50,
+    "NcitCode": "C2654",
+    "DrugName": "Ipilimumab",
+    "Priority": 1
+  },
+  {
+    "DrugId": 51,
+    "NcitCode": "C26653",
+    "DrugName": "Lapatinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 52,
+    "NcitCode": "C2737",
+    "DrugName": "Vandetanib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 53,
+    "NcitCode": "C376",
+    "DrugName": "Cisplatin",
+    "Priority": 1
+  },
+  {
+    "DrugId": 54,
+    "NcitCode": "C38713",
+    "DrugName": "Dasatinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 55,
+    "NcitCode": "C48375",
+    "DrugName": "Nilotinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 56,
+    "NcitCode": "C48387",
+    "DrugName": "Everolimus",
+    "Priority": 1
+  },
+  {
+    "DrugId": 57,
+    "NcitCode": "C49094",
+    "DrugName": "Neratinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 58,
+    "NcitCode": "C49176",
+    "DrugName": "Palbociclib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 59,
+    "NcitCode": "C52200",
+    "DrugName": "Cabozantinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 60,
+    "NcitCode": "C53398",
+    "DrugName": "Dacomitinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 61,
+    "NcitCode": "C60809",
+    "DrugName": "Bosutinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 62,
+    "NcitCode": "C61948",
+    "DrugName": "Sorafenib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 63,
+    "NcitCode": "C62035",
+    "DrugName": "Imatinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 64,
+    "NcitCode": "C64639",
+    "DrugName": "Crenolanib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 65,
+    "NcitCode": "C64768",
+    "DrugName": "Vemurafenib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 66,
+    "NcitCode": "C65530",
+    "DrugName": "Erlotinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 67,
+    "NcitCode": "C66939",
+    "DrugName": "Selumetinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 68,
+    "NcitCode": "C66940",
+    "DrugName": "Afatinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 69,
+    "NcitCode": "C68814",
+    "DrugName": "Nivolumab",
+    "Priority": 1
+  },
+  {
+    "DrugId": 70,
+    "NcitCode": "C68923",
+    "DrugName": "Cobimetinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 71,
+    "NcitCode": "C68936",
+    "DrugName": "Quizartinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 72,
+    "NcitCode": "C71622",
+    "DrugName": "Sunitinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 73,
+    "NcitCode": "C71721",
+    "DrugName": "Olaparib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 74,
+    "NcitCode": "C74038",
+    "DrugName": "Vismodegib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 75,
+    "NcitCode": "C74061",
+    "DrugName": "Crizotinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 76,
+    "NcitCode": "C74065",
+    "DrugName": "ABI-009",
+    "Priority": 1
+  },
+  {
+    "DrugId": 77,
+    "NcitCode": "C74547",
+    "DrugName": "Pazopanib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 78,
+    "NcitCode": "C77888",
+    "DrugName": "Ruxolitinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 79,
+    "NcitCode": "C77908",
+    "DrugName": "Trametinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 80,
+    "NcitCode": "C78204",
+    "DrugName": "Regorafenib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 81,
+    "NcitCode": "C80059",
+    "DrugName": "Niraparib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 82,
+    "NcitCode": "C81934",
+    "DrugName": "Ibrutinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 83,
+    "NcitCode": "C82385",
+    "DrugName": "Sonidegib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 84,
+    "NcitCode": "C82386",
+    "DrugName": "Dabrafenib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 85,
+    "NcitCode": "C82492",
+    "DrugName": "Ado-Trastuzumab Emtansine",
+    "Priority": 1
+  },
+  {
+    "DrugId": 86,
+    "NcitCode": "C84865",
+    "DrugName": "Binimetinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 87,
+    "NcitCode": "C88272",
+    "DrugName": "AZD4547",
+    "Priority": 1
+  },
+  {
+    "DrugId": 88,
+    "NcitCode": "C88293",
+    "DrugName": "Fedratinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 89,
+    "NcitCode": "C88302",
+    "DrugName": "Infigratinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 90,
+    "NcitCode": "C88314",
+    "DrugName": "Tepotinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 91,
+    "NcitCode": "C90564",
+    "DrugName": "Capmatinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 92,
+    "NcitCode": "C91733",
+    "DrugName": "Margetuximab",
+    "Priority": 1
+  },
+  {
+    "DrugId": 93,
+    "NcitCode": "C94214",
+    "DrugName": "Alpelisib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 94,
+    "NcitCode": "C95701",
+    "DrugName": "Ribociclib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 95,
+    "NcitCode": "C95733",
+    "DrugName": "Talazoparib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 96,
+    "NcitCode": "C95777",
+    "DrugName": "Ponatinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 97,
+    "NcitCode": "C97660",
+    "DrugName": "Abemaciclib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 98,
+    "NcitCode": "C98283",
+    "DrugName": "Encorafenib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 99,
+    "NcitCode": "C98831",
+    "DrugName": "Brigatinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 100,
+    "NcitCode": "C98838",
+    "DrugName": "Poziotinib",
+    "Priority": 1
+  },
+  {
+    "DrugId": 101,
+    "NcitCode": "C106250",
+    "DrugName": "Atezolizumab",
+    "Priority": 2
+  },
+  {
+    "DrugId": 102,
+    "NcitCode": "C106432",
+    "DrugName": "Pembrolizumab",
+    "Priority": 2
+  },
+  {
+    "DrugId": 103,
+    "NcitCode": "C1379",
+    "DrugName": "Fulvestrant",
+    "Priority": 2
+  },
+  {
+    "DrugId": 104,
+    "NcitCode": "C1527",
+    "DrugName": "Letrozole",
+    "Priority": 2
+  },
+  {
+    "DrugId": 105,
+    "NcitCode": "C15632",
+    "DrugName": "Chemotherapy",
+    "Priority": 2
+  },
+  {
+    "DrugId": 106,
+    "NcitCode": "C15807",
+    "DrugName": "High Dose Chemotherapy",
+    "Priority": 2
+  },
+  {
+    "DrugId": 107,
+    "NcitCode": "C1647",
+    "DrugName": "Trastuzumab",
+    "Priority": 2
+  },
+  {
+    "DrugId": 108,
+    "NcitCode": "C1723",
+    "DrugName": "Cetuximab",
+    "Priority": 2
+  },
+  {
+    "DrugId": 109,
+    "NcitCode": "C1794",
+    "DrugName": "Capecitabine",
+    "Priority": 2
+  },
+  {
+    "DrugId": 110,
+    "NcitCode": "C1857",
+    "DrugName": "Panitumumab",
+    "Priority": 2
+  },
+  {
+    "DrugId": 111,
+    "NcitCode": "C2039",
+    "DrugName": "Bevacizumab",
+    "Priority": 2
+  },
+  {
+    "DrugId": 112,
+    "NcitCode": "C38692",
+    "DrugName": "Pertuzumab",
+    "Priority": 2
+  },
+  {
+    "DrugId": 113,
+    "NcitCode": "C63402",
+    "DrugName": "Carboplatin-Taxol Regimen",
+    "Priority": 2
+  },
+  {
+    "DrugId": 114,
+    "NcitCode": "C68814",
+    "DrugName": "Nivolumab",
+    "Priority": 2
+  },
+  {
+    "DrugId": 115,
+    "NcitCode": "C68923",
+    "DrugName": "Cobimetinib",
+    "Priority": 2
+  },
+  {
+    "DrugId": 116,
+    "NcitCode": "C70792",
+    "DrugName": "Ramucirumab",
+    "Priority": 2
+  },
+  {
+    "DrugId": 117,
+    "NcitCode": "C74052",
+    "DrugName": "Iodine I 131-6-Beta-Iodomethyl-19-Norcholesterol",
+    "Priority": 2
+  },
+  {
+    "DrugId": 118,
+    "NcitCode": "C77896",
+    "DrugName": "Tucatinib",
+    "Priority": 2
+  },
+  {
+    "DrugId": 119,
+    "NcitCode": "C77908",
+    "DrugName": "Trametinib",
+    "Priority": 2
+  },
+  {
+    "DrugId": 120,
+    "NcitCode": "C84865",
+    "DrugName": "Binimetinib",
+    "Priority": 2
+  },
+  {
+    "DrugId": 121,
+    "NcitCode": "C95701",
+    "DrugName": "Ribociclib",
+    "Priority": 2
+  },
+  {
+    "DrugId": 122,
+    "NcitCode": "C15632",
+    "DrugName": "Chemotherapy",
+    "Priority": 3
+  },
+  {
+    "DrugId": 123,
+    "NcitCode": "C1794",
+    "DrugName": "Capecitabine",
+    "Priority": 3
+  },
+  {
+    "DrugId": 124,
+    "NcitCode": "C68923",
+    "DrugName": "Cobimetinib",
+    "Priority": 3
+  }
+]

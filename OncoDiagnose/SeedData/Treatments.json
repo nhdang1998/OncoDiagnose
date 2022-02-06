@@ -1,0 +1,2252 @@
+[
+  {
+    "TreatmentId": 1,
+    "MutationId": 1,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 2,
+    "MutationId": 2,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 3,
+    "MutationId": 3,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 4,
+    "MutationId": 4,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 5,
+    "MutationId": 5,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 6,
+    "MutationId": 6,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 7,
+    "MutationId": 7,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 8,
+    "MutationId": 8,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 9,
+    "MutationId": 9,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 10,
+    "MutationId": 10,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 11,
+    "MutationId": 11,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 12,
+    "MutationId": 12,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 13,
+    "MutationId": 12,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 14,
+    "MutationId": 13,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 15,
+    "MutationId": 14,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 16,
+    "MutationId": 15,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 17,
+    "MutationId": 16,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 18,
+    "MutationId": 17,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 19,
+    "MutationId": 18,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 20,
+    "MutationId": 19,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 21,
+    "MutationId": 20,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 22,
+    "MutationId": 21,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 23,
+    "MutationId": 22,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 24,
+    "MutationId": 23,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 25,
+    "MutationId": 24,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 26,
+    "MutationId": 25,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 27,
+    "MutationId": 26,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 28,
+    "MutationId": 27,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 29,
+    "MutationId": 28,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 30,
+    "MutationId": 29,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 31,
+    "MutationId": 30,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 32,
+    "MutationId": 31,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 33,
+    "MutationId": 32,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 34,
+    "MutationId": 33,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 35,
+    "MutationId": 34,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 36,
+    "MutationId": 35,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 37,
+    "MutationId": 36,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 38,
+    "MutationId": 37,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 39,
+    "MutationId": 38,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 40,
+    "MutationId": 39,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 41,
+    "MutationId": 40,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 42,
+    "MutationId": 41,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 43,
+    "MutationId": 42,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 44,
+    "MutationId": 43,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 45,
+    "MutationId": 44,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 46,
+    "MutationId": 45,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 47,
+    "MutationId": 46,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 48,
+    "MutationId": 47,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 49,
+    "MutationId": 48,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 50,
+    "MutationId": 49,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 51,
+    "MutationId": 50,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 52,
+    "MutationId": 51,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 53,
+    "MutationId": 52,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 54,
+    "MutationId": 53,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 55,
+    "MutationId": 54,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 56,
+    "MutationId": 55,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 57,
+    "MutationId": 56,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 58,
+    "MutationId": 57,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 59,
+    "MutationId": 57,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 60,
+    "MutationId": 58,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 61,
+    "MutationId": 59,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 62,
+    "MutationId": 60,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 63,
+    "MutationId": 61,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 64,
+    "MutationId": 62,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 65,
+    "MutationId": 63,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 66,
+    "MutationId": 64,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 67,
+    "MutationId": 65,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 68,
+    "MutationId": 66,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 69,
+    "MutationId": 67,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 70,
+    "MutationId": 68,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 71,
+    "MutationId": 69,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 72,
+    "MutationId": 70,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 73,
+    "MutationId": 71,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 74,
+    "MutationId": 72,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 75,
+    "MutationId": 73,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 76,
+    "MutationId": 74,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 77,
+    "MutationId": 75,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 78,
+    "MutationId": 76,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 79,
+    "MutationId": 77,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 80,
+    "MutationId": 78,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 81,
+    "MutationId": 79,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 82,
+    "MutationId": 80,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 83,
+    "MutationId": 81,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 84,
+    "MutationId": 81,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 85,
+    "MutationId": 82,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 86,
+    "MutationId": 83,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 87,
+    "MutationId": 84,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 88,
+    "MutationId": 85,
+    "Priority": 5
+  },
+  {
+    "TreatmentId": 89,
+    "MutationId": 86,
+    "Priority": 6
+  },
+  {
+    "TreatmentId": 90,
+    "MutationId": 87,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 91,
+    "MutationId": 88,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 92,
+    "MutationId": 89,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 93,
+    "MutationId": 90,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 94,
+    "MutationId": 91,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 95,
+    "MutationId": 92,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 96,
+    "MutationId": 93,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 97,
+    "MutationId": 93,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 98,
+    "MutationId": 94,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 99,
+    "MutationId": 94,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 100,
+    "MutationId": 95,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 101,
+    "MutationId": 96,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 102,
+    "MutationId": 97,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 103,
+    "MutationId": 98,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 104,
+    "MutationId": 99,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 105,
+    "MutationId": 100,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 106,
+    "MutationId": 101,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 107,
+    "MutationId": 101,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 108,
+    "MutationId": 102,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 109,
+    "MutationId": 103,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 110,
+    "MutationId": 104,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 111,
+    "MutationId": 105,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 112,
+    "MutationId": 106,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 113,
+    "MutationId": 107,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 114,
+    "MutationId": 108,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 115,
+    "MutationId": 109,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 116,
+    "MutationId": 110,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 117,
+    "MutationId": 111,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 118,
+    "MutationId": 112,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 119,
+    "MutationId": 113,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 120,
+    "MutationId": 114,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 121,
+    "MutationId": 115,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 122,
+    "MutationId": 116,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 123,
+    "MutationId": 117,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 124,
+    "MutationId": 118,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 125,
+    "MutationId": 119,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 126,
+    "MutationId": 120,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 127,
+    "MutationId": 121,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 128,
+    "MutationId": 122,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 129,
+    "MutationId": 123,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 130,
+    "MutationId": 124,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 131,
+    "MutationId": 125,
+    "Priority": 5
+  },
+  {
+    "TreatmentId": 132,
+    "MutationId": 126,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 133,
+    "MutationId": 127,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 134,
+    "MutationId": 128,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 135,
+    "MutationId": 129,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 136,
+    "MutationId": 130,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 137,
+    "MutationId": 131,
+    "Priority": 5
+  },
+  {
+    "TreatmentId": 138,
+    "MutationId": 132,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 139,
+    "MutationId": 132,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 140,
+    "MutationId": 133,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 141,
+    "MutationId": 134,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 142,
+    "MutationId": 134,
+    "Priority": 5
+  },
+  {
+    "TreatmentId": 143,
+    "MutationId": 135,
+    "Priority": 6
+  },
+  {
+    "TreatmentId": 144,
+    "MutationId": 136,
+    "Priority": 7
+  },
+  {
+    "TreatmentId": 145,
+    "MutationId": 136,
+    "Priority": 8
+  },
+  {
+    "TreatmentId": 146,
+    "MutationId": 137,
+    "Priority": 9
+  },
+  {
+    "TreatmentId": 147,
+    "MutationId": 138,
+    "Priority": 10
+  },
+  {
+    "TreatmentId": 148,
+    "MutationId": 139,
+    "Priority": 11
+  },
+  {
+    "TreatmentId": 149,
+    "MutationId": 140,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 150,
+    "MutationId": 141,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 151,
+    "MutationId": 142,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 152,
+    "MutationId": 143,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 153,
+    "MutationId": 144,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 154,
+    "MutationId": 145,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 155,
+    "MutationId": 146,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 156,
+    "MutationId": 147,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 157,
+    "MutationId": 148,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 158,
+    "MutationId": 149,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 159,
+    "MutationId": 149,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 160,
+    "MutationId": 150,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 161,
+    "MutationId": 150,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 162,
+    "MutationId": 151,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 163,
+    "MutationId": 151,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 164,
+    "MutationId": 152,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 165,
+    "MutationId": 153,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 166,
+    "MutationId": 153,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 167,
+    "MutationId": 154,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 168,
+    "MutationId": 155,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 169,
+    "MutationId": 155,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 170,
+    "MutationId": 156,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 171,
+    "MutationId": 156,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 172,
+    "MutationId": 157,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 173,
+    "MutationId": 158,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 174,
+    "MutationId": 159,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 175,
+    "MutationId": 159,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 176,
+    "MutationId": 160,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 177,
+    "MutationId": 160,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 178,
+    "MutationId": 161,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 179,
+    "MutationId": 161,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 180,
+    "MutationId": 162,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 181,
+    "MutationId": 162,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 182,
+    "MutationId": 163,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 183,
+    "MutationId": 163,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 184,
+    "MutationId": 164,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 185,
+    "MutationId": 164,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 186,
+    "MutationId": 165,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 187,
+    "MutationId": 165,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 188,
+    "MutationId": 166,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 189,
+    "MutationId": 167,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 190,
+    "MutationId": 168,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 191,
+    "MutationId": 169,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 192,
+    "MutationId": 170,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 193,
+    "MutationId": 170,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 194,
+    "MutationId": 171,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 195,
+    "MutationId": 171,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 196,
+    "MutationId": 172,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 197,
+    "MutationId": 172,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 198,
+    "MutationId": 173,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 199,
+    "MutationId": 173,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 200,
+    "MutationId": 174,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 201,
+    "MutationId": 174,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 202,
+    "MutationId": 175,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 203,
+    "MutationId": 175,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 204,
+    "MutationId": 176,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 205,
+    "MutationId": 176,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 206,
+    "MutationId": 177,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 207,
+    "MutationId": 177,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 208,
+    "MutationId": 178,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 209,
+    "MutationId": 178,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 210,
+    "MutationId": 179,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 211,
+    "MutationId": 180,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 212,
+    "MutationId": 180,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 213,
+    "MutationId": 181,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 214,
+    "MutationId": 181,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 215,
+    "MutationId": 182,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 216,
+    "MutationId": 182,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 217,
+    "MutationId": 183,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 218,
+    "MutationId": 183,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 219,
+    "MutationId": 184,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 220,
+    "MutationId": 185,
+    "Priority": 5
+  },
+  {
+    "TreatmentId": 221,
+    "MutationId": 186,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 222,
+    "MutationId": 187,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 223,
+    "MutationId": 188,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 224,
+    "MutationId": 189,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 225,
+    "MutationId": 190,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 226,
+    "MutationId": 191,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 227,
+    "MutationId": 192,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 228,
+    "MutationId": 193,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 229,
+    "MutationId": 194,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 230,
+    "MutationId": 195,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 231,
+    "MutationId": 196,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 232,
+    "MutationId": 197,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 233,
+    "MutationId": 198,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 234,
+    "MutationId": 199,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 235,
+    "MutationId": 200,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 236,
+    "MutationId": 201,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 237,
+    "MutationId": 202,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 238,
+    "MutationId": 203,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 239,
+    "MutationId": 204,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 240,
+    "MutationId": 205,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 241,
+    "MutationId": 206,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 242,
+    "MutationId": 207,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 243,
+    "MutationId": 208,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 244,
+    "MutationId": 208,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 245,
+    "MutationId": 209,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 246,
+    "MutationId": 209,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 247,
+    "MutationId": 209,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 248,
+    "MutationId": 210,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 249,
+    "MutationId": 211,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 250,
+    "MutationId": 212,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 251,
+    "MutationId": 213,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 252,
+    "MutationId": 214,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 253,
+    "MutationId": 215,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 254,
+    "MutationId": 216,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 255,
+    "MutationId": 217,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 256,
+    "MutationId": 218,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 257,
+    "MutationId": 218,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 258,
+    "MutationId": 219,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 259,
+    "MutationId": 220,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 260,
+    "MutationId": 221,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 261,
+    "MutationId": 222,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 262,
+    "MutationId": 223,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 263,
+    "MutationId": 224,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 264,
+    "MutationId": 225,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 265,
+    "MutationId": 226,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 266,
+    "MutationId": 227,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 267,
+    "MutationId": 228,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 268,
+    "MutationId": 229,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 269,
+    "MutationId": 229,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 270,
+    "MutationId": 230,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 271,
+    "MutationId": 231,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 272,
+    "MutationId": 231,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 273,
+    "MutationId": 232,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 274,
+    "MutationId": 232,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 275,
+    "MutationId": 233,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 276,
+    "MutationId": 234,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 277,
+    "MutationId": 235,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 278,
+    "MutationId": 236,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 279,
+    "MutationId": 236,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 280,
+    "MutationId": 237,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 281,
+    "MutationId": 238,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 282,
+    "MutationId": 239,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 283,
+    "MutationId": 240,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 284,
+    "MutationId": 241,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 285,
+    "MutationId": 242,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 286,
+    "MutationId": 242,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 287,
+    "MutationId": 243,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 288,
+    "MutationId": 244,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 289,
+    "MutationId": 245,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 290,
+    "MutationId": 245,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 291,
+    "MutationId": 246,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 292,
+    "MutationId": 247,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 293,
+    "MutationId": 247,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 294,
+    "MutationId": 248,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 295,
+    "MutationId": 248,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 296,
+    "MutationId": 249,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 297,
+    "MutationId": 250,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 298,
+    "MutationId": 251,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 299,
+    "MutationId": 251,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 300,
+    "MutationId": 252,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 301,
+    "MutationId": 253,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 302,
+    "MutationId": 253,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 303,
+    "MutationId": 253,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 304,
+    "MutationId": 254,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 305,
+    "MutationId": 255,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 306,
+    "MutationId": 256,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 307,
+    "MutationId": 257,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 308,
+    "MutationId": 258,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 309,
+    "MutationId": 258,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 310,
+    "MutationId": 259,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 311,
+    "MutationId": 259,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 312,
+    "MutationId": 260,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 313,
+    "MutationId": 261,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 314,
+    "MutationId": 262,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 315,
+    "MutationId": 262,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 316,
+    "MutationId": 263,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 317,
+    "MutationId": 264,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 318,
+    "MutationId": 264,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 319,
+    "MutationId": 264,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 320,
+    "MutationId": 264,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 321,
+    "MutationId": 265,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 322,
+    "MutationId": 266,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 323,
+    "MutationId": 266,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 324,
+    "MutationId": 267,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 325,
+    "MutationId": 268,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 326,
+    "MutationId": 269,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 327,
+    "MutationId": 270,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 328,
+    "MutationId": 271,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 329,
+    "MutationId": 272,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 330,
+    "MutationId": 273,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 331,
+    "MutationId": 274,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 332,
+    "MutationId": 274,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 333,
+    "MutationId": 275,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 334,
+    "MutationId": 276,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 335,
+    "MutationId": 277,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 336,
+    "MutationId": 278,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 337,
+    "MutationId": 279,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 338,
+    "MutationId": 280,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 339,
+    "MutationId": 280,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 340,
+    "MutationId": 280,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 341,
+    "MutationId": 280,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 342,
+    "MutationId": 281,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 343,
+    "MutationId": 282,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 344,
+    "MutationId": 282,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 345,
+    "MutationId": 282,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 346,
+    "MutationId": 283,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 347,
+    "MutationId": 283,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 348,
+    "MutationId": 283,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 349,
+    "MutationId": 283,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 350,
+    "MutationId": 284,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 351,
+    "MutationId": 285,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 352,
+    "MutationId": 286,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 353,
+    "MutationId": 287,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 354,
+    "MutationId": 287,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 355,
+    "MutationId": 287,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 356,
+    "MutationId": 288,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 357,
+    "MutationId": 288,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 358,
+    "MutationId": 289,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 359,
+    "MutationId": 290,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 360,
+    "MutationId": 291,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 361,
+    "MutationId": 292,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 362,
+    "MutationId": 293,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 363,
+    "MutationId": 294,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 364,
+    "MutationId": 295,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 365,
+    "MutationId": 296,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 366,
+    "MutationId": 297,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 367,
+    "MutationId": 297,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 368,
+    "MutationId": 297,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 369,
+    "MutationId": 298,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 370,
+    "MutationId": 299,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 371,
+    "MutationId": 300,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 372,
+    "MutationId": 301,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 373,
+    "MutationId": 302,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 374,
+    "MutationId": 303,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 375,
+    "MutationId": 304,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 376,
+    "MutationId": 305,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 377,
+    "MutationId": 305,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 378,
+    "MutationId": 306,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 379,
+    "MutationId": 307,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 380,
+    "MutationId": 580,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 381,
+    "MutationId": 581,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 382,
+    "MutationId": 582,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 383,
+    "MutationId": 582,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 384,
+    "MutationId": 582,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 385,
+    "MutationId": 583,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 386,
+    "MutationId": 584,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 387,
+    "MutationId": 585,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 388,
+    "MutationId": 586,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 389,
+    "MutationId": 587,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 390,
+    "MutationId": 587,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 391,
+    "MutationId": 588,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 392,
+    "MutationId": 588,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 393,
+    "MutationId": 589,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 394,
+    "MutationId": 590,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 395,
+    "MutationId": 591,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 396,
+    "MutationId": 592,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 397,
+    "MutationId": 593,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 398,
+    "MutationId": 594,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 399,
+    "MutationId": 594,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 400,
+    "MutationId": 594,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 401,
+    "MutationId": 595,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 402,
+    "MutationId": 596,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 403,
+    "MutationId": 597,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 404,
+    "MutationId": 597,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 405,
+    "MutationId": 597,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 406,
+    "MutationId": 597,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 407,
+    "MutationId": 598,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 408,
+    "MutationId": 599,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 409,
+    "MutationId": 599,
+    "Priority": 4
+  },
+  {
+    "TreatmentId": 410,
+    "MutationId": 599,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 411,
+    "MutationId": 599,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 412,
+    "MutationId": 600,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 413,
+    "MutationId": 601,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 414,
+    "MutationId": 602,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 415,
+    "MutationId": 603,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 416,
+    "MutationId": 603,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 417,
+    "MutationId": 603,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 418,
+    "MutationId": 604,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 419,
+    "MutationId": 605,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 420,
+    "MutationId": 606,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 421,
+    "MutationId": 607,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 422,
+    "MutationId": 608,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 423,
+    "MutationId": 609,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 424,
+    "MutationId": 610,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 425,
+    "MutationId": 610,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 426,
+    "MutationId": 611,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 427,
+    "MutationId": 612,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 428,
+    "MutationId": 613,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 429,
+    "MutationId": 614,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 430,
+    "MutationId": 615,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 431,
+    "MutationId": 616,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 432,
+    "MutationId": 617,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 433,
+    "MutationId": 618,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 434,
+    "MutationId": 619,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 435,
+    "MutationId": 620,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 436,
+    "MutationId": 621,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 437,
+    "MutationId": 622,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 438,
+    "MutationId": 623,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 439,
+    "MutationId": 623,
+    "Priority": 3
+  },
+  {
+    "TreatmentId": 440,
+    "MutationId": 623,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 441,
+    "MutationId": 624,
+    "Priority": 2
+  },
+  {
+    "TreatmentId": 442,
+    "MutationId": 625,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 443,
+    "MutationId": 626,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 444,
+    "MutationId": 627,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 445,
+    "MutationId": 628,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 446,
+    "MutationId": 629,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 447,
+    "MutationId": 630,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 448,
+    "MutationId": 631,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 449,
+    "MutationId": 632,
+    "Priority": 1
+  },
+  {
+    "TreatmentId": 450,
+    "MutationId": 633,
+    "Priority": 1
+  }
+]

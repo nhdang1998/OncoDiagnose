@@ -1,0 +1,62 @@
+﻿@model OncoDiagnose.Web.ViewModels.DrugSynonymViewModel
+
+@{
+    var title = "Thêm mới";
+    Layout = "_Layout";
+}
+
+<br/>
+<div class="container">
+    <form method="post">
+        <div class="row p-3 border">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (Model.DrugId != 0 || Model.SynonymId == 0)
+            {
+                title = "Chỉnh sửa";
+            }
+            <div class="col-12 border-bottom">
+                <h2 class="text-primary">@title</h2>
+            </div>
+            <div class="col-8 pt-4">
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="DrugId"></label>
+                    </div>
+                    <div class="col-8">
+                        <select asp-for="DrugId" class ="form-control" asp-items="ViewBag.DrugId"></select>
+                    </div>
+                </div>
+                
+                <ul>
+                    @foreach (var synonym in ViewBag.Synonyms)
+                    {
+                        <li>
+                            <input type="checkbox" name="SynonymIds" value="@synonym.Id"/>
+                            @synonym.SynonymInformation
+                        </li>
+                    }
+                </ul>
+
+
+                <div class="form-group row">
+                    <div class="col-8 offset-4">
+                        @if (Model.DrugId != 0 && Model.SynonymId != 0)
+                        {
+                            <partial name="_EditAndbackToListButton" model="Model"/>
+                        }
+                        else
+                        {
+                            <partial name="_CreateAndbackToListButton"/>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<br/>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}

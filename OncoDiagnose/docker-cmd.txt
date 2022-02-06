@@ -1,0 +1,3 @@
+docker run -d -p 27017:27017 --name patient-mongo mongo
+
+docker exec -it patient-mongo /bin/bash

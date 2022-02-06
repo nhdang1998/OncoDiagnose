@@ -1,0 +1,105 @@
+﻿@model OncoDiagnose.Web.ViewModels.CancerTypeViewModel
+
+@{
+    var title = "Thêm mới";
+    Layout = "_Layout";
+}
+
+<br/>
+<div class="container">
+    <form method="post">
+        <div class="row p-3 border">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (Model.Id != 0)
+            {
+                title = "Chỉnh sửa";
+            }
+            <div class="col-12 border-bottom">
+                <h2 class="text-primary">@title</h2>
+            </div>
+            <div class="col-8 pt-4">
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Subtype"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Subtype" class="form-control"/>
+                        <span asp-validation-for="Subtype" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Code"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Code" class="form-control"/>
+                        <span asp-validation-for="Code" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Color"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Color" class="form-control"/>
+                        <span asp-validation-for="Color" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="MainType"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="MainType" class="form-control"/>
+                        <span asp-validation-for="MainType" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Level"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Level" class="form-control"/>
+                        <span asp-validation-for="Level" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Tissue"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Tissue" class="form-control"/>
+                        <span asp-validation-for="Tissue" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="TumorForm"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="TumorForm" class="form-control"/>
+                        <span asp-validation-for="TumorForm" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-8 offset-4">
+                        @if (Model.Id != 0)
+                        {
+                            <partial name="_EditAndbackToListButton" model="Model.Id"/>
+                        }
+                        else
+                        {
+                            <partial name="_CreateAndbackToListButton"/>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<br/>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}

@@ -1,0 +1,1272 @@
+[
+  {
+    "Id": 1,
+    "Subtype": "Acinar Cell Carcinoma of the Pancreas",
+    "Code": "PAAC",
+    "Color": "Purple",
+    "MainType": "Pancreatic Cancer",
+    "Level": 2,
+    "Tissue": "Pancreas",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 2,
+    "Subtype": "Acute Leukemias of Ambiguous Lineage",
+    "Code": "ALAL",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 3,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 3,
+    "Subtype": "Acute Myeloid Leukemia",
+    "Code": "AML",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 3,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 4,
+    "Subtype": "ALK Positive Large B-Cell Lymphoma",
+    "Code": "ALKLBCL",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 5,
+    "Subtype": "AML (megakaryoblastic) with t(1;22)(p13.3;q13.3);RBM15-MKL1",
+    "Code": "AMLRBM15MKL1",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 5,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 6,
+    "Subtype": "AML with BCR-ABL1",
+    "Code": "AMLBCRABL1",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 5,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 7,
+    "Subtype": "AML with Biallelic Mutations of CEBPA",
+    "Code": "AMLCEBPA",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 5,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 8,
+    "Subtype": "AML with inv(16)(p13.1q22) or t(16;16)(p13.1;q22);CBFB-MYH11",
+    "Code": "AMLCBFBMYH11",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 5,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 9,
+    "Subtype": "AML with Mutated NPM1",
+    "Code": "AMLNPM1",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 5,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 10,
+    "Subtype": "AML with Mutated RUNX1",
+    "Code": "AMLRUNX1",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 5,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 11,
+    "Subtype": "AML with Myelodysplasia-Related Changes",
+    "Code": "AMLMRC",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 12,
+    "Subtype": "AML with t(6;9)(p23;q34.1);DEK-NUP214",
+    "Code": "AMLDEKNUP214",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 5,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 13,
+    "Subtype": "AML with t(8;21)(q22;q22.1);RUNX1-RUNX1T1",
+    "Code": "AMLRUNX1RUNX1T1",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 5,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 14,
+    "Subtype": "AML with t(9;11)(p21.3;q23.3);MLLT3-KMT2A",
+    "Code": "AMLMLLT3KMT2A",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 5,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 15,
+    "Subtype": "Anaplastic Large-Cell Lymphoma ALK Negative",
+    "Code": "ALCLALKN",
+    "Color": "LimeGreen",
+    "MainType": "Mature T and NK Neoplasms",
+    "Level": 6,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 16,
+    "Subtype": "Anaplastic Large-Cell Lymphoma ALK Positive",
+    "Code": "ALCLALKP",
+    "Color": "LimeGreen",
+    "MainType": "Mature T and NK Neoplasms",
+    "Level": 6,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 17,
+    "Subtype": "Anaplastic Thyroid Cancer",
+    "Code": "THAP",
+    "Color": "Teal",
+    "MainType": "Thyroid Cancer",
+    "Level": 2,
+    "Tissue": "Thyroid",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 18,
+    "Subtype": "Angioimmunoblastic T-Cell Lymphoma",
+    "Code": "AITL",
+    "Color": "LimeGreen",
+    "MainType": "Mature T and NK Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 19,
+    "Subtype": "APL with PML-RARA",
+    "Code": "APLPMLRARA",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 5,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 20,
+    "Subtype": "Atypical Chronic Myeloid Leukemia, BCR-ABL1-",
+    "Code": "ACML",
+    "Color": "LightSalmon",
+    "MainType": "Myelodysplastic/Myeloproliferative Neoplasms",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 21,
+    "Subtype": "Bladder Urothelial Carcinoma",
+    "Code": "BLCA",
+    "Color": "Yellow",
+    "MainType": "Bladder Cancer",
+    "Level": 2,
+    "Tissue": "Bladder/Urinary Tract",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 22,
+    "Subtype": "B-Lymphoblastic Leukemia/Lymphoma",
+    "Code": "BLL",
+    "Color": "LimeGreen",
+    "MainType": "B-Lymphoblastic Leukemia/Lymphoma",
+    "Level": 3,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 23,
+    "Subtype": "B-Lymphoblastic Leukemia/Lymphoma with t(1;19)(q23;p13.3);TCF3-PBX1",
+    "Code": "BLLTCF3PBX1",
+    "Color": "LimeGreen",
+    "MainType": "B-Lymphoblastic Leukemia/Lymphoma",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 24,
+    "Subtype": "B-Lymphoblastic Leukemia/Lymphoma with t(12;21)(p13.2;q22.1); ETV6-RUNX1",
+    "Code": "BLLETV6RUNX1",
+    "Color": "LimeGreen",
+    "MainType": "B-Lymphoblastic Leukemia/Lymphoma",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 25,
+    "Subtype": "B-Lymphoblastic Leukemia/Lymphoma with t(5;14)(q31.1;q32.3) IL3-IGH",
+    "Code": "BLLIL3IGH",
+    "Color": "LimeGreen",
+    "MainType": "B-Lymphoblastic Leukemia/Lymphoma",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 26,
+    "Subtype": "B-Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2);BCR-ABL1",
+    "Code": "BLLBCRABL1",
+    "Color": "LimeGreen",
+    "MainType": "B-Lymphoblastic Leukemia/Lymphoma",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 27,
+    "Subtype": "B-Lymphoblastic Leukemia/Lymphoma with t(v;11q23.3);KMT2A Rearranged",
+    "Code": "BLLKMT2A",
+    "Color": "LimeGreen",
+    "MainType": "B-Lymphoblastic Leukemia/Lymphoma",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 28,
+    "Subtype": "B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like",
+    "Code": "BLLBCRABL1L",
+    "Color": "LimeGreen",
+    "MainType": "B-Lymphoblastic Leukemia/Lymphoma",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 29,
+    "Subtype": "Burkitt Lymphoma",
+    "Code": "BL",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 30,
+    "Subtype": "Cholangiocarcinoma",
+    "Code": "CHOL",
+    "Color": "Green",
+    "MainType": "Hepatobiliary Cancer",
+    "Level": 2,
+    "Tissue": "Biliary Tract",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 31,
+    "Subtype": "Chondrosarcoma",
+    "Code": "CHS",
+    "Color": "White",
+    "MainType": "Bone Cancer",
+    "Level": 2,
+    "Tissue": "Bone",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 32,
+    "Subtype": "Chronic Eosinophilic Leukemia, NOS",
+    "Code": "CELNOS",
+    "Color": "LightSalmon",
+    "MainType": "Myeloproliferative Neoplasms",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 33,
+    "Subtype": "Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+    "Code": "CLLSLL",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 34,
+    "Subtype": "Chronic Myelogenous Leukemia",
+    "Code": "CML",
+    "Color": "LightSalmon",
+    "MainType": "Myeloproliferative Neoplasms",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 35,
+    "Subtype": "Chronic Myeloid Leukemia, BCR-ABL1+",
+    "Code": "CMLBCRABL1",
+    "Color": "LightSalmon",
+    "MainType": "Myeloproliferative Neoplasms",
+    "Level": 5,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 36,
+    "Subtype": "Chronic Myelomonocytic Leukemia",
+    "Code": "CMML",
+    "Color": "LightSalmon",
+    "MainType": "Myelodysplastic/Myeloproliferative Neoplasms",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 37,
+    "Subtype": "Chronic Neutrophilic Leukemia",
+    "Code": "CNL",
+    "Color": "LightSalmon",
+    "MainType": "Myeloproliferative Neoplasms",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 38,
+    "Subtype": "Classical Hodgkin Lymphoma",
+    "Code": "CHL",
+    "Color": "LimeGreen",
+    "MainType": "Hodgkin Lymphoma",
+    "Level": 4,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 39,
+    "Subtype": "Dedifferentiated Liposarcoma",
+    "Code": "DDLS",
+    "Color": "LightYellow",
+    "MainType": "Soft Tissue Sarcoma",
+    "Level": 3,
+    "Tissue": "Soft Tissue",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 40,
+    "Subtype": "Dermatofibrosarcoma Protuberans",
+    "Code": "DFSP",
+    "Color": "Black",
+    "MainType": "Skin Cancer, Non-Melanoma",
+    "Level": 2,
+    "Tissue": "Skin",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 41,
+    "Subtype": "Diffuse Glioma",
+    "Code": "DIFG",
+    "Color": "Gray",
+    "MainType": "Glioma",
+    "Level": 2,
+    "Tissue": "CNS/Brain",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 42,
+    "Subtype": "Diffuse Large B-Cell Lymphoma, NOS",
+    "Code": "DLBCLNOS",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 43,
+    "Subtype": "Early T-Cell Precursor Lymphoblastic Leukemia",
+    "Code": "ETPLL",
+    "Color": "LimeGreen",
+    "MainType": "T-Lymphoblastic Leukemia/Lymphoma",
+    "Level": 4,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 44,
+    "Subtype": "Encapsulated Glioma",
+    "Code": "ENCG",
+    "Color": "Gray",
+    "MainType": "Glioma",
+    "Level": 2,
+    "Tissue": "CNS/Brain",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 45,
+    "Subtype": "Epithelioid Sarcoma",
+    "Code": "EPIS",
+    "Color": "LightYellow",
+    "MainType": "Soft Tissue Sarcoma",
+    "Level": 2,
+    "Tissue": "Soft Tissue",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 46,
+    "Subtype": "Erdheim-Chester Disease",
+    "Code": "ECD",
+    "Color": "LightSalmon",
+    "MainType": "Histiocytosis",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 47,
+    "Subtype": "Essential Thrombocythemia",
+    "Code": "ET",
+    "Color": "LightSalmon",
+    "MainType": "Myeloproliferative Neoplasms",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 48,
+    "Subtype": "Ewing Sarcoma",
+    "Code": "ES",
+    "Color": "White",
+    "MainType": "Bone Cancer",
+    "Level": 2,
+    "Tissue": "Bone",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 49,
+    "Subtype": "Ewing Sarcoma of Soft Tissue",
+    "Code": "ESST",
+    "Color": "LightYellow",
+    "MainType": "Soft Tissue Sarcoma",
+    "Level": 2,
+    "Tissue": "Soft Tissue",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 50,
+    "Subtype": "Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue (MALT lymphoma)",
+    "Code": "EMALT",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 6,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 51,
+    "Subtype": "Follicular Lymphoma",
+    "Code": "FL",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 52,
+    "Subtype": "Ganglioglioma",
+    "Code": "GNG",
+    "Color": "Gray",
+    "MainType": "Glioma",
+    "Level": 3,
+    "Tissue": "CNS/Brain",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 53,
+    "Subtype": "Gastrointestinal Stromal Tumor",
+    "Code": "GIST",
+    "Color": "LightYellow",
+    "MainType": "Gastrointestinal Stromal Tumor",
+    "Level": 2,
+    "Tissue": "Soft Tissue",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 54,
+    "Subtype": "Hairy Cell Leukemia",
+    "Code": "HCL",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 55,
+    "Subtype": "Head and Neck Squamous Cell Carcinoma",
+    "Code": "HNSC",
+    "Color": "DarkRed",
+    "MainType": "Head and Neck Cancer",
+    "Level": 2,
+    "Tissue": "Head and Neck",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 56,
+    "Subtype": "High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements",
+    "Code": "HGBCLMYCBCL2",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 57,
+    "Subtype": "Inflammatory Myofibroblastic Tumor",
+    "Code": "IMT",
+    "Color": "LightYellow",
+    "MainType": "Soft Tissue Sarcoma",
+    "Level": 2,
+    "Tissue": "Soft Tissue",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 58,
+    "Subtype": "Intrahepatic Cholangiocarcinoma",
+    "Code": "IHCH",
+    "Color": "Green",
+    "MainType": "Hepatobiliary Cancer",
+    "Level": 3,
+    "Tissue": "Biliary Tract",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 59,
+    "Subtype": "Juvenile Myelomonocytic Leukemia",
+    "Code": "JMML",
+    "Color": "LightSalmon",
+    "MainType": "Myelodysplastic/Myeloproliferative Neoplasms",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 60,
+    "Subtype": "Langerhans Cell Histiocytosis",
+    "Code": "LCH",
+    "Color": "LightSalmon",
+    "MainType": "Histiocytosis",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 61,
+    "Subtype": "Large B-Cell Lymphoma with IRF4 Rearrangement",
+    "Code": "LBLIRF4",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 62,
+    "Subtype": "Low-Grade Serous Ovarian Cancer",
+    "Code": "LGSOC",
+    "Color": "LightBlue",
+    "MainType": "Ovarian Cancer",
+    "Level": 4,
+    "Tissue": "Ovary/Fallopian Tube",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 63,
+    "Subtype": "Lung Squamous Cell Carcinoma",
+    "Code": "LUSC",
+    "Color": "Gainsboro",
+    "MainType": "Non-Small Cell Lung Cancer",
+    "Level": 3,
+    "Tissue": "Lung",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 64,
+    "Subtype": "Lymphoplasmacytic Lymphoma",
+    "Code": "LPL",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 65,
+    "Subtype": "Mantle Cell Lymphoma",
+    "Code": "MCL",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 66,
+    "Subtype": "MDS with Ring Sideroblasts",
+    "Code": "MDSRS",
+    "Color": "LightSalmon",
+    "MainType": "Myelodysplastic Syndromes",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 67,
+    "Subtype": "MDS/MPN with Ring Sideroblasts and Thrombocytosis",
+    "Code": "MDSMPNRST",
+    "Color": "LightSalmon",
+    "MainType": "Myelodysplastic/Myeloproliferative Neoplasms",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 68,
+    "Subtype": "Medullary Thyroid Cancer",
+    "Code": "THME",
+    "Color": "Teal",
+    "MainType": "Thyroid Cancer",
+    "Level": 2,
+    "Tissue": "Thyroid",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 69,
+    "Subtype": "Medulloblastoma",
+    "Code": "MBL",
+    "Color": "Gray",
+    "MainType": "Embryonal Tumor",
+    "Level": 3,
+    "Tissue": "CNS/Brain",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 70,
+    "Subtype": "Melanoma",
+    "Code": "MEL",
+    "Color": "Black",
+    "MainType": "Melanoma",
+    "Level": 2,
+    "Tissue": "Skin",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 71,
+    "Subtype": "Mixed Phenotype Acute Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+    "Code": "MPALBCRABL1",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 72,
+    "Subtype": "Mixed Phenotype Acute Leukemia with t(v;11q23.3); KMT2A Rearranged",
+    "Code": "MPALKMT2A",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 73,
+    "Subtype": "Myelodysplastic Syndromes",
+    "Code": "MDS",
+    "Color": "LightSalmon",
+    "MainType": "Myelodysplastic Syndromes",
+    "Level": 3,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 74,
+    "Subtype": "Myelodysplastic/Myeloproliferative Neoplasms",
+    "Code": "MDS/MPN",
+    "Color": "LightSalmon",
+    "MainType": "Myelodysplastic/Myeloproliferative Neoplasms",
+    "Level": 3,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 75,
+    "Subtype": "Myeloid Proliferations Related to Down Syndrome",
+    "Code": "MPRDS",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 76,
+    "Subtype": "Myeloid Sarcoma",
+    "Code": "MS",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 77,
+    "Subtype": "Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of  PDGFRA/PDGFRB or FGFR1 or with PCM1-JAK2",
+    "Code": "MLNER",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 3,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 78,
+    "Subtype": "Myeloid/Lymphoid Neoplasms with FGFR1 Rearrangement",
+    "Code": "MLNFGFR1",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 79,
+    "Subtype": "Myeloid/Lymphoid Neoplasms with PCM1-JAK2",
+    "Code": "MLNPCM1JAK2",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 80,
+    "Subtype": "Myeloid/Lymphoid Neoplasms with PDGFRA Rearrangement",
+    "Code": "MLNPDGFRA",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 81,
+    "Subtype": "Myeloid/Lymphoid Neoplasms with PDGFRB Rearrangement",
+    "Code": "MLNPDGFRB",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 82,
+    "Subtype": "Myeloproliferative Neoplasms",
+    "Code": "MPN",
+    "Color": "LightSalmon",
+    "MainType": "Myeloproliferative Neoplasms",
+    "Level": 3,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 83,
+    "Subtype": "Myeloproliferative Neoplasms, Unclassifiable",
+    "Code": "MPNU",
+    "Color": "LightSalmon",
+    "MainType": "Myeloproliferative Neoplasms",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 84,
+    "Subtype": "Neurofibroma",
+    "Code": "NFIB",
+    "Color": "Gray",
+    "MainType": "Nerve Sheath Tumor",
+    "Level": 3,
+    "Tissue": "Peripheral Nervous System",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 85,
+    "Subtype": "Non-Small Cell Lung Cancer",
+    "Code": "NSCLC",
+    "Color": "Gainsboro",
+    "MainType": "Non-Small Cell Lung Cancer",
+    "Level": 2,
+    "Tissue": "Lung",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 86,
+    "Subtype": "Ovary/Fallopian Tube",
+    "Code": "OVARY",
+    "Color": "LightBlue",
+    "MainType": "Ovarian/Fallopian Tube Cancer, NOS",
+    "Level": 1,
+    "Tissue": "Ovary/Fallopian Tube",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 87,
+    "Subtype": "Pancreatic Adenocarcinoma",
+    "Code": "PAAD",
+    "Color": "Purple",
+    "MainType": "Pancreatic Cancer",
+    "Level": 2,
+    "Tissue": "Pancreas",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 88,
+    "Subtype": "Peritoneal Serous Carcinoma",
+    "Code": "PSEC",
+    "Color": "Green",
+    "MainType": "Peritoneal Cancer, NOS",
+    "Level": 2,
+    "Tissue": "Peritoneum",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 89,
+    "Subtype": "Perivascular Epithelioid Cell Tumor",
+    "Code": "PECOMA",
+    "Color": "LightYellow",
+    "MainType": "Soft Tissue Sarcoma",
+    "Level": 2,
+    "Tissue": "Soft Tissue",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 90,
+    "Subtype": "Pilocytic Astrocytoma",
+    "Code": "PAST",
+    "Color": "Gray",
+    "MainType": "Glioma",
+    "Level": 3,
+    "Tissue": "CNS/Brain",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 91,
+    "Subtype": "Plasma Cell Myeloma",
+    "Code": "PCM",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 92,
+    "Subtype": "Pleomorphic Xanthoastrocytoma",
+    "Code": "PXA",
+    "Color": "Gray",
+    "MainType": "Glioma",
+    "Level": 3,
+    "Tissue": "CNS/Brain",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 93,
+    "Subtype": "Polycythemia Vera",
+    "Code": "PV",
+    "Color": "LightSalmon",
+    "MainType": "Myeloproliferative Neoplasms",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 94,
+    "Subtype": "Primary Cutaneous DLBCL, Leg Type",
+    "Code": "PCLBCLLT",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 95,
+    "Subtype": "Primary DLBCL of the central nervous system",
+    "Code": "PCNSL",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 96,
+    "Subtype": "Primary Mediastinal (Thymic) Large B-Cell Lymphoma",
+    "Code": "PMBL",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 97,
+    "Subtype": "Primary Myelofibrosis",
+    "Code": "PMF",
+    "Color": "LightSalmon",
+    "MainType": "Myeloproliferative Neoplasms",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 98,
+    "Subtype": "Rosai-Dorfman Disease",
+    "Code": "RDD",
+    "Color": "LightSalmon",
+    "MainType": "Histiocytosis",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 99,
+    "Subtype": "Splenic Marginal Zone Lymphoma",
+    "Code": "SMZL",
+    "Color": "LimeGreen",
+    "MainType": "Mature B-Cell Neoplasms",
+    "Level": 6,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 100,
+    "Subtype": "Systemic Mastocytosis",
+    "Code": "SM",
+    "Color": "LightSalmon",
+    "MainType": "Mastocytosis",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 101,
+    "Subtype": "T-Cell Large Granular Lymphocytic Leukemia",
+    "Code": "TLGL",
+    "Color": "LimeGreen",
+    "MainType": "Mature T and NK Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 102,
+    "Subtype": "T-Cell Prolymphocytic Leukemia",
+    "Code": "TPLL",
+    "Color": "LimeGreen",
+    "MainType": "Mature T and NK Neoplasms",
+    "Level": 5,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 103,
+    "Subtype": "Therapy-Related Myeloid Neoplasms",
+    "Code": "TMN",
+    "Color": "LightSalmon",
+    "MainType": "Leukemia",
+    "Level": 4,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 104,
+    "Subtype": "T-Lymphoblastic Leukemia/Lymphoma",
+    "Code": "TLL",
+    "Color": "LimeGreen",
+    "MainType": "T-Lymphoblastic Leukemia/Lymphoma",
+    "Level": 3,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 105,
+    "Subtype": "Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma",
+    "Code": "USC",
+    "Color": "PeachPuff",
+    "MainType": "Endometrial Cancer",
+    "Level": 3,
+    "Tissue": "Uterus",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 106,
+    "Subtype": "Well-Differentiated Liposarcoma",
+    "Code": "WDLS",
+    "Color": "LightYellow",
+    "MainType": "Soft Tissue Sarcoma",
+    "Level": 3,
+    "Tissue": "Soft Tissue",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 107,
+    "Subtype": "",
+    "Code": "",
+    "Color": "Cyan",
+    "MainType": "Prostate Cancer",
+    "Level": 0,
+    "Tissue": "Prostate",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 108,
+    "Subtype": "",
+    "Code": "",
+    "Color": "Cyan",
+    "MainType": "Prostate Cancer, NOS",
+    "Level": 0,
+    "Tissue": "Prostate",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 109,
+    "Subtype": "",
+    "Code": "",
+    "Color": "Gainsboro",
+    "MainType": "Non-Small Cell Lung Cancer",
+    "Level": 0,
+    "Tissue": "Lung",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 110,
+    "Subtype": "",
+    "Code": "",
+    "Color": "Gray",
+    "MainType": "Glioma",
+    "Level": 0,
+    "Tissue": "CNS/Brain",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 111,
+    "Subtype": "",
+    "Code": "",
+    "Color": "Green",
+    "MainType": "Biliary Tract Cancer, NOS",
+    "Level": 0,
+    "Tissue": "Biliary Tract",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 112,
+    "Subtype": "",
+    "Code": "",
+    "Color": "HotPink",
+    "MainType": "Breast Cancer",
+    "Level": 0,
+    "Tissue": "Breast",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 113,
+    "Subtype": "",
+    "Code": "",
+    "Color": "LightBlue",
+    "MainType": "Ovarian Cancer",
+    "Level": 0,
+    "Tissue": "Ovary/Fallopian Tube",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 114,
+    "Subtype": "",
+    "Code": "",
+    "Color": "LightSalmon",
+    "MainType": "Histiocytosis",
+    "Level": 0,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 115,
+    "Subtype": "",
+    "Code": "",
+    "Color": "LightSalmon",
+    "MainType": "Mastocytosis",
+    "Level": 0,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 116,
+    "Subtype": "",
+    "Code": "",
+    "Color": "LightSalmon",
+    "MainType": "Myelodysplastic Syndromes",
+    "Level": 0,
+    "Tissue": "Myeloid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 117,
+    "Subtype": "",
+    "Code": "",
+    "Color": "LightSkyBlue",
+    "MainType": "Esophagogastric Cancer",
+    "Level": 0,
+    "Tissue": "Esophagus/Stomach",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 118,
+    "Subtype": "",
+    "Code": "",
+    "Color": "LightYellow",
+    "MainType": "Gastrointestinal Stromal Tumor",
+    "Level": 0,
+    "Tissue": "Soft Tissue",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 119,
+    "Subtype": "",
+    "Code": "",
+    "Color": "LimeGreen",
+    "MainType": "B-Lymphoblastic Leukemia/Lymphoma",
+    "Level": 0,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 120,
+    "Subtype": "",
+    "Code": "",
+    "Color": "LimeGreen",
+    "MainType": "T-Lymphoblastic Leukemia/Lymphoma",
+    "Level": 0,
+    "Tissue": "Lymphoid",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 121,
+    "Subtype": "",
+    "Code": "",
+    "Color": "Orange",
+    "MainType": "Renal Cell Carcinoma",
+    "Level": 0,
+    "Tissue": "Kidney",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 122,
+    "Subtype": "",
+    "Code": "",
+    "Color": "PeachPuff",
+    "MainType": "Endometrial Cancer",
+    "Level": 0,
+    "Tissue": "Uterus",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 123,
+    "Subtype": "",
+    "Code": "",
+    "Color": "SaddleBrown",
+    "MainType": "Colorectal Cancer",
+    "Level": 0,
+    "Tissue": "Bowel",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 124,
+    "Subtype": "",
+    "Code": "",
+    "Color": "Teal",
+    "MainType": "Thyroid Cancer",
+    "Level": 0,
+    "Tissue": "Thyroid",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 125,
+    "Subtype": "",
+    "Code": "",
+    "Color": "Yellow",
+    "MainType": "Bladder Cancer",
+    "Level": 0,
+    "Tissue": "Bladder/Urinary Tract",
+    "TumorForm": "SOLID"
+  },
+  {
+    "Id": 126,
+    "Subtype": "",
+    "Code": "",
+    "Color": "",
+    "MainType": "All Liquid Tumors",
+    "Level": -1,
+    "Tissue": "",
+    "TumorForm": "LIQUID"
+  },
+  {
+    "Id": 127,
+    "Subtype": "",
+    "Code": "",
+    "Color": "",
+    "MainType": "All Solid Tumors",
+    "Level": -1,
+    "Tissue": "",
+    "TumorForm": "SOLID"
+  }
+]

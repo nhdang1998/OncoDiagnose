@@ -1,0 +1,84 @@
+﻿@model IEnumerable<OncoDiagnose.Models.Mutation>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EvidenceType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Desciption)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdditionalInfor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KnownEffect)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastEdit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastReview)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LevelOfEvidence)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SolidPropagationLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LiquidPropagationLevel)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EvidenceType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Desciption)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdditionalInfor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KnownEffect)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastEdit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastReview)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LevelOfEvidence)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SolidPropagationLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LiquidPropagationLevel)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

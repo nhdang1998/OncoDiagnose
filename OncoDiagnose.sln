@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OncoDiagnose.Web", "OncoDiagnose\OncoDiagnose.Web.csproj", "{9415EBE3-8B11-415B-8CCA-9B08C6646446}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D730FF4D-1A2E-4DEF-BEA6-45FFBD628359} = {D730FF4D-1A2E-4DEF-BEA6-45FFBD628359}
+		{EDCB7BB7-5BA7-4398-8621-F8CB75B57DE1} = {EDCB7BB7-5BA7-4398-8621-F8CB75B57DE1}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OncoDiagnose.DataAccess", "OncoDiagnose.Data\OncoDiagnose.DataAccess.csproj", "{D730FF4D-1A2E-4DEF-BEA6-45FFBD628359}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OncoDiagnose.Models", "OncoDiagnose.Model\OncoDiagnose.Models.csproj", "{EDCB7BB7-5BA7-4398-8621-F8CB75B57DE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9415EBE3-8B11-415B-8CCA-9B08C6646446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9415EBE3-8B11-415B-8CCA-9B08C6646446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9415EBE3-8B11-415B-8CCA-9B08C6646446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9415EBE3-8B11-415B-8CCA-9B08C6646446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D730FF4D-1A2E-4DEF-BEA6-45FFBD628359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D730FF4D-1A2E-4DEF-BEA6-45FFBD628359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D730FF4D-1A2E-4DEF-BEA6-45FFBD628359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D730FF4D-1A2E-4DEF-BEA6-45FFBD628359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCB7BB7-5BA7-4398-8621-F8CB75B57DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCB7BB7-5BA7-4398-8621-F8CB75B57DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCB7BB7-5BA7-4398-8621-F8CB75B57DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCB7BB7-5BA7-4398-8621-F8CB75B57DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F55146D-EC30-4608-8EEB-4987DB1FDABC}
+	EndGlobalSection
+EndGlobal

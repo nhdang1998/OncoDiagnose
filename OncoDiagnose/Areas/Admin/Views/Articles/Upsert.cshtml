@@ -1,0 +1,157 @@
+﻿@model OncoDiagnose.Web.ViewModels.ArticleViewModel
+
+@{
+    var title = "Thêm mới";
+    Layout = "_Layout";
+}
+<br/>
+<div class="container">
+    <form method="post">
+        <div class="row p-3 border">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (Model.Id != 0)
+            {
+                title = "Chỉnh sửa";
+            }
+            <div class="col-12 border-bottom">
+                <h2 class="text-primary">@title</h2>
+            </div>
+            <div class="col-8 pt-4">
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Title"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Title" class="form-control"/>
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Pmid"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Pmid" class="form-control"/>
+                        <span asp-validation-for="Pmid" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Journal"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Journal" class="form-control"/>
+                        <span asp-validation-for="Journal" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="PubDate"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="PubDate" class="form-control"/>
+                        <span asp-validation-for="PubDate" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Volume"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Volume" class="form-control"/>
+                        <span asp-validation-for="Volume" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Issue"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Issue" class="form-control"/>
+                        <span asp-validation-for="Issue" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Pages"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Pages" class="form-control"/>
+                        <span asp-validation-for="Pages" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Authors"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Authors" class="form-control"/>
+                        <span asp-validation-for="Authors" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="ElocationId"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="ElocationId" class="form-control"/>
+                        <span asp-validation-for="ElocationId" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Link"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Link" class="form-control"/>
+                        <span asp-validation-for="Link" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Reference"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Reference" class="form-control"/>
+                        <span asp-validation-for="Reference" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Abstract"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Abstract" class="form-control"/>
+                        <span asp-validation-for="Abstract" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="MutationId"></label>
+                    </div>
+                    <div class="col-8">
+                        <select asp-for="MutationId" class ="form-control" asp-items="ViewBag.MutationId"></select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-8 offset-4">
+                        @if (Model.Id != 0)
+                        {
+                            <partial name="_EditAndbackToListButton" model="Model.Id"/>
+                        }
+                        else
+                        {
+                            <partial name="_CreateAndbackToListButton"/>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<br/>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}

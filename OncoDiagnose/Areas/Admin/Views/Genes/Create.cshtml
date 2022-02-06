@@ -1,0 +1,61 @@
+﻿@model OncoDiagnose.Models.Gene
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Gene</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="HugoSymbol" class="control-label"></label>
+                <input asp-for="HugoSymbol" class="form-control" />
+                <span asp-validation-for="HugoSymbol" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OncoGene" class="control-label"></label>
+                <input asp-for="OncoGene" class="form-control" />
+                <span asp-validation-for="OncoGene" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Grch37Isoform" class="control-label"></label>
+                <input asp-for="Grch37Isoform" class="form-control" />
+                <span asp-validation-for="Grch37Isoform" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Grch37RefSeq" class="control-label"></label>
+                <input asp-for="Grch37RefSeq" class="form-control" />
+                <span asp-validation-for="Grch37RefSeq" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Grch38Isoform" class="control-label"></label>
+                <input asp-for="Grch38Isoform" class="form-control" />
+                <span asp-validation-for="Grch38Isoform" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Grch38RefSeq" class="control-label"></label>
+                <input asp-for="Grch38RefSeq" class="form-control" />
+                <span asp-validation-for="Grch38RefSeq" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tsg" class="control-label"></label>
+                <input asp-for="Tsg" class="form-control" />
+                <span asp-validation-for="Tsg" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

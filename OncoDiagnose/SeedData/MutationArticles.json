@@ -1,0 +1,6938 @@
+[
+  {
+    "ArticleId": 1,
+    "MutationId": 4
+  },
+  {
+    "ArticleId": 2,
+    "MutationId": 464
+  },
+  {
+    "ArticleId": 3,
+    "MutationId": 324
+  },
+  {
+    "ArticleId": 4,
+    "MutationId": 632
+  },
+  {
+    "ArticleId": 5,
+    "MutationId": 402
+  },
+  {
+    "ArticleId": 6,
+    "MutationId": 388
+  },
+  {
+    "ArticleId": 7,
+    "MutationId": 388
+  },
+  {
+    "ArticleId": 8,
+    "MutationId": 377
+  },
+  {
+    "ArticleId": 8,
+    "MutationId": 403
+  },
+  {
+    "ArticleId": 8,
+    "MutationId": 407
+  },
+  {
+    "ArticleId": 8,
+    "MutationId": 410
+  },
+  {
+    "ArticleId": 9,
+    "MutationId": 570
+  },
+  {
+    "ArticleId": 10,
+    "MutationId": 337
+  },
+  {
+    "ArticleId": 11,
+    "MutationId": 401
+  },
+  {
+    "ArticleId": 12,
+    "MutationId": 315
+  },
+  {
+    "ArticleId": 13,
+    "MutationId": 339
+  },
+  {
+    "ArticleId": 14,
+    "MutationId": 575
+  },
+  {
+    "ArticleId": 15,
+    "MutationId": 416
+  },
+  {
+    "ArticleId": 16,
+    "MutationId": 401
+  },
+  {
+    "ArticleId": 17,
+    "MutationId": 325
+  },
+  {
+    "ArticleId": 18,
+    "MutationId": 334
+  },
+  {
+    "ArticleId": 19,
+    "MutationId": 459
+  },
+  {
+    "ArticleId": 20,
+    "MutationId": 315
+  },
+  {
+    "ArticleId": 21,
+    "MutationId": 459
+  },
+  {
+    "ArticleId": 22,
+    "MutationId": 554
+  },
+  {
+    "ArticleId": 23,
+    "MutationId": 388
+  },
+  {
+    "ArticleId": 24,
+    "MutationId": 329
+  },
+  {
+    "ArticleId": 25,
+    "MutationId": 333
+  },
+  {
+    "ArticleId": 26,
+    "MutationId": 325
+  },
+  {
+    "ArticleId": 27,
+    "MutationId": 341
+  },
+  {
+    "ArticleId": 28,
+    "MutationId": 575
+  },
+  {
+    "ArticleId": 29,
+    "MutationId": 388
+  },
+  {
+    "ArticleId": 30,
+    "MutationId": 310
+  },
+  {
+    "ArticleId": 31,
+    "MutationId": 416
+  },
+  {
+    "ArticleId": 32,
+    "MutationId": 532
+  },
+  {
+    "ArticleId": 33,
+    "MutationId": 532
+  },
+  {
+    "ArticleId": 34,
+    "MutationId": 501
+  },
+  {
+    "ArticleId": 35,
+    "MutationId": 401
+  },
+  {
+    "ArticleId": 36,
+    "MutationId": 412
+  },
+  {
+    "ArticleId": 37,
+    "MutationId": 568
+  },
+  {
+    "ArticleId": 38,
+    "MutationId": 348
+  },
+  {
+    "ArticleId": 39,
+    "MutationId": 525
+  },
+  {
+    "ArticleId": 40,
+    "MutationId": 541
+  },
+  {
+    "ArticleId": 41,
+    "MutationId": 568
+  },
+  {
+    "ArticleId": 41,
+    "MutationId": 571
+  },
+  {
+    "ArticleId": 42,
+    "MutationId": 462
+  },
+  {
+    "ArticleId": 42,
+    "MutationId": 465
+  },
+  {
+    "ArticleId": 43,
+    "MutationId": 365
+  },
+  {
+    "ArticleId": 43,
+    "MutationId": 433
+  },
+  {
+    "ArticleId": 44,
+    "MutationId": 399
+  },
+  {
+    "ArticleId": 44,
+    "MutationId": 406
+  },
+  {
+    "ArticleId": 45,
+    "MutationId": 388
+  },
+  {
+    "ArticleId": 46,
+    "MutationId": 310
+  },
+  {
+    "ArticleId": 46,
+    "MutationId": 522
+  },
+  {
+    "ArticleId": 46,
+    "MutationId": 551
+  },
+  {
+    "ArticleId": 47,
+    "MutationId": 388
+  },
+  {
+    "ArticleId": 48,
+    "MutationId": 536
+  },
+  {
+    "ArticleId": 49,
+    "MutationId": 459
+  },
+  {
+    "ArticleId": 50,
+    "MutationId": 358
+  },
+  {
+    "ArticleId": 51,
+    "MutationId": 127
+  },
+  {
+    "ArticleId": 52,
+    "MutationId": 123
+  },
+  {
+    "ArticleId": 52,
+    "MutationId": 127
+  },
+  {
+    "ArticleId": 53,
+    "MutationId": 358
+  },
+  {
+    "ArticleId": 53,
+    "MutationId": 364
+  },
+  {
+    "ArticleId": 54,
+    "MutationId": 570
+  },
+  {
+    "ArticleId": 55,
+    "MutationId": 314
+  },
+  {
+    "ArticleId": 56,
+    "MutationId": 459
+  },
+  {
+    "ArticleId": 57,
+    "MutationId": 358
+  },
+  {
+    "ArticleId": 58,
+    "MutationId": 358
+  },
+  {
+    "ArticleId": 58,
+    "MutationId": 527
+  },
+  {
+    "ArticleId": 59,
+    "MutationId": 408
+  },
+  {
+    "ArticleId": 60,
+    "MutationId": 209
+  },
+  {
+    "ArticleId": 61,
+    "MutationId": 419
+  },
+  {
+    "ArticleId": 62,
+    "MutationId": 598
+  },
+  {
+    "ArticleId": 63,
+    "MutationId": 479
+  },
+  {
+    "ArticleId": 64,
+    "MutationId": 320
+  },
+  {
+    "ArticleId": 65,
+    "MutationId": 315
+  },
+  {
+    "ArticleId": 66,
+    "MutationId": 459
+  },
+  {
+    "ArticleId": 67,
+    "MutationId": 341
+  },
+  {
+    "ArticleId": 68,
+    "MutationId": 349
+  },
+  {
+    "ArticleId": 69,
+    "MutationId": 68
+  },
+  {
+    "ArticleId": 69,
+    "MutationId": 73
+  },
+  {
+    "ArticleId": 69,
+    "MutationId": 87
+  },
+  {
+    "ArticleId": 69,
+    "MutationId": 90
+  },
+  {
+    "ArticleId": 69,
+    "MutationId": 97
+  },
+  {
+    "ArticleId": 69,
+    "MutationId": 105
+  },
+  {
+    "ArticleId": 70,
+    "MutationId": 4
+  },
+  {
+    "ArticleId": 71,
+    "MutationId": 123
+  },
+  {
+    "ArticleId": 72,
+    "MutationId": 252
+  },
+  {
+    "ArticleId": 73,
+    "MutationId": 482
+  },
+  {
+    "ArticleId": 74,
+    "MutationId": 459
+  },
+  {
+    "ArticleId": 75,
+    "MutationId": 358
+  },
+  {
+    "ArticleId": 75,
+    "MutationId": 364
+  },
+  {
+    "ArticleId": 76,
+    "MutationId": 233
+  },
+  {
+    "ArticleId": 77,
+    "MutationId": 462
+  },
+  {
+    "ArticleId": 78,
+    "MutationId": 358
+  },
+  {
+    "ArticleId": 79,
+    "MutationId": 558
+  },
+  {
+    "ArticleId": 80,
+    "MutationId": 413
+  },
+  {
+    "ArticleId": 81,
+    "MutationId": 596
+  },
+  {
+    "ArticleId": 82,
+    "MutationId": 127
+  },
+  {
+    "ArticleId": 83,
+    "MutationId": 52
+  },
+  {
+    "ArticleId": 83,
+    "MutationId": 318
+  },
+  {
+    "ArticleId": 84,
+    "MutationId": 4
+  },
+  {
+    "ArticleId": 85,
+    "MutationId": 365
+  },
+  {
+    "ArticleId": 85,
+    "MutationId": 376
+  },
+  {
+    "ArticleId": 85,
+    "MutationId": 433
+  },
+  {
+    "ArticleId": 86,
+    "MutationId": 479
+  },
+  {
+    "ArticleId": 87,
+    "MutationId": 341
+  },
+  {
+    "ArticleId": 88,
+    "MutationId": 52
+  },
+  {
+    "ArticleId": 89,
+    "MutationId": 583
+  },
+  {
+    "ArticleId": 90,
+    "MutationId": 450
+  },
+  {
+    "ArticleId": 90,
+    "MutationId": 458
+  },
+  {
+    "ArticleId": 91,
+    "MutationId": 459
+  },
+  {
+    "ArticleId": 91,
+    "MutationId": 479
+  },
+  {
+    "ArticleId": 92,
+    "MutationId": 4
+  },
+  {
+    "ArticleId": 92,
+    "MutationId": 52
+  },
+  {
+    "ArticleId": 93,
+    "MutationId": 571
+  },
+  {
+    "ArticleId": 94,
+    "MutationId": 413
+  },
+  {
+    "ArticleId": 95,
+    "MutationId": 348
+  },
+  {
+    "ArticleId": 95,
+    "MutationId": 376
+  },
+  {
+    "ArticleId": 96,
+    "MutationId": 462
+  },
+  {
+    "ArticleId": 96,
+    "MutationId": 464
+  },
+  {
+    "ArticleId": 97,
+    "MutationId": 402
+  },
+  {
+    "ArticleId": 98,
+    "MutationId": 52
+  },
+  {
+    "ArticleId": 99,
+    "MutationId": 209
+  },
+  {
+    "ArticleId": 100,
+    "MutationId": 479
+  },
+  {
+    "ArticleId": 101,
+    "MutationId": 560
+  },
+  {
+    "ArticleId": 102,
+    "MutationId": 482
+  },
+  {
+    "ArticleId": 103,
+    "MutationId": 465
+  },
+  {
+    "ArticleId": 104,
+    "MutationId": 421
+  },
+  {
+    "ArticleId": 105,
+    "MutationId": 31
+  },
+  {
+    "ArticleId": 106,
+    "MutationId": 340
+  },
+  {
+    "ArticleId": 107,
+    "MutationId": 395
+  },
+  {
+    "ArticleId": 108,
+    "MutationId": 93
+  },
+  {
+    "ArticleId": 109,
+    "MutationId": 31
+  },
+  {
+    "ArticleId": 110,
+    "MutationId": 464
+  },
+  {
+    "ArticleId": 111,
+    "MutationId": 583
+  },
+  {
+    "ArticleId": 112,
+    "MutationId": 468
+  },
+  {
+    "ArticleId": 113,
+    "MutationId": 358
+  },
+  {
+    "ArticleId": 113,
+    "MutationId": 527
+  },
+  {
+    "ArticleId": 114,
+    "MutationId": 31
+  },
+  {
+    "ArticleId": 115,
+    "MutationId": 379
+  },
+  {
+    "ArticleId": 115,
+    "MutationId": 385
+  },
+  {
+    "ArticleId": 115,
+    "MutationId": 389
+  },
+  {
+    "ArticleId": 115,
+    "MutationId": 405
+  },
+  {
+    "ArticleId": 116,
+    "MutationId": 582
+  },
+  {
+    "ArticleId": 117,
+    "MutationId": 583
+  },
+  {
+    "ArticleId": 118,
+    "MutationId": 168
+  },
+  {
+    "ArticleId": 118,
+    "MutationId": 169
+  },
+  {
+    "ArticleId": 118,
+    "MutationId": 188
+  },
+  {
+    "ArticleId": 119,
+    "MutationId": 513
+  },
+  {
+    "ArticleId": 120,
+    "MutationId": 513
+  },
+  {
+    "ArticleId": 121,
+    "MutationId": 377
+  },
+  {
+    "ArticleId": 121,
+    "MutationId": 378
+  },
+  {
+    "ArticleId": 121,
+    "MutationId": 403
+  },
+  {
+    "ArticleId": 121,
+    "MutationId": 407
+  },
+  {
+    "ArticleId": 121,
+    "MutationId": 410
+  },
+  {
+    "ArticleId": 122,
+    "MutationId": 209
+  },
+  {
+    "ArticleId": 123,
+    "MutationId": 132
+  },
+  {
+    "ArticleId": 124,
+    "MutationId": 526
+  },
+  {
+    "ArticleId": 125,
+    "MutationId": 255
+  },
+  {
+    "ArticleId": 126,
+    "MutationId": 528
+  },
+  {
+    "ArticleId": 127,
+    "MutationId": 526
+  },
+  {
+    "ArticleId": 128,
+    "MutationId": 209
+  },
+  {
+    "ArticleId": 129,
+    "MutationId": 479
+  },
+  {
+    "ArticleId": 130,
+    "MutationId": 513
+  },
+  {
+    "ArticleId": 131,
+    "MutationId": 52
+  },
+  {
+    "ArticleId": 132,
+    "MutationId": 627
+  },
+  {
+    "ArticleId": 132,
+    "MutationId": 632
+  },
+  {
+    "ArticleId": 133,
+    "MutationId": 528
+  },
+  {
+    "ArticleId": 134,
+    "MutationId": 526
+  },
+  {
+    "ArticleId": 135,
+    "MutationId": 343
+  },
+  {
+    "ArticleId": 136,
+    "MutationId": 524
+  },
+  {
+    "ArticleId": 137,
+    "MutationId": 413
+  },
+  {
+    "ArticleId": 138,
+    "MutationId": 377
+  },
+  {
+    "ArticleId": 138,
+    "MutationId": 403
+  },
+  {
+    "ArticleId": 138,
+    "MutationId": 407
+  },
+  {
+    "ArticleId": 138,
+    "MutationId": 410
+  },
+  {
+    "ArticleId": 139,
+    "MutationId": 421
+  },
+  {
+    "ArticleId": 139,
+    "MutationId": 576
+  },
+  {
+    "ArticleId": 140,
+    "MutationId": 200
+  },
+  {
+    "ArticleId": 140,
+    "MutationId": 593
+  },
+  {
+    "ArticleId": 140,
+    "MutationId": 595
+  },
+  {
+    "ArticleId": 141,
+    "MutationId": 513
+  },
+  {
+    "ArticleId": 142,
+    "MutationId": 349
+  },
+  {
+    "ArticleId": 142,
+    "MutationId": 367
+  },
+  {
+    "ArticleId": 142,
+    "MutationId": 377
+  },
+  {
+    "ArticleId": 142,
+    "MutationId": 403
+  },
+  {
+    "ArticleId": 142,
+    "MutationId": 407
+  },
+  {
+    "ArticleId": 142,
+    "MutationId": 410
+  },
+  {
+    "ArticleId": 142,
+    "MutationId": 421
+  },
+  {
+    "ArticleId": 142,
+    "MutationId": 451
+  },
+  {
+    "ArticleId": 143,
+    "MutationId": 379
+  },
+  {
+    "ArticleId": 144,
+    "MutationId": 52
+  },
+  {
+    "ArticleId": 145,
+    "MutationId": 371
+  },
+  {
+    "ArticleId": 145,
+    "MutationId": 379
+  },
+  {
+    "ArticleId": 145,
+    "MutationId": 389
+  },
+  {
+    "ArticleId": 146,
+    "MutationId": 409
+  },
+  {
+    "ArticleId": 146,
+    "MutationId": 526
+  },
+  {
+    "ArticleId": 147,
+    "MutationId": 627
+  },
+  {
+    "ArticleId": 147,
+    "MutationId": 632
+  },
+  {
+    "ArticleId": 148,
+    "MutationId": 4
+  },
+  {
+    "ArticleId": 149,
+    "MutationId": 69
+  },
+  {
+    "ArticleId": 149,
+    "MutationId": 75
+  },
+  {
+    "ArticleId": 149,
+    "MutationId": 88
+  },
+  {
+    "ArticleId": 149,
+    "MutationId": 91
+  },
+  {
+    "ArticleId": 149,
+    "MutationId": 98
+  },
+  {
+    "ArticleId": 149,
+    "MutationId": 107
+  },
+  {
+    "ArticleId": 149,
+    "MutationId": 190
+  },
+  {
+    "ArticleId": 150,
+    "MutationId": 311
+  },
+  {
+    "ArticleId": 151,
+    "MutationId": 302
+  },
+  {
+    "ArticleId": 151,
+    "MutationId": 633
+  },
+  {
+    "ArticleId": 152,
+    "MutationId": 583
+  },
+  {
+    "ArticleId": 153,
+    "MutationId": 590
+  },
+  {
+    "ArticleId": 154,
+    "MutationId": 462
+  },
+  {
+    "ArticleId": 154,
+    "MutationId": 464
+  },
+  {
+    "ArticleId": 154,
+    "MutationId": 465
+  },
+  {
+    "ArticleId": 154,
+    "MutationId": 468
+  },
+  {
+    "ArticleId": 155,
+    "MutationId": 346
+  },
+  {
+    "ArticleId": 156,
+    "MutationId": 596
+  },
+  {
+    "ArticleId": 156,
+    "MutationId": 598
+  },
+  {
+    "ArticleId": 157,
+    "MutationId": 134
+  },
+  {
+    "ArticleId": 158,
+    "MutationId": 633
+  },
+  {
+    "ArticleId": 159,
+    "MutationId": 525
+  },
+  {
+    "ArticleId": 160,
+    "MutationId": 413
+  },
+  {
+    "ArticleId": 161,
+    "MutationId": 360
+  },
+  {
+    "ArticleId": 161,
+    "MutationId": 405
+  },
+  {
+    "ArticleId": 162,
+    "MutationId": 309
+  },
+  {
+    "ArticleId": 163,
+    "MutationId": 114
+  },
+  {
+    "ArticleId": 164,
+    "MutationId": 311
+  },
+  {
+    "ArticleId": 165,
+    "MutationId": 256
+  },
+  {
+    "ArticleId": 166,
+    "MutationId": 590
+  },
+  {
+    "ArticleId": 166,
+    "MutationId": 591
+  },
+  {
+    "ArticleId": 166,
+    "MutationId": 597
+  },
+  {
+    "ArticleId": 166,
+    "MutationId": 599
+  },
+  {
+    "ArticleId": 167,
+    "MutationId": 318
+  },
+  {
+    "ArticleId": 168,
+    "MutationId": 598
+  },
+  {
+    "ArticleId": 169,
+    "MutationId": 395
+  },
+  {
+    "ArticleId": 170,
+    "MutationId": 227
+  },
+  {
+    "ArticleId": 171,
+    "MutationId": 623
+  },
+  {
+    "ArticleId": 172,
+    "MutationId": 124
+  },
+  {
+    "ArticleId": 172,
+    "MutationId": 167
+  },
+  {
+    "ArticleId": 172,
+    "MutationId": 591
+  },
+  {
+    "ArticleId": 173,
+    "MutationId": 632
+  },
+  {
+    "ArticleId": 174,
+    "MutationId": 52
+  },
+  {
+    "ArticleId": 175,
+    "MutationId": 415
+  },
+  {
+    "ArticleId": 176,
+    "MutationId": 360
+  },
+  {
+    "ArticleId": 177,
+    "MutationId": 310
+  },
+  {
+    "ArticleId": 177,
+    "MutationId": 522
+  },
+  {
+    "ArticleId": 178,
+    "MutationId": 459
+  },
+  {
+    "ArticleId": 179,
+    "MutationId": 523
+  },
+  {
+    "ArticleId": 180,
+    "MutationId": 582
+  },
+  {
+    "ArticleId": 181,
+    "MutationId": 632
+  },
+  {
+    "ArticleId": 182,
+    "MutationId": 590
+  },
+  {
+    "ArticleId": 183,
+    "MutationId": 528
+  },
+  {
+    "ArticleId": 184,
+    "MutationId": 597
+  },
+  {
+    "ArticleId": 184,
+    "MutationId": 599
+  },
+  {
+    "ArticleId": 185,
+    "MutationId": 590
+  },
+  {
+    "ArticleId": 185,
+    "MutationId": 593
+  },
+  {
+    "ArticleId": 185,
+    "MutationId": 595
+  },
+  {
+    "ArticleId": 185,
+    "MutationId": 596
+  },
+  {
+    "ArticleId": 186,
+    "MutationId": 464
+  },
+  {
+    "ArticleId": 187,
+    "MutationId": 537
+  },
+  {
+    "ArticleId": 188,
+    "MutationId": 392
+  },
+  {
+    "ArticleId": 189,
+    "MutationId": 364
+  },
+  {
+    "ArticleId": 190,
+    "MutationId": 360
+  },
+  {
+    "ArticleId": 191,
+    "MutationId": 623
+  },
+  {
+    "ArticleId": 192,
+    "MutationId": 404
+  },
+  {
+    "ArticleId": 193,
+    "MutationId": 408
+  },
+  {
+    "ArticleId": 194,
+    "MutationId": 217
+  },
+  {
+    "ArticleId": 195,
+    "MutationId": 68
+  },
+  {
+    "ArticleId": 195,
+    "MutationId": 73
+  },
+  {
+    "ArticleId": 195,
+    "MutationId": 87
+  },
+  {
+    "ArticleId": 195,
+    "MutationId": 90
+  },
+  {
+    "ArticleId": 195,
+    "MutationId": 97
+  },
+  {
+    "ArticleId": 195,
+    "MutationId": 105
+  },
+  {
+    "ArticleId": 196,
+    "MutationId": 57
+  },
+  {
+    "ArticleId": 196,
+    "MutationId": 587
+  },
+  {
+    "ArticleId": 197,
+    "MutationId": 289
+  },
+  {
+    "ArticleId": 197,
+    "MutationId": 304
+  },
+  {
+    "ArticleId": 198,
+    "MutationId": 525
+  },
+  {
+    "ArticleId": 199,
+    "MutationId": 597
+  },
+  {
+    "ArticleId": 199,
+    "MutationId": 599
+  },
+  {
+    "ArticleId": 200,
+    "MutationId": 434
+  },
+  {
+    "ArticleId": 201,
+    "MutationId": 358
+  },
+  {
+    "ArticleId": 201,
+    "MutationId": 364
+  },
+  {
+    "ArticleId": 201,
+    "MutationId": 513
+  },
+  {
+    "ArticleId": 202,
+    "MutationId": 31
+  },
+  {
+    "ArticleId": 203,
+    "MutationId": 566
+  },
+  {
+    "ArticleId": 204,
+    "MutationId": 566
+  },
+  {
+    "ArticleId": 205,
+    "MutationId": 548
+  },
+  {
+    "ArticleId": 206,
+    "MutationId": 582
+  },
+  {
+    "ArticleId": 207,
+    "MutationId": 439
+  },
+  {
+    "ArticleId": 208,
+    "MutationId": 583
+  },
+  {
+    "ArticleId": 209,
+    "MutationId": 373
+  },
+  {
+    "ArticleId": 209,
+    "MutationId": 378
+  },
+  {
+    "ArticleId": 210,
+    "MutationId": 344
+  },
+  {
+    "ArticleId": 211,
+    "MutationId": 462
+  },
+  {
+    "ArticleId": 211,
+    "MutationId": 464
+  },
+  {
+    "ArticleId": 211,
+    "MutationId": 465
+  },
+  {
+    "ArticleId": 212,
+    "MutationId": 4
+  },
+  {
+    "ArticleId": 212,
+    "MutationId": 51
+  },
+  {
+    "ArticleId": 212,
+    "MutationId": 52
+  },
+  {
+    "ArticleId": 213,
+    "MutationId": 68
+  },
+  {
+    "ArticleId": 213,
+    "MutationId": 73
+  },
+  {
+    "ArticleId": 213,
+    "MutationId": 87
+  },
+  {
+    "ArticleId": 213,
+    "MutationId": 90
+  },
+  {
+    "ArticleId": 213,
+    "MutationId": 97
+  },
+  {
+    "ArticleId": 213,
+    "MutationId": 105
+  },
+  {
+    "ArticleId": 214,
+    "MutationId": 583
+  },
+  {
+    "ArticleId": 214,
+    "MutationId": 601
+  },
+  {
+    "ArticleId": 214,
+    "MutationId": 602
+  },
+  {
+    "ArticleId": 214,
+    "MutationId": 604
+  },
+  {
+    "ArticleId": 214,
+    "MutationId": 605
+  },
+  {
+    "ArticleId": 214,
+    "MutationId": 607
+  },
+  {
+    "ArticleId": 214,
+    "MutationId": 608
+  },
+  {
+    "ArticleId": 214,
+    "MutationId": 609
+  },
+  {
+    "ArticleId": 214,
+    "MutationId": 619
+  },
+  {
+    "ArticleId": 214,
+    "MutationId": 620
+  },
+  {
+    "ArticleId": 214,
+    "MutationId": 622
+  },
+  {
+    "ArticleId": 214,
+    "MutationId": 624
+  },
+  {
+    "ArticleId": 214,
+    "MutationId": 627
+  },
+  {
+    "ArticleId": 215,
+    "MutationId": 168
+  },
+  {
+    "ArticleId": 215,
+    "MutationId": 169
+  },
+  {
+    "ArticleId": 215,
+    "MutationId": 186
+  },
+  {
+    "ArticleId": 215,
+    "MutationId": 187
+  },
+  {
+    "ArticleId": 215,
+    "MutationId": 188
+  },
+  {
+    "ArticleId": 215,
+    "MutationId": 597
+  },
+  {
+    "ArticleId": 215,
+    "MutationId": 599
+  },
+  {
+    "ArticleId": 216,
+    "MutationId": 434
+  },
+  {
+    "ArticleId": 216,
+    "MutationId": 578
+  },
+  {
+    "ArticleId": 217,
+    "MutationId": 340
+  },
+  {
+    "ArticleId": 217,
+    "MutationId": 511
+  },
+  {
+    "ArticleId": 218,
+    "MutationId": 553
+  },
+  {
+    "ArticleId": 219,
+    "MutationId": 511
+  },
+  {
+    "ArticleId": 220,
+    "MutationId": 190
+  },
+  {
+    "ArticleId": 221,
+    "MutationId": 93
+  },
+  {
+    "ArticleId": 222,
+    "MutationId": 497
+  },
+  {
+    "ArticleId": 223,
+    "MutationId": 422
+  },
+  {
+    "ArticleId": 224,
+    "MutationId": 501
+  },
+  {
+    "ArticleId": 225,
+    "MutationId": 350
+  },
+  {
+    "ArticleId": 226,
+    "MutationId": 497
+  },
+  {
+    "ArticleId": 227,
+    "MutationId": 306
+  },
+  {
+    "ArticleId": 228,
+    "MutationId": 582
+  },
+  {
+    "ArticleId": 229,
+    "MutationId": 296
+  },
+  {
+    "ArticleId": 230,
+    "MutationId": 590
+  },
+  {
+    "ArticleId": 230,
+    "MutationId": 593
+  },
+  {
+    "ArticleId": 230,
+    "MutationId": 595
+  },
+  {
+    "ArticleId": 231,
+    "MutationId": 434
+  },
+  {
+    "ArticleId": 232,
+    "MutationId": 501
+  },
+  {
+    "ArticleId": 233,
+    "MutationId": 31
+  },
+  {
+    "ArticleId": 234,
+    "MutationId": 511
+  },
+  {
+    "ArticleId": 235,
+    "MutationId": 593
+  },
+  {
+    "ArticleId": 235,
+    "MutationId": 595
+  },
+  {
+    "ArticleId": 236,
+    "MutationId": 357
+  },
+  {
+    "ArticleId": 237,
+    "MutationId": 84
+  },
+  {
+    "ArticleId": 238,
+    "MutationId": 382
+  },
+  {
+    "ArticleId": 238,
+    "MutationId": 397
+  },
+  {
+    "ArticleId": 239,
+    "MutationId": 439
+  },
+  {
+    "ArticleId": 240,
+    "MutationId": 479
+  },
+  {
+    "ArticleId": 241,
+    "MutationId": 168
+  },
+  {
+    "ArticleId": 241,
+    "MutationId": 590
+  },
+  {
+    "ArticleId": 242,
+    "MutationId": 134
+  },
+  {
+    "ArticleId": 243,
+    "MutationId": 415
+  },
+  {
+    "ArticleId": 243,
+    "MutationId": 421
+  },
+  {
+    "ArticleId": 244,
+    "MutationId": 459
+  },
+  {
+    "ArticleId": 245,
+    "MutationId": 422
+  },
+  {
+    "ArticleId": 246,
+    "MutationId": 538
+  },
+  {
+    "ArticleId": 247,
+    "MutationId": 282
+  },
+  {
+    "ArticleId": 248,
+    "MutationId": 21
+  },
+  {
+    "ArticleId": 249,
+    "MutationId": 596
+  },
+  {
+    "ArticleId": 250,
+    "MutationId": 596
+  },
+  {
+    "ArticleId": 251,
+    "MutationId": 531
+  },
+  {
+    "ArticleId": 252,
+    "MutationId": 84
+  },
+  {
+    "ArticleId": 253,
+    "MutationId": 513
+  },
+  {
+    "ArticleId": 254,
+    "MutationId": 511
+  },
+  {
+    "ArticleId": 255,
+    "MutationId": 463
+  },
+  {
+    "ArticleId": 255,
+    "MutationId": 471
+  },
+  {
+    "ArticleId": 255,
+    "MutationId": 504
+  },
+  {
+    "ArticleId": 256,
+    "MutationId": 216
+  },
+  {
+    "ArticleId": 257,
+    "MutationId": 471
+  },
+  {
+    "ArticleId": 258,
+    "MutationId": 357
+  },
+  {
+    "ArticleId": 259,
+    "MutationId": 124
+  },
+  {
+    "ArticleId": 259,
+    "MutationId": 591
+  },
+  {
+    "ArticleId": 260,
+    "MutationId": 361
+  },
+  {
+    "ArticleId": 261,
+    "MutationId": 566
+  },
+  {
+    "ArticleId": 262,
+    "MutationId": 357
+  },
+  {
+    "ArticleId": 263,
+    "MutationId": 319
+  },
+  {
+    "ArticleId": 264,
+    "MutationId": 560
+  },
+  {
+    "ArticleId": 265,
+    "MutationId": 360
+  },
+  {
+    "ArticleId": 265,
+    "MutationId": 371
+  },
+  {
+    "ArticleId": 265,
+    "MutationId": 379
+  },
+  {
+    "ArticleId": 265,
+    "MutationId": 385
+  },
+  {
+    "ArticleId": 265,
+    "MutationId": 389
+  },
+  {
+    "ArticleId": 265,
+    "MutationId": 405
+  },
+  {
+    "ArticleId": 266,
+    "MutationId": 31
+  },
+  {
+    "ArticleId": 267,
+    "MutationId": 511
+  },
+  {
+    "ArticleId": 268,
+    "MutationId": 315
+  },
+  {
+    "ArticleId": 268,
+    "MutationId": 318
+  },
+  {
+    "ArticleId": 269,
+    "MutationId": 289
+  },
+  {
+    "ArticleId": 269,
+    "MutationId": 304
+  },
+  {
+    "ArticleId": 270,
+    "MutationId": 360
+  },
+  {
+    "ArticleId": 271,
+    "MutationId": 439
+  },
+  {
+    "ArticleId": 272,
+    "MutationId": 356
+  },
+  {
+    "ArticleId": 273,
+    "MutationId": 128
+  },
+  {
+    "ArticleId": 274,
+    "MutationId": 129
+  },
+  {
+    "ArticleId": 275,
+    "MutationId": 357
+  },
+  {
+    "ArticleId": 275,
+    "MutationId": 417
+  },
+  {
+    "ArticleId": 276,
+    "MutationId": 345
+  },
+  {
+    "ArticleId": 277,
+    "MutationId": 357
+  },
+  {
+    "ArticleId": 277,
+    "MutationId": 417
+  },
+  {
+    "ArticleId": 278,
+    "MutationId": 84
+  },
+  {
+    "ArticleId": 279,
+    "MutationId": 587
+  },
+  {
+    "ArticleId": 279,
+    "MutationId": 588
+  },
+  {
+    "ArticleId": 280,
+    "MutationId": 517
+  },
+  {
+    "ArticleId": 281,
+    "MutationId": 450
+  },
+  {
+    "ArticleId": 282,
+    "MutationId": 358
+  },
+  {
+    "ArticleId": 283,
+    "MutationId": 387
+  },
+  {
+    "ArticleId": 284,
+    "MutationId": 555
+  },
+  {
+    "ArticleId": 285,
+    "MutationId": 553
+  },
+  {
+    "ArticleId": 286,
+    "MutationId": 140
+  },
+  {
+    "ArticleId": 287,
+    "MutationId": 413
+  },
+  {
+    "ArticleId": 288,
+    "MutationId": 392
+  },
+  {
+    "ArticleId": 289,
+    "MutationId": 573
+  },
+  {
+    "ArticleId": 289,
+    "MutationId": 576
+  },
+  {
+    "ArticleId": 290,
+    "MutationId": 573
+  },
+  {
+    "ArticleId": 290,
+    "MutationId": 576
+  },
+  {
+    "ArticleId": 291,
+    "MutationId": 507
+  },
+  {
+    "ArticleId": 292,
+    "MutationId": 94
+  },
+  {
+    "ArticleId": 293,
+    "MutationId": 94
+  },
+  {
+    "ArticleId": 293,
+    "MutationId": 587
+  },
+  {
+    "ArticleId": 294,
+    "MutationId": 281
+  },
+  {
+    "ArticleId": 295,
+    "MutationId": 368
+  },
+  {
+    "ArticleId": 296,
+    "MutationId": 204
+  },
+  {
+    "ArticleId": 297,
+    "MutationId": 618
+  },
+  {
+    "ArticleId": 298,
+    "MutationId": 486
+  },
+  {
+    "ArticleId": 299,
+    "MutationId": 308
+  },
+  {
+    "ArticleId": 300,
+    "MutationId": 417
+  },
+  {
+    "ArticleId": 301,
+    "MutationId": 228
+  },
+  {
+    "ArticleId": 301,
+    "MutationId": 283
+  },
+  {
+    "ArticleId": 302,
+    "MutationId": 31
+  },
+  {
+    "ArticleId": 303,
+    "MutationId": 479
+  },
+  {
+    "ArticleId": 304,
+    "MutationId": 253
+  },
+  {
+    "ArticleId": 305,
+    "MutationId": 456
+  },
+  {
+    "ArticleId": 306,
+    "MutationId": 371
+  },
+  {
+    "ArticleId": 306,
+    "MutationId": 379
+  },
+  {
+    "ArticleId": 306,
+    "MutationId": 385
+  },
+  {
+    "ArticleId": 306,
+    "MutationId": 389
+  },
+  {
+    "ArticleId": 307,
+    "MutationId": 551
+  },
+  {
+    "ArticleId": 308,
+    "MutationId": 587
+  },
+  {
+    "ArticleId": 309,
+    "MutationId": 444
+  },
+  {
+    "ArticleId": 309,
+    "MutationId": 445
+  },
+  {
+    "ArticleId": 309,
+    "MutationId": 447
+  },
+  {
+    "ArticleId": 310,
+    "MutationId": 485
+  },
+  {
+    "ArticleId": 310,
+    "MutationId": 490
+  },
+  {
+    "ArticleId": 311,
+    "MutationId": 351
+  },
+  {
+    "ArticleId": 312,
+    "MutationId": 306
+  },
+  {
+    "ArticleId": 313,
+    "MutationId": 412
+  },
+  {
+    "ArticleId": 314,
+    "MutationId": 323
+  },
+  {
+    "ArticleId": 315,
+    "MutationId": 117
+  },
+  {
+    "ArticleId": 316,
+    "MutationId": 549
+  },
+  {
+    "ArticleId": 317,
+    "MutationId": 166
+  },
+  {
+    "ArticleId": 317,
+    "MutationId": 198
+  },
+  {
+    "ArticleId": 318,
+    "MutationId": 202
+  },
+  {
+    "ArticleId": 319,
+    "MutationId": 354
+  },
+  {
+    "ArticleId": 320,
+    "MutationId": 493
+  },
+  {
+    "ArticleId": 320,
+    "MutationId": 505
+  },
+  {
+    "ArticleId": 321,
+    "MutationId": 84
+  },
+  {
+    "ArticleId": 322,
+    "MutationId": 528
+  },
+  {
+    "ArticleId": 323,
+    "MutationId": 402
+  },
+  {
+    "ArticleId": 324,
+    "MutationId": 350
+  },
+  {
+    "ArticleId": 324,
+    "MutationId": 353
+  },
+  {
+    "ArticleId": 324,
+    "MutationId": 368
+  },
+  {
+    "ArticleId": 324,
+    "MutationId": 390
+  },
+  {
+    "ArticleId": 324,
+    "MutationId": 396
+  },
+  {
+    "ArticleId": 324,
+    "MutationId": 419
+  },
+  {
+    "ArticleId": 324,
+    "MutationId": 436
+  },
+  {
+    "ArticleId": 324,
+    "MutationId": 509
+  },
+  {
+    "ArticleId": 324,
+    "MutationId": 515
+  },
+  {
+    "ArticleId": 324,
+    "MutationId": 521
+  },
+  {
+    "ArticleId": 324,
+    "MutationId": 537
+  },
+  {
+    "ArticleId": 324,
+    "MutationId": 549
+  },
+  {
+    "ArticleId": 324,
+    "MutationId": 554
+  },
+  {
+    "ArticleId": 325,
+    "MutationId": 582
+  },
+  {
+    "ArticleId": 326,
+    "MutationId": 463
+  },
+  {
+    "ArticleId": 326,
+    "MutationId": 471
+  },
+  {
+    "ArticleId": 326,
+    "MutationId": 499
+  },
+  {
+    "ArticleId": 326,
+    "MutationId": 504
+  },
+  {
+    "ArticleId": 327,
+    "MutationId": 387
+  },
+  {
+    "ArticleId": 328,
+    "MutationId": 214
+  },
+  {
+    "ArticleId": 329,
+    "MutationId": 586
+  },
+  {
+    "ArticleId": 330,
+    "MutationId": 352
+  },
+  {
+    "ArticleId": 330,
+    "MutationId": 355
+  },
+  {
+    "ArticleId": 330,
+    "MutationId": 363
+  },
+  {
+    "ArticleId": 330,
+    "MutationId": 425
+  },
+  {
+    "ArticleId": 331,
+    "MutationId": 354
+  },
+  {
+    "ArticleId": 332,
+    "MutationId": 520
+  },
+  {
+    "ArticleId": 333,
+    "MutationId": 124
+  },
+  {
+    "ArticleId": 334,
+    "MutationId": 507
+  },
+  {
+    "ArticleId": 335,
+    "MutationId": 519
+  },
+  {
+    "ArticleId": 335,
+    "MutationId": 552
+  },
+  {
+    "ArticleId": 336,
+    "MutationId": 339
+  },
+  {
+    "ArticleId": 337,
+    "MutationId": 461
+  },
+  {
+    "ArticleId": 338,
+    "MutationId": 354
+  },
+  {
+    "ArticleId": 339,
+    "MutationId": 475
+  },
+  {
+    "ArticleId": 340,
+    "MutationId": 633
+  },
+  {
+    "ArticleId": 341,
+    "MutationId": 514
+  },
+  {
+    "ArticleId": 341,
+    "MutationId": 516
+  },
+  {
+    "ArticleId": 342,
+    "MutationId": 555
+  },
+  {
+    "ArticleId": 343,
+    "MutationId": 354
+  },
+  {
+    "ArticleId": 344,
+    "MutationId": 493
+  },
+  {
+    "ArticleId": 345,
+    "MutationId": 394
+  },
+  {
+    "ArticleId": 346,
+    "MutationId": 257
+  },
+  {
+    "ArticleId": 347,
+    "MutationId": 135
+  },
+  {
+    "ArticleId": 348,
+    "MutationId": 475
+  },
+  {
+    "ArticleId": 348,
+    "MutationId": 493
+  },
+  {
+    "ArticleId": 348,
+    "MutationId": 505
+  },
+  {
+    "ArticleId": 349,
+    "MutationId": 135
+  },
+  {
+    "ArticleId": 350,
+    "MutationId": 362
+  },
+  {
+    "ArticleId": 351,
+    "MutationId": 548
+  },
+  {
+    "ArticleId": 352,
+    "MutationId": 214
+  },
+  {
+    "ArticleId": 352,
+    "MutationId": 216
+  },
+  {
+    "ArticleId": 352,
+    "MutationId": 275
+  },
+  {
+    "ArticleId": 353,
+    "MutationId": 354
+  },
+  {
+    "ArticleId": 354,
+    "MutationId": 492
+  },
+  {
+    "ArticleId": 355,
+    "MutationId": 618
+  },
+  {
+    "ArticleId": 355,
+    "MutationId": 625
+  },
+  {
+    "ArticleId": 355,
+    "MutationId": 628
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 437
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 440
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 441
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 443
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 446
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 448
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 452
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 453
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 467
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 474
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 476
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 480
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 483
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 488
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 489
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 494
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 495
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 502
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 506
+  },
+  {
+    "ArticleId": 356,
+    "MutationId": 508
+  },
+  {
+    "ArticleId": 357,
+    "MutationId": 185
+  },
+  {
+    "ArticleId": 358,
+    "MutationId": 628
+  },
+  {
+    "ArticleId": 359,
+    "MutationId": 81
+  },
+  {
+    "ArticleId": 360,
+    "MutationId": 212
+  },
+  {
+    "ArticleId": 360,
+    "MutationId": 215
+  },
+  {
+    "ArticleId": 361,
+    "MutationId": 601
+  },
+  {
+    "ArticleId": 361,
+    "MutationId": 602
+  },
+  {
+    "ArticleId": 361,
+    "MutationId": 605
+  },
+  {
+    "ArticleId": 361,
+    "MutationId": 607
+  },
+  {
+    "ArticleId": 361,
+    "MutationId": 608
+  },
+  {
+    "ArticleId": 361,
+    "MutationId": 609
+  },
+  {
+    "ArticleId": 361,
+    "MutationId": 619
+  },
+  {
+    "ArticleId": 361,
+    "MutationId": 620
+  },
+  {
+    "ArticleId": 361,
+    "MutationId": 622
+  },
+  {
+    "ArticleId": 361,
+    "MutationId": 624
+  },
+  {
+    "ArticleId": 362,
+    "MutationId": 505
+  },
+  {
+    "ArticleId": 363,
+    "MutationId": 542
+  },
+  {
+    "ArticleId": 364,
+    "MutationId": 217
+  },
+  {
+    "ArticleId": 365,
+    "MutationId": 84
+  },
+  {
+    "ArticleId": 366,
+    "MutationId": 586
+  },
+  {
+    "ArticleId": 367,
+    "MutationId": 352
+  },
+  {
+    "ArticleId": 367,
+    "MutationId": 362
+  },
+  {
+    "ArticleId": 367,
+    "MutationId": 368
+  },
+  {
+    "ArticleId": 367,
+    "MutationId": 419
+  },
+  {
+    "ArticleId": 367,
+    "MutationId": 423
+  },
+  {
+    "ArticleId": 367,
+    "MutationId": 542
+  },
+  {
+    "ArticleId": 368,
+    "MutationId": 357
+  },
+  {
+    "ArticleId": 368,
+    "MutationId": 417
+  },
+  {
+    "ArticleId": 369,
+    "MutationId": 357
+  },
+  {
+    "ArticleId": 369,
+    "MutationId": 417
+  },
+  {
+    "ArticleId": 369,
+    "MutationId": 527
+  },
+  {
+    "ArticleId": 370,
+    "MutationId": 67
+  },
+  {
+    "ArticleId": 370,
+    "MutationId": 82
+  },
+  {
+    "ArticleId": 370,
+    "MutationId": 117
+  },
+  {
+    "ArticleId": 371,
+    "MutationId": 497
+  },
+  {
+    "ArticleId": 372,
+    "MutationId": 354
+  },
+  {
+    "ArticleId": 373,
+    "MutationId": 382
+  },
+  {
+    "ArticleId": 374,
+    "MutationId": 503
+  },
+  {
+    "ArticleId": 375,
+    "MutationId": 289
+  },
+  {
+    "ArticleId": 375,
+    "MutationId": 304
+  },
+  {
+    "ArticleId": 376,
+    "MutationId": 487
+  },
+  {
+    "ArticleId": 377,
+    "MutationId": 142
+  },
+  {
+    "ArticleId": 378,
+    "MutationId": 28
+  },
+  {
+    "ArticleId": 379,
+    "MutationId": 189
+  },
+  {
+    "ArticleId": 379,
+    "MutationId": 583
+  },
+  {
+    "ArticleId": 380,
+    "MutationId": 142
+  },
+  {
+    "ArticleId": 381,
+    "MutationId": 583
+  },
+  {
+    "ArticleId": 382,
+    "MutationId": 538
+  },
+  {
+    "ArticleId": 383,
+    "MutationId": 466
+  },
+  {
+    "ArticleId": 384,
+    "MutationId": 249
+  },
+  {
+    "ArticleId": 384,
+    "MutationId": 250
+  },
+  {
+    "ArticleId": 385,
+    "MutationId": 454
+  },
+  {
+    "ArticleId": 386,
+    "MutationId": 487
+  },
+  {
+    "ArticleId": 387,
+    "MutationId": 235
+  },
+  {
+    "ArticleId": 388,
+    "MutationId": 469
+  },
+  {
+    "ArticleId": 388,
+    "MutationId": 491
+  },
+  {
+    "ArticleId": 389,
+    "MutationId": 512
+  },
+  {
+    "ArticleId": 389,
+    "MutationId": 514
+  },
+  {
+    "ArticleId": 389,
+    "MutationId": 516
+  },
+  {
+    "ArticleId": 390,
+    "MutationId": 455
+  },
+  {
+    "ArticleId": 391,
+    "MutationId": 455
+  },
+  {
+    "ArticleId": 392,
+    "MutationId": 4
+  },
+  {
+    "ArticleId": 393,
+    "MutationId": 235
+  },
+  {
+    "ArticleId": 394,
+    "MutationId": 342
+  },
+  {
+    "ArticleId": 394,
+    "MutationId": 387
+  },
+  {
+    "ArticleId": 394,
+    "MutationId": 420
+  },
+  {
+    "ArticleId": 394,
+    "MutationId": 431
+  },
+  {
+    "ArticleId": 394,
+    "MutationId": 435
+  },
+  {
+    "ArticleId": 395,
+    "MutationId": 479
+  },
+  {
+    "ArticleId": 396,
+    "MutationId": 372
+  },
+  {
+    "ArticleId": 397,
+    "MutationId": 542
+  },
+  {
+    "ArticleId": 398,
+    "MutationId": 369
+  },
+  {
+    "ArticleId": 399,
+    "MutationId": 543
+  },
+  {
+    "ArticleId": 400,
+    "MutationId": 298
+  },
+  {
+    "ArticleId": 401,
+    "MutationId": 26
+  },
+  {
+    "ArticleId": 401,
+    "MutationId": 196
+  },
+  {
+    "ArticleId": 402,
+    "MutationId": 133
+  },
+  {
+    "ArticleId": 403,
+    "MutationId": 142
+  },
+  {
+    "ArticleId": 404,
+    "MutationId": 434
+  },
+  {
+    "ArticleId": 405,
+    "MutationId": 253
+  },
+  {
+    "ArticleId": 405,
+    "MutationId": 264
+  },
+  {
+    "ArticleId": 405,
+    "MutationId": 280
+  },
+  {
+    "ArticleId": 405,
+    "MutationId": 283
+  },
+  {
+    "ArticleId": 406,
+    "MutationId": 169
+  },
+  {
+    "ArticleId": 407,
+    "MutationId": 416
+  },
+  {
+    "ArticleId": 408,
+    "MutationId": 185
+  },
+  {
+    "ArticleId": 409,
+    "MutationId": 469
+  },
+  {
+    "ArticleId": 409,
+    "MutationId": 491
+  },
+  {
+    "ArticleId": 410,
+    "MutationId": 8
+  },
+  {
+    "ArticleId": 410,
+    "MutationId": 11
+  },
+  {
+    "ArticleId": 411,
+    "MutationId": 70
+  },
+  {
+    "ArticleId": 411,
+    "MutationId": 79
+  },
+  {
+    "ArticleId": 411,
+    "MutationId": 89
+  },
+  {
+    "ArticleId": 411,
+    "MutationId": 92
+  },
+  {
+    "ArticleId": 411,
+    "MutationId": 100
+  },
+  {
+    "ArticleId": 411,
+    "MutationId": 109
+  },
+  {
+    "ArticleId": 411,
+    "MutationId": 192
+  },
+  {
+    "ArticleId": 412,
+    "MutationId": 21
+  },
+  {
+    "ArticleId": 412,
+    "MutationId": 25
+  },
+  {
+    "ArticleId": 413,
+    "MutationId": 254
+  },
+  {
+    "ArticleId": 413,
+    "MutationId": 256
+  },
+  {
+    "ArticleId": 414,
+    "MutationId": 424
+  },
+  {
+    "ArticleId": 415,
+    "MutationId": 386
+  },
+  {
+    "ArticleId": 416,
+    "MutationId": 626
+  },
+  {
+    "ArticleId": 417,
+    "MutationId": 553
+  },
+  {
+    "ArticleId": 418,
+    "MutationId": 250
+  },
+  {
+    "ArticleId": 419,
+    "MutationId": 507
+  },
+  {
+    "ArticleId": 420,
+    "MutationId": 582
+  },
+  {
+    "ArticleId": 421,
+    "MutationId": 625
+  },
+  {
+    "ArticleId": 421,
+    "MutationId": 628
+  },
+  {
+    "ArticleId": 422,
+    "MutationId": 354
+  },
+  {
+    "ArticleId": 423,
+    "MutationId": 449
+  },
+  {
+    "ArticleId": 424,
+    "MutationId": 372
+  },
+  {
+    "ArticleId": 424,
+    "MutationId": 577
+  },
+  {
+    "ArticleId": 425,
+    "MutationId": 154
+  },
+  {
+    "ArticleId": 425,
+    "MutationId": 582
+  },
+  {
+    "ArticleId": 426,
+    "MutationId": 66
+  },
+  {
+    "ArticleId": 427,
+    "MutationId": 212
+  },
+  {
+    "ArticleId": 427,
+    "MutationId": 215
+  },
+  {
+    "ArticleId": 428,
+    "MutationId": 290
+  },
+  {
+    "ArticleId": 429,
+    "MutationId": 235
+  },
+  {
+    "ArticleId": 430,
+    "MutationId": 257
+  },
+  {
+    "ArticleId": 431,
+    "MutationId": 475
+  },
+  {
+    "ArticleId": 431,
+    "MutationId": 505
+  },
+  {
+    "ArticleId": 432,
+    "MutationId": 618
+  },
+  {
+    "ArticleId": 432,
+    "MutationId": 625
+  },
+  {
+    "ArticleId": 432,
+    "MutationId": 628
+  },
+  {
+    "ArticleId": 433,
+    "MutationId": 558
+  },
+  {
+    "ArticleId": 433,
+    "MutationId": 560
+  },
+  {
+    "ArticleId": 433,
+    "MutationId": 568
+  },
+  {
+    "ArticleId": 433,
+    "MutationId": 570
+  },
+  {
+    "ArticleId": 433,
+    "MutationId": 571
+  },
+  {
+    "ArticleId": 434,
+    "MutationId": 128
+  },
+  {
+    "ArticleId": 434,
+    "MutationId": 593
+  },
+  {
+    "ArticleId": 434,
+    "MutationId": 595
+  },
+  {
+    "ArticleId": 435,
+    "MutationId": 369
+  },
+  {
+    "ArticleId": 436,
+    "MutationId": 370
+  },
+  {
+    "ArticleId": 437,
+    "MutationId": 179
+  },
+  {
+    "ArticleId": 438,
+    "MutationId": 223
+  },
+  {
+    "ArticleId": 439,
+    "MutationId": 66
+  },
+  {
+    "ArticleId": 440,
+    "MutationId": 305
+  },
+  {
+    "ArticleId": 441,
+    "MutationId": 519
+  },
+  {
+    "ArticleId": 442,
+    "MutationId": 500
+  },
+  {
+    "ArticleId": 443,
+    "MutationId": 62
+  },
+  {
+    "ArticleId": 443,
+    "MutationId": 204
+  },
+  {
+    "ArticleId": 444,
+    "MutationId": 135
+  },
+  {
+    "ArticleId": 445,
+    "MutationId": 428
+  },
+  {
+    "ArticleId": 446,
+    "MutationId": 510
+  },
+  {
+    "ArticleId": 446,
+    "MutationId": 520
+  },
+  {
+    "ArticleId": 446,
+    "MutationId": 543
+  },
+  {
+    "ArticleId": 446,
+    "MutationId": 564
+  },
+  {
+    "ArticleId": 446,
+    "MutationId": 567
+  },
+  {
+    "ArticleId": 447,
+    "MutationId": 281
+  },
+  {
+    "ArticleId": 448,
+    "MutationId": 183
+  },
+  {
+    "ArticleId": 448,
+    "MutationId": 235
+  },
+  {
+    "ArticleId": 449,
+    "MutationId": 429
+  },
+  {
+    "ArticleId": 450,
+    "MutationId": 428
+  },
+  {
+    "ArticleId": 451,
+    "MutationId": 451
+  },
+  {
+    "ArticleId": 452,
+    "MutationId": 471
+  },
+  {
+    "ArticleId": 453,
+    "MutationId": 342
+  },
+  {
+    "ArticleId": 453,
+    "MutationId": 414
+  },
+  {
+    "ArticleId": 453,
+    "MutationId": 427
+  },
+  {
+    "ArticleId": 453,
+    "MutationId": 546
+  },
+  {
+    "ArticleId": 454,
+    "MutationId": 59
+  },
+  {
+    "ArticleId": 455,
+    "MutationId": 405
+  },
+  {
+    "ArticleId": 456,
+    "MutationId": 583
+  },
+  {
+    "ArticleId": 457,
+    "MutationId": 202
+  },
+  {
+    "ArticleId": 458,
+    "MutationId": 67
+  },
+  {
+    "ArticleId": 458,
+    "MutationId": 82
+  },
+  {
+    "ArticleId": 458,
+    "MutationId": 117
+  },
+  {
+    "ArticleId": 459,
+    "MutationId": 594
+  },
+  {
+    "ArticleId": 460,
+    "MutationId": 345
+  },
+  {
+    "ArticleId": 460,
+    "MutationId": 348
+  },
+  {
+    "ArticleId": 460,
+    "MutationId": 365
+  },
+  {
+    "ArticleId": 460,
+    "MutationId": 433
+  },
+  {
+    "ArticleId": 461,
+    "MutationId": 429
+  },
+  {
+    "ArticleId": 462,
+    "MutationId": 601
+  },
+  {
+    "ArticleId": 462,
+    "MutationId": 602
+  },
+  {
+    "ArticleId": 462,
+    "MutationId": 605
+  },
+  {
+    "ArticleId": 462,
+    "MutationId": 607
+  },
+  {
+    "ArticleId": 462,
+    "MutationId": 608
+  },
+  {
+    "ArticleId": 462,
+    "MutationId": 609
+  },
+  {
+    "ArticleId": 462,
+    "MutationId": 619
+  },
+  {
+    "ArticleId": 462,
+    "MutationId": 620
+  },
+  {
+    "ArticleId": 462,
+    "MutationId": 622
+  },
+  {
+    "ArticleId": 462,
+    "MutationId": 624
+  },
+  {
+    "ArticleId": 462,
+    "MutationId": 627
+  },
+  {
+    "ArticleId": 462,
+    "MutationId": 632
+  },
+  {
+    "ArticleId": 463,
+    "MutationId": 429
+  },
+  {
+    "ArticleId": 464,
+    "MutationId": 287
+  },
+  {
+    "ArticleId": 465,
+    "MutationId": 372
+  },
+  {
+    "ArticleId": 466,
+    "MutationId": 154
+  },
+  {
+    "ArticleId": 467,
+    "MutationId": 498
+  },
+  {
+    "ArticleId": 468,
+    "MutationId": 553
+  },
+  {
+    "ArticleId": 469,
+    "MutationId": 587
+  },
+  {
+    "ArticleId": 469,
+    "MutationId": 588
+  },
+  {
+    "ArticleId": 470,
+    "MutationId": 588
+  },
+  {
+    "ArticleId": 471,
+    "MutationId": 350
+  },
+  {
+    "ArticleId": 471,
+    "MutationId": 352
+  },
+  {
+    "ArticleId": 471,
+    "MutationId": 362
+  },
+  {
+    "ArticleId": 471,
+    "MutationId": 366
+  },
+  {
+    "ArticleId": 471,
+    "MutationId": 368
+  },
+  {
+    "ArticleId": 471,
+    "MutationId": 390
+  },
+  {
+    "ArticleId": 471,
+    "MutationId": 396
+  },
+  {
+    "ArticleId": 471,
+    "MutationId": 419
+  },
+  {
+    "ArticleId": 471,
+    "MutationId": 423
+  },
+  {
+    "ArticleId": 471,
+    "MutationId": 436
+  },
+  {
+    "ArticleId": 472,
+    "MutationId": 398
+  },
+  {
+    "ArticleId": 472,
+    "MutationId": 400
+  },
+  {
+    "ArticleId": 473,
+    "MutationId": 477
+  },
+  {
+    "ArticleId": 474,
+    "MutationId": 582
+  },
+  {
+    "ArticleId": 475,
+    "MutationId": 300
+  },
+  {
+    "ArticleId": 476,
+    "MutationId": 429
+  },
+  {
+    "ArticleId": 477,
+    "MutationId": 21
+  },
+  {
+    "ArticleId": 477,
+    "MutationId": 25
+  },
+  {
+    "ArticleId": 477,
+    "MutationId": 125
+  },
+  {
+    "ArticleId": 478,
+    "MutationId": 428
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 350
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 352
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 362
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 366
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 368
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 390
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 396
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 419
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 423
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 436
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 509
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 515
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 521
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 537
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 542
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 549
+  },
+  {
+    "ArticleId": 479,
+    "MutationId": 554
+  },
+  {
+    "ArticleId": 480,
+    "MutationId": 220
+  },
+  {
+    "ArticleId": 481,
+    "MutationId": 233
+  },
+  {
+    "ArticleId": 482,
+    "MutationId": 455
+  },
+  {
+    "ArticleId": 483,
+    "MutationId": 487
+  },
+  {
+    "ArticleId": 484,
+    "MutationId": 380
+  },
+  {
+    "ArticleId": 484,
+    "MutationId": 539
+  },
+  {
+    "ArticleId": 484,
+    "MutationId": 545
+  },
+  {
+    "ArticleId": 485,
+    "MutationId": 439
+  },
+  {
+    "ArticleId": 486,
+    "MutationId": 130
+  },
+  {
+    "ArticleId": 486,
+    "MutationId": 184
+  },
+  {
+    "ArticleId": 487,
+    "MutationId": 438
+  },
+  {
+    "ArticleId": 487,
+    "MutationId": 466
+  },
+  {
+    "ArticleId": 487,
+    "MutationId": 492
+  },
+  {
+    "ArticleId": 488,
+    "MutationId": 258
+  },
+  {
+    "ArticleId": 488,
+    "MutationId": 259
+  },
+  {
+    "ArticleId": 489,
+    "MutationId": 154
+  },
+  {
+    "ArticleId": 489,
+    "MutationId": 582
+  },
+  {
+    "ArticleId": 490,
+    "MutationId": 307
+  },
+  {
+    "ArticleId": 491,
+    "MutationId": 472
+  },
+  {
+    "ArticleId": 491,
+    "MutationId": 477
+  },
+  {
+    "ArticleId": 491,
+    "MutationId": 496
+  },
+  {
+    "ArticleId": 492,
+    "MutationId": 372
+  },
+  {
+    "ArticleId": 493,
+    "MutationId": 501
+  },
+  {
+    "ArticleId": 494,
+    "MutationId": 214
+  },
+  {
+    "ArticleId": 495,
+    "MutationId": 510
+  },
+  {
+    "ArticleId": 495,
+    "MutationId": 539
+  },
+  {
+    "ArticleId": 495,
+    "MutationId": 545
+  },
+  {
+    "ArticleId": 496,
+    "MutationId": 541
+  },
+  {
+    "ArticleId": 497,
+    "MutationId": 481
+  },
+  {
+    "ArticleId": 498,
+    "MutationId": 481
+  },
+  {
+    "ArticleId": 499,
+    "MutationId": 123
+  },
+  {
+    "ArticleId": 500,
+    "MutationId": 428
+  },
+  {
+    "ArticleId": 501,
+    "MutationId": 594
+  },
+  {
+    "ArticleId": 502,
+    "MutationId": 512
+  },
+  {
+    "ArticleId": 503,
+    "MutationId": 282
+  },
+  {
+    "ArticleId": 504,
+    "MutationId": 510
+  },
+  {
+    "ArticleId": 505,
+    "MutationId": 450
+  },
+  {
+    "ArticleId": 505,
+    "MutationId": 458
+  },
+  {
+    "ArticleId": 506,
+    "MutationId": 2
+  },
+  {
+    "ArticleId": 507,
+    "MutationId": 245
+  },
+  {
+    "ArticleId": 508,
+    "MutationId": 266
+  },
+  {
+    "ArticleId": 509,
+    "MutationId": 475
+  },
+  {
+    "ArticleId": 509,
+    "MutationId": 493
+  },
+  {
+    "ArticleId": 509,
+    "MutationId": 505
+  },
+  {
+    "ArticleId": 510,
+    "MutationId": 372
+  },
+  {
+    "ArticleId": 510,
+    "MutationId": 577
+  },
+  {
+    "ArticleId": 510,
+    "MutationId": 579
+  },
+  {
+    "ArticleId": 511,
+    "MutationId": 260
+  },
+  {
+    "ArticleId": 511,
+    "MutationId": 261
+  },
+  {
+    "ArticleId": 512,
+    "MutationId": 384
+  },
+  {
+    "ArticleId": 513,
+    "MutationId": 266
+  },
+  {
+    "ArticleId": 514,
+    "MutationId": 481
+  },
+  {
+    "ArticleId": 515,
+    "MutationId": 226
+  },
+  {
+    "ArticleId": 515,
+    "MutationId": 274
+  },
+  {
+    "ArticleId": 516,
+    "MutationId": 223
+  },
+  {
+    "ArticleId": 517,
+    "MutationId": 274
+  },
+  {
+    "ArticleId": 518,
+    "MutationId": 553
+  },
+  {
+    "ArticleId": 519,
+    "MutationId": 205
+  },
+  {
+    "ArticleId": 520,
+    "MutationId": 618
+  },
+  {
+    "ArticleId": 520,
+    "MutationId": 625
+  },
+  {
+    "ArticleId": 520,
+    "MutationId": 628
+  },
+  {
+    "ArticleId": 521,
+    "MutationId": 575
+  },
+  {
+    "ArticleId": 522,
+    "MutationId": 4
+  },
+  {
+    "ArticleId": 523,
+    "MutationId": 387
+  },
+  {
+    "ArticleId": 523,
+    "MutationId": 420
+  },
+  {
+    "ArticleId": 523,
+    "MutationId": 431
+  },
+  {
+    "ArticleId": 523,
+    "MutationId": 432
+  },
+  {
+    "ArticleId": 523,
+    "MutationId": 435
+  },
+  {
+    "ArticleId": 523,
+    "MutationId": 546
+  },
+  {
+    "ArticleId": 524,
+    "MutationId": 162
+  },
+  {
+    "ArticleId": 525,
+    "MutationId": 621
+  },
+  {
+    "ArticleId": 526,
+    "MutationId": 57
+  },
+  {
+    "ArticleId": 526,
+    "MutationId": 93
+  },
+  {
+    "ArticleId": 526,
+    "MutationId": 94
+  },
+  {
+    "ArticleId": 527,
+    "MutationId": 287
+  },
+  {
+    "ArticleId": 528,
+    "MutationId": 539
+  },
+  {
+    "ArticleId": 529,
+    "MutationId": 371
+  },
+  {
+    "ArticleId": 529,
+    "MutationId": 375
+  },
+  {
+    "ArticleId": 529,
+    "MutationId": 385
+  },
+  {
+    "ArticleId": 530,
+    "MutationId": 165
+  },
+  {
+    "ArticleId": 531,
+    "MutationId": 585
+  },
+  {
+    "ArticleId": 532,
+    "MutationId": 419
+  },
+  {
+    "ArticleId": 532,
+    "MutationId": 436
+  },
+  {
+    "ArticleId": 532,
+    "MutationId": 554
+  },
+  {
+    "ArticleId": 533,
+    "MutationId": 12
+  },
+  {
+    "ArticleId": 533,
+    "MutationId": 101
+  },
+  {
+    "ArticleId": 534,
+    "MutationId": 582
+  },
+  {
+    "ArticleId": 535,
+    "MutationId": 454
+  },
+  {
+    "ArticleId": 535,
+    "MutationId": 533
+  },
+  {
+    "ArticleId": 535,
+    "MutationId": 574
+  },
+  {
+    "ArticleId": 536,
+    "MutationId": 245
+  },
+  {
+    "ArticleId": 537,
+    "MutationId": 330
+  },
+  {
+    "ArticleId": 538,
+    "MutationId": 249
+  },
+  {
+    "ArticleId": 538,
+    "MutationId": 250
+  },
+  {
+    "ArticleId": 539,
+    "MutationId": 356
+  },
+  {
+    "ArticleId": 540,
+    "MutationId": 583
+  },
+  {
+    "ArticleId": 541,
+    "MutationId": 379
+  },
+  {
+    "ArticleId": 541,
+    "MutationId": 384
+  },
+  {
+    "ArticleId": 541,
+    "MutationId": 389
+  },
+  {
+    "ArticleId": 541,
+    "MutationId": 545
+  },
+  {
+    "ArticleId": 541,
+    "MutationId": 556
+  },
+  {
+    "ArticleId": 542,
+    "MutationId": 353
+  },
+  {
+    "ArticleId": 543,
+    "MutationId": 458
+  },
+  {
+    "ArticleId": 544,
+    "MutationId": 371
+  },
+  {
+    "ArticleId": 544,
+    "MutationId": 375
+  },
+  {
+    "ArticleId": 544,
+    "MutationId": 379
+  },
+  {
+    "ArticleId": 544,
+    "MutationId": 385
+  },
+  {
+    "ArticleId": 544,
+    "MutationId": 389
+  },
+  {
+    "ArticleId": 544,
+    "MutationId": 556
+  },
+  {
+    "ArticleId": 545,
+    "MutationId": 460
+  },
+  {
+    "ArticleId": 546,
+    "MutationId": 209
+  },
+  {
+    "ArticleId": 547,
+    "MutationId": 165
+  },
+  {
+    "ArticleId": 548,
+    "MutationId": 509
+  },
+  {
+    "ArticleId": 549,
+    "MutationId": 252
+  },
+  {
+    "ArticleId": 550,
+    "MutationId": 566
+  },
+  {
+    "ArticleId": 551,
+    "MutationId": 588
+  },
+  {
+    "ArticleId": 552,
+    "MutationId": 354
+  },
+  {
+    "ArticleId": 553,
+    "MutationId": 184
+  },
+  {
+    "ArticleId": 554,
+    "MutationId": 264
+  },
+  {
+    "ArticleId": 554,
+    "MutationId": 280
+  },
+  {
+    "ArticleId": 554,
+    "MutationId": 283
+  },
+  {
+    "ArticleId": 555,
+    "MutationId": 473
+  },
+  {
+    "ArticleId": 556,
+    "MutationId": 235
+  },
+  {
+    "ArticleId": 557,
+    "MutationId": 236
+  },
+  {
+    "ArticleId": 558,
+    "MutationId": 372
+  },
+  {
+    "ArticleId": 559,
+    "MutationId": 428
+  },
+  {
+    "ArticleId": 560,
+    "MutationId": 601
+  },
+  {
+    "ArticleId": 560,
+    "MutationId": 602
+  },
+  {
+    "ArticleId": 560,
+    "MutationId": 604
+  },
+  {
+    "ArticleId": 560,
+    "MutationId": 605
+  },
+  {
+    "ArticleId": 560,
+    "MutationId": 607
+  },
+  {
+    "ArticleId": 560,
+    "MutationId": 608
+  },
+  {
+    "ArticleId": 560,
+    "MutationId": 609
+  },
+  {
+    "ArticleId": 560,
+    "MutationId": 619
+  },
+  {
+    "ArticleId": 560,
+    "MutationId": 620
+  },
+  {
+    "ArticleId": 560,
+    "MutationId": 622
+  },
+  {
+    "ArticleId": 560,
+    "MutationId": 624
+  },
+  {
+    "ArticleId": 561,
+    "MutationId": 183
+  },
+  {
+    "ArticleId": 561,
+    "MutationId": 235
+  },
+  {
+    "ArticleId": 562,
+    "MutationId": 44
+  },
+  {
+    "ArticleId": 563,
+    "MutationId": 26
+  },
+  {
+    "ArticleId": 563,
+    "MutationId": 28
+  },
+  {
+    "ArticleId": 563,
+    "MutationId": 196
+  },
+  {
+    "ArticleId": 564,
+    "MutationId": 32
+  },
+  {
+    "ArticleId": 564,
+    "MutationId": 197
+  },
+  {
+    "ArticleId": 565,
+    "MutationId": 214
+  },
+  {
+    "ArticleId": 566,
+    "MutationId": 487
+  },
+  {
+    "ArticleId": 567,
+    "MutationId": 484
+  },
+  {
+    "ArticleId": 568,
+    "MutationId": 26
+  },
+  {
+    "ArticleId": 568,
+    "MutationId": 196
+  },
+  {
+    "ArticleId": 569,
+    "MutationId": 420
+  },
+  {
+    "ArticleId": 570,
+    "MutationId": 418
+  },
+  {
+    "ArticleId": 571,
+    "MutationId": 242
+  },
+  {
+    "ArticleId": 572,
+    "MutationId": 12
+  },
+  {
+    "ArticleId": 572,
+    "MutationId": 101
+  },
+  {
+    "ArticleId": 573,
+    "MutationId": 242
+  },
+  {
+    "ArticleId": 574,
+    "MutationId": 317
+  },
+  {
+    "ArticleId": 575,
+    "MutationId": 626
+  },
+  {
+    "ArticleId": 576,
+    "MutationId": 626
+  },
+  {
+    "ArticleId": 577,
+    "MutationId": 2
+  },
+  {
+    "ArticleId": 577,
+    "MutationId": 26
+  },
+  {
+    "ArticleId": 577,
+    "MutationId": 28
+  },
+  {
+    "ArticleId": 577,
+    "MutationId": 196
+  },
+  {
+    "ArticleId": 578,
+    "MutationId": 550
+  },
+  {
+    "ArticleId": 579,
+    "MutationId": 547
+  },
+  {
+    "ArticleId": 580,
+    "MutationId": 442
+  },
+  {
+    "ArticleId": 581,
+    "MutationId": 484
+  },
+  {
+    "ArticleId": 582,
+    "MutationId": 287
+  },
+  {
+    "ArticleId": 583,
+    "MutationId": 350
+  },
+  {
+    "ArticleId": 583,
+    "MutationId": 352
+  },
+  {
+    "ArticleId": 583,
+    "MutationId": 362
+  },
+  {
+    "ArticleId": 583,
+    "MutationId": 366
+  },
+  {
+    "ArticleId": 583,
+    "MutationId": 368
+  },
+  {
+    "ArticleId": 583,
+    "MutationId": 390
+  },
+  {
+    "ArticleId": 583,
+    "MutationId": 396
+  },
+  {
+    "ArticleId": 583,
+    "MutationId": 419
+  },
+  {
+    "ArticleId": 583,
+    "MutationId": 423
+  },
+  {
+    "ArticleId": 584,
+    "MutationId": 354
+  },
+  {
+    "ArticleId": 585,
+    "MutationId": 235
+  },
+  {
+    "ArticleId": 586,
+    "MutationId": 514
+  },
+  {
+    "ArticleId": 586,
+    "MutationId": 516
+  },
+  {
+    "ArticleId": 587,
+    "MutationId": 114
+  },
+  {
+    "ArticleId": 588,
+    "MutationId": 165
+  },
+  {
+    "ArticleId": 589,
+    "MutationId": 449
+  },
+  {
+    "ArticleId": 590,
+    "MutationId": 67
+  },
+  {
+    "ArticleId": 590,
+    "MutationId": 82
+  },
+  {
+    "ArticleId": 590,
+    "MutationId": 117
+  },
+  {
+    "ArticleId": 591,
+    "MutationId": 555
+  },
+  {
+    "ArticleId": 592,
+    "MutationId": 190
+  },
+  {
+    "ArticleId": 593,
+    "MutationId": 392
+  },
+  {
+    "ArticleId": 594,
+    "MutationId": 293
+  },
+  {
+    "ArticleId": 595,
+    "MutationId": 345
+  },
+  {
+    "ArticleId": 595,
+    "MutationId": 348
+  },
+  {
+    "ArticleId": 595,
+    "MutationId": 365
+  },
+  {
+    "ArticleId": 595,
+    "MutationId": 376
+  },
+  {
+    "ArticleId": 595,
+    "MutationId": 433
+  },
+  {
+    "ArticleId": 596,
+    "MutationId": 472
+  },
+  {
+    "ArticleId": 596,
+    "MutationId": 496
+  },
+  {
+    "ArticleId": 597,
+    "MutationId": 626
+  },
+  {
+    "ArticleId": 598,
+    "MutationId": 455
+  },
+  {
+    "ArticleId": 599,
+    "MutationId": 395
+  },
+  {
+    "ArticleId": 600,
+    "MutationId": 372
+  },
+  {
+    "ArticleId": 600,
+    "MutationId": 579
+  },
+  {
+    "ArticleId": 601,
+    "MutationId": 577
+  },
+  {
+    "ArticleId": 601,
+    "MutationId": 579
+  },
+  {
+    "ArticleId": 602,
+    "MutationId": 503
+  },
+  {
+    "ArticleId": 602,
+    "MutationId": 547
+  },
+  {
+    "ArticleId": 603,
+    "MutationId": 374
+  },
+  {
+    "ArticleId": 603,
+    "MutationId": 383
+  },
+  {
+    "ArticleId": 603,
+    "MutationId": 386
+  },
+  {
+    "ArticleId": 604,
+    "MutationId": 55
+  },
+  {
+    "ArticleId": 604,
+    "MutationId": 199
+  },
+  {
+    "ArticleId": 605,
+    "MutationId": 583
+  },
+  {
+    "ArticleId": 606,
+    "MutationId": 71
+  },
+  {
+    "ArticleId": 607,
+    "MutationId": 380
+  },
+  {
+    "ArticleId": 608,
+    "MutationId": 629
+  },
+  {
+    "ArticleId": 609,
+    "MutationId": 282
+  },
+  {
+    "ArticleId": 610,
+    "MutationId": 550
+  },
+  {
+    "ArticleId": 611,
+    "MutationId": 355
+  },
+  {
+    "ArticleId": 611,
+    "MutationId": 363
+  },
+  {
+    "ArticleId": 611,
+    "MutationId": 393
+  },
+  {
+    "ArticleId": 611,
+    "MutationId": 394
+  },
+  {
+    "ArticleId": 611,
+    "MutationId": 397
+  },
+  {
+    "ArticleId": 611,
+    "MutationId": 425
+  },
+  {
+    "ArticleId": 612,
+    "MutationId": 209
+  },
+  {
+    "ArticleId": 613,
+    "MutationId": 166
+  },
+  {
+    "ArticleId": 613,
+    "MutationId": 198
+  },
+  {
+    "ArticleId": 614,
+    "MutationId": 205
+  },
+  {
+    "ArticleId": 615,
+    "MutationId": 575
+  },
+  {
+    "ArticleId": 616,
+    "MutationId": 99
+  },
+  {
+    "ArticleId": 617,
+    "MutationId": 130
+  },
+  {
+    "ArticleId": 617,
+    "MutationId": 184
+  },
+  {
+    "ArticleId": 617,
+    "MutationId": 589
+  },
+  {
+    "ArticleId": 618,
+    "MutationId": 430
+  },
+  {
+    "ArticleId": 619,
+    "MutationId": 114
+  },
+  {
+    "ArticleId": 619,
+    "MutationId": 117
+  },
+  {
+    "ArticleId": 619,
+    "MutationId": 594
+  },
+  {
+    "ArticleId": 620,
+    "MutationId": 426
+  },
+  {
+    "ArticleId": 621,
+    "MutationId": 354
+  },
+  {
+    "ArticleId": 622,
+    "MutationId": 259
+  },
+  {
+    "ArticleId": 623,
+    "MutationId": 338
+  },
+  {
+    "ArticleId": 623,
+    "MutationId": 454
+  },
+  {
+    "ArticleId": 623,
+    "MutationId": 486
+  },
+  {
+    "ArticleId": 624,
+    "MutationId": 618
+  },
+  {
+    "ArticleId": 625,
+    "MutationId": 439
+  },
+  {
+    "ArticleId": 626,
+    "MutationId": 245
+  },
+  {
+    "ArticleId": 627,
+    "MutationId": 629
+  },
+  {
+    "ArticleId": 628,
+    "MutationId": 611
+  },
+  {
+    "ArticleId": 628,
+    "MutationId": 612
+  },
+  {
+    "ArticleId": 629,
+    "MutationId": 475
+  },
+  {
+    "ArticleId": 629,
+    "MutationId": 493
+  },
+  {
+    "ArticleId": 629,
+    "MutationId": 505
+  },
+  {
+    "ArticleId": 630,
+    "MutationId": 183
+  },
+  {
+    "ArticleId": 630,
+    "MutationId": 235
+  },
+  {
+    "ArticleId": 631,
+    "MutationId": 578
+  },
+  {
+    "ArticleId": 632,
+    "MutationId": 213
+  },
+  {
+    "ArticleId": 633,
+    "MutationId": 48
+  },
+  {
+    "ArticleId": 633,
+    "MutationId": 53
+  },
+  {
+    "ArticleId": 633,
+    "MutationId": 121
+  },
+  {
+    "ArticleId": 634,
+    "MutationId": 368
+  },
+  {
+    "ArticleId": 635,
+    "MutationId": 439
+  },
+  {
+    "ArticleId": 635,
+    "MutationId": 479
+  },
+  {
+    "ArticleId": 636,
+    "MutationId": 372
+  },
+  {
+    "ArticleId": 637,
+    "MutationId": 221
+  },
+  {
+    "ArticleId": 637,
+    "MutationId": 278
+  },
+  {
+    "ArticleId": 638,
+    "MutationId": 9
+  },
+  {
+    "ArticleId": 638,
+    "MutationId": 153
+  },
+  {
+    "ArticleId": 638,
+    "MutationId": 162
+  },
+  {
+    "ArticleId": 638,
+    "MutationId": 165
+  },
+  {
+    "ArticleId": 639,
+    "MutationId": 259
+  },
+  {
+    "ArticleId": 640,
+    "MutationId": 242
+  },
+  {
+    "ArticleId": 640,
+    "MutationId": 258
+  },
+  {
+    "ArticleId": 641,
+    "MutationId": 16
+  },
+  {
+    "ArticleId": 641,
+    "MutationId": 17
+  },
+  {
+    "ArticleId": 641,
+    "MutationId": 43
+  },
+  {
+    "ArticleId": 641,
+    "MutationId": 228
+  },
+  {
+    "ArticleId": 641,
+    "MutationId": 283
+  },
+  {
+    "ArticleId": 642,
+    "MutationId": 414
+  },
+  {
+    "ArticleId": 642,
+    "MutationId": 427
+  },
+  {
+    "ArticleId": 643,
+    "MutationId": 212
+  },
+  {
+    "ArticleId": 643,
+    "MutationId": 215
+  },
+  {
+    "ArticleId": 644,
+    "MutationId": 152
+  },
+  {
+    "ArticleId": 645,
+    "MutationId": 4
+  },
+  {
+    "ArticleId": 646,
+    "MutationId": 472
+  },
+  {
+    "ArticleId": 647,
+    "MutationId": 268
+  },
+  {
+    "ArticleId": 647,
+    "MutationId": 278
+  },
+  {
+    "ArticleId": 648,
+    "MutationId": 264
+  },
+  {
+    "ArticleId": 648,
+    "MutationId": 280
+  },
+  {
+    "ArticleId": 648,
+    "MutationId": 283
+  },
+  {
+    "ArticleId": 649,
+    "MutationId": 375
+  },
+  {
+    "ArticleId": 649,
+    "MutationId": 384
+  },
+  {
+    "ArticleId": 650,
+    "MutationId": 372
+  },
+  {
+    "ArticleId": 651,
+    "MutationId": 348
+  },
+  {
+    "ArticleId": 651,
+    "MutationId": 365
+  },
+  {
+    "ArticleId": 651,
+    "MutationId": 433
+  },
+  {
+    "ArticleId": 652,
+    "MutationId": 265
+  },
+  {
+    "ArticleId": 652,
+    "MutationId": 269
+  },
+  {
+    "ArticleId": 652,
+    "MutationId": 285
+  },
+  {
+    "ArticleId": 653,
+    "MutationId": 475
+  },
+  {
+    "ArticleId": 653,
+    "MutationId": 505
+  },
+  {
+    "ArticleId": 654,
+    "MutationId": 15
+  },
+  {
+    "ArticleId": 654,
+    "MutationId": 110
+  },
+  {
+    "ArticleId": 655,
+    "MutationId": 277
+  },
+  {
+    "ArticleId": 656,
+    "MutationId": 580
+  },
+  {
+    "ArticleId": 656,
+    "MutationId": 584
+  },
+  {
+    "ArticleId": 656,
+    "MutationId": 600
+  },
+  {
+    "ArticleId": 657,
+    "MutationId": 445
+  },
+  {
+    "ArticleId": 658,
+    "MutationId": 242
+  },
+  {
+    "ArticleId": 658,
+    "MutationId": 261
+  },
+  {
+    "ArticleId": 659,
+    "MutationId": 165
+  },
+  {
+    "ArticleId": 660,
+    "MutationId": 356
+  },
+  {
+    "ArticleId": 660,
+    "MutationId": 442
+  },
+  {
+    "ArticleId": 660,
+    "MutationId": 473
+  },
+  {
+    "ArticleId": 661,
+    "MutationId": 564
+  },
+  {
+    "ArticleId": 661,
+    "MutationId": 567
+  },
+  {
+    "ArticleId": 662,
+    "MutationId": 618
+  },
+  {
+    "ArticleId": 663,
+    "MutationId": 341
+  },
+  {
+    "ArticleId": 664,
+    "MutationId": 166
+  },
+  {
+    "ArticleId": 664,
+    "MutationId": 198
+  },
+  {
+    "ArticleId": 665,
+    "MutationId": 629
+  },
+  {
+    "ArticleId": 666,
+    "MutationId": 387
+  },
+  {
+    "ArticleId": 667,
+    "MutationId": 224
+  },
+  {
+    "ArticleId": 667,
+    "MutationId": 274
+  },
+  {
+    "ArticleId": 668,
+    "MutationId": 136
+  },
+  {
+    "ArticleId": 669,
+    "MutationId": 399
+  },
+  {
+    "ArticleId": 670,
+    "MutationId": 266
+  },
+  {
+    "ArticleId": 671,
+    "MutationId": 313
+  },
+  {
+    "ArticleId": 671,
+    "MutationId": 323
+  },
+  {
+    "ArticleId": 671,
+    "MutationId": 381
+  },
+  {
+    "ArticleId": 671,
+    "MutationId": 411
+  },
+  {
+    "ArticleId": 672,
+    "MutationId": 618
+  },
+  {
+    "ArticleId": 672,
+    "MutationId": 625
+  },
+  {
+    "ArticleId": 673,
+    "MutationId": 578
+  },
+  {
+    "ArticleId": 674,
+    "MutationId": 457
+  },
+  {
+    "ArticleId": 675,
+    "MutationId": 360
+  },
+  {
+    "ArticleId": 675,
+    "MutationId": 371
+  },
+  {
+    "ArticleId": 675,
+    "MutationId": 375
+  },
+  {
+    "ArticleId": 675,
+    "MutationId": 379
+  },
+  {
+    "ArticleId": 675,
+    "MutationId": 384
+  },
+  {
+    "ArticleId": 675,
+    "MutationId": 385
+  },
+  {
+    "ArticleId": 675,
+    "MutationId": 389
+  },
+  {
+    "ArticleId": 675,
+    "MutationId": 405
+  },
+  {
+    "ArticleId": 676,
+    "MutationId": 631
+  },
+  {
+    "ArticleId": 677,
+    "MutationId": 146
+  },
+  {
+    "ArticleId": 678,
+    "MutationId": 505
+  },
+  {
+    "ArticleId": 679,
+    "MutationId": 305
+  },
+  {
+    "ArticleId": 680,
+    "MutationId": 621
+  },
+  {
+    "ArticleId": 681,
+    "MutationId": 210
+  },
+  {
+    "ArticleId": 682,
+    "MutationId": 460
+  },
+  {
+    "ArticleId": 683,
+    "MutationId": 326
+  },
+  {
+    "ArticleId": 684,
+    "MutationId": 129
+  },
+  {
+    "ArticleId": 685,
+    "MutationId": 218
+  },
+  {
+    "ArticleId": 686,
+    "MutationId": 585
+  },
+  {
+    "ArticleId": 686,
+    "MutationId": 611
+  },
+  {
+    "ArticleId": 686,
+    "MutationId": 612
+  },
+  {
+    "ArticleId": 686,
+    "MutationId": 614
+  },
+  {
+    "ArticleId": 687,
+    "MutationId": 309
+  },
+  {
+    "ArticleId": 688,
+    "MutationId": 3
+  },
+  {
+    "ArticleId": 689,
+    "MutationId": 335
+  },
+  {
+    "ArticleId": 690,
+    "MutationId": 252
+  },
+  {
+    "ArticleId": 691,
+    "MutationId": 603
+  },
+  {
+    "ArticleId": 692,
+    "MutationId": 209
+  },
+  {
+    "ArticleId": 693,
+    "MutationId": 361
+  },
+  {
+    "ArticleId": 694,
+    "MutationId": 192
+  },
+  {
+    "ArticleId": 695,
+    "MutationId": 281
+  },
+  {
+    "ArticleId": 696,
+    "MutationId": 165
+  },
+  {
+    "ArticleId": 697,
+    "MutationId": 63
+  },
+  {
+    "ArticleId": 697,
+    "MutationId": 621
+  },
+  {
+    "ArticleId": 697,
+    "MutationId": 628
+  },
+  {
+    "ArticleId": 698,
+    "MutationId": 359
+  },
+  {
+    "ArticleId": 699,
+    "MutationId": 32
+  },
+  {
+    "ArticleId": 699,
+    "MutationId": 197
+  },
+  {
+    "ArticleId": 700,
+    "MutationId": 274
+  },
+  {
+    "ArticleId": 701,
+    "MutationId": 626
+  },
+  {
+    "ArticleId": 702,
+    "MutationId": 614
+  },
+  {
+    "ArticleId": 702,
+    "MutationId": 615
+  },
+  {
+    "ArticleId": 703,
+    "MutationId": 585
+  },
+  {
+    "ArticleId": 703,
+    "MutationId": 615
+  },
+  {
+    "ArticleId": 703,
+    "MutationId": 616
+  },
+  {
+    "ArticleId": 703,
+    "MutationId": 617
+  },
+  {
+    "ArticleId": 704,
+    "MutationId": 387
+  },
+  {
+    "ArticleId": 705,
+    "MutationId": 610
+  },
+  {
+    "ArticleId": 706,
+    "MutationId": 500
+  },
+  {
+    "ArticleId": 707,
+    "MutationId": 14
+  },
+  {
+    "ArticleId": 707,
+    "MutationId": 103
+  },
+  {
+    "ArticleId": 708,
+    "MutationId": 57
+  },
+  {
+    "ArticleId": 708,
+    "MutationId": 94
+  },
+  {
+    "ArticleId": 709,
+    "MutationId": 71
+  },
+  {
+    "ArticleId": 710,
+    "MutationId": 211
+  },
+  {
+    "ArticleId": 711,
+    "MutationId": 313
+  },
+  {
+    "ArticleId": 711,
+    "MutationId": 381
+  },
+  {
+    "ArticleId": 711,
+    "MutationId": 411
+  },
+  {
+    "ArticleId": 712,
+    "MutationId": 179
+  },
+  {
+    "ArticleId": 713,
+    "MutationId": 206
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 312
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 321
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 322
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 327
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 328
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 332
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 336
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 518
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 529
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 530
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 534
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 535
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 540
+  },
+  {
+    "ArticleId": 714,
+    "MutationId": 544
+  },
+  {
+    "ArticleId": 715,
+    "MutationId": 228
+  },
+  {
+    "ArticleId": 715,
+    "MutationId": 253
+  },
+  {
+    "ArticleId": 715,
+    "MutationId": 264
+  },
+  {
+    "ArticleId": 715,
+    "MutationId": 280
+  },
+  {
+    "ArticleId": 715,
+    "MutationId": 283
+  },
+  {
+    "ArticleId": 716,
+    "MutationId": 218
+  },
+  {
+    "ArticleId": 717,
+    "MutationId": 603
+  },
+  {
+    "ArticleId": 717,
+    "MutationId": 610
+  },
+  {
+    "ArticleId": 718,
+    "MutationId": 81
+  },
+  {
+    "ArticleId": 719,
+    "MutationId": 562
+  },
+  {
+    "ArticleId": 720,
+    "MutationId": 428
+  },
+  {
+    "ArticleId": 721,
+    "MutationId": 7
+  },
+  {
+    "ArticleId": 722,
+    "MutationId": 62
+  },
+  {
+    "ArticleId": 723,
+    "MutationId": 585
+  },
+  {
+    "ArticleId": 723,
+    "MutationId": 614
+  },
+  {
+    "ArticleId": 724,
+    "MutationId": 216
+  },
+  {
+    "ArticleId": 725,
+    "MutationId": 127
+  },
+  {
+    "ArticleId": 726,
+    "MutationId": 60
+  },
+  {
+    "ArticleId": 727,
+    "MutationId": 347
+  },
+  {
+    "ArticleId": 728,
+    "MutationId": 46
+  },
+  {
+    "ArticleId": 728,
+    "MutationId": 49
+  },
+  {
+    "ArticleId": 728,
+    "MutationId": 54
+  },
+  {
+    "ArticleId": 728,
+    "MutationId": 122
+  },
+  {
+    "ArticleId": 729,
+    "MutationId": 68
+  },
+  {
+    "ArticleId": 729,
+    "MutationId": 73
+  },
+  {
+    "ArticleId": 729,
+    "MutationId": 87
+  },
+  {
+    "ArticleId": 729,
+    "MutationId": 90
+  },
+  {
+    "ArticleId": 729,
+    "MutationId": 97
+  },
+  {
+    "ArticleId": 729,
+    "MutationId": 105
+  },
+  {
+    "ArticleId": 730,
+    "MutationId": 469
+  },
+  {
+    "ArticleId": 730,
+    "MutationId": 491
+  },
+  {
+    "ArticleId": 731,
+    "MutationId": 128
+  },
+  {
+    "ArticleId": 732,
+    "MutationId": 300
+  },
+  {
+    "ArticleId": 733,
+    "MutationId": 614
+  },
+  {
+    "ArticleId": 734,
+    "MutationId": 282
+  },
+  {
+    "ArticleId": 735,
+    "MutationId": 255
+  },
+  {
+    "ArticleId": 736,
+    "MutationId": 478
+  },
+  {
+    "ArticleId": 736,
+    "MutationId": 490
+  },
+  {
+    "ArticleId": 737,
+    "MutationId": 114
+  },
+  {
+    "ArticleId": 737,
+    "MutationId": 117
+  },
+  {
+    "ArticleId": 737,
+    "MutationId": 221
+  },
+  {
+    "ArticleId": 737,
+    "MutationId": 278
+  },
+  {
+    "ArticleId": 738,
+    "MutationId": 250
+  },
+  {
+    "ArticleId": 739,
+    "MutationId": 603
+  },
+  {
+    "ArticleId": 739,
+    "MutationId": 610
+  },
+  {
+    "ArticleId": 740,
+    "MutationId": 585
+  },
+  {
+    "ArticleId": 741,
+    "MutationId": 302
+  },
+  {
+    "ArticleId": 741,
+    "MutationId": 633
+  },
+  {
+    "ArticleId": 742,
+    "MutationId": 625
+  },
+  {
+    "ArticleId": 742,
+    "MutationId": 628
+  },
+  {
+    "ArticleId": 743,
+    "MutationId": 179
+  },
+  {
+    "ArticleId": 744,
+    "MutationId": 20
+  },
+  {
+    "ArticleId": 745,
+    "MutationId": 212
+  },
+  {
+    "ArticleId": 745,
+    "MutationId": 215
+  },
+  {
+    "ArticleId": 746,
+    "MutationId": 456
+  },
+  {
+    "ArticleId": 747,
+    "MutationId": 64
+  },
+  {
+    "ArticleId": 748,
+    "MutationId": 533
+  },
+  {
+    "ArticleId": 748,
+    "MutationId": 574
+  },
+  {
+    "ArticleId": 749,
+    "MutationId": 603
+  },
+  {
+    "ArticleId": 749,
+    "MutationId": 610
+  },
+  {
+    "ArticleId": 750,
+    "MutationId": 580
+  },
+  {
+    "ArticleId": 750,
+    "MutationId": 581
+  },
+  {
+    "ArticleId": 750,
+    "MutationId": 584
+  },
+  {
+    "ArticleId": 751,
+    "MutationId": 241
+  },
+  {
+    "ArticleId": 751,
+    "MutationId": 244
+  },
+  {
+    "ArticleId": 752,
+    "MutationId": 558
+  },
+  {
+    "ArticleId": 752,
+    "MutationId": 560
+  },
+  {
+    "ArticleId": 752,
+    "MutationId": 568
+  },
+  {
+    "ArticleId": 753,
+    "MutationId": 61
+  },
+  {
+    "ArticleId": 754,
+    "MutationId": 126
+  },
+  {
+    "ArticleId": 755,
+    "MutationId": 99
+  },
+  {
+    "ArticleId": 756,
+    "MutationId": 253
+  },
+  {
+    "ArticleId": 757,
+    "MutationId": 629
+  },
+  {
+    "ArticleId": 758,
+    "MutationId": 213
+  },
+  {
+    "ArticleId": 759,
+    "MutationId": 395
+  },
+  {
+    "ArticleId": 760,
+    "MutationId": 64
+  },
+  {
+    "ArticleId": 761,
+    "MutationId": 288
+  },
+  {
+    "ArticleId": 762,
+    "MutationId": 367
+  },
+  {
+    "ArticleId": 763,
+    "MutationId": 571
+  },
+  {
+    "ArticleId": 764,
+    "MutationId": 265
+  },
+  {
+    "ArticleId": 764,
+    "MutationId": 269
+  },
+  {
+    "ArticleId": 764,
+    "MutationId": 285
+  },
+  {
+    "ArticleId": 765,
+    "MutationId": 331
+  },
+  {
+    "ArticleId": 766,
+    "MutationId": 341
+  },
+  {
+    "ArticleId": 767,
+    "MutationId": 95
+  },
+  {
+    "ArticleId": 768,
+    "MutationId": 580
+  },
+  {
+    "ArticleId": 768,
+    "MutationId": 600
+  },
+  {
+    "ArticleId": 769,
+    "MutationId": 265
+  },
+  {
+    "ArticleId": 769,
+    "MutationId": 269
+  },
+  {
+    "ArticleId": 769,
+    "MutationId": 285
+  },
+  {
+    "ArticleId": 769,
+    "MutationId": 287
+  },
+  {
+    "ArticleId": 770,
+    "MutationId": 575
+  },
+  {
+    "ArticleId": 771,
+    "MutationId": 613
+  },
+  {
+    "ArticleId": 772,
+    "MutationId": 13
+  },
+  {
+    "ArticleId": 772,
+    "MutationId": 102
+  },
+  {
+    "ArticleId": 773,
+    "MutationId": 26
+  },
+  {
+    "ArticleId": 773,
+    "MutationId": 196
+  },
+  {
+    "ArticleId": 774,
+    "MutationId": 13
+  },
+  {
+    "ArticleId": 774,
+    "MutationId": 102
+  },
+  {
+    "ArticleId": 775,
+    "MutationId": 3
+  },
+  {
+    "ArticleId": 776,
+    "MutationId": 542
+  },
+  {
+    "ArticleId": 777,
+    "MutationId": 86
+  },
+  {
+    "ArticleId": 778,
+    "MutationId": 2
+  },
+  {
+    "ArticleId": 779,
+    "MutationId": 153
+  },
+  {
+    "ArticleId": 779,
+    "MutationId": 165
+  },
+  {
+    "ArticleId": 780,
+    "MutationId": 26
+  },
+  {
+    "ArticleId": 780,
+    "MutationId": 196
+  },
+  {
+    "ArticleId": 781,
+    "MutationId": 162
+  },
+  {
+    "ArticleId": 781,
+    "MutationId": 165
+  },
+  {
+    "ArticleId": 782,
+    "MutationId": 300
+  },
+  {
+    "ArticleId": 783,
+    "MutationId": 5
+  },
+  {
+    "ArticleId": 784,
+    "MutationId": 63
+  },
+  {
+    "ArticleId": 785,
+    "MutationId": 130
+  },
+  {
+    "ArticleId": 786,
+    "MutationId": 291
+  },
+  {
+    "ArticleId": 787,
+    "MutationId": 603
+  },
+  {
+    "ArticleId": 787,
+    "MutationId": 610
+  },
+  {
+    "ArticleId": 788,
+    "MutationId": 136
+  },
+  {
+    "ArticleId": 789,
+    "MutationId": 436
+  },
+  {
+    "ArticleId": 790,
+    "MutationId": 71
+  },
+  {
+    "ArticleId": 790,
+    "MutationId": 85
+  },
+  {
+    "ArticleId": 791,
+    "MutationId": 546
+  },
+  {
+    "ArticleId": 792,
+    "MutationId": 9
+  },
+  {
+    "ArticleId": 793,
+    "MutationId": 282
+  },
+  {
+    "ArticleId": 794,
+    "MutationId": 151
+  },
+  {
+    "ArticleId": 794,
+    "MutationId": 160
+  },
+  {
+    "ArticleId": 794,
+    "MutationId": 164
+  },
+  {
+    "ArticleId": 794,
+    "MutationId": 172
+  },
+  {
+    "ArticleId": 794,
+    "MutationId": 175
+  },
+  {
+    "ArticleId": 794,
+    "MutationId": 178
+  },
+  {
+    "ArticleId": 794,
+    "MutationId": 182
+  },
+  {
+    "ArticleId": 795,
+    "MutationId": 367
+  },
+  {
+    "ArticleId": 795,
+    "MutationId": 392
+  },
+  {
+    "ArticleId": 795,
+    "MutationId": 402
+  },
+  {
+    "ArticleId": 795,
+    "MutationId": 408
+  },
+  {
+    "ArticleId": 796,
+    "MutationId": 291
+  },
+  {
+    "ArticleId": 797,
+    "MutationId": 487
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 360
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 371
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 375
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 385
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 405
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 512
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 557
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 559
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 561
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 562
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 563
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 565
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 569
+  },
+  {
+    "ArticleId": 798,
+    "MutationId": 572
+  },
+  {
+    "ArticleId": 799,
+    "MutationId": 585
+  },
+  {
+    "ArticleId": 799,
+    "MutationId": 612
+  },
+  {
+    "ArticleId": 799,
+    "MutationId": 617
+  },
+  {
+    "ArticleId": 800,
+    "MutationId": 135
+  },
+  {
+    "ArticleId": 801,
+    "MutationId": 214
+  },
+  {
+    "ArticleId": 801,
+    "MutationId": 216
+  },
+  {
+    "ArticleId": 802,
+    "MutationId": 62
+  },
+  {
+    "ArticleId": 803,
+    "MutationId": 96
+  },
+  {
+    "ArticleId": 804,
+    "MutationId": 391
+  },
+  {
+    "ArticleId": 805,
+    "MutationId": 26
+  },
+  {
+    "ArticleId": 805,
+    "MutationId": 28
+  },
+  {
+    "ArticleId": 805,
+    "MutationId": 196
+  },
+  {
+    "ArticleId": 806,
+    "MutationId": 621
+  },
+  {
+    "ArticleId": 807,
+    "MutationId": 621
+  },
+  {
+    "ArticleId": 807,
+    "MutationId": 626
+  },
+  {
+    "ArticleId": 808,
+    "MutationId": 153
+  },
+  {
+    "ArticleId": 808,
+    "MutationId": 165
+  },
+  {
+    "ArticleId": 809,
+    "MutationId": 614
+  },
+  {
+    "ArticleId": 810,
+    "MutationId": 254
+  },
+  {
+    "ArticleId": 810,
+    "MutationId": 256
+  },
+  {
+    "ArticleId": 811,
+    "MutationId": 148
+  },
+  {
+    "ArticleId": 812,
+    "MutationId": 263
+  },
+  {
+    "ArticleId": 812,
+    "MutationId": 267
+  },
+  {
+    "ArticleId": 812,
+    "MutationId": 270
+  },
+  {
+    "ArticleId": 812,
+    "MutationId": 271
+  },
+  {
+    "ArticleId": 812,
+    "MutationId": 273
+  },
+  {
+    "ArticleId": 812,
+    "MutationId": 276
+  },
+  {
+    "ArticleId": 812,
+    "MutationId": 279
+  },
+  {
+    "ArticleId": 812,
+    "MutationId": 286
+  },
+  {
+    "ArticleId": 812,
+    "MutationId": 292
+  },
+  {
+    "ArticleId": 812,
+    "MutationId": 295
+  },
+  {
+    "ArticleId": 812,
+    "MutationId": 301
+  },
+  {
+    "ArticleId": 812,
+    "MutationId": 303
+  },
+  {
+    "ArticleId": 813,
+    "MutationId": 48
+  },
+  {
+    "ArticleId": 813,
+    "MutationId": 53
+  },
+  {
+    "ArticleId": 813,
+    "MutationId": 121
+  },
+  {
+    "ArticleId": 813,
+    "MutationId": 580
+  },
+  {
+    "ArticleId": 813,
+    "MutationId": 581
+  },
+  {
+    "ArticleId": 813,
+    "MutationId": 584
+  },
+  {
+    "ArticleId": 814,
+    "MutationId": 298
+  },
+  {
+    "ArticleId": 815,
+    "MutationId": 245
+  },
+  {
+    "ArticleId": 816,
+    "MutationId": 291
+  },
+  {
+    "ArticleId": 817,
+    "MutationId": 315
+  },
+  {
+    "ArticleId": 817,
+    "MutationId": 318
+  },
+  {
+    "ArticleId": 818,
+    "MutationId": 25
+  },
+  {
+    "ArticleId": 819,
+    "MutationId": 630
+  },
+  {
+    "ArticleId": 820,
+    "MutationId": 299
+  },
+  {
+    "ArticleId": 820,
+    "MutationId": 630
+  },
+  {
+    "ArticleId": 821,
+    "MutationId": 34
+  },
+  {
+    "ArticleId": 821,
+    "MutationId": 195
+  },
+  {
+    "ArticleId": 822,
+    "MutationId": 143
+  },
+  {
+    "ArticleId": 823,
+    "MutationId": 44
+  },
+  {
+    "ArticleId": 823,
+    "MutationId": 59
+  },
+  {
+    "ArticleId": 824,
+    "MutationId": 162
+  },
+  {
+    "ArticleId": 825,
+    "MutationId": 281
+  },
+  {
+    "ArticleId": 826,
+    "MutationId": 621
+  },
+  {
+    "ArticleId": 826,
+    "MutationId": 626
+  },
+  {
+    "ArticleId": 827,
+    "MutationId": 24
+  },
+  {
+    "ArticleId": 827,
+    "MutationId": 42
+  },
+  {
+    "ArticleId": 828,
+    "MutationId": 61
+  },
+  {
+    "ArticleId": 829,
+    "MutationId": 225
+  },
+  {
+    "ArticleId": 830,
+    "MutationId": 210
+  },
+  {
+    "ArticleId": 831,
+    "MutationId": 631
+  },
+  {
+    "ArticleId": 832,
+    "MutationId": 294
+  },
+  {
+    "ArticleId": 833,
+    "MutationId": 228
+  },
+  {
+    "ArticleId": 833,
+    "MutationId": 283
+  },
+  {
+    "ArticleId": 834,
+    "MutationId": 222
+  },
+  {
+    "ArticleId": 835,
+    "MutationId": 66
+  },
+  {
+    "ArticleId": 836,
+    "MutationId": 86
+  },
+  {
+    "ArticleId": 837,
+    "MutationId": 222
+  },
+  {
+    "ArticleId": 838,
+    "MutationId": 249
+  },
+  {
+    "ArticleId": 838,
+    "MutationId": 250
+  },
+  {
+    "ArticleId": 839,
+    "MutationId": 297
+  },
+  {
+    "ArticleId": 840,
+    "MutationId": 252
+  },
+  {
+    "ArticleId": 841,
+    "MutationId": 201
+  },
+  {
+    "ArticleId": 842,
+    "MutationId": 227
+  },
+  {
+    "ArticleId": 843,
+    "MutationId": 71
+  },
+  {
+    "ArticleId": 844,
+    "MutationId": 623
+  },
+  {
+    "ArticleId": 845,
+    "MutationId": 580
+  },
+  {
+    "ArticleId": 845,
+    "MutationId": 581
+  },
+  {
+    "ArticleId": 846,
+    "MutationId": 240
+  },
+  {
+    "ArticleId": 846,
+    "MutationId": 243
+  },
+  {
+    "ArticleId": 847,
+    "MutationId": 153
+  },
+  {
+    "ArticleId": 848,
+    "MutationId": 356
+  },
+  {
+    "ArticleId": 849,
+    "MutationId": 201
+  },
+  {
+    "ArticleId": 850,
+    "MutationId": 61
+  },
+  {
+    "ArticleId": 851,
+    "MutationId": 613
+  },
+  {
+    "ArticleId": 852,
+    "MutationId": 268
+  },
+  {
+    "ArticleId": 852,
+    "MutationId": 278
+  },
+  {
+    "ArticleId": 853,
+    "MutationId": 136
+  },
+  {
+    "ArticleId": 854,
+    "MutationId": 20
+  },
+  {
+    "ArticleId": 855,
+    "MutationId": 12
+  },
+  {
+    "ArticleId": 856,
+    "MutationId": 274
+  },
+  {
+    "ArticleId": 857,
+    "MutationId": 584
+  },
+  {
+    "ArticleId": 858,
+    "MutationId": 12
+  },
+  {
+    "ArticleId": 858,
+    "MutationId": 101
+  },
+  {
+    "ArticleId": 859,
+    "MutationId": 153
+  },
+  {
+    "ArticleId": 859,
+    "MutationId": 162
+  },
+  {
+    "ArticleId": 859,
+    "MutationId": 165
+  },
+  {
+    "ArticleId": 860,
+    "MutationId": 208
+  },
+  {
+    "ArticleId": 860,
+    "MutationId": 229
+  },
+  {
+    "ArticleId": 860,
+    "MutationId": 231
+  },
+  {
+    "ArticleId": 860,
+    "MutationId": 232
+  },
+  {
+    "ArticleId": 860,
+    "MutationId": 247
+  },
+  {
+    "ArticleId": 860,
+    "MutationId": 251
+  },
+  {
+    "ArticleId": 860,
+    "MutationId": 262
+  },
+  {
+    "ArticleId": 861,
+    "MutationId": 613
+  },
+  {
+    "ArticleId": 862,
+    "MutationId": 63
+  },
+  {
+    "ArticleId": 863,
+    "MutationId": 13
+  },
+  {
+    "ArticleId": 863,
+    "MutationId": 102
+  },
+  {
+    "ArticleId": 864,
+    "MutationId": 162
+  },
+  {
+    "ArticleId": 865,
+    "MutationId": 133
+  },
+  {
+    "ArticleId": 866,
+    "MutationId": 55
+  },
+  {
+    "ArticleId": 866,
+    "MutationId": 199
+  },
+  {
+    "ArticleId": 867,
+    "MutationId": 265
+  },
+  {
+    "ArticleId": 867,
+    "MutationId": 269
+  },
+  {
+    "ArticleId": 867,
+    "MutationId": 285
+  },
+  {
+    "ArticleId": 868,
+    "MutationId": 240
+  },
+  {
+    "ArticleId": 868,
+    "MutationId": 243
+  },
+  {
+    "ArticleId": 869,
+    "MutationId": 99
+  },
+  {
+    "ArticleId": 870,
+    "MutationId": 561
+  },
+  {
+    "ArticleId": 871,
+    "MutationId": 580
+  },
+  {
+    "ArticleId": 871,
+    "MutationId": 592
+  },
+  {
+    "ArticleId": 872,
+    "MutationId": 85
+  },
+  {
+    "ArticleId": 873,
+    "MutationId": 623
+  },
+  {
+    "ArticleId": 874,
+    "MutationId": 228
+  },
+  {
+    "ArticleId": 874,
+    "MutationId": 253
+  },
+  {
+    "ArticleId": 874,
+    "MutationId": 264
+  },
+  {
+    "ArticleId": 874,
+    "MutationId": 280
+  },
+  {
+    "ArticleId": 874,
+    "MutationId": 283
+  },
+  {
+    "ArticleId": 875,
+    "MutationId": 272
+  },
+  {
+    "ArticleId": 876,
+    "MutationId": 613
+  },
+  {
+    "ArticleId": 877,
+    "MutationId": 298
+  },
+  {
+    "ArticleId": 878,
+    "MutationId": 144
+  },
+  {
+    "ArticleId": 879,
+    "MutationId": 136
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 149
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 150
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 155
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 156
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 159
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 161
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 163
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 170
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 171
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 173
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 174
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 176
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 177
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 180
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 181
+  },
+  {
+    "ArticleId": 880,
+    "MutationId": 242
+  },
+  {
+    "ArticleId": 881,
+    "MutationId": 209
+  },
+  {
+    "ArticleId": 882,
+    "MutationId": 63
+  },
+  {
+    "ArticleId": 883,
+    "MutationId": 14
+  },
+  {
+    "ArticleId": 883,
+    "MutationId": 103
+  },
+  {
+    "ArticleId": 884,
+    "MutationId": 126
+  },
+  {
+    "ArticleId": 885,
+    "MutationId": 44
+  },
+  {
+    "ArticleId": 886,
+    "MutationId": 388
+  },
+  {
+    "ArticleId": 887,
+    "MutationId": 604
+  },
+  {
+    "ArticleId": 887,
+    "MutationId": 606
+  },
+  {
+    "ArticleId": 888,
+    "MutationId": 228
+  },
+  {
+    "ArticleId": 888,
+    "MutationId": 264
+  },
+  {
+    "ArticleId": 888,
+    "MutationId": 280
+  },
+  {
+    "ArticleId": 888,
+    "MutationId": 283
+  },
+  {
+    "ArticleId": 889,
+    "MutationId": 55
+  },
+  {
+    "ArticleId": 889,
+    "MutationId": 199
+  },
+  {
+    "ArticleId": 890,
+    "MutationId": 158
+  },
+  {
+    "ArticleId": 890,
+    "MutationId": 207
+  },
+  {
+    "ArticleId": 890,
+    "MutationId": 266
+  },
+  {
+    "ArticleId": 891,
+    "MutationId": 230
+  },
+  {
+    "ArticleId": 891,
+    "MutationId": 239
+  },
+  {
+    "ArticleId": 892,
+    "MutationId": 26
+  },
+  {
+    "ArticleId": 892,
+    "MutationId": 196
+  },
+  {
+    "ArticleId": 893,
+    "MutationId": 26
+  },
+  {
+    "ArticleId": 893,
+    "MutationId": 196
+  },
+  {
+    "ArticleId": 894,
+    "MutationId": 26
+  },
+  {
+    "ArticleId": 894,
+    "MutationId": 196
+  },
+  {
+    "ArticleId": 895,
+    "MutationId": 222
+  },
+  {
+    "ArticleId": 896,
+    "MutationId": 213
+  },
+  {
+    "ArticleId": 897,
+    "MutationId": 272
+  },
+  {
+    "ArticleId": 898,
+    "MutationId": 236
+  },
+  {
+    "ArticleId": 899,
+    "MutationId": 94
+  },
+  {
+    "ArticleId": 900,
+    "MutationId": 630
+  },
+  {
+    "ArticleId": 901,
+    "MutationId": 16
+  },
+  {
+    "ArticleId": 901,
+    "MutationId": 17
+  },
+  {
+    "ArticleId": 901,
+    "MutationId": 43
+  },
+  {
+    "ArticleId": 901,
+    "MutationId": 264
+  },
+  {
+    "ArticleId": 901,
+    "MutationId": 280
+  },
+  {
+    "ArticleId": 901,
+    "MutationId": 283
+  },
+  {
+    "ArticleId": 902,
+    "MutationId": 245
+  },
+  {
+    "ArticleId": 903,
+    "MutationId": 236
+  },
+  {
+    "ArticleId": 904,
+    "MutationId": 580
+  },
+  {
+    "ArticleId": 905,
+    "MutationId": 166
+  },
+  {
+    "ArticleId": 906,
+    "MutationId": 165
+  },
+  {
+    "ArticleId": 907,
+    "MutationId": 14
+  },
+  {
+    "ArticleId": 907,
+    "MutationId": 103
+  },
+  {
+    "ArticleId": 908,
+    "MutationId": 214
+  },
+  {
+    "ArticleId": 909,
+    "MutationId": 218
+  },
+  {
+    "ArticleId": 910,
+    "MutationId": 6
+  },
+  {
+    "ArticleId": 910,
+    "MutationId": 148
+  },
+  {
+    "ArticleId": 911,
+    "MutationId": 201
+  },
+  {
+    "ArticleId": 912,
+    "MutationId": 94
+  },
+  {
+    "ArticleId": 913,
+    "MutationId": 135
+  },
+  {
+    "ArticleId": 914,
+    "MutationId": 64
+  },
+  {
+    "ArticleId": 915,
+    "MutationId": 84
+  },
+  {
+    "ArticleId": 916,
+    "MutationId": 213
+  },
+  {
+    "ArticleId": 917,
+    "MutationId": 99
+  },
+  {
+    "ArticleId": 918,
+    "MutationId": 32
+  },
+  {
+    "ArticleId": 919,
+    "MutationId": 592
+  },
+  {
+    "ArticleId": 920,
+    "MutationId": 299
+  },
+  {
+    "ArticleId": 920,
+    "MutationId": 630
+  },
+  {
+    "ArticleId": 921,
+    "MutationId": 95
+  },
+  {
+    "ArticleId": 922,
+    "MutationId": 138
+  },
+  {
+    "ArticleId": 923,
+    "MutationId": 137
+  },
+  {
+    "ArticleId": 924,
+    "MutationId": 49
+  },
+  {
+    "ArticleId": 924,
+    "MutationId": 54
+  },
+  {
+    "ArticleId": 924,
+    "MutationId": 122
+  },
+  {
+    "ArticleId": 925,
+    "MutationId": 294
+  },
+  {
+    "ArticleId": 926,
+    "MutationId": 166
+  },
+  {
+    "ArticleId": 927,
+    "MutationId": 165
+  },
+  {
+    "ArticleId": 928,
+    "MutationId": 580
+  },
+  {
+    "ArticleId": 929,
+    "MutationId": 135
+  },
+  {
+    "ArticleId": 930,
+    "MutationId": 7
+  },
+  {
+    "ArticleId": 931,
+    "MutationId": 45
+  },
+  {
+    "ArticleId": 932,
+    "MutationId": 157
+  },
+  {
+    "ArticleId": 933,
+    "MutationId": 183
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 10
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 15
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 27
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 50
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 72
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 77
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 80
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 83
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 106
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 110
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 113
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 115
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 118
+  },
+  {
+    "ArticleId": 934,
+    "MutationId": 120
+  },
+  {
+    "ArticleId": 935,
+    "MutationId": 13
+  },
+  {
+    "ArticleId": 935,
+    "MutationId": 102
+  },
+  {
+    "ArticleId": 936,
+    "MutationId": 76
+  },
+  {
+    "ArticleId": 937,
+    "MutationId": 230
+  },
+  {
+    "ArticleId": 937,
+    "MutationId": 239
+  },
+  {
+    "ArticleId": 938,
+    "MutationId": 141
+  },
+  {
+    "ArticleId": 939,
+    "MutationId": 78
+  },
+  {
+    "ArticleId": 940,
+    "MutationId": 194
+  },
+  {
+    "ArticleId": 941,
+    "MutationId": 293
+  },
+  {
+    "ArticleId": 942,
+    "MutationId": 30
+  },
+  {
+    "ArticleId": 942,
+    "MutationId": 33
+  },
+  {
+    "ArticleId": 942,
+    "MutationId": 36
+  },
+  {
+    "ArticleId": 942,
+    "MutationId": 38
+  },
+  {
+    "ArticleId": 942,
+    "MutationId": 39
+  },
+  {
+    "ArticleId": 942,
+    "MutationId": 40
+  },
+  {
+    "ArticleId": 942,
+    "MutationId": 193
+  },
+  {
+    "ArticleId": 943,
+    "MutationId": 225
+  },
+  {
+    "ArticleId": 944,
+    "MutationId": 19
+  },
+  {
+    "ArticleId": 945,
+    "MutationId": 56
+  },
+  {
+    "ArticleId": 946,
+    "MutationId": 237
+  },
+  {
+    "ArticleId": 947,
+    "MutationId": 219
+  },
+  {
+    "ArticleId": 948,
+    "MutationId": 35
+  },
+  {
+    "ArticleId": 949,
+    "MutationId": 245
+  },
+  {
+    "ArticleId": 950,
+    "MutationId": 150
+  },
+  {
+    "ArticleId": 950,
+    "MutationId": 156
+  },
+  {
+    "ArticleId": 950,
+    "MutationId": 163
+  },
+  {
+    "ArticleId": 950,
+    "MutationId": 170
+  },
+  {
+    "ArticleId": 950,
+    "MutationId": 174
+  },
+  {
+    "ArticleId": 950,
+    "MutationId": 177
+  },
+  {
+    "ArticleId": 950,
+    "MutationId": 181
+  },
+  {
+    "ArticleId": 951,
+    "MutationId": 116
+  },
+  {
+    "ArticleId": 951,
+    "MutationId": 191
+  },
+  {
+    "ArticleId": 952,
+    "MutationId": 29
+  },
+  {
+    "ArticleId": 953,
+    "MutationId": 162
+  },
+  {
+    "ArticleId": 954,
+    "MutationId": 1
+  },
+  {
+    "ArticleId": 955,
+    "MutationId": 580
+  },
+  {
+    "ArticleId": 955,
+    "MutationId": 581
+  },
+  {
+    "ArticleId": 956,
+    "MutationId": 18
+  },
+  {
+    "ArticleId": 957,
+    "MutationId": 18
+  },
+  {
+    "ArticleId": 958,
+    "MutationId": 287
+  },
+  {
+    "ArticleId": 959,
+    "MutationId": 108
+  },
+  {
+    "ArticleId": 960,
+    "MutationId": 162
+  },
+  {
+    "ArticleId": 961,
+    "MutationId": 131
+  },
+  {
+    "ArticleId": 962,
+    "MutationId": 76
+  },
+  {
+    "ArticleId": 963,
+    "MutationId": 288
+  },
+  {
+    "ArticleId": 964,
+    "MutationId": 298
+  },
+  {
+    "ArticleId": 965,
+    "MutationId": 233
+  },
+  {
+    "ArticleId": 966,
+    "MutationId": 291
+  },
+  {
+    "ArticleId": 967,
+    "MutationId": 447
+  },
+  {
+    "ArticleId": 968,
+    "MutationId": 242
+  },
+  {
+    "ArticleId": 969,
+    "MutationId": 264
+  },
+  {
+    "ArticleId": 969,
+    "MutationId": 280
+  },
+  {
+    "ArticleId": 969,
+    "MutationId": 283
+  },
+  {
+    "ArticleId": 970,
+    "MutationId": 296
+  },
+  {
+    "ArticleId": 971,
+    "MutationId": 594
+  },
+  {
+    "ArticleId": 972,
+    "MutationId": 290
+  },
+  {
+    "ArticleId": 973,
+    "MutationId": 265
+  },
+  {
+    "ArticleId": 973,
+    "MutationId": 269
+  },
+  {
+    "ArticleId": 973,
+    "MutationId": 285
+  },
+  {
+    "ArticleId": 974,
+    "MutationId": 166
+  },
+  {
+    "ArticleId": 974,
+    "MutationId": 198
+  },
+  {
+    "ArticleId": 975,
+    "MutationId": 290
+  },
+  {
+    "ArticleId": 976,
+    "MutationId": 145
+  },
+  {
+    "ArticleId": 977,
+    "MutationId": 185
+  },
+  {
+    "ArticleId": 978,
+    "MutationId": 281
+  },
+  {
+    "ArticleId": 979,
+    "MutationId": 316
+  },
+  {
+    "ArticleId": 980,
+    "MutationId": 427
+  },
+  {
+    "ArticleId": 981,
+    "MutationId": 426
+  },
+  {
+    "ArticleId": 982,
+    "MutationId": 66
+  },
+  {
+    "ArticleId": 983,
+    "MutationId": 546
+  },
+  {
+    "ArticleId": 983,
+    "MutationId": 549
+  },
+  {
+    "ArticleId": 984,
+    "MutationId": 456
+  },
+  {
+    "ArticleId": 985,
+    "MutationId": 470
+  },
+  {
+    "ArticleId": 986,
+    "MutationId": 525
+  },
+  {
+    "ArticleId": 987,
+    "MutationId": 263
+  },
+  {
+    "ArticleId": 987,
+    "MutationId": 267
+  },
+  {
+    "ArticleId": 987,
+    "MutationId": 270
+  },
+  {
+    "ArticleId": 987,
+    "MutationId": 271
+  },
+  {
+    "ArticleId": 987,
+    "MutationId": 273
+  },
+  {
+    "ArticleId": 987,
+    "MutationId": 276
+  },
+  {
+    "ArticleId": 987,
+    "MutationId": 279
+  },
+  {
+    "ArticleId": 987,
+    "MutationId": 286
+  },
+  {
+    "ArticleId": 987,
+    "MutationId": 292
+  },
+  {
+    "ArticleId": 987,
+    "MutationId": 295
+  },
+  {
+    "ArticleId": 987,
+    "MutationId": 301
+  },
+  {
+    "ArticleId": 987,
+    "MutationId": 303
+  },
+  {
+    "ArticleId": 988,
+    "MutationId": 347
+  },
+  {
+    "ArticleId": 989,
+    "MutationId": 124
+  },
+  {
+    "ArticleId": 990,
+    "MutationId": 210
+  },
+  {
+    "ArticleId": 991,
+    "MutationId": 49
+  },
+  {
+    "ArticleId": 991,
+    "MutationId": 54
+  },
+  {
+    "ArticleId": 991,
+    "MutationId": 122
+  },
+  {
+    "ArticleId": 992,
+    "MutationId": 60
+  },
+  {
+    "ArticleId": 993,
+    "MutationId": 85
+  },
+  {
+    "ArticleId": 994,
+    "MutationId": 46
+  },
+  {
+    "ArticleId": 995,
+    "MutationId": 49
+  },
+  {
+    "ArticleId": 995,
+    "MutationId": 54
+  },
+  {
+    "ArticleId": 995,
+    "MutationId": 122
+  },
+  {
+    "ArticleId": 996,
+    "MutationId": 203
+  },
+  {
+    "ArticleId": 997,
+    "MutationId": 241
+  },
+  {
+    "ArticleId": 997,
+    "MutationId": 243
+  },
+  {
+    "ArticleId": 998,
+    "MutationId": 139
+  },
+  {
+    "ArticleId": 999,
+    "MutationId": 234
+  },
+  {
+    "ArticleId": 1000,
+    "MutationId": 56
+  },
+  {
+    "ArticleId": 1001,
+    "MutationId": 74
+  },
+  {
+    "ArticleId": 1002,
+    "MutationId": 266
+  },
+  {
+    "ArticleId": 1003,
+    "MutationId": 37
+  },
+  {
+    "ArticleId": 1003,
+    "MutationId": 42
+  },
+  {
+    "ArticleId": 1004,
+    "MutationId": 234
+  },
+  {
+    "ArticleId": 1005,
+    "MutationId": 147
+  },
+  {
+    "ArticleId": 1006,
+    "MutationId": 238
+  },
+  {
+    "ArticleId": 1007,
+    "MutationId": 18
+  },
+  {
+    "ArticleId": 1008,
+    "MutationId": 47
+  },
+  {
+    "ArticleId": 1009,
+    "MutationId": 58
+  },
+  {
+    "ArticleId": 1009,
+    "MutationId": 111
+  },
+  {
+    "ArticleId": 1010,
+    "MutationId": 623
+  },
+  {
+    "ArticleId": 1011,
+    "MutationId": 204
+  },
+  {
+    "ArticleId": 1012,
+    "MutationId": 244
+  },
+  {
+    "ArticleId": 1013,
+    "MutationId": 22
+  },
+  {
+    "ArticleId": 1014,
+    "MutationId": 194
+  },
+  {
+    "ArticleId": 1015,
+    "MutationId": 112
+  },
+  {
+    "ArticleId": 1016,
+    "MutationId": 46
+  },
+  {
+    "ArticleId": 1017,
+    "MutationId": 227
+  },
+  {
+    "ArticleId": 1018,
+    "MutationId": 246
+  },
+  {
+    "ArticleId": 1019,
+    "MutationId": 284
+  },
+  {
+    "ArticleId": 1020,
+    "MutationId": 220
+  },
+  {
+    "ArticleId": 1021,
+    "MutationId": 222
+  },
+  {
+    "ArticleId": 1022,
+    "MutationId": 119
+  },
+  {
+    "ArticleId": 1023,
+    "MutationId": 233
+  },
+  {
+    "ArticleId": 1024,
+    "MutationId": 95
+  },
+  {
+    "ArticleId": 1025,
+    "MutationId": 49
+  },
+  {
+    "ArticleId": 1025,
+    "MutationId": 54
+  },
+  {
+    "ArticleId": 1025,
+    "MutationId": 122
+  },
+  {
+    "ArticleId": 1026,
+    "MutationId": 228
+  },
+  {
+    "ArticleId": 1026,
+    "MutationId": 283
+  },
+  {
+    "ArticleId": 1027,
+    "MutationId": 12
+  },
+  {
+    "ArticleId": 1027,
+    "MutationId": 101
+  },
+  {
+    "ArticleId": 1028,
+    "MutationId": 64
+  },
+  {
+    "ArticleId": 1029,
+    "MutationId": 24
+  },
+  {
+    "ArticleId": 1030,
+    "MutationId": 248
+  },
+  {
+    "ArticleId": 1031,
+    "MutationId": 24
+  },
+  {
+    "ArticleId": 1031,
+    "MutationId": 42
+  },
+  {
+    "ArticleId": 1032,
+    "MutationId": 581
+  },
+  {
+    "ArticleId": 1032,
+    "MutationId": 600
+  },
+  {
+    "ArticleId": 1033,
+    "MutationId": 112
+  },
+  {
+    "ArticleId": 1034,
+    "MutationId": 290
+  },
+  {
+    "ArticleId": 1035,
+    "MutationId": 35
+  },
+  {
+    "ArticleId": 1036,
+    "MutationId": 290
+  },
+  {
+    "ArticleId": 1037,
+    "MutationId": 58
+  },
+  {
+    "ArticleId": 1037,
+    "MutationId": 111
+  },
+  {
+    "ArticleId": 1038,
+    "MutationId": 104
+  },
+  {
+    "ArticleId": 1039,
+    "MutationId": 23
+  },
+  {
+    "ArticleId": 1039,
+    "MutationId": 41
+  },
+  {
+    "ArticleId": 1040,
+    "MutationId": 65
+  }
+]

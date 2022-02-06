@@ -1,0 +1,28 @@
+[
+  {
+    "Id": 1,
+    "Name": "Tran Van A",
+    "Gender": "Nam",
+    "Age": 36,
+    "BirthPlace": "Hà Nội",
+    "Country": "Việt Nam",
+    "PhoneNumber": "0437563326",
+    "Address": "Số 1, Đai Cồ Việt, Hai Bà Trưng",
+    "Origin": "Other",
+    "SampleType": "Pb",
+    "OtherDisease": "None",
+    "ReceiveDate": null,
+    "BarCode": 69,
+    "KeepMethod": 3,
+    "TransportMethod": 3,
+    "InspectHospital": "Bệnh viện Việt Đức",
+    "InspectDepartment": "Khoa thần kinh",
+    "InsectDoctor": "Nguyễn Hồng Quang",
+    "InspectDate": null,
+    "ReceiveState": "None",
+    "DoctorPhone": "01635538756",
+    "Sales": "LABO TH",
+    "Agent": "None",
+    "Explain": "This sample is detected with MLH1 NM_000249.4(MLH1):c.677+1G>T, Splice Donor Variant mutation .#This sample is detected with EGFR NM_005228.5(EGFR):c.865G>A (p.Ala289Thr), Missense Variant mutation .#This sample is detected with TP53 NM_000546.6(TP53):c.380C>A (p.Ser127Tyr), Missense Variant mutation .#"
+  }
+]

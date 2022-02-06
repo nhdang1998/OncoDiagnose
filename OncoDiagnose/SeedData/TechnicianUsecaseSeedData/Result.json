@@ -1,0 +1,352 @@
+[
+  {
+    "Id": 1,
+    "TestId": 1,
+    "GeneName": "ABL1",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 2,
+    "TestId": 1,
+    "GeneName": "AKT1",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 3,
+    "TestId": 1,
+    "GeneName": "ALK",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 4,
+    "TestId": 1,
+    "GeneName": "APC",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 5,
+    "TestId": 1,
+    "GeneName": "ATM",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 6,
+    "TestId": 1,
+    "GeneName": "BRAF",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 7,
+    "TestId": 1,
+    "GeneName": "CDH1",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 8,
+    "TestId": 1,
+    "GeneName": "CDKN2A",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 9,
+    "TestId": 1,
+    "GeneName": "CSF1R",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 10,
+    "TestId": 1,
+    "GeneName": "CTNNB1",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 11,
+    "TestId": 1,
+    "GeneName": "EGFR",
+    "Variant": "A289T",
+    "Frequence": 0.1
+  },
+  {
+    "Id": 12,
+    "TestId": 1,
+    "GeneName": "ERBB2",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 13,
+    "TestId": 1,
+    "GeneName": "ERBB4",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 14,
+    "TestId": 1,
+    "GeneName": "EZH2",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 15,
+    "TestId": 1,
+    "GeneName": "FBXW7",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 16,
+    "TestId": 1,
+    "GeneName": "FGFR1",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 17,
+    "TestId": 1,
+    "GeneName": "FGFR2",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 18,
+    "TestId": 1,
+    "GeneName": "FGFR3",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 19,
+    "TestId": 1,
+    "GeneName": "FLT3",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 20,
+    "TestId": 1,
+    "GeneName": "GNA11",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 21,
+    "TestId": 1,
+    "GeneName": "GNAQ",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 22,
+    "TestId": 1,
+    "GeneName": "GNAS",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 23,
+    "TestId": 1,
+    "GeneName": "HER4",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 24,
+    "TestId": 1,
+    "GeneName": "HNF1A",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 25,
+    "TestId": 1,
+    "GeneName": "HRAS",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 26,
+    "TestId": 1,
+    "GeneName": "IDH1",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 27,
+    "TestId": 1,
+    "GeneName": "IDH2",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 28,
+    "TestId": 1,
+    "GeneName": "JAK2",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 29,
+    "TestId": 1,
+    "GeneName": "KDR",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 30,
+    "TestId": 1,
+    "GeneName": "KIT",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 31,
+    "TestId": 1,
+    "GeneName": "KRAS",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 32,
+    "TestId": 1,
+    "GeneName": "MET",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 33,
+    "TestId": 1,
+    "GeneName": "MLH1",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 34,
+    "TestId": 1,
+    "GeneName": "MPL",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 35,
+    "TestId": 1,
+    "GeneName": "NOTCH1",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 36,
+    "TestId": 1,
+    "GeneName": "NPM1",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 37,
+    "TestId": 1,
+    "GeneName": "NRAS",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 38,
+    "TestId": 1,
+    "GeneName": "PDGFRA",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 39,
+    "TestId": 1,
+    "GeneName": "PIK3CA",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 40,
+    "TestId": 1,
+    "GeneName": "PTEN",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 41,
+    "TestId": 1,
+    "GeneName": "PTPN11",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 42,
+    "TestId": 1,
+    "GeneName": "RB1",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 43,
+    "TestId": 1,
+    "GeneName": "RET",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 44,
+    "TestId": 1,
+    "GeneName": "SMAD4",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 45,
+    "TestId": 1,
+    "GeneName": "SMARCB1",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 46,
+    "TestId": 1,
+    "GeneName": "SMO",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 47,
+    "TestId": 1,
+    "GeneName": "SRC",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 48,
+    "TestId": 1,
+    "GeneName": "STK11",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  },
+  {
+    "Id": 49,
+    "TestId": 1,
+    "GeneName": "TP53",
+    "Variant": "S127Y",
+    "Frequence": 0.1
+  },
+  {
+    "Id": 50,
+    "TestId": 1,
+    "GeneName": "VHL",
+    "Variant": "No mutation detected",
+    "Frequence": 0
+  }
+]

@@ -1,0 +1,127 @@
+﻿@model OncoDiagnose.Web.ViewModels.AlterationViewModel
+
+@{
+    var title = "Thêm mới";
+    Layout = "_Layout";
+}
+<br/>
+<div class="container">
+    <form method="post">
+        <div class="row p-3 border">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (Model.Id != 0)
+            {
+                title = "Chỉnh sửa";
+            }
+            <div class="col-12 border-bottom">
+                <h2 class="text-primary">@title</h2>
+            </div>
+            <div class="col-8 pt-4">
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Name"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Name" class="form-control"/>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+                
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="AlterationInformation"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="AlterationInformation" class="form-control"/>
+                        <span asp-validation-for="AlterationInformation" class="text-danger"></span>
+                    </div>
+                </div>
+                
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="RefResidues"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="RefResidues" class="form-control"/>
+                        <span asp-validation-for="RefResidues" class="text-danger"></span>
+                    </div>
+                </div>
+                
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="ProteinStart"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="ProteinStart" class="form-control"/>
+                        <span asp-validation-for="ProteinStart" class="text-danger"></span>
+                    </div>
+                </div>
+                
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="ProteinEnd"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="ProteinEnd" class="form-control"/>
+                        <span asp-validation-for="ProteinEnd" class="text-danger"></span>
+                    </div>
+                </div>
+                
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="VariantResidues"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="VariantResidues" class="form-control"/>
+                        <span asp-validation-for="VariantResidues" class="text-danger"></span>
+                    </div>
+                </div>
+                
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="GeneId"></label>
+                    </div>
+                    <div class="col-8">
+                        <select asp-for="GeneId" class ="form-control" asp-items="ViewBag.GeneId"></select>
+                    </div>
+                </div>
+                
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="ConsequenceId"></label>
+                    </div>
+                    <div class="col-8">
+                        <select asp-for="ConsequenceId" class ="form-control" asp-items="ViewBag.ConsequenceId"></select>
+                    </div>
+                </div>
+                
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="MutationId"></label>
+                    </div>
+                    <div class="col-8">
+                        <select asp-for="MutationId" class ="form-control" asp-items="ViewBag.MutationId"></select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-8 offset-4">
+                        @if (Model.Id != 0)
+                        {
+                            <partial name="_EditAndbackToListButton" model="Model.Id"/>
+                        }
+                        else
+                        {
+                            <partial name="_CreateAndbackToListButton"/>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<br/>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}

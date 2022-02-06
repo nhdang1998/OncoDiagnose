@@ -1,0 +1,2634 @@
+[
+  {
+    "DrugId": 103,
+    "SynonymId": 1
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 2
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 3
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 4
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 5
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 6
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 7
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 8
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 9
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 10
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 11
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 12
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 13
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 14
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 15
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 16
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 17
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 18
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 19
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 20
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 21
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 22
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 23
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 24
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 25
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 26
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 27
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 28
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 29
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 30
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 31
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 32
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 33
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 34
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 35
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 36
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 37
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 38
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 39
+  },
+  {
+    "DrugId": 103,
+    "SynonymId": 40
+  },
+  {
+    "DrugId": 118,
+    "SynonymId": 41
+  },
+  {
+    "DrugId": 118,
+    "SynonymId": 42
+  },
+  {
+    "DrugId": 118,
+    "SynonymId": 43
+  },
+  {
+    "DrugId": 118,
+    "SynonymId": 44
+  },
+  {
+    "DrugId": 5,
+    "SynonymId": 45
+  },
+  {
+    "DrugId": 5,
+    "SynonymId": 46
+  },
+  {
+    "DrugId": 5,
+    "SynonymId": 47
+  },
+  {
+    "DrugId": 5,
+    "SynonymId": 48
+  },
+  {
+    "DrugId": 5,
+    "SynonymId": 49
+  },
+  {
+    "DrugId": 5,
+    "SynonymId": 50
+  },
+  {
+    "DrugId": 60,
+    "SynonymId": 51
+  },
+  {
+    "DrugId": 60,
+    "SynonymId": 52
+  },
+  {
+    "DrugId": 60,
+    "SynonymId": 53
+  },
+  {
+    "DrugId": 60,
+    "SynonymId": 54
+  },
+  {
+    "DrugId": 60,
+    "SynonymId": 55
+  },
+  {
+    "DrugId": 60,
+    "SynonymId": 56
+  },
+  {
+    "DrugId": 60,
+    "SynonymId": 57
+  },
+  {
+    "DrugId": 60,
+    "SynonymId": 58
+  },
+  {
+    "DrugId": 60,
+    "SynonymId": 59
+  },
+  {
+    "DrugId": 60,
+    "SynonymId": 60
+  },
+  {
+    "DrugId": 115,
+    "SynonymId": 61
+  },
+  {
+    "DrugId": 115,
+    "SynonymId": 62
+  },
+  {
+    "DrugId": 115,
+    "SynonymId": 63
+  },
+  {
+    "DrugId": 115,
+    "SynonymId": 64
+  },
+  {
+    "DrugId": 115,
+    "SynonymId": 65
+  },
+  {
+    "DrugId": 79,
+    "SynonymId": 66
+  },
+  {
+    "DrugId": 79,
+    "SynonymId": 67
+  },
+  {
+    "DrugId": 79,
+    "SynonymId": 68
+  },
+  {
+    "DrugId": 79,
+    "SynonymId": 69
+  },
+  {
+    "DrugId": 79,
+    "SynonymId": 70
+  },
+  {
+    "DrugId": 79,
+    "SynonymId": 71
+  },
+  {
+    "DrugId": 58,
+    "SynonymId": 72
+  },
+  {
+    "DrugId": 58,
+    "SynonymId": 73
+  },
+  {
+    "DrugId": 104,
+    "SynonymId": 74
+  },
+  {
+    "DrugId": 104,
+    "SynonymId": 75
+  },
+  {
+    "DrugId": 104,
+    "SynonymId": 76
+  },
+  {
+    "DrugId": 104,
+    "SynonymId": 77
+  },
+  {
+    "DrugId": 104,
+    "SynonymId": 78
+  },
+  {
+    "DrugId": 104,
+    "SynonymId": 79
+  },
+  {
+    "DrugId": 104,
+    "SynonymId": 80
+  },
+  {
+    "DrugId": 104,
+    "SynonymId": 81
+  },
+  {
+    "DrugId": 104,
+    "SynonymId": 82
+  },
+  {
+    "DrugId": 93,
+    "SynonymId": 83
+  },
+  {
+    "DrugId": 93,
+    "SynonymId": 84
+  },
+  {
+    "DrugId": 93,
+    "SynonymId": 85
+  },
+  {
+    "DrugId": 93,
+    "SynonymId": 86
+  },
+  {
+    "DrugId": 93,
+    "SynonymId": 87
+  },
+  {
+    "DrugId": 62,
+    "SynonymId": 88
+  },
+  {
+    "DrugId": 62,
+    "SynonymId": 89
+  },
+  {
+    "DrugId": 62,
+    "SynonymId": 90
+  },
+  {
+    "DrugId": 62,
+    "SynonymId": 91
+  },
+  {
+    "DrugId": 51,
+    "SynonymId": 92
+  },
+  {
+    "DrugId": 51,
+    "SynonymId": 93
+  },
+  {
+    "DrugId": 51,
+    "SynonymId": 94
+  },
+  {
+    "DrugId": 51,
+    "SynonymId": 95
+  },
+  {
+    "DrugId": 51,
+    "SynonymId": 96
+  },
+  {
+    "DrugId": 51,
+    "SynonymId": 97
+  },
+  {
+    "DrugId": 51,
+    "SynonymId": 98
+  },
+  {
+    "DrugId": 51,
+    "SynonymId": 99
+  },
+  {
+    "DrugId": 51,
+    "SynonymId": 100
+  },
+  {
+    "DrugId": 68,
+    "SynonymId": 101
+  },
+  {
+    "DrugId": 68,
+    "SynonymId": 102
+  },
+  {
+    "DrugId": 68,
+    "SynonymId": 103
+  },
+  {
+    "DrugId": 68,
+    "SynonymId": 104
+  },
+  {
+    "DrugId": 68,
+    "SynonymId": 105
+  },
+  {
+    "DrugId": 68,
+    "SynonymId": 106
+  },
+  {
+    "DrugId": 68,
+    "SynonymId": 107
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 108
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 109
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 110
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 111
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 112
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 113
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 114
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 115
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 116
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 117
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 118
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 119
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 120
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 121
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 122
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 123
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 124
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 125
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 126
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 127
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 128
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 129
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 130
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 131
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 132
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 133
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 134
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 135
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 136
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 137
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 138
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 139
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 140
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 141
+  },
+  {
+    "DrugId": 107,
+    "SynonymId": 142
+  },
+  {
+    "DrugId": 32,
+    "SynonymId": 143
+  },
+  {
+    "DrugId": 32,
+    "SynonymId": 144
+  },
+  {
+    "DrugId": 32,
+    "SynonymId": 145
+  },
+  {
+    "DrugId": 76,
+    "SynonymId": 146
+  },
+  {
+    "DrugId": 76,
+    "SynonymId": 147
+  },
+  {
+    "DrugId": 76,
+    "SynonymId": 148
+  },
+  {
+    "DrugId": 3,
+    "SynonymId": 149
+  },
+  {
+    "DrugId": 3,
+    "SynonymId": 150
+  },
+  {
+    "DrugId": 3,
+    "SynonymId": 151
+  },
+  {
+    "DrugId": 3,
+    "SynonymId": 152
+  },
+  {
+    "DrugId": 27,
+    "SynonymId": 153
+  },
+  {
+    "DrugId": 27,
+    "SynonymId": 154
+  },
+  {
+    "DrugId": 27,
+    "SynonymId": 155
+  },
+  {
+    "DrugId": 27,
+    "SynonymId": 156
+  },
+  {
+    "DrugId": 27,
+    "SynonymId": 157
+  },
+  {
+    "DrugId": 27,
+    "SynonymId": 158
+  },
+  {
+    "DrugId": 27,
+    "SynonymId": 159
+  },
+  {
+    "DrugId": 27,
+    "SynonymId": 160
+  },
+  {
+    "DrugId": 97,
+    "SynonymId": 161
+  },
+  {
+    "DrugId": 97,
+    "SynonymId": 162
+  },
+  {
+    "DrugId": 97,
+    "SynonymId": 163
+  },
+  {
+    "DrugId": 97,
+    "SynonymId": 164
+  },
+  {
+    "DrugId": 97,
+    "SynonymId": 165
+  },
+  {
+    "DrugId": 97,
+    "SynonymId": 166
+  },
+  {
+    "DrugId": 97,
+    "SynonymId": 167
+  },
+  {
+    "DrugId": 97,
+    "SynonymId": 168
+  },
+  {
+    "DrugId": 97,
+    "SynonymId": 169
+  },
+  {
+    "DrugId": 97,
+    "SynonymId": 170
+  },
+  {
+    "DrugId": 120,
+    "SynonymId": 171
+  },
+  {
+    "DrugId": 120,
+    "SynonymId": 172
+  },
+  {
+    "DrugId": 120,
+    "SynonymId": 173
+  },
+  {
+    "DrugId": 120,
+    "SynonymId": 174
+  },
+  {
+    "DrugId": 120,
+    "SynonymId": 175
+  },
+  {
+    "DrugId": 94,
+    "SynonymId": 176
+  },
+  {
+    "DrugId": 94,
+    "SynonymId": 177
+  },
+  {
+    "DrugId": 94,
+    "SynonymId": 178
+  },
+  {
+    "DrugId": 94,
+    "SynonymId": 179
+  },
+  {
+    "DrugId": 94,
+    "SynonymId": 180
+  },
+  {
+    "DrugId": 94,
+    "SynonymId": 181
+  },
+  {
+    "DrugId": 94,
+    "SynonymId": 182
+  },
+  {
+    "DrugId": 91,
+    "SynonymId": 183
+  },
+  {
+    "DrugId": 91,
+    "SynonymId": 184
+  },
+  {
+    "DrugId": 91,
+    "SynonymId": 185
+  },
+  {
+    "DrugId": 91,
+    "SynonymId": 186
+  },
+  {
+    "DrugId": 13,
+    "SynonymId": 187
+  },
+  {
+    "DrugId": 13,
+    "SynonymId": 188
+  },
+  {
+    "DrugId": 31,
+    "SynonymId": 189
+  },
+  {
+    "DrugId": 31,
+    "SynonymId": 190
+  },
+  {
+    "DrugId": 31,
+    "SynonymId": 191
+  },
+  {
+    "DrugId": 31,
+    "SynonymId": 192
+  },
+  {
+    "DrugId": 31,
+    "SynonymId": 193
+  },
+  {
+    "DrugId": 31,
+    "SynonymId": 194
+  },
+  {
+    "DrugId": 31,
+    "SynonymId": 195
+  },
+  {
+    "DrugId": 30,
+    "SynonymId": 196
+  },
+  {
+    "DrugId": 30,
+    "SynonymId": 197
+  },
+  {
+    "DrugId": 30,
+    "SynonymId": 198
+  },
+  {
+    "DrugId": 30,
+    "SynonymId": 199
+  },
+  {
+    "DrugId": 30,
+    "SynonymId": 200
+  },
+  {
+    "DrugId": 6,
+    "SynonymId": 201
+  },
+  {
+    "DrugId": 6,
+    "SynonymId": 202
+  },
+  {
+    "DrugId": 6,
+    "SynonymId": 203
+  },
+  {
+    "DrugId": 6,
+    "SynonymId": 204
+  },
+  {
+    "DrugId": 6,
+    "SynonymId": 205
+  },
+  {
+    "DrugId": 6,
+    "SynonymId": 206
+  },
+  {
+    "DrugId": 24,
+    "SynonymId": 207
+  },
+  {
+    "DrugId": 24,
+    "SynonymId": 208
+  },
+  {
+    "DrugId": 24,
+    "SynonymId": 209
+  },
+  {
+    "DrugId": 24,
+    "SynonymId": 210
+  },
+  {
+    "DrugId": 24,
+    "SynonymId": 211
+  },
+  {
+    "DrugId": 24,
+    "SynonymId": 212
+  },
+  {
+    "DrugId": 116,
+    "SynonymId": 213
+  },
+  {
+    "DrugId": 116,
+    "SynonymId": 214
+  },
+  {
+    "DrugId": 116,
+    "SynonymId": 215
+  },
+  {
+    "DrugId": 116,
+    "SynonymId": 216
+  },
+  {
+    "DrugId": 116,
+    "SynonymId": 217
+  },
+  {
+    "DrugId": 70,
+    "SynonymId": 218
+  },
+  {
+    "DrugId": 70,
+    "SynonymId": 219
+  },
+  {
+    "DrugId": 70,
+    "SynonymId": 220
+  },
+  {
+    "DrugId": 70,
+    "SynonymId": 221
+  },
+  {
+    "DrugId": 70,
+    "SynonymId": 222
+  },
+  {
+    "DrugId": 70,
+    "SynonymId": 223
+  },
+  {
+    "DrugId": 70,
+    "SynonymId": 224
+  },
+  {
+    "DrugId": 20,
+    "SynonymId": 225
+  },
+  {
+    "DrugId": 20,
+    "SynonymId": 226
+  },
+  {
+    "DrugId": 20,
+    "SynonymId": 227
+  },
+  {
+    "DrugId": 20,
+    "SynonymId": 228
+  },
+  {
+    "DrugId": 14,
+    "SynonymId": 229
+  },
+  {
+    "DrugId": 14,
+    "SynonymId": 230
+  },
+  {
+    "DrugId": 14,
+    "SynonymId": 231
+  },
+  {
+    "DrugId": 14,
+    "SynonymId": 232
+  },
+  {
+    "DrugId": 14,
+    "SynonymId": 233
+  },
+  {
+    "DrugId": 14,
+    "SynonymId": 234
+  },
+  {
+    "DrugId": 84,
+    "SynonymId": 235
+  },
+  {
+    "DrugId": 84,
+    "SynonymId": 236
+  },
+  {
+    "DrugId": 84,
+    "SynonymId": 237
+  },
+  {
+    "DrugId": 84,
+    "SynonymId": 238
+  },
+  {
+    "DrugId": 16,
+    "SynonymId": 239
+  },
+  {
+    "DrugId": 16,
+    "SynonymId": 240
+  },
+  {
+    "DrugId": 16,
+    "SynonymId": 241
+  },
+  {
+    "DrugId": 16,
+    "SynonymId": 242
+  },
+  {
+    "DrugId": 16,
+    "SynonymId": 243
+  },
+  {
+    "DrugId": 16,
+    "SynonymId": 244
+  },
+  {
+    "DrugId": 88,
+    "SynonymId": 245
+  },
+  {
+    "DrugId": 88,
+    "SynonymId": 246
+  },
+  {
+    "DrugId": 88,
+    "SynonymId": 247
+  },
+  {
+    "DrugId": 88,
+    "SynonymId": 248
+  },
+  {
+    "DrugId": 99,
+    "SynonymId": 249
+  },
+  {
+    "DrugId": 99,
+    "SynonymId": 250
+  },
+  {
+    "DrugId": 99,
+    "SynonymId": 251
+  },
+  {
+    "DrugId": 99,
+    "SynonymId": 252
+  },
+  {
+    "DrugId": 99,
+    "SynonymId": 253
+  },
+  {
+    "DrugId": 99,
+    "SynonymId": 254
+  },
+  {
+    "DrugId": 99,
+    "SynonymId": 255
+  },
+  {
+    "DrugId": 23,
+    "SynonymId": 256
+  },
+  {
+    "DrugId": 23,
+    "SynonymId": 257
+  },
+  {
+    "DrugId": 23,
+    "SynonymId": 258
+  },
+  {
+    "DrugId": 23,
+    "SynonymId": 259
+  },
+  {
+    "DrugId": 23,
+    "SynonymId": 260
+  },
+  {
+    "DrugId": 23,
+    "SynonymId": 261
+  },
+  {
+    "DrugId": 43,
+    "SynonymId": 262
+  },
+  {
+    "DrugId": 43,
+    "SynonymId": 263
+  },
+  {
+    "DrugId": 43,
+    "SynonymId": 264
+  },
+  {
+    "DrugId": 43,
+    "SynonymId": 265
+  },
+  {
+    "DrugId": 43,
+    "SynonymId": 266
+  },
+  {
+    "DrugId": 43,
+    "SynonymId": 267
+  },
+  {
+    "DrugId": 43,
+    "SynonymId": 268
+  },
+  {
+    "DrugId": 15,
+    "SynonymId": 269
+  },
+  {
+    "DrugId": 15,
+    "SynonymId": 270
+  },
+  {
+    "DrugId": 15,
+    "SynonymId": 271
+  },
+  {
+    "DrugId": 15,
+    "SynonymId": 272
+  },
+  {
+    "DrugId": 15,
+    "SynonymId": 273
+  },
+  {
+    "DrugId": 1,
+    "SynonymId": 274
+  },
+  {
+    "DrugId": 1,
+    "SynonymId": 275
+  },
+  {
+    "DrugId": 1,
+    "SynonymId": 276
+  },
+  {
+    "DrugId": 1,
+    "SynonymId": 277
+  },
+  {
+    "DrugId": 1,
+    "SynonymId": 278
+  },
+  {
+    "DrugId": 1,
+    "SynonymId": 279
+  },
+  {
+    "DrugId": 1,
+    "SynonymId": 280
+  },
+  {
+    "DrugId": 1,
+    "SynonymId": 281
+  },
+  {
+    "DrugId": 11,
+    "SynonymId": 282
+  },
+  {
+    "DrugId": 11,
+    "SynonymId": 283
+  },
+  {
+    "DrugId": 11,
+    "SynonymId": 284
+  },
+  {
+    "DrugId": 11,
+    "SynonymId": 285
+  },
+  {
+    "DrugId": 11,
+    "SynonymId": 286
+  },
+  {
+    "DrugId": 18,
+    "SynonymId": 287
+  },
+  {
+    "DrugId": 18,
+    "SynonymId": 288
+  },
+  {
+    "DrugId": 18,
+    "SynonymId": 289
+  },
+  {
+    "DrugId": 18,
+    "SynonymId": 290
+  },
+  {
+    "DrugId": 102,
+    "SynonymId": 291
+  },
+  {
+    "DrugId": 102,
+    "SynonymId": 292
+  },
+  {
+    "DrugId": 44,
+    "SynonymId": 293
+  },
+  {
+    "DrugId": 44,
+    "SynonymId": 294
+  },
+  {
+    "DrugId": 44,
+    "SynonymId": 295
+  },
+  {
+    "DrugId": 44,
+    "SynonymId": 296
+  },
+  {
+    "DrugId": 44,
+    "SynonymId": 297
+  },
+  {
+    "DrugId": 44,
+    "SynonymId": 298
+  },
+  {
+    "DrugId": 44,
+    "SynonymId": 299
+  },
+  {
+    "DrugId": 44,
+    "SynonymId": 300
+  },
+  {
+    "DrugId": 12,
+    "SynonymId": 301
+  },
+  {
+    "DrugId": 12,
+    "SynonymId": 302
+  },
+  {
+    "DrugId": 12,
+    "SynonymId": 303
+  },
+  {
+    "DrugId": 63,
+    "SynonymId": 304
+  },
+  {
+    "DrugId": 63,
+    "SynonymId": 305
+  },
+  {
+    "DrugId": 63,
+    "SynonymId": 306
+  },
+  {
+    "DrugId": 63,
+    "SynonymId": 307
+  },
+  {
+    "DrugId": 67,
+    "SynonymId": 308
+  },
+  {
+    "DrugId": 67,
+    "SynonymId": 309
+  },
+  {
+    "DrugId": 75,
+    "SynonymId": 310
+  },
+  {
+    "DrugId": 75,
+    "SynonymId": 311
+  },
+  {
+    "DrugId": 75,
+    "SynonymId": 312
+  },
+  {
+    "DrugId": 75,
+    "SynonymId": 313
+  },
+  {
+    "DrugId": 17,
+    "SynonymId": 314
+  },
+  {
+    "DrugId": 17,
+    "SynonymId": 315
+  },
+  {
+    "DrugId": 17,
+    "SynonymId": 316
+  },
+  {
+    "DrugId": 17,
+    "SynonymId": 317
+  },
+  {
+    "DrugId": 17,
+    "SynonymId": 318
+  },
+  {
+    "DrugId": 17,
+    "SynonymId": 319
+  },
+  {
+    "DrugId": 86,
+    "SynonymId": 320
+  },
+  {
+    "DrugId": 86,
+    "SynonymId": 321
+  },
+  {
+    "DrugId": 86,
+    "SynonymId": 322
+  },
+  {
+    "DrugId": 86,
+    "SynonymId": 323
+  },
+  {
+    "DrugId": 86,
+    "SynonymId": 324
+  },
+  {
+    "DrugId": 86,
+    "SynonymId": 325
+  },
+  {
+    "DrugId": 86,
+    "SynonymId": 326
+  },
+  {
+    "DrugId": 85,
+    "SynonymId": 327
+  },
+  {
+    "DrugId": 85,
+    "SynonymId": 328
+  },
+  {
+    "DrugId": 85,
+    "SynonymId": 329
+  },
+  {
+    "DrugId": 85,
+    "SynonymId": 330
+  },
+  {
+    "DrugId": 85,
+    "SynonymId": 331
+  },
+  {
+    "DrugId": 61,
+    "SynonymId": 332
+  },
+  {
+    "DrugId": 112,
+    "SynonymId": 333
+  },
+  {
+    "DrugId": 112,
+    "SynonymId": 334
+  },
+  {
+    "DrugId": 112,
+    "SynonymId": 335
+  },
+  {
+    "DrugId": 112,
+    "SynonymId": 336
+  },
+  {
+    "DrugId": 112,
+    "SynonymId": 337
+  },
+  {
+    "DrugId": 112,
+    "SynonymId": 338
+  },
+  {
+    "DrugId": 42,
+    "SynonymId": 339
+  },
+  {
+    "DrugId": 42,
+    "SynonymId": 340
+  },
+  {
+    "DrugId": 42,
+    "SynonymId": 341
+  },
+  {
+    "DrugId": 42,
+    "SynonymId": 342
+  },
+  {
+    "DrugId": 42,
+    "SynonymId": 343
+  },
+  {
+    "DrugId": 42,
+    "SynonymId": 344
+  },
+  {
+    "DrugId": 55,
+    "SynonymId": 345
+  },
+  {
+    "DrugId": 55,
+    "SynonymId": 346
+  },
+  {
+    "DrugId": 55,
+    "SynonymId": 347
+  },
+  {
+    "DrugId": 55,
+    "SynonymId": 348
+  },
+  {
+    "DrugId": 55,
+    "SynonymId": 349
+  },
+  {
+    "DrugId": 55,
+    "SynonymId": 350
+  },
+  {
+    "DrugId": 55,
+    "SynonymId": 351
+  },
+  {
+    "DrugId": 64,
+    "SynonymId": 352
+  },
+  {
+    "DrugId": 64,
+    "SynonymId": 353
+  },
+  {
+    "DrugId": 64,
+    "SynonymId": 354
+  },
+  {
+    "DrugId": 64,
+    "SynonymId": 355
+  },
+  {
+    "DrugId": 64,
+    "SynonymId": 356
+  },
+  {
+    "DrugId": 64,
+    "SynonymId": 357
+  },
+  {
+    "DrugId": 45,
+    "SynonymId": 358
+  },
+  {
+    "DrugId": 45,
+    "SynonymId": 359
+  },
+  {
+    "DrugId": 45,
+    "SynonymId": 360
+  },
+  {
+    "DrugId": 45,
+    "SynonymId": 361
+  },
+  {
+    "DrugId": 45,
+    "SynonymId": 362
+  },
+  {
+    "DrugId": 45,
+    "SynonymId": 363
+  },
+  {
+    "DrugId": 45,
+    "SynonymId": 364
+  },
+  {
+    "DrugId": 37,
+    "SynonymId": 365
+  },
+  {
+    "DrugId": 37,
+    "SynonymId": 366
+  },
+  {
+    "DrugId": 37,
+    "SynonymId": 367
+  },
+  {
+    "DrugId": 37,
+    "SynonymId": 368
+  },
+  {
+    "DrugId": 25,
+    "SynonymId": 369
+  },
+  {
+    "DrugId": 25,
+    "SynonymId": 370
+  },
+  {
+    "DrugId": 25,
+    "SynonymId": 371
+  },
+  {
+    "DrugId": 25,
+    "SynonymId": 372
+  },
+  {
+    "DrugId": 49,
+    "SynonymId": 373
+  },
+  {
+    "DrugId": 49,
+    "SynonymId": 374
+  },
+  {
+    "DrugId": 49,
+    "SynonymId": 375
+  },
+  {
+    "DrugId": 49,
+    "SynonymId": 376
+  },
+  {
+    "DrugId": 49,
+    "SynonymId": 377
+  },
+  {
+    "DrugId": 49,
+    "SynonymId": 378
+  },
+  {
+    "DrugId": 8,
+    "SynonymId": 379
+  },
+  {
+    "DrugId": 8,
+    "SynonymId": 380
+  },
+  {
+    "DrugId": 8,
+    "SynonymId": 381
+  },
+  {
+    "DrugId": 50,
+    "SynonymId": 382
+  },
+  {
+    "DrugId": 50,
+    "SynonymId": 383
+  },
+  {
+    "DrugId": 50,
+    "SynonymId": 384
+  },
+  {
+    "DrugId": 56,
+    "SynonymId": 385
+  },
+  {
+    "DrugId": 56,
+    "SynonymId": 386
+  },
+  {
+    "DrugId": 56,
+    "SynonymId": 387
+  },
+  {
+    "DrugId": 56,
+    "SynonymId": 388
+  },
+  {
+    "DrugId": 56,
+    "SynonymId": 389
+  },
+  {
+    "DrugId": 56,
+    "SynonymId": 390
+  },
+  {
+    "DrugId": 56,
+    "SynonymId": 391
+  },
+  {
+    "DrugId": 80,
+    "SynonymId": 392
+  },
+  {
+    "DrugId": 80,
+    "SynonymId": 393
+  },
+  {
+    "DrugId": 80,
+    "SynonymId": 394
+  },
+  {
+    "DrugId": 80,
+    "SynonymId": 395
+  },
+  {
+    "DrugId": 80,
+    "SynonymId": 396
+  },
+  {
+    "DrugId": 80,
+    "SynonymId": 397
+  },
+  {
+    "DrugId": 80,
+    "SynonymId": 398
+  },
+  {
+    "DrugId": 80,
+    "SynonymId": 399
+  },
+  {
+    "DrugId": 80,
+    "SynonymId": 400
+  },
+  {
+    "DrugId": 80,
+    "SynonymId": 401
+  },
+  {
+    "DrugId": 80,
+    "SynonymId": 402
+  },
+  {
+    "DrugId": 80,
+    "SynonymId": 403
+  },
+  {
+    "DrugId": 46,
+    "SynonymId": 404
+  },
+  {
+    "DrugId": 46,
+    "SynonymId": 405
+  },
+  {
+    "DrugId": 46,
+    "SynonymId": 406
+  },
+  {
+    "DrugId": 46,
+    "SynonymId": 407
+  },
+  {
+    "DrugId": 46,
+    "SynonymId": 408
+  },
+  {
+    "DrugId": 105,
+    "SynonymId": 409
+  },
+  {
+    "DrugId": 105,
+    "SynonymId": 410
+  },
+  {
+    "DrugId": 105,
+    "SynonymId": 411
+  },
+  {
+    "DrugId": 105,
+    "SynonymId": 412
+  },
+  {
+    "DrugId": 100,
+    "SynonymId": 413
+  },
+  {
+    "DrugId": 100,
+    "SynonymId": 414
+  },
+  {
+    "DrugId": 100,
+    "SynonymId": 415
+  },
+  {
+    "DrugId": 100,
+    "SynonymId": 416
+  },
+  {
+    "DrugId": 108,
+    "SynonymId": 417
+  },
+  {
+    "DrugId": 108,
+    "SynonymId": 418
+  },
+  {
+    "DrugId": 108,
+    "SynonymId": 419
+  },
+  {
+    "DrugId": 108,
+    "SynonymId": 420
+  },
+  {
+    "DrugId": 108,
+    "SynonymId": 421
+  },
+  {
+    "DrugId": 108,
+    "SynonymId": 422
+  },
+  {
+    "DrugId": 108,
+    "SynonymId": 423
+  },
+  {
+    "DrugId": 108,
+    "SynonymId": 424
+  },
+  {
+    "DrugId": 108,
+    "SynonymId": 425
+  },
+  {
+    "DrugId": 108,
+    "SynonymId": 426
+  },
+  {
+    "DrugId": 108,
+    "SynonymId": 427
+  },
+  {
+    "DrugId": 108,
+    "SynonymId": 428
+  },
+  {
+    "DrugId": 52,
+    "SynonymId": 429
+  },
+  {
+    "DrugId": 52,
+    "SynonymId": 430
+  },
+  {
+    "DrugId": 52,
+    "SynonymId": 431
+  },
+  {
+    "DrugId": 52,
+    "SynonymId": 432
+  },
+  {
+    "DrugId": 52,
+    "SynonymId": 433
+  },
+  {
+    "DrugId": 52,
+    "SynonymId": 434
+  },
+  {
+    "DrugId": 52,
+    "SynonymId": 435
+  },
+  {
+    "DrugId": 114,
+    "SynonymId": 436
+  },
+  {
+    "DrugId": 114,
+    "SynonymId": 437
+  },
+  {
+    "DrugId": 114,
+    "SynonymId": 438
+  },
+  {
+    "DrugId": 114,
+    "SynonymId": 439
+  },
+  {
+    "DrugId": 114,
+    "SynonymId": 440
+  },
+  {
+    "DrugId": 114,
+    "SynonymId": 441
+  },
+  {
+    "DrugId": 28,
+    "SynonymId": 442
+  },
+  {
+    "DrugId": 28,
+    "SynonymId": 443
+  },
+  {
+    "DrugId": 28,
+    "SynonymId": 444
+  },
+  {
+    "DrugId": 28,
+    "SynonymId": 445
+  },
+  {
+    "DrugId": 28,
+    "SynonymId": 446
+  },
+  {
+    "DrugId": 28,
+    "SynonymId": 447
+  },
+  {
+    "DrugId": 87,
+    "SynonymId": 448
+  },
+  {
+    "DrugId": 87,
+    "SynonymId": 449
+  },
+  {
+    "DrugId": 87,
+    "SynonymId": 450
+  },
+  {
+    "DrugId": 87,
+    "SynonymId": 451
+  },
+  {
+    "DrugId": 87,
+    "SynonymId": 452
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 453
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 454
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 455
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 456
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 457
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 458
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 459
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 460
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 461
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 462
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 463
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 464
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 465
+  },
+  {
+    "DrugId": 109,
+    "SynonymId": 466
+  },
+  {
+    "DrugId": 54,
+    "SynonymId": 467
+  },
+  {
+    "DrugId": 54,
+    "SynonymId": 468
+  },
+  {
+    "DrugId": 54,
+    "SynonymId": 469
+  },
+  {
+    "DrugId": 83,
+    "SynonymId": 470
+  },
+  {
+    "DrugId": 83,
+    "SynonymId": 471
+  },
+  {
+    "DrugId": 83,
+    "SynonymId": 472
+  },
+  {
+    "DrugId": 83,
+    "SynonymId": 473
+  },
+  {
+    "DrugId": 73,
+    "SynonymId": 474
+  },
+  {
+    "DrugId": 73,
+    "SynonymId": 475
+  },
+  {
+    "DrugId": 73,
+    "SynonymId": 476
+  },
+  {
+    "DrugId": 73,
+    "SynonymId": 477
+  },
+  {
+    "DrugId": 73,
+    "SynonymId": 478
+  },
+  {
+    "DrugId": 73,
+    "SynonymId": 479
+  },
+  {
+    "DrugId": 57,
+    "SynonymId": 480
+  },
+  {
+    "DrugId": 57,
+    "SynonymId": 481
+  },
+  {
+    "DrugId": 57,
+    "SynonymId": 482
+  },
+  {
+    "DrugId": 57,
+    "SynonymId": 483
+  },
+  {
+    "DrugId": 95,
+    "SynonymId": 484
+  },
+  {
+    "DrugId": 95,
+    "SynonymId": 485
+  },
+  {
+    "DrugId": 95,
+    "SynonymId": 486
+  },
+  {
+    "DrugId": 47,
+    "SynonymId": 487
+  },
+  {
+    "DrugId": 47,
+    "SynonymId": 488
+  },
+  {
+    "DrugId": 47,
+    "SynonymId": 489
+  },
+  {
+    "DrugId": 47,
+    "SynonymId": 490
+  },
+  {
+    "DrugId": 47,
+    "SynonymId": 491
+  },
+  {
+    "DrugId": 47,
+    "SynonymId": 492
+  },
+  {
+    "DrugId": 2,
+    "SynonymId": 493
+  },
+  {
+    "DrugId": 22,
+    "SynonymId": 494
+  },
+  {
+    "DrugId": 22,
+    "SynonymId": 495
+  },
+  {
+    "DrugId": 22,
+    "SynonymId": 496
+  },
+  {
+    "DrugId": 22,
+    "SynonymId": 497
+  },
+  {
+    "DrugId": 22,
+    "SynonymId": 498
+  },
+  {
+    "DrugId": 59,
+    "SynonymId": 499
+  },
+  {
+    "DrugId": 59,
+    "SynonymId": 500
+  },
+  {
+    "DrugId": 59,
+    "SynonymId": 501
+  },
+  {
+    "DrugId": 59,
+    "SynonymId": 502
+  },
+  {
+    "DrugId": 59,
+    "SynonymId": 503
+  },
+  {
+    "DrugId": 59,
+    "SynonymId": 504
+  },
+  {
+    "DrugId": 66,
+    "SynonymId": 505
+  },
+  {
+    "DrugId": 66,
+    "SynonymId": 506
+  },
+  {
+    "DrugId": 66,
+    "SynonymId": 507
+  },
+  {
+    "DrugId": 66,
+    "SynonymId": 508
+  },
+  {
+    "DrugId": 66,
+    "SynonymId": 307
+  },
+  {
+    "DrugId": 66,
+    "SynonymId": 510
+  },
+  {
+    "DrugId": 41,
+    "SynonymId": 511
+  },
+  {
+    "DrugId": 41,
+    "SynonymId": 512
+  },
+  {
+    "DrugId": 41,
+    "SynonymId": 513
+  },
+  {
+    "DrugId": 41,
+    "SynonymId": 514
+  },
+  {
+    "DrugId": 41,
+    "SynonymId": 515
+  },
+  {
+    "DrugId": 41,
+    "SynonymId": 516
+  },
+  {
+    "DrugId": 41,
+    "SynonymId": 517
+  },
+  {
+    "DrugId": 41,
+    "SynonymId": 518
+  },
+  {
+    "DrugId": 39,
+    "SynonymId": 519
+  },
+  {
+    "DrugId": 39,
+    "SynonymId": 520
+  },
+  {
+    "DrugId": 39,
+    "SynonymId": 521
+  },
+  {
+    "DrugId": 39,
+    "SynonymId": 522
+  },
+  {
+    "DrugId": 71,
+    "SynonymId": 523
+  },
+  {
+    "DrugId": 71,
+    "SynonymId": 524
+  },
+  {
+    "DrugId": 36,
+    "SynonymId": 525
+  },
+  {
+    "DrugId": 36,
+    "SynonymId": 526
+  },
+  {
+    "DrugId": 36,
+    "SynonymId": 527
+  },
+  {
+    "DrugId": 36,
+    "SynonymId": 528
+  },
+  {
+    "DrugId": 36,
+    "SynonymId": 529
+  },
+  {
+    "DrugId": 36,
+    "SynonymId": 530
+  },
+  {
+    "DrugId": 90,
+    "SynonymId": 531
+  },
+  {
+    "DrugId": 90,
+    "SynonymId": 532
+  },
+  {
+    "DrugId": 90,
+    "SynonymId": 533
+  },
+  {
+    "DrugId": 78,
+    "SynonymId": 534
+  },
+  {
+    "DrugId": 78,
+    "SynonymId": 535
+  },
+  {
+    "DrugId": 78,
+    "SynonymId": 536
+  },
+  {
+    "DrugId": 78,
+    "SynonymId": 537
+  },
+  {
+    "DrugId": 78,
+    "SynonymId": 538
+  },
+  {
+    "DrugId": 78,
+    "SynonymId": 539
+  },
+  {
+    "DrugId": 78,
+    "SynonymId": 540
+  },
+  {
+    "DrugId": 69,
+    "SynonymId": 541
+  },
+  {
+    "DrugId": 69,
+    "SynonymId": 542
+  },
+  {
+    "DrugId": 69,
+    "SynonymId": 543
+  },
+  {
+    "DrugId": 69,
+    "SynonymId": 544
+  },
+  {
+    "DrugId": 69,
+    "SynonymId": 545
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 546
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 547
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 548
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 549
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 550
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 551
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 552
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 553
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 554
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 555
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 556
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 557
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 558
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 559
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 560
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 561
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 562
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 563
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 564
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 565
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 566
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 567
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 568
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 569
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 570
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 571
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 572
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 573
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 574
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 575
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 576
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 577
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 578
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 579
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 580
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 581
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 582
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 583
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 584
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 585
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 586
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 587
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 588
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 589
+  },
+  {
+    "DrugId": 48,
+    "SynonymId": 590
+  },
+  {
+    "DrugId": 9,
+    "SynonymId": 591
+  },
+  {
+    "DrugId": 9,
+    "SynonymId": 592
+  },
+  {
+    "DrugId": 9,
+    "SynonymId": 593
+  },
+  {
+    "DrugId": 9,
+    "SynonymId": 594
+  },
+  {
+    "DrugId": 9,
+    "SynonymId": 595
+  },
+  {
+    "DrugId": 9,
+    "SynonymId": 596
+  },
+  {
+    "DrugId": 113,
+    "SynonymId": 597
+  },
+  {
+    "DrugId": 113,
+    "SynonymId": 598
+  },
+  {
+    "DrugId": 113,
+    "SynonymId": 599
+  },
+  {
+    "DrugId": 29,
+    "SynonymId": 600
+  },
+  {
+    "DrugId": 29,
+    "SynonymId": 601
+  },
+  {
+    "DrugId": 29,
+    "SynonymId": 602
+  },
+  {
+    "DrugId": 29,
+    "SynonymId": 603
+  },
+  {
+    "DrugId": 82,
+    "SynonymId": 604
+  },
+  {
+    "DrugId": 10,
+    "SynonymId": 605
+  },
+  {
+    "DrugId": 89,
+    "SynonymId": 606
+  },
+  {
+    "DrugId": 89,
+    "SynonymId": 607
+  },
+  {
+    "DrugId": 89,
+    "SynonymId": 608
+  },
+  {
+    "DrugId": 89,
+    "SynonymId": 609
+  },
+  {
+    "DrugId": 89,
+    "SynonymId": 610
+  },
+  {
+    "DrugId": 53,
+    "SynonymId": 611
+  },
+  {
+    "DrugId": 53,
+    "SynonymId": 612
+  },
+  {
+    "DrugId": 53,
+    "SynonymId": 613
+  },
+  {
+    "DrugId": 53,
+    "SynonymId": 614
+  },
+  {
+    "DrugId": 53,
+    "SynonymId": 615
+  },
+  {
+    "DrugId": 53,
+    "SynonymId": 616
+  },
+  {
+    "DrugId": 53,
+    "SynonymId": 617
+  },
+  {
+    "DrugId": 53,
+    "SynonymId": 618
+  },
+  {
+    "DrugId": 92,
+    "SynonymId": 619
+  },
+  {
+    "DrugId": 92,
+    "SynonymId": 620
+  },
+  {
+    "DrugId": 92,
+    "SynonymId": 621
+  },
+  {
+    "DrugId": 92,
+    "SynonymId": 622
+  },
+  {
+    "DrugId": 92,
+    "SynonymId": 623
+  },
+  {
+    "DrugId": 21,
+    "SynonymId": 624
+  },
+  {
+    "DrugId": 21,
+    "SynonymId": 625
+  },
+  {
+    "DrugId": 21,
+    "SynonymId": 626
+  },
+  {
+    "DrugId": 21,
+    "SynonymId": 627
+  },
+  {
+    "DrugId": 21,
+    "SynonymId": 628
+  },
+  {
+    "DrugId": 21,
+    "SynonymId": 629
+  },
+  {
+    "DrugId": 21,
+    "SynonymId": 630
+  },
+  {
+    "DrugId": 21,
+    "SynonymId": 631
+  },
+  {
+    "DrugId": 21,
+    "SynonymId": 632
+  },
+  {
+    "DrugId": 7,
+    "SynonymId": 633
+  },
+  {
+    "DrugId": 7,
+    "SynonymId": 634
+  },
+  {
+    "DrugId": 4,
+    "SynonymId": 635
+  },
+  {
+    "DrugId": 34,
+    "SynonymId": 636
+  },
+  {
+    "DrugId": 34,
+    "SynonymId": 637
+  },
+  {
+    "DrugId": 34,
+    "SynonymId": 638
+  },
+  {
+    "DrugId": 35,
+    "SynonymId": 639
+  },
+  {
+    "DrugId": 35,
+    "SynonymId": 640
+  },
+  {
+    "DrugId": 35,
+    "SynonymId": 641
+  },
+  {
+    "DrugId": 26,
+    "SynonymId": 642
+  },
+  {
+    "DrugId": 26,
+    "SynonymId": 643
+  },
+  {
+    "DrugId": 19,
+    "SynonymId": 644
+  },
+  {
+    "DrugId": 19,
+    "SynonymId": 645
+  },
+  {
+    "DrugId": 19,
+    "SynonymId": 646
+  },
+  {
+    "DrugId": 19,
+    "SynonymId": 647
+  },
+  {
+    "DrugId": 19,
+    "SynonymId": 648
+  },
+  {
+    "DrugId": 19,
+    "SynonymId": 649
+  },
+  {
+    "DrugId": 72,
+    "SynonymId": 650
+  },
+  {
+    "DrugId": 72,
+    "SynonymId": 651
+  },
+  {
+    "DrugId": 72,
+    "SynonymId": 652
+  },
+  {
+    "DrugId": 77,
+    "SynonymId": 653
+  },
+  {
+    "DrugId": 77,
+    "SynonymId": 654
+  },
+  {
+    "DrugId": 77,
+    "SynonymId": 655
+  },
+  {
+    "DrugId": 77,
+    "SynonymId": 656
+  },
+  {
+    "DrugId": 77,
+    "SynonymId": 657
+  },
+  {
+    "DrugId": 77,
+    "SynonymId": 658
+  }
+]

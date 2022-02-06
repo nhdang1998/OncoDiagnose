@@ -1,0 +1,72 @@
+﻿@model OncoDiagnose.Models.Mutation
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Mutation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="EvidenceType" class="control-label"></label>
+                <input asp-for="EvidenceType" class="form-control" />
+                <span asp-validation-for="EvidenceType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desciption" class="control-label"></label>
+                <input asp-for="Desciption" class="form-control" />
+                <span asp-validation-for="Desciption" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdditionalInfor" class="control-label"></label>
+                <input asp-for="AdditionalInfor" class="form-control" />
+                <span asp-validation-for="AdditionalInfor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KnownEffect" class="control-label"></label>
+                <input asp-for="KnownEffect" class="form-control" />
+                <span asp-validation-for="KnownEffect" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastEdit" class="control-label"></label>
+                <input asp-for="LastEdit" class="form-control" />
+                <span asp-validation-for="LastEdit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastReview" class="control-label"></label>
+                <input asp-for="LastReview" class="form-control" />
+                <span asp-validation-for="LastReview" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LevelOfEvidence" class="control-label"></label>
+                <input asp-for="LevelOfEvidence" class="form-control" />
+                <span asp-validation-for="LevelOfEvidence" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SolidPropagationLevel" class="control-label"></label>
+                <input asp-for="SolidPropagationLevel" class="form-control" />
+                <span asp-validation-for="SolidPropagationLevel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LiquidPropagationLevel" class="control-label"></label>
+                <input asp-for="LiquidPropagationLevel" class="form-control" />
+                <span asp-validation-for="LiquidPropagationLevel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -1,0 +1,69 @@
+﻿@model OncoDiagnose.Web.ViewModels.ConsequenceViewModel
+
+@{
+    var title = "Thêm mới";
+    Layout = "_Layout";
+}
+<br/>
+<div class="container">
+    <form method="post">
+        <div class="row p-3 border">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (Model.Id != 0)
+            {
+                title = "Chỉnh sửa";
+            }
+            <div class="col-12 border-bottom">
+                <h2 class="text-primary">@title</h2>
+            </div>
+            <div class="col-8 pt-4">
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Term"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Term" class="form-control"/>
+                        <span asp-validation-for="Term" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-8 offset-5">
+                        <label class="form-check-label">
+                            <input class="form-check-input" asp-for="IsGenerallyTruncating"/>  @Html.DisplayNameFor(model => model.IsGenerallyTruncating) 
+                        </label>
+                    </div>
+                    
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Description"></label>
+                    </div>
+                    <div class="col-8">
+                        <textarea asp-for="Description" class="form-text col-12"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-8 offset-4">
+                        @if (Model.Id != 0)
+                        {
+                            <partial name="_EditAndbackToListButton" model="Model.Id"/>
+                        }
+                        else
+                        {
+                            <partial name="_CreateAndbackToListButton"/>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<br/>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}
+

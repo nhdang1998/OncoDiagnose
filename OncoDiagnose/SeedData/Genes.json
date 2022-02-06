@@ -1,0 +1,1602 @@
+[
+  {
+    "Id": 1,
+    "HugoSymbol": "ERBB2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000269571",
+    "Grch37RefSeq": "NM_004448.2",
+    "grch38Isoform": "ENST00000269571",
+    "grch38RefSeq": "NM_004448.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 2,
+    "HugoSymbol": "BRAF",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000288602",
+    "Grch37RefSeq": "NM_004333.4",
+    "grch38Isoform": "ENST00000646891",
+    "grch38RefSeq": "NM_004333.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 3,
+    "HugoSymbol": "PDGFRB",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000261799",
+    "Grch37RefSeq": "NM_002609.3",
+    "grch38Isoform": "ENST00000261799",
+    "grch38RefSeq": "NM_002609.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 4,
+    "HugoSymbol": "NF1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000356175",
+    "Grch37RefSeq": "NM_000267.3",
+    "grch38Isoform": "ENST00000356175",
+    "grch38RefSeq": "NM_000267.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 5,
+    "HugoSymbol": "TSC2",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000219476",
+    "Grch37RefSeq": "NM_000548.3",
+    "grch38Isoform": "ENST00000219476",
+    "grch38RefSeq": "NM_000548.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 6,
+    "HugoSymbol": "CHEK1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000428830",
+    "Grch37RefSeq": "NM_001274.5",
+    "grch38Isoform": "ENST00000428830",
+    "grch38RefSeq": "NM_001274.5",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 7,
+    "HugoSymbol": "TSC1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000298552",
+    "Grch37RefSeq": "NM_000368.4",
+    "grch38Isoform": "ENST00000298552",
+    "grch38RefSeq": "NM_000368.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 8,
+    "HugoSymbol": "BRCA2",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000380152",
+    "Grch37RefSeq": "NM_000059.3",
+    "grch38Isoform": "ENST00000380152",
+    "grch38RefSeq": "NM_000059.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 9,
+    "HugoSymbol": "FGFR3",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000260795",
+    "Grch37RefSeq": "NM_000142.4",
+    "grch38Isoform": "ENST00000440486",
+    "grch38RefSeq": "NM_000142.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 10,
+    "HugoSymbol": "EGFR",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000275493",
+    "Grch37RefSeq": "NM_005228.3",
+    "grch38Isoform": "ENST00000275493",
+    "grch38RefSeq": "NM_005228.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 11,
+    "HugoSymbol": "ALK",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000389048",
+    "Grch37RefSeq": "NM_004304.4",
+    "grch38Isoform": "ENST00000389048",
+    "grch38RefSeq": "NM_004304.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 12,
+    "HugoSymbol": "ABL1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000318560",
+    "Grch37RefSeq": "NM_005157.4",
+    "grch38Isoform": "ENST00000318560",
+    "grch38RefSeq": "NM_005157.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 13,
+    "HugoSymbol": "RET",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000355710",
+    "Grch37RefSeq": "NM_020975.4",
+    "grch38Isoform": "ENST00000355710",
+    "grch38RefSeq": "NM_020975.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 14,
+    "HugoSymbol": "CHEK2",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000328354",
+    "Grch37RefSeq": "NM_007194.3",
+    "grch38Isoform": "ENST00000404276",
+    "grch38RefSeq": "NM_007194.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 15,
+    "HugoSymbol": "SMARCB1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000263121",
+    "Grch37RefSeq": "NM_003073.3",
+    "grch38Isoform": "ENST00000618915",
+    "grch38RefSeq": "NM_003073.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 16,
+    "HugoSymbol": "KIT",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000288135",
+    "Grch37RefSeq": "NM_000222.2",
+    "grch38Isoform": "ENST00000288135",
+    "grch38RefSeq": "NM_000222.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 17,
+    "HugoSymbol": "PDGFB",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000331163",
+    "Grch37RefSeq": "NM_002608.2",
+    "grch38Isoform": "ENST00000331163",
+    "grch38RefSeq": "NM_002608.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 18,
+    "HugoSymbol": "FGFR2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000358487",
+    "Grch37RefSeq": "NM_000141.4",
+    "grch38Isoform": "ENST00000358487",
+    "grch38RefSeq": "NM_000141.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 19,
+    "HugoSymbol": "ROS1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000368508",
+    "Grch37RefSeq": "NM_002944.2",
+    "grch38Isoform": "ENST00000368508",
+    "grch38RefSeq": "NM_002944.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 20,
+    "HugoSymbol": "NTRK2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000277120",
+    "Grch37RefSeq": "NM_006180.3",
+    "grch38Isoform": "ENST00000277120",
+    "grch38RefSeq": "NM_006180.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 21,
+    "HugoSymbol": "BRIP1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000259008",
+    "Grch37RefSeq": "NM_032043.2",
+    "grch38Isoform": "ENST00000259008",
+    "grch38RefSeq": "NM_032043.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 22,
+    "HugoSymbol": "PDGFRA",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000257290",
+    "Grch37RefSeq": "NM_006206.4",
+    "grch38Isoform": "ENST00000257290",
+    "grch38RefSeq": "NM_006206.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 23,
+    "HugoSymbol": "NTRK3",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000360948",
+    "Grch37RefSeq": "NM_001012338.2",
+    "grch38Isoform": "ENST00000360948",
+    "grch38RefSeq": "NM_001012338.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 24,
+    "HugoSymbol": "PIK3CA",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000263967",
+    "Grch37RefSeq": "NM_006218.2",
+    "grch38Isoform": "ENST00000263967",
+    "grch38RefSeq": "NM_006218.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 25,
+    "HugoSymbol": "NRAS",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000369535",
+    "Grch37RefSeq": "NM_002524.4",
+    "grch38Isoform": "ENST00000369535",
+    "grch38RefSeq": "NM_002524.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 26,
+    "HugoSymbol": "FLT3",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000241453",
+    "Grch37RefSeq": "NM_004119.2",
+    "grch38Isoform": "ENST00000241453",
+    "grch38RefSeq": "NM_004119.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 27,
+    "HugoSymbol": "IDH1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000345146",
+    "Grch37RefSeq": "NM_005896.2",
+    "grch38Isoform": "ENST00000345146",
+    "grch38RefSeq": "NM_005896.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 28,
+    "HugoSymbol": "ATM",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000278616",
+    "Grch37RefSeq": "NM_000051.3",
+    "grch38Isoform": "ENST00000278616",
+    "grch38RefSeq": "NM_000051.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 29,
+    "HugoSymbol": "MET",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000397752",
+    "Grch37RefSeq": "NM_000245.2",
+    "grch38Isoform": "ENST00000397752",
+    "grch38RefSeq": "NM_000245.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 30,
+    "HugoSymbol": "FANCL",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000233741",
+    "Grch37RefSeq": "NM_018062.3",
+    "grch38Isoform": "ENST00000233741",
+    "grch38RefSeq": "NM_018062.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 31,
+    "HugoSymbol": "RAD51B",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000487270",
+    "Grch37RefSeq": "NM_133509.3",
+    "grch38Isoform": "ENST00000487270",
+    "grch38RefSeq": "NM_133509.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 32,
+    "HugoSymbol": "BARD1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000260947",
+    "Grch37RefSeq": "NM_000465.2",
+    "grch38Isoform": "ENST00000260947",
+    "grch38RefSeq": "NM_000465.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 33,
+    "HugoSymbol": "KRAS",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000311936",
+    "Grch37RefSeq": "NM_004985.3",
+    "grch38Isoform": "ENST00000311936",
+    "grch38RefSeq": "NM_004985.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 34,
+    "HugoSymbol": "Other Biomarkers",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "",
+    "Grch37RefSeq": "",
+    "grch38Isoform": "",
+    "grch38RefSeq": "",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 35,
+    "HugoSymbol": "BRCA1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000357654",
+    "Grch37RefSeq": "NM_007294.3",
+    "grch38Isoform": "ENST00000357654",
+    "grch38RefSeq": "NM_007294.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 36,
+    "HugoSymbol": "RAD51C",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000337432",
+    "Grch37RefSeq": "NM_058216.2",
+    "grch38Isoform": "ENST00000337432",
+    "grch38RefSeq": "NM_058216.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 37,
+    "HugoSymbol": "CDK12",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000447079",
+    "Grch37RefSeq": "NM_016507.2",
+    "grch38Isoform": "ENST00000447079",
+    "grch38RefSeq": "NM_016507.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 38,
+    "HugoSymbol": "RAD51D",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000345365",
+    "Grch37RefSeq": "NM_002878.3",
+    "grch38Isoform": "ENST00000345365",
+    "grch38RefSeq": "NM_002878.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 39,
+    "HugoSymbol": "EZH2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000320356",
+    "Grch37RefSeq": "NM_004456.4",
+    "grch38Isoform": "ENST00000320356",
+    "grch38RefSeq": "NM_004456.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 40,
+    "HugoSymbol": "RAD54L",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000371975",
+    "Grch37RefSeq": "NM_001142548.1",
+    "grch38Isoform": "ENST00000371975",
+    "grch38RefSeq": "NM_001142548.1",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 41,
+    "HugoSymbol": "PALB2",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000261584",
+    "Grch37RefSeq": "NM_024675.3",
+    "grch38Isoform": "ENST00000261584",
+    "grch38RefSeq": "NM_024675.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 42,
+    "HugoSymbol": "NTRK1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000524377",
+    "Grch37RefSeq": "NM_002529.3",
+    "grch38Isoform": "ENST00000524377",
+    "grch38RefSeq": "NM_002529.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 43,
+    "HugoSymbol": "IDH2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000330062",
+    "Grch37RefSeq": "NM_002168.2",
+    "grch38Isoform": "ENST00000330062",
+    "grch38RefSeq": "NM_002168.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 44,
+    "HugoSymbol": "MAP2K2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000262948",
+    "Grch37RefSeq": "NM_030662.3",
+    "grch38Isoform": "ENST00000262948",
+    "grch38RefSeq": "NM_030662.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 45,
+    "HugoSymbol": "MAP2K1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000307102",
+    "Grch37RefSeq": "NM_002755.3",
+    "grch38Isoform": "ENST00000307102",
+    "grch38RefSeq": "NM_002755.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 46,
+    "HugoSymbol": "RAF1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000251849",
+    "Grch37RefSeq": "NM_002880.3",
+    "grch38Isoform": "ENST00000251849",
+    "grch38RefSeq": "NM_002880.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 47,
+    "HugoSymbol": "ARAF",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000377045",
+    "Grch37RefSeq": "NM_001654.4",
+    "grch38Isoform": "ENST00000377045",
+    "grch38RefSeq": "NM_001654.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 48,
+    "HugoSymbol": "JAK2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000381652",
+    "Grch37RefSeq": "NM_004972.3",
+    "grch38Isoform": "ENST00000381652",
+    "grch38RefSeq": "NM_004972.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 49,
+    "HugoSymbol": "FGFR1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000425967",
+    "Grch37RefSeq": "NM_001174067.1",
+    "grch38Isoform": "ENST00000425967",
+    "grch38RefSeq": "NM_001174067.1",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 50,
+    "HugoSymbol": "AKT1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000349310",
+    "Grch37RefSeq": "NM_001014431.1",
+    "grch38Isoform": "ENST00000349310",
+    "grch38RefSeq": "NM_001014431.1",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 51,
+    "HugoSymbol": "ESR1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000206249",
+    "Grch37RefSeq": "NM_001122740.1",
+    "grch38Isoform": "ENST00000206249",
+    "grch38RefSeq": "NM_001122740.1",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 52,
+    "HugoSymbol": "MTOR",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000361445",
+    "Grch37RefSeq": "NM_004958.3",
+    "grch38Isoform": "ENST00000361445",
+    "grch38RefSeq": "NM_004958.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 53,
+    "HugoSymbol": "HRAS",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000451590",
+    "Grch37RefSeq": "NM_005343.2",
+    "grch38Isoform": "ENST00000451590",
+    "grch38RefSeq": "NM_005343.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 54,
+    "HugoSymbol": "NRG1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000405005",
+    "Grch37RefSeq": "NM_013964.3",
+    "grch38Isoform": "ENST00000405005",
+    "grch38RefSeq": "NM_013964.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 55,
+    "HugoSymbol": "PTCH1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000331920",
+    "Grch37RefSeq": "NM_000264.3",
+    "grch38Isoform": "ENST00000331920",
+    "grch38RefSeq": "NM_000264.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 56,
+    "HugoSymbol": "ERCC2",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000391945",
+    "Grch37RefSeq": "NM_000400.3",
+    "grch38Isoform": "ENST00000391945",
+    "grch38RefSeq": "NM_000400.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 57,
+    "HugoSymbol": "SF3B1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000335508",
+    "Grch37RefSeq": "NM_012433.2",
+    "grch38Isoform": "ENST00000335508",
+    "grch38RefSeq": "NM_012433.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 58,
+    "HugoSymbol": "ZRSR2",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000307771",
+    "Grch37RefSeq": "NM_005089.3",
+    "grch38Isoform": "ENST00000307771",
+    "grch38RefSeq": "NM_005089.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 59,
+    "HugoSymbol": "U2AF1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000291552",
+    "Grch37RefSeq": "NM_006758.2",
+    "grch38Isoform": "ENST00000291552",
+    "grch38RefSeq": "NM_006758.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 60,
+    "HugoSymbol": "CDKN2A",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000304494",
+    "Grch37RefSeq": "NM_000077.4",
+    "grch38Isoform": "ENST00000304494",
+    "grch38RefSeq": "NM_000077.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 61,
+    "HugoSymbol": "STK11",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000326873",
+    "Grch37RefSeq": "NM_000455.4",
+    "grch38Isoform": "ENST00000326873",
+    "grch38RefSeq": "NM_000455.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 62,
+    "HugoSymbol": "SRSF2",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000359995",
+    "Grch37RefSeq": "NM_003016.4",
+    "grch38Isoform": "ENST00000359995",
+    "grch38RefSeq": "NM_003016.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 63,
+    "HugoSymbol": "PTEN",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000371953",
+    "Grch37RefSeq": "NM_000314.4",
+    "grch38Isoform": "ENST00000371953",
+    "grch38RefSeq": "NM_000314.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 64,
+    "HugoSymbol": "MDM2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000462284",
+    "Grch37RefSeq": "NM_002392.5",
+    "grch38Isoform": "ENST00000258149",
+    "grch38RefSeq": "NM_002392.5",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 65,
+    "HugoSymbol": "ARID1A",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000324856",
+    "Grch37RefSeq": "NM_006015.4",
+    "grch38Isoform": "ENST00000324856",
+    "grch38RefSeq": "NM_006015.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 66,
+    "HugoSymbol": "FLI1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000527786",
+    "Grch37RefSeq": "NM_002017.4",
+    "grch38Isoform": "ENST00000527786",
+    "grch38RefSeq": "NM_002017.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 67,
+    "HugoSymbol": "KDM6A",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000377967",
+    "Grch37RefSeq": "NM_021140.2",
+    "grch38Isoform": "ENST00000377967",
+    "grch38RefSeq": "NM_021140.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 68,
+    "HugoSymbol": "CDK4",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000257904",
+    "Grch37RefSeq": "NM_000075.3",
+    "grch38Isoform": "ENST00000257904",
+    "grch38RefSeq": "NM_000075.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 69,
+    "HugoSymbol": "NPM1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000296930",
+    "Grch37RefSeq": "NM_002520.6",
+    "grch38Isoform": "ENST00000296930",
+    "grch38RefSeq": "NM_002520.6",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 70,
+    "HugoSymbol": "KMT2A",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000534358",
+    "Grch37RefSeq": "NM_001197104.1",
+    "grch38Isoform": "ENST00000534358",
+    "grch38RefSeq": "NM_001197104.1",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 71,
+    "HugoSymbol": "CBFB",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000412916",
+    "Grch37RefSeq": "NM_022845.2",
+    "grch38Isoform": "ENST00000412916",
+    "grch38RefSeq": "NM_022845.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 72,
+    "HugoSymbol": "MYC",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000377970",
+    "Grch37RefSeq": "NM_002467.4",
+    "grch38Isoform": "ENST00000621592",
+    "grch38RefSeq": "NM_002467.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 73,
+    "HugoSymbol": "RBM15",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000369784",
+    "Grch37RefSeq": "NM_022768.4",
+    "grch38Isoform": "ENST00000369784",
+    "grch38RefSeq": "NM_022768.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 74,
+    "HugoSymbol": "DEK",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000397239",
+    "Grch37RefSeq": "NM_003472.3",
+    "grch38Isoform": "ENST00000652689",
+    "grch38RefSeq": "NM_003472.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 75,
+    "HugoSymbol": "IL3",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000296870",
+    "Grch37RefSeq": "NM_000588.3",
+    "grch38Isoform": "ENST00000296870",
+    "grch38RefSeq": "NM_000588.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 76,
+    "HugoSymbol": "ABL2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000502732",
+    "Grch37RefSeq": "NM_007314.3",
+    "grch38Isoform": "ENST00000502732",
+    "grch38RefSeq": "NM_007314.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 77,
+    "HugoSymbol": "CRLF2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000381566",
+    "Grch37RefSeq": "NM_022148.2",
+    "grch38Isoform": "ENST00000381566",
+    "grch38RefSeq": "NM_022148.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 78,
+    "HugoSymbol": "IRF4",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000380956",
+    "Grch37RefSeq": "NM_002460.3",
+    "grch38Isoform": "ENST00000380956",
+    "grch38RefSeq": "NM_002460.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 79,
+    "HugoSymbol": "RARA",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000254066",
+    "Grch37RefSeq": "NM_000964.3",
+    "grch38Isoform": "ENST00000254066",
+    "grch38RefSeq": "NM_000964.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 80,
+    "HugoSymbol": "RUNX1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000300305",
+    "Grch37RefSeq": "NM_001754.4",
+    "grch38Isoform": "ENST00000300305",
+    "grch38RefSeq": "NM_001754.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 81,
+    "HugoSymbol": "EPOR",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000222139",
+    "Grch37RefSeq": "NM_000121.3",
+    "grch38Isoform": "ENST00000222139",
+    "grch38RefSeq": "NM_000121.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 82,
+    "HugoSymbol": "TCF3",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000344749",
+    "Grch37RefSeq": "NM_001136139.2",
+    "grch38Isoform": "ENST00000588136",
+    "grch38RefSeq": "NM_001136139.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 83,
+    "HugoSymbol": "TYK2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000264818",
+    "Grch37RefSeq": "NM_003331.4",
+    "grch38Isoform": "ENST00000264818",
+    "grch38RefSeq": "NM_003331.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 84,
+    "HugoSymbol": "CEBPA",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000498907",
+    "Grch37RefSeq": "NM_004364.3",
+    "grch38Isoform": "ENST00000498907",
+    "grch38RefSeq": "NM_004364.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 85,
+    "HugoSymbol": "CBL",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000264033",
+    "Grch37RefSeq": "NM_005188.3",
+    "grch38Isoform": "ENST00000264033",
+    "grch38RefSeq": "NM_005188.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 86,
+    "HugoSymbol": "PPM1D",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000305921",
+    "Grch37RefSeq": "NM_003620.3",
+    "grch38Isoform": "ENST00000305921",
+    "grch38RefSeq": "NM_003620.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 87,
+    "HugoSymbol": "DNMT3A",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000264709",
+    "Grch37RefSeq": "NM_022552.4",
+    "grch38Isoform": "ENST00000264709",
+    "grch38RefSeq": "NM_022552.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 88,
+    "HugoSymbol": "ETV6",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000396373",
+    "Grch37RefSeq": "NM_001987.4",
+    "grch38Isoform": "ENST00000396373",
+    "grch38RefSeq": "NM_001987.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 89,
+    "HugoSymbol": "PHF6",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000332070",
+    "Grch37RefSeq": "NM_001015877.1",
+    "grch38Isoform": "ENST00000332070",
+    "grch38RefSeq": "NM_001015877.1",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 90,
+    "HugoSymbol": "STAG2",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000218089",
+    "Grch37RefSeq": "NM_001042749.1",
+    "grch38Isoform": "ENST00000218089",
+    "grch38RefSeq": "NM_001042749.1",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 91,
+    "HugoSymbol": "TAL1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000294339",
+    "Grch37RefSeq": "NM_001287347.2",
+    "grch38Isoform": "ENST00000294339",
+    "grch38RefSeq": "NM_001287347.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 92,
+    "HugoSymbol": "MPL",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000372470",
+    "Grch37RefSeq": "NM_005373.2",
+    "grch38Isoform": "ENST00000372470",
+    "grch38RefSeq": "NM_005373.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 93,
+    "HugoSymbol": "MYD88",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000396334",
+    "Grch37RefSeq": "NM_002468.4",
+    "grch38Isoform": "ENST00000396334",
+    "grch38RefSeq": "NM_002468.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 94,
+    "HugoSymbol": "CALR",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000316448",
+    "Grch37RefSeq": "NM_004343.3",
+    "grch38Isoform": "ENST00000316448",
+    "grch38RefSeq": "NM_004343.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 95,
+    "HugoSymbol": "PTPN11",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000351677",
+    "Grch37RefSeq": "NM_002834.3",
+    "grch38Isoform": "ENST00000351677",
+    "grch38RefSeq": "NM_002834.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 96,
+    "HugoSymbol": "TRA",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "",
+    "Grch37RefSeq": "",
+    "grch38Isoform": "",
+    "grch38RefSeq": "",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 97,
+    "HugoSymbol": "BCL6",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000232014",
+    "Grch37RefSeq": "NM_001706.4",
+    "grch38Isoform": "ENST00000232014",
+    "grch38RefSeq": "NM_001706.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 98,
+    "HugoSymbol": "TET2",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000380013",
+    "Grch37RefSeq": "NM_001127208.2",
+    "grch38Isoform": "ENST00000380013",
+    "grch38RefSeq": "NM_001127208.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 99,
+    "HugoSymbol": "CCND1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000227507",
+    "Grch37RefSeq": "NM_053056.2",
+    "grch38Isoform": "ENST00000227507",
+    "grch38RefSeq": "NM_053056.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 100,
+    "HugoSymbol": "LMO2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000395833",
+    "Grch37RefSeq": "NM_001142315.1",
+    "grch38Isoform": "ENST00000395833",
+    "grch38RefSeq": "NM_001142315.1",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 101,
+    "HugoSymbol": "BCOR",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000378444",
+    "Grch37RefSeq": "NM_001123385.1",
+    "grch38Isoform": "ENST00000378444",
+    "grch38RefSeq": "NM_001123385.1",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 102,
+    "HugoSymbol": "TCL1A",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000402399",
+    "Grch37RefSeq": "NM_001098725.1",
+    "grch38Isoform": "ENST00000402399",
+    "grch38RefSeq": "NM_001098725.1",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 103,
+    "HugoSymbol": "BCL2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000333681",
+    "Grch37RefSeq": "NM_000633.2",
+    "grch38Isoform": "ENST00000333681",
+    "grch38RefSeq": "NM_000633.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 104,
+    "HugoSymbol": "TLX1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000370196",
+    "Grch37RefSeq": "NM_005521.3",
+    "grch38Isoform": "ENST00000370196",
+    "grch38RefSeq": "NM_005521.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 105,
+    "HugoSymbol": "TRB",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "",
+    "Grch37RefSeq": "",
+    "grch38Isoform": "",
+    "grch38RefSeq": "",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 106,
+    "HugoSymbol": "TCL1B",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000340722",
+    "Grch37RefSeq": "NM_004918.3",
+    "grch38Isoform": "ENST00000340722",
+    "grch38RefSeq": "NM_004918.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 107,
+    "HugoSymbol": "TRD",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "",
+    "Grch37RefSeq": "",
+    "grch38Isoform": "",
+    "grch38RefSeq": "",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 108,
+    "HugoSymbol": "TLX3",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000296921",
+    "Grch37RefSeq": "NM_021025.2",
+    "grch38Isoform": "ENST00000296921",
+    "grch38RefSeq": "NM_021025.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 109,
+    "HugoSymbol": "TRG",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "",
+    "Grch37RefSeq": "",
+    "grch38Isoform": "",
+    "grch38RefSeq": "",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 110,
+    "HugoSymbol": "GATA1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000376670",
+    "Grch37RefSeq": "NM_002049.3",
+    "grch38Isoform": "ENST00000376670",
+    "grch38RefSeq": "NM_002049.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 111,
+    "HugoSymbol": "FBXW7",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000281708",
+    "Grch37RefSeq": "NM_033632.3",
+    "grch38Isoform": "ENST00000281708",
+    "grch38RefSeq": "NM_033632.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 112,
+    "HugoSymbol": "CREBBP",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000262367",
+    "Grch37RefSeq": "NM_004380.2",
+    "grch38Isoform": "ENST00000262367",
+    "grch38RefSeq": "NM_004380.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 113,
+    "HugoSymbol": "ETNK1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000266517",
+    "Grch37RefSeq": "NM_018638.4",
+    "grch38Isoform": "ENST00000671733",
+    "grch38RefSeq": "NM_018638.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 114,
+    "HugoSymbol": "NOTCH1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000277541",
+    "Grch37RefSeq": "NM_017617.3",
+    "grch38Isoform": "ENST00000651671",
+    "grch38RefSeq": "NM_017617.5",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 115,
+    "HugoSymbol": "SETBP1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000282030",
+    "Grch37RefSeq": "NM_015559.2",
+    "grch38Isoform": "ENST00000649279",
+    "grch38RefSeq": "NM_015559.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 116,
+    "HugoSymbol": "IKZF1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000331340",
+    "Grch37RefSeq": "NM_006060.4",
+    "grch38Isoform": "ENST00000331340",
+    "grch38RefSeq": "NM_006060.6",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 117,
+    "HugoSymbol": "CSF3R",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000361632",
+    "Grch37RefSeq": "NM_000760.3",
+    "grch38Isoform": "ENST00000361632",
+    "grch38RefSeq": "NM_000760.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 118,
+    "HugoSymbol": "ASXL1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000375687",
+    "Grch37RefSeq": "NM_015338.5",
+    "grch38Isoform": "ENST00000375687",
+    "grch38RefSeq": "NM_015338.5",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 119,
+    "HugoSymbol": "EED",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000263360",
+    "Grch37RefSeq": "NM_003797.3",
+    "grch38Isoform": "ENST00000263360",
+    "grch38RefSeq": "NM_003797.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 120,
+    "HugoSymbol": "SUZ12",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000322652",
+    "Grch37RefSeq": "NM_015355.2",
+    "grch38Isoform": "ENST00000322652",
+    "grch38RefSeq": "NM_015355.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 121,
+    "HugoSymbol": "CIITA",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000324288",
+    "Grch37RefSeq": "NM_001286402",
+    "grch38Isoform": "ENST00000324288",
+    "grch38RefSeq": "NM_000246.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 122,
+    "HugoSymbol": "CD274",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000381577",
+    "Grch37RefSeq": "NM_014143.3",
+    "grch38Isoform": "ENST00000381577",
+    "grch38RefSeq": "NM_014143.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 123,
+    "HugoSymbol": "IL7R",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000303115",
+    "Grch37RefSeq": "NM_002185.3",
+    "grch38Isoform": "ENST00000303115",
+    "grch38RefSeq": "NM_002185.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 124,
+    "HugoSymbol": "MLLT10",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000307729",
+    "Grch37RefSeq": "NM_001195626.1",
+    "grch38Isoform": "ENST00000307729",
+    "grch38RefSeq": "NM_001195626.1",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 125,
+    "HugoSymbol": "JAK1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000342505",
+    "Grch37RefSeq": "NM_002227.2",
+    "grch38Isoform": "ENST00000342505",
+    "grch38RefSeq": "NM_002227.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 126,
+    "HugoSymbol": "TP63",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000264731",
+    "Grch37RefSeq": "NM_003722.4",
+    "grch38Isoform": "ENST00000264731",
+    "grch38RefSeq": "NM_003722.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 127,
+    "HugoSymbol": "NOTCH2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000256646",
+    "Grch37RefSeq": "NM_024408.3",
+    "grch38Isoform": "ENST00000256646",
+    "grch38RefSeq": "NM_024408.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 128,
+    "HugoSymbol": "PDCD1LG2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000397747",
+    "Grch37RefSeq": "NM_025239.3",
+    "grch38Isoform": "ENST00000397747",
+    "grch38RefSeq": "NM_025239.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 129,
+    "HugoSymbol": "MALT1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000348428",
+    "Grch37RefSeq": "NM_006785.3",
+    "grch38Isoform": "ENST00000649217",
+    "grch38RefSeq": "NM_006785.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 130,
+    "HugoSymbol": "CD79B",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000392795",
+    "Grch37RefSeq": "NM_001039933.1",
+    "grch38Isoform": "ENST00000392795",
+    "grch38RefSeq": "NM_001039933.1",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 131,
+    "HugoSymbol": "BCL10",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000370580",
+    "Grch37RefSeq": "NM_003921.4",
+    "grch38Isoform": "ENST00000648566",
+    "grch38RefSeq": "NM_003921.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 132,
+    "HugoSymbol": "SH2B3",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000341259",
+    "Grch37RefSeq": "NM_005475.2",
+    "grch38Isoform": "ENST00000341259",
+    "grch38RefSeq": "NM_005475.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 133,
+    "HugoSymbol": "FOXP1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000318789",
+    "Grch37RefSeq": "NM_001244814.1",
+    "grch38Isoform": "ENST00000318789",
+    "grch38RefSeq": "NM_001244814.1",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 134,
+    "HugoSymbol": "KMT2D",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000301067",
+    "Grch37RefSeq": "NM_003482.3",
+    "grch38Isoform": "ENST00000301067",
+    "grch38RefSeq": "NM_003482.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 135,
+    "HugoSymbol": "JAK3",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000458235",
+    "Grch37RefSeq": "NM_000215.3",
+    "grch38Isoform": "ENST00000458235",
+    "grch38RefSeq": "NM_000215.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 136,
+    "HugoSymbol": "SOCS1",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000332029",
+    "Grch37RefSeq": "NM_003745.1",
+    "grch38Isoform": "ENST00000332029",
+    "grch38RefSeq": "NM_003745.1",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 137,
+    "HugoSymbol": "RHOA",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000418115",
+    "Grch37RefSeq": "NM_001664.2",
+    "grch38Isoform": "ENST00000418115",
+    "grch38RefSeq": "NM_001664.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 138,
+    "HugoSymbol": "EP300",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000263253",
+    "Grch37RefSeq": "NM_001429.3",
+    "grch38Isoform": "ENST00000263253",
+    "grch38RefSeq": "NM_001429.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 139,
+    "HugoSymbol": "KLF2",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000248071",
+    "Grch37RefSeq": "NM_016270.2",
+    "grch38Isoform": "ENST00000248071",
+    "grch38RefSeq": "NM_016270.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 140,
+    "HugoSymbol": "STAT3",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000264657",
+    "Grch37RefSeq": "NM_139276.2",
+    "grch38Isoform": "ENST00000264657",
+    "grch38RefSeq": "NM_139276.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 141,
+    "HugoSymbol": "RELN",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000428762",
+    "Grch37RefSeq": "NM_005045.3",
+    "grch38Isoform": "ENST00000428762",
+    "grch38RefSeq": "NM_005045.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 142,
+    "HugoSymbol": "ID3",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000374561",
+    "Grch37RefSeq": "NM_002167.4",
+    "grch38Isoform": "ENST00000374561",
+    "grch38RefSeq": "NM_002167.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 143,
+    "HugoSymbol": "GATA2",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000341105",
+    "Grch37RefSeq": "NM_032638.4",
+    "grch38Isoform": "ENST00000341105",
+    "grch38RefSeq": "NM_032638.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 144,
+    "HugoSymbol": "MEF2B",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000162023",
+    "Grch37RefSeq": "NM_001145785.1",
+    "grch38Isoform": "ENST00000424583",
+    "grch38RefSeq": "NM_001145785.1",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 145,
+    "HugoSymbol": "STAT5B",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000293328",
+    "Grch37RefSeq": "NM_012448.3",
+    "grch38Isoform": "ENST00000293328",
+    "grch38RefSeq": "NM_012448.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 146,
+    "HugoSymbol": "TNFAIP3",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000237289",
+    "Grch37RefSeq": "NM_006290.3",
+    "grch38Isoform": "ENST00000237289",
+    "grch38RefSeq": "NM_006290.3",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 147,
+    "HugoSymbol": "ECT2L",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000367682",
+    "Grch37RefSeq": "NM_001077706.2",
+    "grch38Isoform": "ENST00000367682",
+    "grch38RefSeq": "NM_001077706.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 148,
+    "HugoSymbol": "CARD11",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000396946",
+    "Grch37RefSeq": "NM_032415.4",
+    "grch38Isoform": "ENST00000396946",
+    "grch38RefSeq": "NM_032415.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 149,
+    "HugoSymbol": "BIRC3",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000263464",
+    "Grch37RefSeq": "NM_182962.2",
+    "grch38Isoform": "ENST00000263464",
+    "grch38RefSeq": "NM_182962.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 150,
+    "HugoSymbol": "TNFRSF14",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000355716",
+    "Grch37RefSeq": "NM_003820.2",
+    "grch38Isoform": "ENST00000355716",
+    "grch38RefSeq": "NM_003820.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 151,
+    "HugoSymbol": "GATA3",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000346208",
+    "Grch37RefSeq": "NM_002051.2",
+    "grch38Isoform": "ENST00000346208",
+    "grch38RefSeq": "NM_002051.2",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 152,
+    "HugoSymbol": "TP53",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000269305",
+    "Grch37RefSeq": "NM_000546.5",
+    "grch38Isoform": "ENST00000269305",
+    "grch38RefSeq": "NM_000546.5",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 153,
+    "HugoSymbol": "CSF1R",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000286301",
+    "Grch37RefSeq": "NM_005211.3",
+    "grch38Isoform": "ENST00000286301",
+    "grch38RefSeq": "NM_005211.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 154,
+    "HugoSymbol": "MAF",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000393350",
+    "Grch37RefSeq": "NM_001031804.2",
+    "grch38Isoform": "ENST00000393350",
+    "grch38RefSeq": "NM_001031804.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 155,
+    "HugoSymbol": "MAFB",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000373313",
+    "Grch37RefSeq": "NM_005461.4",
+    "grch38Isoform": "ENST00000373313",
+    "grch38RefSeq": "NM_005461.4",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 156,
+    "HugoSymbol": "WT1",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000332351",
+    "Grch37RefSeq": "NM_024426.4",
+    "grch38Isoform": "ENST00000452863",
+    "grch38RefSeq": "NM_024426.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 157,
+    "HugoSymbol": "CCND3",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000372991",
+    "Grch37RefSeq": "NM_001760.3",
+    "grch38Isoform": "ENST00000372991",
+    "grch38RefSeq": "NM_001760.3",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 158,
+    "HugoSymbol": "DUSP22",
+    "OncoGene": "FALSE",
+    "Grch37Isoform": "ENST00000344450",
+    "Grch37RefSeq": "NM_020185.4",
+    "grch38Isoform": "ENST00000344450",
+    "grch38RefSeq": "NM_020185.4",
+    "Tsg": "TRUE"
+  },
+  {
+    "Id": 159,
+    "HugoSymbol": "CXCR4",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000241393",
+    "Grch37RefSeq": "NM_003467.2",
+    "grch38Isoform": "ENST00000241393",
+    "grch38RefSeq": "NM_003467.2",
+    "Tsg": "FALSE"
+  },
+  {
+    "Id": 160,
+    "HugoSymbol": "BTK",
+    "OncoGene": "TRUE",
+    "Grch37Isoform": "ENST00000308731",
+    "Grch37RefSeq": "NM_000061.2",
+    "grch38Isoform": "ENST00000308731",
+    "grch38RefSeq": "NM_000061.2",
+    "Tsg": "FALSE"
+  }
+]

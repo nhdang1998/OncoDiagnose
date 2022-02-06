@@ -1,0 +1,1922 @@
+[
+  {
+    "GeneId": 1,
+    "AliaseId": 1
+  },
+  {
+    "GeneId": 1,
+    "AliaseId": 2
+  },
+  {
+    "GeneId": 1,
+    "AliaseId": 3
+  },
+  {
+    "GeneId": 1,
+    "AliaseId": 4
+  },
+  {
+    "GeneId": 2,
+    "AliaseId": 5
+  },
+  {
+    "GeneId": 3,
+    "AliaseId": 6
+  },
+  {
+    "GeneId": 3,
+    "AliaseId": 7
+  },
+  {
+    "GeneId": 3,
+    "AliaseId": 8
+  },
+  {
+    "GeneId": 3,
+    "AliaseId": 9
+  },
+  {
+    "GeneId": 5,
+    "AliaseId": 10
+  },
+  {
+    "GeneId": 5,
+    "AliaseId": 11
+  },
+  {
+    "GeneId": 5,
+    "AliaseId": 12
+  },
+  {
+    "GeneId": 5,
+    "AliaseId": 13
+  },
+  {
+    "GeneId": 6,
+    "AliaseId": 14
+  },
+  {
+    "GeneId": 7,
+    "AliaseId": 15
+  },
+  {
+    "GeneId": 7,
+    "AliaseId": 16
+  },
+  {
+    "GeneId": 7,
+    "AliaseId": 17
+  },
+  {
+    "GeneId": 8,
+    "AliaseId": 18
+  },
+  {
+    "GeneId": 8,
+    "AliaseId": 19
+  },
+  {
+    "GeneId": 8,
+    "AliaseId": 20
+  },
+  {
+    "GeneId": 9,
+    "AliaseId": 21
+  },
+  {
+    "GeneId": 9,
+    "AliaseId": 22
+  },
+  {
+    "GeneId": 9,
+    "AliaseId": 23
+  },
+  {
+    "GeneId": 9,
+    "AliaseId": 24
+  },
+  {
+    "GeneId": 10,
+    "AliaseId": 25
+  },
+  {
+    "GeneId": 10,
+    "AliaseId": 26
+  },
+  {
+    "GeneId": 10,
+    "AliaseId": 27
+  },
+  {
+    "GeneId": 11,
+    "AliaseId": 28
+  },
+  {
+    "GeneId": 12,
+    "AliaseId": 29
+  },
+  {
+    "GeneId": 12,
+    "AliaseId": 30
+  },
+  {
+    "GeneId": 12,
+    "AliaseId": 31
+  },
+  {
+    "GeneId": 13,
+    "AliaseId": 32
+  },
+  {
+    "GeneId": 13,
+    "AliaseId": 33
+  },
+  {
+    "GeneId": 13,
+    "AliaseId": 34
+  },
+  {
+    "GeneId": 13,
+    "AliaseId": 35
+  },
+  {
+    "GeneId": 13,
+    "AliaseId": 36
+  },
+  {
+    "GeneId": 13,
+    "AliaseId": 37
+  },
+  {
+    "GeneId": 13,
+    "AliaseId": 38
+  },
+  {
+    "GeneId": 14,
+    "AliaseId": 39
+  },
+  {
+    "GeneId": 14,
+    "AliaseId": 40
+  },
+  {
+    "GeneId": 14,
+    "AliaseId": 41
+  },
+  {
+    "GeneId": 14,
+    "AliaseId": 42
+  },
+  {
+    "GeneId": 14,
+    "AliaseId": 43
+  },
+  {
+    "GeneId": 15,
+    "AliaseId": 44
+  },
+  {
+    "GeneId": 15,
+    "AliaseId": 45
+  },
+  {
+    "GeneId": 15,
+    "AliaseId": 46
+  },
+  {
+    "GeneId": 15,
+    "AliaseId": 47
+  },
+  {
+    "GeneId": 15,
+    "AliaseId": 48
+  },
+  {
+    "GeneId": 15,
+    "AliaseId": 49
+  },
+  {
+    "GeneId": 15,
+    "AliaseId": 50
+  },
+  {
+    "GeneId": 15,
+    "AliaseId": 51
+  },
+  {
+    "GeneId": 15,
+    "AliaseId": 52
+  },
+  {
+    "GeneId": 16,
+    "AliaseId": 53
+  },
+  {
+    "GeneId": 16,
+    "AliaseId": 54
+  },
+  {
+    "GeneId": 16,
+    "AliaseId": 55
+  },
+  {
+    "GeneId": 16,
+    "AliaseId": 56
+  },
+  {
+    "GeneId": 17,
+    "AliaseId": 57
+  },
+  {
+    "GeneId": 17,
+    "AliaseId": 58
+  },
+  {
+    "GeneId": 18,
+    "AliaseId": 59
+  },
+  {
+    "GeneId": 18,
+    "AliaseId": 60
+  },
+  {
+    "GeneId": 18,
+    "AliaseId": 61
+  },
+  {
+    "GeneId": 18,
+    "AliaseId": 62
+  },
+  {
+    "GeneId": 18,
+    "AliaseId": 63
+  },
+  {
+    "GeneId": 18,
+    "AliaseId": 64
+  },
+  {
+    "GeneId": 18,
+    "AliaseId": 65
+  },
+  {
+    "GeneId": 18,
+    "AliaseId": 66
+  },
+  {
+    "GeneId": 18,
+    "AliaseId": 67
+  },
+  {
+    "GeneId": 18,
+    "AliaseId": 68
+  },
+  {
+    "GeneId": 19,
+    "AliaseId": 69
+  },
+  {
+    "GeneId": 19,
+    "AliaseId": 70
+  },
+  {
+    "GeneId": 19,
+    "AliaseId": 71
+  },
+  {
+    "GeneId": 20,
+    "AliaseId": 72
+  },
+  {
+    "GeneId": 21,
+    "AliaseId": 73
+  },
+  {
+    "GeneId": 22,
+    "AliaseId": 74
+  },
+  {
+    "GeneId": 22,
+    "AliaseId": 75
+  },
+  {
+    "GeneId": 22,
+    "AliaseId": 76
+  },
+  {
+    "GeneId": 23,
+    "AliaseId": 77
+  },
+  {
+    "GeneId": 24,
+    "AliaseId": 78
+  },
+  {
+    "GeneId": 25,
+    "AliaseId": 79
+  },
+  {
+    "GeneId": 26,
+    "AliaseId": 80
+  },
+  {
+    "GeneId": 26,
+    "AliaseId": 81
+  },
+  {
+    "GeneId": 26,
+    "AliaseId": 82
+  },
+  {
+    "GeneId": 28,
+    "AliaseId": 83
+  },
+  {
+    "GeneId": 28,
+    "AliaseId": 84
+  },
+  {
+    "GeneId": 28,
+    "AliaseId": 85
+  },
+  {
+    "GeneId": 28,
+    "AliaseId": 86
+  },
+  {
+    "GeneId": 28,
+    "AliaseId": 87
+  },
+  {
+    "GeneId": 28,
+    "AliaseId": 88
+  },
+  {
+    "GeneId": 29,
+    "AliaseId": 89
+  },
+  {
+    "GeneId": 29,
+    "AliaseId": 90
+  },
+  {
+    "GeneId": 29,
+    "AliaseId": 91
+  },
+  {
+    "GeneId": 30,
+    "AliaseId": 92
+  },
+  {
+    "GeneId": 30,
+    "AliaseId": 93
+  },
+  {
+    "GeneId": 30,
+    "AliaseId": 94
+  },
+  {
+    "GeneId": 30,
+    "AliaseId": 95
+  },
+  {
+    "GeneId": 31,
+    "AliaseId": 96
+  },
+  {
+    "GeneId": 31,
+    "AliaseId": 97
+  },
+  {
+    "GeneId": 31,
+    "AliaseId": 98
+  },
+  {
+    "GeneId": 31,
+    "AliaseId": 99
+  },
+  {
+    "GeneId": 33,
+    "AliaseId": 100
+  },
+  {
+    "GeneId": 33,
+    "AliaseId": 101
+  },
+  {
+    "GeneId": 33,
+    "AliaseId": 102
+  },
+  {
+    "GeneId": 35,
+    "AliaseId": 103
+  },
+  {
+    "GeneId": 35,
+    "AliaseId": 104
+  },
+  {
+    "GeneId": 35,
+    "AliaseId": 105
+  },
+  {
+    "GeneId": 36,
+    "AliaseId": 106
+  },
+  {
+    "GeneId": 36,
+    "AliaseId": 107
+  },
+  {
+    "GeneId": 37,
+    "AliaseId": 108
+  },
+  {
+    "GeneId": 37,
+    "AliaseId": 109
+  },
+  {
+    "GeneId": 37,
+    "AliaseId": 110
+  },
+  {
+    "GeneId": 37,
+    "AliaseId": 111
+  },
+  {
+    "GeneId": 38,
+    "AliaseId": 112
+  },
+  {
+    "GeneId": 38,
+    "AliaseId": 113
+  },
+  {
+    "GeneId": 38,
+    "AliaseId": 114
+  },
+  {
+    "GeneId": 38,
+    "AliaseId": 115
+  },
+  {
+    "GeneId": 39,
+    "AliaseId": 116
+  },
+  {
+    "GeneId": 39,
+    "AliaseId": 117
+  },
+  {
+    "GeneId": 39,
+    "AliaseId": 118
+  },
+  {
+    "GeneId": 40,
+    "AliaseId": 119
+  },
+  {
+    "GeneId": 40,
+    "AliaseId": 120
+  },
+  {
+    "GeneId": 40,
+    "AliaseId": 121
+  },
+  {
+    "GeneId": 41,
+    "AliaseId": 122
+  },
+  {
+    "GeneId": 41,
+    "AliaseId": 123
+  },
+  {
+    "GeneId": 42,
+    "AliaseId": 124
+  },
+  {
+    "GeneId": 42,
+    "AliaseId": 125
+  },
+  {
+    "GeneId": 44,
+    "AliaseId": 126
+  },
+  {
+    "GeneId": 44,
+    "AliaseId": 127
+  },
+  {
+    "GeneId": 45,
+    "AliaseId": 128
+  },
+  {
+    "GeneId": 45,
+    "AliaseId": 129
+  },
+  {
+    "GeneId": 45,
+    "AliaseId": 130
+  },
+  {
+    "GeneId": 46,
+    "AliaseId": 131
+  },
+  {
+    "GeneId": 46,
+    "AliaseId": 132
+  },
+  {
+    "GeneId": 46,
+    "AliaseId": 133
+  },
+  {
+    "GeneId": 47,
+    "AliaseId": 134
+  },
+  {
+    "GeneId": 48,
+    "AliaseId": 135
+  },
+  {
+    "GeneId": 49,
+    "AliaseId": 136
+  },
+  {
+    "GeneId": 49,
+    "AliaseId": 137
+  },
+  {
+    "GeneId": 49,
+    "AliaseId": 138
+  },
+  {
+    "GeneId": 49,
+    "AliaseId": 139
+  },
+  {
+    "GeneId": 49,
+    "AliaseId": 140
+  },
+  {
+    "GeneId": 49,
+    "AliaseId": 141
+  },
+  {
+    "GeneId": 49,
+    "AliaseId": 142
+  },
+  {
+    "GeneId": 50,
+    "AliaseId": 143
+  },
+  {
+    "GeneId": 50,
+    "AliaseId": 144
+  },
+  {
+    "GeneId": 50,
+    "AliaseId": 145
+  },
+  {
+    "GeneId": 50,
+    "AliaseId": 146
+  },
+  {
+    "GeneId": 50,
+    "AliaseId": 147
+  },
+  {
+    "GeneId": 51,
+    "AliaseId": 148
+  },
+  {
+    "GeneId": 51,
+    "AliaseId": 149
+  },
+  {
+    "GeneId": 51,
+    "AliaseId": 150
+  },
+  {
+    "GeneId": 51,
+    "AliaseId": 151
+  },
+  {
+    "GeneId": 52,
+    "AliaseId": 152
+  },
+  {
+    "GeneId": 52,
+    "AliaseId": 153
+  },
+  {
+    "GeneId": 52,
+    "AliaseId": 154
+  },
+  {
+    "GeneId": 52,
+    "AliaseId": 155
+  },
+  {
+    "GeneId": 52,
+    "AliaseId": 156
+  },
+  {
+    "GeneId": 52,
+    "AliaseId": 157
+  },
+  {
+    "GeneId": 53,
+    "AliaseId": 158
+  },
+  {
+    "GeneId": 54,
+    "AliaseId": 159
+  },
+  {
+    "GeneId": 54,
+    "AliaseId": 160
+  },
+  {
+    "GeneId": 54,
+    "AliaseId": 161
+  },
+  {
+    "GeneId": 54,
+    "AliaseId": 162
+  },
+  {
+    "GeneId": 55,
+    "AliaseId": 163
+  },
+  {
+    "GeneId": 55,
+    "AliaseId": 164
+  },
+  {
+    "GeneId": 55,
+    "AliaseId": 165
+  },
+  {
+    "GeneId": 56,
+    "AliaseId": 166
+  },
+  {
+    "GeneId": 56,
+    "AliaseId": 167
+  },
+  {
+    "GeneId": 56,
+    "AliaseId": 168
+  },
+  {
+    "GeneId": 56,
+    "AliaseId": 169
+  },
+  {
+    "GeneId": 56,
+    "AliaseId": 170
+  },
+  {
+    "GeneId": 57,
+    "AliaseId": 171
+  },
+  {
+    "GeneId": 57,
+    "AliaseId": 172
+  },
+  {
+    "GeneId": 57,
+    "AliaseId": 173
+  },
+  {
+    "GeneId": 57,
+    "AliaseId": 174
+  },
+  {
+    "GeneId": 57,
+    "AliaseId": 175
+  },
+  {
+    "GeneId": 58,
+    "AliaseId": 176
+  },
+  {
+    "GeneId": 58,
+    "AliaseId": 177
+  },
+  {
+    "GeneId": 58,
+    "AliaseId": 178
+  },
+  {
+    "GeneId": 58,
+    "AliaseId": 179
+  },
+  {
+    "GeneId": 59,
+    "AliaseId": 180
+  },
+  {
+    "GeneId": 59,
+    "AliaseId": 181
+  },
+  {
+    "GeneId": 59,
+    "AliaseId": 182
+  },
+  {
+    "GeneId": 60,
+    "AliaseId": 183
+  },
+  {
+    "GeneId": 60,
+    "AliaseId": 184
+  },
+  {
+    "GeneId": 60,
+    "AliaseId": 185
+  },
+  {
+    "GeneId": 60,
+    "AliaseId": 186
+  },
+  {
+    "GeneId": 60,
+    "AliaseId": 187
+  },
+  {
+    "GeneId": 60,
+    "AliaseId": 188
+  },
+  {
+    "GeneId": 60,
+    "AliaseId": 189
+  },
+  {
+    "GeneId": 60,
+    "AliaseId": 190
+  },
+  {
+    "GeneId": 60,
+    "AliaseId": 191
+  },
+  {
+    "GeneId": 60,
+    "AliaseId": 192
+  },
+  {
+    "GeneId": 60,
+    "AliaseId": 193
+  },
+  {
+    "GeneId": 61,
+    "AliaseId": 194
+  },
+  {
+    "GeneId": 61,
+    "AliaseId": 195
+  },
+  {
+    "GeneId": 62,
+    "AliaseId": 196
+  },
+  {
+    "GeneId": 62,
+    "AliaseId": 197
+  },
+  {
+    "GeneId": 62,
+    "AliaseId": 198
+  },
+  {
+    "GeneId": 62,
+    "AliaseId": 199
+  },
+  {
+    "GeneId": 62,
+    "AliaseId": 200
+  },
+  {
+    "GeneId": 63,
+    "AliaseId": 201
+  },
+  {
+    "GeneId": 63,
+    "AliaseId": 202
+  },
+  {
+    "GeneId": 63,
+    "AliaseId": 203
+  },
+  {
+    "GeneId": 63,
+    "AliaseId": 204
+  },
+  {
+    "GeneId": 64,
+    "AliaseId": 205
+  },
+  {
+    "GeneId": 64,
+    "AliaseId": 206
+  },
+  {
+    "GeneId": 65,
+    "AliaseId": 207
+  },
+  {
+    "GeneId": 65,
+    "AliaseId": 208
+  },
+  {
+    "GeneId": 65,
+    "AliaseId": 209
+  },
+  {
+    "GeneId": 65,
+    "AliaseId": 210
+  },
+  {
+    "GeneId": 65,
+    "AliaseId": 211
+  },
+  {
+    "GeneId": 65,
+    "AliaseId": 212
+  },
+  {
+    "GeneId": 65,
+    "AliaseId": 213
+  },
+  {
+    "GeneId": 66,
+    "AliaseId": 214
+  },
+  {
+    "GeneId": 67,
+    "AliaseId": 215
+  },
+  {
+    "GeneId": 68,
+    "AliaseId": 216
+  },
+  {
+    "GeneId": 69,
+    "AliaseId": 217
+  },
+  {
+    "GeneId": 69,
+    "AliaseId": 218
+  },
+  {
+    "GeneId": 70,
+    "AliaseId": 219
+  },
+  {
+    "GeneId": 70,
+    "AliaseId": 220
+  },
+  {
+    "GeneId": 70,
+    "AliaseId": 221
+  },
+  {
+    "GeneId": 70,
+    "AliaseId": 222
+  },
+  {
+    "GeneId": 70,
+    "AliaseId": 223
+  },
+  {
+    "GeneId": 70,
+    "AliaseId": 224
+  },
+  {
+    "GeneId": 70,
+    "AliaseId": 225
+  },
+  {
+    "GeneId": 71,
+    "AliaseId": 226
+  },
+  {
+    "GeneId": 72,
+    "AliaseId": 227
+  },
+  {
+    "GeneId": 72,
+    "AliaseId": 228
+  },
+  {
+    "GeneId": 72,
+    "AliaseId": 229
+  },
+  {
+    "GeneId": 73,
+    "AliaseId": 230
+  },
+  {
+    "GeneId": 73,
+    "AliaseId": 231
+  },
+  {
+    "GeneId": 74,
+    "AliaseId": 232
+  },
+  {
+    "GeneId": 75,
+    "AliaseId": 233
+  },
+  {
+    "GeneId": 75,
+    "AliaseId": 234
+  },
+  {
+    "GeneId": 75,
+    "AliaseId": 235
+  },
+  {
+    "GeneId": 75,
+    "AliaseId": 236
+  },
+  {
+    "GeneId": 75,
+    "AliaseId": 237
+  },
+  {
+    "GeneId": 76,
+    "AliaseId": 238
+  },
+  {
+    "GeneId": 77,
+    "AliaseId": 239
+  },
+  {
+    "GeneId": 77,
+    "AliaseId": 240
+  },
+  {
+    "GeneId": 78,
+    "AliaseId": 241
+  },
+  {
+    "GeneId": 78,
+    "AliaseId": 242
+  },
+  {
+    "GeneId": 79,
+    "AliaseId": 243
+  },
+  {
+    "GeneId": 80,
+    "AliaseId": 244
+  },
+  {
+    "GeneId": 80,
+    "AliaseId": 245
+  },
+  {
+    "GeneId": 80,
+    "AliaseId": 246
+  },
+  {
+    "GeneId": 80,
+    "AliaseId": 247
+  },
+  {
+    "GeneId": 82,
+    "AliaseId": 248
+  },
+  {
+    "GeneId": 82,
+    "AliaseId": 249
+  },
+  {
+    "GeneId": 82,
+    "AliaseId": 250
+  },
+  {
+    "GeneId": 82,
+    "AliaseId": 251
+  },
+  {
+    "GeneId": 82,
+    "AliaseId": 252
+  },
+  {
+    "GeneId": 82,
+    "AliaseId": 253
+  },
+  {
+    "GeneId": 82,
+    "AliaseId": 254
+  },
+  {
+    "GeneId": 83,
+    "AliaseId": 255
+  },
+  {
+    "GeneId": 84,
+    "AliaseId": 256
+  },
+  {
+    "GeneId": 84,
+    "AliaseId": 257
+  },
+  {
+    "GeneId": 85,
+    "AliaseId": 258
+  },
+  {
+    "GeneId": 85,
+    "AliaseId": 259
+  },
+  {
+    "GeneId": 85,
+    "AliaseId": 260
+  },
+  {
+    "GeneId": 86,
+    "AliaseId": 261
+  },
+  {
+    "GeneId": 86,
+    "AliaseId": 262
+  },
+  {
+    "GeneId": 88,
+    "AliaseId": 263
+  },
+  {
+    "GeneId": 89,
+    "AliaseId": 264
+  },
+  {
+    "GeneId": 89,
+    "AliaseId": 265
+  },
+  {
+    "GeneId": 89,
+    "AliaseId": 266
+  },
+  {
+    "GeneId": 89,
+    "AliaseId": 267
+  },
+  {
+    "GeneId": 89,
+    "AliaseId": 268
+  },
+  {
+    "GeneId": 90,
+    "AliaseId": 269
+  },
+  {
+    "GeneId": 90,
+    "AliaseId": 270
+  },
+  {
+    "GeneId": 90,
+    "AliaseId": 271
+  },
+  {
+    "GeneId": 91,
+    "AliaseId": 272
+  },
+  {
+    "GeneId": 91,
+    "AliaseId": 273
+  },
+  {
+    "GeneId": 92,
+    "AliaseId": 274
+  },
+  {
+    "GeneId": 92,
+    "AliaseId": 275
+  },
+  {
+    "GeneId": 92,
+    "AliaseId": 276
+  },
+  {
+    "GeneId": 94,
+    "AliaseId": 277
+  },
+  {
+    "GeneId": 94,
+    "AliaseId": 278
+  },
+  {
+    "GeneId": 94,
+    "AliaseId": 279
+  },
+  {
+    "GeneId": 94,
+    "AliaseId": 280
+  },
+  {
+    "GeneId": 94,
+    "AliaseId": 281
+  },
+  {
+    "GeneId": 95,
+    "AliaseId": 282
+  },
+  {
+    "GeneId": 95,
+    "AliaseId": 283
+  },
+  {
+    "GeneId": 95,
+    "AliaseId": 284
+  },
+  {
+    "GeneId": 95,
+    "AliaseId": 285
+  },
+  {
+    "GeneId": 95,
+    "AliaseId": 286
+  },
+  {
+    "GeneId": 95,
+    "AliaseId": 287
+  },
+  {
+    "GeneId": 96,
+    "AliaseId": 288
+  },
+  {
+    "GeneId": 96,
+    "AliaseId": 289
+  },
+  {
+    "GeneId": 97,
+    "AliaseId": 290
+  },
+  {
+    "GeneId": 97,
+    "AliaseId": 291
+  },
+  {
+    "GeneId": 97,
+    "AliaseId": 292
+  },
+  {
+    "GeneId": 97,
+    "AliaseId": 293
+  },
+  {
+    "GeneId": 97,
+    "AliaseId": 294
+  },
+  {
+    "GeneId": 98,
+    "AliaseId": 295
+  },
+  {
+    "GeneId": 98,
+    "AliaseId": 296
+  },
+  {
+    "GeneId": 99,
+    "AliaseId": 297
+  },
+  {
+    "GeneId": 99,
+    "AliaseId": 298
+  },
+  {
+    "GeneId": 99,
+    "AliaseId": 299
+  },
+  {
+    "GeneId": 99,
+    "AliaseId": 300
+  },
+  {
+    "GeneId": 100,
+    "AliaseId": 301
+  },
+  {
+    "GeneId": 100,
+    "AliaseId": 302
+  },
+  {
+    "GeneId": 100,
+    "AliaseId": 303
+  },
+  {
+    "GeneId": 100,
+    "AliaseId": 304
+  },
+  {
+    "GeneId": 101,
+    "AliaseId": 305
+  },
+  {
+    "GeneId": 101,
+    "AliaseId": 306
+  },
+  {
+    "GeneId": 102,
+    "AliaseId": 307
+  },
+  {
+    "GeneId": 103,
+    "AliaseId": 308
+  },
+  {
+    "GeneId": 103,
+    "AliaseId": 309
+  },
+  {
+    "GeneId": 104,
+    "AliaseId": 310
+  },
+  {
+    "GeneId": 104,
+    "AliaseId": 311
+  },
+  {
+    "GeneId": 105,
+    "AliaseId": 312
+  },
+  {
+    "GeneId": 105,
+    "AliaseId": 313
+  },
+  {
+    "GeneId": 106,
+    "AliaseId": 314
+  },
+  {
+    "GeneId": 107,
+    "AliaseId": 315
+  },
+  {
+    "GeneId": 107,
+    "AliaseId": 316
+  },
+  {
+    "GeneId": 107,
+    "AliaseId": 317
+  },
+  {
+    "GeneId": 108,
+    "AliaseId": 318
+  },
+  {
+    "GeneId": 108,
+    "AliaseId": 319
+  },
+  {
+    "GeneId": 109,
+    "AliaseId": 320
+  },
+  {
+    "GeneId": 109,
+    "AliaseId": 321
+  },
+  {
+    "GeneId": 110,
+    "AliaseId": 322
+  },
+  {
+    "GeneId": 110,
+    "AliaseId": 323
+  },
+  {
+    "GeneId": 110,
+    "AliaseId": 324
+  },
+  {
+    "GeneId": 110,
+    "AliaseId": 325
+  },
+  {
+    "GeneId": 110,
+    "AliaseId": 326
+  },
+  {
+    "GeneId": 111,
+    "AliaseId": 327
+  },
+  {
+    "GeneId": 111,
+    "AliaseId": 328
+  },
+  {
+    "GeneId": 111,
+    "AliaseId": 329
+  },
+  {
+    "GeneId": 111,
+    "AliaseId": 330
+  },
+  {
+    "GeneId": 111,
+    "AliaseId": 331
+  },
+  {
+    "GeneId": 111,
+    "AliaseId": 332
+  },
+  {
+    "GeneId": 111,
+    "AliaseId": 333
+  },
+  {
+    "GeneId": 111,
+    "AliaseId": 334
+  },
+  {
+    "GeneId": 112,
+    "AliaseId": 335
+  },
+  {
+    "GeneId": 112,
+    "AliaseId": 336
+  },
+  {
+    "GeneId": 112,
+    "AliaseId": 337
+  },
+  {
+    "GeneId": 113,
+    "AliaseId": 338
+  },
+  {
+    "GeneId": 113,
+    "AliaseId": 339
+  },
+  {
+    "GeneId": 114,
+    "AliaseId": 340
+  },
+  {
+    "GeneId": 115,
+    "AliaseId": 341
+  },
+  {
+    "GeneId": 115,
+    "AliaseId": 342
+  },
+  {
+    "GeneId": 116,
+    "AliaseId": 343
+  },
+  {
+    "GeneId": 116,
+    "AliaseId": 344
+  },
+  {
+    "GeneId": 116,
+    "AliaseId": 345
+  },
+  {
+    "GeneId": 116,
+    "AliaseId": 346
+  },
+  {
+    "GeneId": 116,
+    "AliaseId": 347
+  },
+  {
+    "GeneId": 116,
+    "AliaseId": 348
+  },
+  {
+    "GeneId": 117,
+    "AliaseId": 349
+  },
+  {
+    "GeneId": 117,
+    "AliaseId": 350
+  },
+  {
+    "GeneId": 118,
+    "AliaseId": 351
+  },
+  {
+    "GeneId": 119,
+    "AliaseId": 352
+  },
+  {
+    "GeneId": 119,
+    "AliaseId": 353
+  },
+  {
+    "GeneId": 120,
+    "AliaseId": 354
+  },
+  {
+    "GeneId": 120,
+    "AliaseId": 355
+  },
+  {
+    "GeneId": 120,
+    "AliaseId": 356
+  },
+  {
+    "GeneId": 121,
+    "AliaseId": 357
+  },
+  {
+    "GeneId": 121,
+    "AliaseId": 358
+  },
+  {
+    "GeneId": 122,
+    "AliaseId": 359
+  },
+  {
+    "GeneId": 122,
+    "AliaseId": 360
+  },
+  {
+    "GeneId": 122,
+    "AliaseId": 361
+  },
+  {
+    "GeneId": 122,
+    "AliaseId": 362
+  },
+  {
+    "GeneId": 122,
+    "AliaseId": 363
+  },
+  {
+    "GeneId": 122,
+    "AliaseId": 364
+  },
+  {
+    "GeneId": 123,
+    "AliaseId": 365
+  },
+  {
+    "GeneId": 123,
+    "AliaseId": 366
+  },
+  {
+    "GeneId": 124,
+    "AliaseId": 367
+  },
+  {
+    "GeneId": 125,
+    "AliaseId": 368
+  },
+  {
+    "GeneId": 125,
+    "AliaseId": 369
+  },
+  {
+    "GeneId": 125,
+    "AliaseId": 370
+  },
+  {
+    "GeneId": 126,
+    "AliaseId": 371
+  },
+  {
+    "GeneId": 126,
+    "AliaseId": 372
+  },
+  {
+    "GeneId": 126,
+    "AliaseId": 373
+  },
+  {
+    "GeneId": 126,
+    "AliaseId": 374
+  },
+  {
+    "GeneId": 126,
+    "AliaseId": 375
+  },
+  {
+    "GeneId": 126,
+    "AliaseId": 376
+  },
+  {
+    "GeneId": 126,
+    "AliaseId": 377
+  },
+  {
+    "GeneId": 126,
+    "AliaseId": 378
+  },
+  {
+    "GeneId": 126,
+    "AliaseId": 379
+  },
+  {
+    "GeneId": 126,
+    "AliaseId": 380
+  },
+  {
+    "GeneId": 126,
+    "AliaseId": 381
+  },
+  {
+    "GeneId": 128,
+    "AliaseId": 382
+  },
+  {
+    "GeneId": 128,
+    "AliaseId": 383
+  },
+  {
+    "GeneId": 128,
+    "AliaseId": 384
+  },
+  {
+    "GeneId": 128,
+    "AliaseId": 385
+  },
+  {
+    "GeneId": 128,
+    "AliaseId": 386
+  },
+  {
+    "GeneId": 128,
+    "AliaseId": 387
+  },
+  {
+    "GeneId": 129,
+    "AliaseId": 388
+  },
+  {
+    "GeneId": 129,
+    "AliaseId": 389
+  },
+  {
+    "GeneId": 130,
+    "AliaseId": 390
+  },
+  {
+    "GeneId": 130,
+    "AliaseId": 391
+  },
+  {
+    "GeneId": 131,
+    "AliaseId": 392
+  },
+  {
+    "GeneId": 131,
+    "AliaseId": 393
+  },
+  {
+    "GeneId": 131,
+    "AliaseId": 394
+  },
+  {
+    "GeneId": 131,
+    "AliaseId": 395
+  },
+  {
+    "GeneId": 132,
+    "AliaseId": 396
+  },
+  {
+    "GeneId": 132,
+    "AliaseId": 397
+  },
+  {
+    "GeneId": 133,
+    "AliaseId": 398
+  },
+  {
+    "GeneId": 133,
+    "AliaseId": 399
+  },
+  {
+    "GeneId": 133,
+    "AliaseId": 400
+  },
+  {
+    "GeneId": 133,
+    "AliaseId": 401
+  },
+  {
+    "GeneId": 134,
+    "AliaseId": 402
+  },
+  {
+    "GeneId": 134,
+    "AliaseId": 403
+  },
+  {
+    "GeneId": 134,
+    "AliaseId": 404
+  },
+  {
+    "GeneId": 134,
+    "AliaseId": 405
+  },
+  {
+    "GeneId": 135,
+    "AliaseId": 406
+  },
+  {
+    "GeneId": 135,
+    "AliaseId": 407
+  },
+  {
+    "GeneId": 135,
+    "AliaseId": 408
+  },
+  {
+    "GeneId": 135,
+    "AliaseId": 409
+  },
+  {
+    "GeneId": 135,
+    "AliaseId": 410
+  },
+  {
+    "GeneId": 136,
+    "AliaseId": 411
+  },
+  {
+    "GeneId": 136,
+    "AliaseId": 412
+  },
+  {
+    "GeneId": 136,
+    "AliaseId": 413
+  },
+  {
+    "GeneId": 136,
+    "AliaseId": 414
+  },
+  {
+    "GeneId": 136,
+    "AliaseId": 415
+  },
+  {
+    "GeneId": 137,
+    "AliaseId": 416
+  },
+  {
+    "GeneId": 137,
+    "AliaseId": 417
+  },
+  {
+    "GeneId": 137,
+    "AliaseId": 418
+  },
+  {
+    "GeneId": 137,
+    "AliaseId": 419
+  },
+  {
+    "GeneId": 138,
+    "AliaseId": 420
+  },
+  {
+    "GeneId": 138,
+    "AliaseId": 421
+  },
+  {
+    "GeneId": 139,
+    "AliaseId": 422
+  },
+  {
+    "GeneId": 140,
+    "AliaseId": 423
+  },
+  {
+    "GeneId": 141,
+    "AliaseId": 424
+  },
+  {
+    "GeneId": 141,
+    "AliaseId": 425
+  },
+  {
+    "GeneId": 142,
+    "AliaseId": 426
+  },
+  {
+    "GeneId": 142,
+    "AliaseId": 427
+  },
+  {
+    "GeneId": 143,
+    "AliaseId": 428
+  },
+  {
+    "GeneId": 144,
+    "AliaseId": 429
+  },
+  {
+    "GeneId": 146,
+    "AliaseId": 430
+  },
+  {
+    "GeneId": 146,
+    "AliaseId": 431
+  },
+  {
+    "GeneId": 147,
+    "AliaseId": 432
+  },
+  {
+    "GeneId": 147,
+    "AliaseId": 433
+  },
+  {
+    "GeneId": 147,
+    "AliaseId": 434
+  },
+  {
+    "GeneId": 147,
+    "AliaseId": 435
+  },
+  {
+    "GeneId": 148,
+    "AliaseId": 436
+  },
+  {
+    "GeneId": 148,
+    "AliaseId": 437
+  },
+  {
+    "GeneId": 149,
+    "AliaseId": 438
+  },
+  {
+    "GeneId": 149,
+    "AliaseId": 439
+  },
+  {
+    "GeneId": 149,
+    "AliaseId": 440
+  },
+  {
+    "GeneId": 149,
+    "AliaseId": 441
+  },
+  {
+    "GeneId": 149,
+    "AliaseId": 442
+  },
+  {
+    "GeneId": 149,
+    "AliaseId": 443
+  },
+  {
+    "GeneId": 149,
+    "AliaseId": 444
+  },
+  {
+    "GeneId": 150,
+    "AliaseId": 445
+  },
+  {
+    "GeneId": 150,
+    "AliaseId": 446
+  },
+  {
+    "GeneId": 150,
+    "AliaseId": 447
+  },
+  {
+    "GeneId": 150,
+    "AliaseId": 448
+  },
+  {
+    "GeneId": 150,
+    "AliaseId": 449
+  },
+  {
+    "GeneId": 151,
+    "AliaseId": 450
+  },
+  {
+    "GeneId": 152,
+    "AliaseId": 451
+  },
+  {
+    "GeneId": 152,
+    "AliaseId": 452
+  },
+  {
+    "GeneId": 153,
+    "AliaseId": 453
+  },
+  {
+    "GeneId": 153,
+    "AliaseId": 454
+  },
+  {
+    "GeneId": 153,
+    "AliaseId": 455
+  },
+  {
+    "GeneId": 153,
+    "AliaseId": 456
+  },
+  {
+    "GeneId": 154,
+    "AliaseId": 457
+  },
+  {
+    "GeneId": 155,
+    "AliaseId": 458
+  },
+  {
+    "GeneId": 156,
+    "AliaseId": 459
+  },
+  {
+    "GeneId": 156,
+    "AliaseId": 460
+  },
+  {
+    "GeneId": 156,
+    "AliaseId": 461
+  },
+  {
+    "GeneId": 156,
+    "AliaseId": 462
+  },
+  {
+    "GeneId": 156,
+    "AliaseId": 463
+  },
+  {
+    "GeneId": 158,
+    "AliaseId": 464
+  },
+  {
+    "GeneId": 158,
+    "AliaseId": 465
+  },
+  {
+    "GeneId": 158,
+    "AliaseId": 466
+  },
+  {
+    "GeneId": 158,
+    "AliaseId": 467
+  },
+  {
+    "GeneId": 159,
+    "AliaseId": 468
+  },
+  {
+    "GeneId": 159,
+    "AliaseId": 469
+  },
+  {
+    "GeneId": 159,
+    "AliaseId": 470
+  },
+  {
+    "GeneId": 159,
+    "AliaseId": 471
+  },
+  {
+    "GeneId": 159,
+    "AliaseId": 472
+  },
+  {
+    "GeneId": 159,
+    "AliaseId": 473
+  },
+  {
+    "GeneId": 159,
+    "AliaseId": 474
+  },
+  {
+    "GeneId": 159,
+    "AliaseId": 475
+  },
+  {
+    "GeneId": 160,
+    "AliaseId": 476
+  },
+  {
+    "GeneId": 160,
+    "AliaseId": 477
+  },
+  {
+    "GeneId": 160,
+    "AliaseId": 478
+  },
+  {
+    "GeneId": 160,
+    "AliaseId": 479
+  },
+  {
+    "GeneId": 160,
+    "AliaseId": 480
+  }
+]

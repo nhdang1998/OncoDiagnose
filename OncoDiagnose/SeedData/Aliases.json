@@ -1,0 +1,1922 @@
+[
+  {
+    "Id": 1,
+    "Name": "CD340"
+  },
+  {
+    "Id": 2,
+    "Name": "NGL"
+  },
+  {
+    "Id": 3,
+    "Name": "HER2"
+  },
+  {
+    "Id": 4,
+    "Name": "HER-2"
+  },
+  {
+    "Id": 5,
+    "Name": "BRAF1"
+  },
+  {
+    "Id": 6,
+    "Name": "PDGFR1"
+  },
+  {
+    "Id": 7,
+    "Name": "PDGFR"
+  },
+  {
+    "Id": 8,
+    "Name": "JTK12"
+  },
+  {
+    "Id": 9,
+    "Name": "CD140b"
+  },
+  {
+    "Id": 10,
+    "Name": "PPP1R160"
+  },
+  {
+    "Id": 11,
+    "Name": "TSC4"
+  },
+  {
+    "Id": 12,
+    "Name": "LAM"
+  },
+  {
+    "Id": 13,
+    "Name": "tuberin"
+  },
+  {
+    "Id": 14,
+    "Name": "CHK1"
+  },
+  {
+    "Id": 15,
+    "Name": "TSC"
+  },
+  {
+    "Id": 16,
+    "Name": "hamartin"
+  },
+  {
+    "Id": 17,
+    "Name": "KIAA0243"
+  },
+  {
+    "Id": 18,
+    "Name": "FANCD1"
+  },
+  {
+    "Id": 19,
+    "Name": "XRCC11"
+  },
+  {
+    "Id": 20,
+    "Name": "FAD1"
+  },
+  {
+    "Id": 21,
+    "Name": "JTK4"
+  },
+  {
+    "Id": 22,
+    "Name": "ACH"
+  },
+  {
+    "Id": 23,
+    "Name": "CEK2"
+  },
+  {
+    "Id": 24,
+    "Name": "CD333"
+  },
+  {
+    "Id": 25,
+    "Name": "ERBB1"
+  },
+  {
+    "Id": 26,
+    "Name": "ERRP"
+  },
+  {
+    "Id": 27,
+    "Name": "ERBB"
+  },
+  {
+    "Id": 28,
+    "Name": "CD246"
+  },
+  {
+    "Id": 29,
+    "Name": "JTK7"
+  },
+  {
+    "Id": 30,
+    "Name": "c-ABL"
+  },
+  {
+    "Id": 31,
+    "Name": "ABL"
+  },
+  {
+    "Id": 32,
+    "Name": "MTC1"
+  },
+  {
+    "Id": 33,
+    "Name": "CDHF12"
+  },
+  {
+    "Id": 34,
+    "Name": "CDHR16"
+  },
+  {
+    "Id": 35,
+    "Name": "MEN2A"
+  },
+  {
+    "Id": 36,
+    "Name": "RET51"
+  },
+  {
+    "Id": 37,
+    "Name": "HSCR1"
+  },
+  {
+    "Id": 38,
+    "Name": "MEN2B"
+  },
+  {
+    "Id": 39,
+    "Name": "RAD53"
+  },
+  {
+    "Id": 40,
+    "Name": "HuCds1"
+  },
+  {
+    "Id": 41,
+    "Name": "CHK2"
+  },
+  {
+    "Id": 42,
+    "Name": "PP1425"
+  },
+  {
+    "Id": 43,
+    "Name": "bA444G7"
+  },
+  {
+    "Id": 44,
+    "Name": "hSNFS"
+  },
+  {
+    "Id": 45,
+    "Name": "SNF5L1"
+  },
+  {
+    "Id": 46,
+    "Name": "RDT"
+  },
+  {
+    "Id": 47,
+    "Name": "Sfh1p"
+  },
+  {
+    "Id": 48,
+    "Name": "BAF47"
+  },
+  {
+    "Id": 49,
+    "Name": "PPP1R144"
+  },
+  {
+    "Id": 50,
+    "Name": "SNF5"
+  },
+  {
+    "Id": 51,
+    "Name": "Snr1"
+  },
+  {
+    "Id": 52,
+    "Name": "Ini1"
+  },
+  {
+    "Id": 53,
+    "Name": "PBT"
+  },
+  {
+    "Id": 54,
+    "Name": "CD117"
+  },
+  {
+    "Id": 55,
+    "Name": "C-Kit"
+  },
+  {
+    "Id": 56,
+    "Name": "SCFR"
+  },
+  {
+    "Id": 57,
+    "Name": "SSV"
+  },
+  {
+    "Id": 58,
+    "Name": "SIS"
+  },
+  {
+    "Id": 59,
+    "Name": "CEK3"
+  },
+  {
+    "Id": 60,
+    "Name": "JWS"
+  },
+  {
+    "Id": 61,
+    "Name": "BEK"
+  },
+  {
+    "Id": 62,
+    "Name": "KGFR"
+  },
+  {
+    "Id": 63,
+    "Name": "ECT1"
+  },
+  {
+    "Id": 64,
+    "Name": "K-SAM"
+  },
+  {
+    "Id": 65,
+    "Name": "TK14"
+  },
+  {
+    "Id": 66,
+    "Name": "TK25"
+  },
+  {
+    "Id": 67,
+    "Name": "CD332"
+  },
+  {
+    "Id": 68,
+    "Name": "CFD1"
+  },
+  {
+    "Id": 69,
+    "Name": "MCF3"
+  },
+  {
+    "Id": 70,
+    "Name": "ROS"
+  },
+  {
+    "Id": 71,
+    "Name": "c-ros-1"
+  },
+  {
+    "Id": 72,
+    "Name": "TRKB"
+  },
+  {
+    "Id": 73,
+    "Name": "FANCJ"
+  },
+  {
+    "Id": 74,
+    "Name": "PDGFR2"
+  },
+  {
+    "Id": 75,
+    "Name": "GAS9"
+  },
+  {
+    "Id": 76,
+    "Name": "CD140a"
+  },
+  {
+    "Id": 77,
+    "Name": "TRKC"
+  },
+  {
+    "Id": 78,
+    "Name": "PI3K"
+  },
+  {
+    "Id": 79,
+    "Name": "N-ras"
+  },
+  {
+    "Id": 80,
+    "Name": "STK1"
+  },
+  {
+    "Id": 81,
+    "Name": "FLK2"
+  },
+  {
+    "Id": 82,
+    "Name": "CD135"
+  },
+  {
+    "Id": 83,
+    "Name": "ATC"
+  },
+  {
+    "Id": 84,
+    "Name": "ATD"
+  },
+  {
+    "Id": 85,
+    "Name": "TEL1"
+  },
+  {
+    "Id": 86,
+    "Name": "ATDC"
+  },
+  {
+    "Id": 87,
+    "Name": "TELO1"
+  },
+  {
+    "Id": 88,
+    "Name": "ATA"
+  },
+  {
+    "Id": 89,
+    "Name": "RCCP2"
+  },
+  {
+    "Id": 90,
+    "Name": "HGFR"
+  },
+  {
+    "Id": 91,
+    "Name": "DFNB97"
+  },
+  {
+    "Id": 92,
+    "Name": "FLJ10335"
+  },
+  {
+    "Id": 93,
+    "Name": "Pog"
+  },
+  {
+    "Id": 94,
+    "Name": "FAAP43"
+  },
+  {
+    "Id": 95,
+    "Name": "PHF9"
+  },
+  {
+    "Id": 96,
+    "Name": "REC2"
+  },
+  {
+    "Id": 97,
+    "Name": "R51H2"
+  },
+  {
+    "Id": 98,
+    "Name": "hREC2"
+  },
+  {
+    "Id": 99,
+    "Name": "RAD51L1"
+  },
+  {
+    "Id": 100,
+    "Name": "KRAS2"
+  },
+  {
+    "Id": 101,
+    "Name": "K-Ras4B"
+  },
+  {
+    "Id": 102,
+    "Name": "KRAS1"
+  },
+  {
+    "Id": 103,
+    "Name": "RNF53"
+  },
+  {
+    "Id": 104,
+    "Name": "PPP1R53"
+  },
+  {
+    "Id": 105,
+    "Name": "FANCS"
+  },
+  {
+    "Id": 106,
+    "Name": "RAD51L2"
+  },
+  {
+    "Id": 107,
+    "Name": "FANCO"
+  },
+  {
+    "Id": 108,
+    "Name": "CRK7"
+  },
+  {
+    "Id": 109,
+    "Name": "CRKR"
+  },
+  {
+    "Id": 110,
+    "Name": "CRKRS"
+  },
+  {
+    "Id": 111,
+    "Name": "KIAA0904"
+  },
+  {
+    "Id": 112,
+    "Name": "HsTRAD"
+  },
+  {
+    "Id": 113,
+    "Name": "R51H3"
+  },
+  {
+    "Id": 114,
+    "Name": "Trad"
+  },
+  {
+    "Id": 115,
+    "Name": "RAD51L3"
+  },
+  {
+    "Id": 116,
+    "Name": "ENX-1"
+  },
+  {
+    "Id": 117,
+    "Name": "KMT6"
+  },
+  {
+    "Id": 118,
+    "Name": "KMT6A"
+  },
+  {
+    "Id": 119,
+    "Name": "hRAD54"
+  },
+  {
+    "Id": 120,
+    "Name": "hHR54"
+  },
+  {
+    "Id": 121,
+    "Name": "RAD54A"
+  },
+  {
+    "Id": 122,
+    "Name": "FLJ21816"
+  },
+  {
+    "Id": 123,
+    "Name": "FANCN"
+  },
+  {
+    "Id": 124,
+    "Name": "TRKA"
+  },
+  {
+    "Id": 125,
+    "Name": "MTC"
+  },
+  {
+    "Id": 126,
+    "Name": "PRKMK2"
+  },
+  {
+    "Id": 127,
+    "Name": "MEK2"
+  },
+  {
+    "Id": 128,
+    "Name": "PRKMK1"
+  },
+  {
+    "Id": 129,
+    "Name": "MEK1"
+  },
+  {
+    "Id": 130,
+    "Name": "MAPKK1"
+  },
+  {
+    "Id": 131,
+    "Name": "c-Raf"
+  },
+  {
+    "Id": 132,
+    "Name": "Raf-1"
+  },
+  {
+    "Id": 133,
+    "Name": "CRAF"
+  },
+  {
+    "Id": 134,
+    "Name": "ARAF1"
+  },
+  {
+    "Id": 135,
+    "Name": "JTK10"
+  },
+  {
+    "Id": 136,
+    "Name": "N-SAM"
+  },
+  {
+    "Id": 137,
+    "Name": "FLT2"
+  },
+  {
+    "Id": 138,
+    "Name": "CEK"
+  },
+  {
+    "Id": 139,
+    "Name": "H5"
+  },
+  {
+    "Id": 140,
+    "Name": "BFGFR"
+  },
+  {
+    "Id": 141,
+    "Name": "KAL2"
+  },
+  {
+    "Id": 142,
+    "Name": "CD331"
+  },
+  {
+    "Id": 143,
+    "Name": "RAC"
+  },
+  {
+    "Id": 144,
+    "Name": "PRKBA"
+  },
+  {
+    "Id": 145,
+    "Name": "PKB"
+  },
+  {
+    "Id": 146,
+    "Name": "RAC-alpha"
+  },
+  {
+    "Id": 147,
+    "Name": "AKT"
+  },
+  {
+    "Id": 148,
+    "Name": "ESR"
+  },
+  {
+    "Id": 149,
+    "Name": "Era"
+  },
+  {
+    "Id": 150,
+    "Name": "ER-alpha"
+  },
+  {
+    "Id": 151,
+    "Name": "NR3A1"
+  },
+  {
+    "Id": 152,
+    "Name": "FRAP1"
+  },
+  {
+    "Id": 153,
+    "Name": "RAFT1"
+  },
+  {
+    "Id": 154,
+    "Name": "FRAP2"
+  },
+  {
+    "Id": 155,
+    "Name": "FRAP"
+  },
+  {
+    "Id": 156,
+    "Name": "FLJ44809"
+  },
+  {
+    "Id": 157,
+    "Name": "RAPT1"
+  },
+  {
+    "Id": 158,
+    "Name": "HRAS1"
+  },
+  {
+    "Id": 159,
+    "Name": "NDF"
+  },
+  {
+    "Id": 160,
+    "Name": "NRG1-IT2"
+  },
+  {
+    "Id": 161,
+    "Name": "GGF"
+  },
+  {
+    "Id": 162,
+    "Name": "HGL"
+  },
+  {
+    "Id": 163,
+    "Name": "NBCCS"
+  },
+  {
+    "Id": 164,
+    "Name": "BCNS"
+  },
+  {
+    "Id": 165,
+    "Name": "PTCH"
+  },
+  {
+    "Id": 166,
+    "Name": "EM9"
+  },
+  {
+    "Id": 167,
+    "Name": "MGC102762"
+  },
+  {
+    "Id": 168,
+    "Name": "MGC126218"
+  },
+  {
+    "Id": 169,
+    "Name": "XPD"
+  },
+  {
+    "Id": 170,
+    "Name": "MGC126219"
+  },
+  {
+    "Id": 171,
+    "Name": "Prp10"
+  },
+  {
+    "Id": 172,
+    "Name": "SAP155"
+  },
+  {
+    "Id": 173,
+    "Name": "Hsh155"
+  },
+  {
+    "Id": 174,
+    "Name": "SF3b155"
+  },
+  {
+    "Id": 175,
+    "Name": "PRPF10"
+  },
+  {
+    "Id": 176,
+    "Name": "URP"
+  },
+  {
+    "Id": 177,
+    "Name": "ZC3H22"
+  },
+  {
+    "Id": 178,
+    "Name": "U2AF1-RS2"
+  },
+  {
+    "Id": 179,
+    "Name": "U2AF1L2"
+  },
+  {
+    "Id": 180,
+    "Name": "U2AFBP"
+  },
+  {
+    "Id": 181,
+    "Name": "RNU2AF1"
+  },
+  {
+    "Id": 182,
+    "Name": "U2AF35"
+  },
+  {
+    "Id": 183,
+    "Name": "CMM2"
+  },
+  {
+    "Id": 184,
+    "Name": "p19Arf"
+  },
+  {
+    "Id": 185,
+    "Name": "p14"
+  },
+  {
+    "Id": 186,
+    "Name": "p16"
+  },
+  {
+    "Id": 187,
+    "Name": "ARF"
+  },
+  {
+    "Id": 188,
+    "Name": "INK4a"
+  },
+  {
+    "Id": 189,
+    "Name": "p14ARF"
+  },
+  {
+    "Id": 190,
+    "Name": "INK4"
+  },
+  {
+    "Id": 191,
+    "Name": "p16INK4a"
+  },
+  {
+    "Id": 192,
+    "Name": "CDKN2"
+  },
+  {
+    "Id": 193,
+    "Name": "MLM"
+  },
+  {
+    "Id": 194,
+    "Name": "PJS"
+  },
+  {
+    "Id": 195,
+    "Name": "LKB1"
+  },
+  {
+    "Id": 196,
+    "Name": "SFRS2A"
+  },
+  {
+    "Id": 197,
+    "Name": "PR264"
+  },
+  {
+    "Id": 198,
+    "Name": "SC35"
+  },
+  {
+    "Id": 199,
+    "Name": "SFRS2"
+  },
+  {
+    "Id": 200,
+    "Name": "SC-35"
+  },
+  {
+    "Id": 201,
+    "Name": "MHAM"
+  },
+  {
+    "Id": 202,
+    "Name": "BZS"
+  },
+  {
+    "Id": 203,
+    "Name": "PTEN1"
+  },
+  {
+    "Id": 204,
+    "Name": "MMAC1"
+  },
+  {
+    "Id": 205,
+    "Name": "HDM2"
+  },
+  {
+    "Id": 206,
+    "Name": "MGC5370"
+  },
+  {
+    "Id": 207,
+    "Name": "C10rf4"
+  },
+  {
+    "Id": 208,
+    "Name": "BAF250"
+  },
+  {
+    "Id": 209,
+    "Name": "B120"
+  },
+  {
+    "Id": 210,
+    "Name": "BAF250a"
+  },
+  {
+    "Id": 211,
+    "Name": "C1orf4"
+  },
+  {
+    "Id": 212,
+    "Name": "SMARCF1"
+  },
+  {
+    "Id": 213,
+    "Name": "P270"
+  },
+  {
+    "Id": 214,
+    "Name": "SIC-1"
+  },
+  {
+    "Id": 215,
+    "Name": "UTX"
+  },
+  {
+    "Id": 216,
+    "Name": "PSK-J3"
+  },
+  {
+    "Id": 217,
+    "Name": "B23"
+  },
+  {
+    "Id": 218,
+    "Name": "NPM"
+  },
+  {
+    "Id": 219,
+    "Name": "TRX1"
+  },
+  {
+    "Id": 220,
+    "Name": "HTRX1"
+  },
+  {
+    "Id": 221,
+    "Name": "ALL-1"
+  },
+  {
+    "Id": 222,
+    "Name": "MLL"
+  },
+  {
+    "Id": 223,
+    "Name": "MLL1A"
+  },
+  {
+    "Id": 224,
+    "Name": "CXXC7"
+  },
+  {
+    "Id": 225,
+    "Name": "HRX"
+  },
+  {
+    "Id": 226,
+    "Name": "PEBP2B"
+  },
+  {
+    "Id": 227,
+    "Name": "c-Myc"
+  },
+  {
+    "Id": 228,
+    "Name": "MYCC"
+  },
+  {
+    "Id": 229,
+    "Name": "bHLHe39"
+  },
+  {
+    "Id": 230,
+    "Name": "OTT1"
+  },
+  {
+    "Id": 231,
+    "Name": "OTT"
+  },
+  {
+    "Id": 232,
+    "Name": "D6S231E"
+  },
+  {
+    "Id": 233,
+    "Name": "MCGF"
+  },
+  {
+    "Id": 234,
+    "Name": "MGC79399"
+  },
+  {
+    "Id": 235,
+    "Name": "MULTI-CSF"
+  },
+  {
+    "Id": 236,
+    "Name": "IL-3"
+  },
+  {
+    "Id": 237,
+    "Name": "MGC79398"
+  },
+  {
+    "Id": 238,
+    "Name": "ABLL"
+  },
+  {
+    "Id": 239,
+    "Name": "TSLPR"
+  },
+  {
+    "Id": 240,
+    "Name": "CRL2"
+  },
+  {
+    "Id": 241,
+    "Name": "LSIRF"
+  },
+  {
+    "Id": 242,
+    "Name": "MUM1"
+  },
+  {
+    "Id": 243,
+    "Name": "NR1B1"
+  },
+  {
+    "Id": 244,
+    "Name": "CBFA2"
+  },
+  {
+    "Id": 245,
+    "Name": "PEBP2A2"
+  },
+  {
+    "Id": 246,
+    "Name": "AMLCR1"
+  },
+  {
+    "Id": 247,
+    "Name": "AML1"
+  },
+  {
+    "Id": 248,
+    "Name": "ITF1"
+  },
+  {
+    "Id": 249,
+    "Name": "E2A"
+  },
+  {
+    "Id": 250,
+    "Name": "MGC129648"
+  },
+  {
+    "Id": 251,
+    "Name": "MGC129647"
+  },
+  {
+    "Id": 252,
+    "Name": "E47"
+  },
+  {
+    "Id": 253,
+    "Name": "bHLHb21"
+  },
+  {
+    "Id": 254,
+    "Name": "VDIR"
+  },
+  {
+    "Id": 255,
+    "Name": "JTK1"
+  },
+  {
+    "Id": 256,
+    "Name": "C/EBP-alpha"
+  },
+  {
+    "Id": 257,
+    "Name": "CEBP"
+  },
+  {
+    "Id": 258,
+    "Name": "RNF55"
+  },
+  {
+    "Id": 259,
+    "Name": "CBL2"
+  },
+  {
+    "Id": 260,
+    "Name": "c-Cbl"
+  },
+  {
+    "Id": 261,
+    "Name": "PP2C-DELTA"
+  },
+  {
+    "Id": 262,
+    "Name": "Wip1"
+  },
+  {
+    "Id": 263,
+    "Name": "TEL"
+  },
+  {
+    "Id": 264,
+    "Name": "KIAA1823"
+  },
+  {
+    "Id": 265,
+    "Name": "BFLS"
+  },
+  {
+    "Id": 266,
+    "Name": "CENP-31"
+  },
+  {
+    "Id": 267,
+    "Name": "BORJ"
+  },
+  {
+    "Id": 268,
+    "Name": "MGC14797"
+  },
+  {
+    "Id": 269,
+    "Name": "SCC3B"
+  },
+  {
+    "Id": 270,
+    "Name": "SA-2"
+  },
+  {
+    "Id": 271,
+    "Name": "SA2"
+  },
+  {
+    "Id": 272,
+    "Name": "bHLHa17"
+  },
+  {
+    "Id": 273,
+    "Name": "TCL5"
+  },
+  {
+    "Id": 274,
+    "Name": "CD110"
+  },
+  {
+    "Id": 275,
+    "Name": "TPOR"
+  },
+  {
+    "Id": 276,
+    "Name": "THPOR"
+  },
+  {
+    "Id": 277,
+    "Name": "SSA"
+  },
+  {
+    "Id": 278,
+    "Name": "cC1qR"
+  },
+  {
+    "Id": 279,
+    "Name": "CRT"
+  },
+  {
+    "Id": 280,
+    "Name": "FLJ26680"
+  },
+  {
+    "Id": 281,
+    "Name": "RO"
+  },
+  {
+    "Id": 282,
+    "Name": "SHP2"
+  },
+  {
+    "Id": 283,
+    "Name": "SHP-2"
+  },
+  {
+    "Id": 284,
+    "Name": "PTP2C"
+  },
+  {
+    "Id": 285,
+    "Name": "NS1"
+  },
+  {
+    "Id": 286,
+    "Name": "BPTP3"
+  },
+  {
+    "Id": 287,
+    "Name": "SH-PTP2"
+  },
+  {
+    "Id": 288,
+    "Name": "TCRA"
+  },
+  {
+    "Id": 289,
+    "Name": "TRA@"
+  },
+  {
+    "Id": 290,
+    "Name": "BCL5"
+  },
+  {
+    "Id": 291,
+    "Name": "ZNF51"
+  },
+  {
+    "Id": 292,
+    "Name": "ZBTB27"
+  },
+  {
+    "Id": 293,
+    "Name": "BCL6A"
+  },
+  {
+    "Id": 294,
+    "Name": "LAZ3"
+  },
+  {
+    "Id": 295,
+    "Name": "KIAA1546"
+  },
+  {
+    "Id": 296,
+    "Name": "FLJ20032"
+  },
+  {
+    "Id": 297,
+    "Name": "PRAD1"
+  },
+  {
+    "Id": 298,
+    "Name": "D11S287E"
+  },
+  {
+    "Id": 299,
+    "Name": "BCL1"
+  },
+  {
+    "Id": 300,
+    "Name": "U21B31"
+  },
+  {
+    "Id": 301,
+    "Name": "RBTNL1"
+  },
+  {
+    "Id": 302,
+    "Name": "RBTN2"
+  },
+  {
+    "Id": 303,
+    "Name": "RHOM2"
+  },
+  {
+    "Id": 304,
+    "Name": "TTG2"
+  },
+  {
+    "Id": 305,
+    "Name": "FLJ20285"
+  },
+  {
+    "Id": 306,
+    "Name": "KIAA1575"
+  },
+  {
+    "Id": 307,
+    "Name": "TCL1"
+  },
+  {
+    "Id": 308,
+    "Name": "Bcl-2"
+  },
+  {
+    "Id": 309,
+    "Name": "PPP1R50"
+  },
+  {
+    "Id": 310,
+    "Name": "TCL3"
+  },
+  {
+    "Id": 311,
+    "Name": "HOX11"
+  },
+  {
+    "Id": 312,
+    "Name": "TCRB"
+  },
+  {
+    "Id": 313,
+    "Name": "TRB@"
+  },
+  {
+    "Id": 314,
+    "Name": "TML1"
+  },
+  {
+    "Id": 315,
+    "Name": "TCRDV1"
+  },
+  {
+    "Id": 316,
+    "Name": "TCRD"
+  },
+  {
+    "Id": 317,
+    "Name": "TRD@"
+  },
+  {
+    "Id": 318,
+    "Name": "HOX11L2"
+  },
+  {
+    "Id": 319,
+    "Name": "RNX"
+  },
+  {
+    "Id": 320,
+    "Name": "TRG@"
+  },
+  {
+    "Id": 321,
+    "Name": "TCRG"
+  },
+  {
+    "Id": 322,
+    "Name": "NFE1"
+  },
+  {
+    "Id": 323,
+    "Name": "GF1"
+  },
+  {
+    "Id": 324,
+    "Name": "ERYF1"
+  },
+  {
+    "Id": 325,
+    "Name": "GATA-1"
+  },
+  {
+    "Id": 326,
+    "Name": "NF-E1"
+  },
+  {
+    "Id": 327,
+    "Name": "FBX30"
+  },
+  {
+    "Id": 328,
+    "Name": "FBXW6"
+  },
+  {
+    "Id": 329,
+    "Name": "SEL-10"
+  },
+  {
+    "Id": 330,
+    "Name": "AGO"
+  },
+  {
+    "Id": 331,
+    "Name": "SEL10"
+  },
+  {
+    "Id": 332,
+    "Name": "FBW7"
+  },
+  {
+    "Id": 333,
+    "Name": "FLJ11071"
+  },
+  {
+    "Id": 334,
+    "Name": "CDC4"
+  },
+  {
+    "Id": 335,
+    "Name": "RTS"
+  },
+  {
+    "Id": 336,
+    "Name": "KAT3A"
+  },
+  {
+    "Id": 337,
+    "Name": "RSTS"
+  },
+  {
+    "Id": 338,
+    "Name": "EKI"
+  },
+  {
+    "Id": 339,
+    "Name": "EKI1"
+  },
+  {
+    "Id": 340,
+    "Name": "TAN1"
+  },
+  {
+    "Id": 341,
+    "Name": "SEB"
+  },
+  {
+    "Id": 342,
+    "Name": "KIAA0437"
+  },
+  {
+    "Id": 343,
+    "Name": "hIk-1"
+  },
+  {
+    "Id": 344,
+    "Name": "IKAROS"
+  },
+  {
+    "Id": 345,
+    "Name": "LyF-1"
+  },
+  {
+    "Id": 346,
+    "Name": "ZNFN1A1"
+  },
+  {
+    "Id": 347,
+    "Name": "Hs.54452"
+  },
+  {
+    "Id": 348,
+    "Name": "PPP1R92"
+  },
+  {
+    "Id": 349,
+    "Name": "GCSFR"
+  },
+  {
+    "Id": 350,
+    "Name": "CD114"
+  },
+  {
+    "Id": 351,
+    "Name": "KIAA0978"
+  },
+  {
+    "Id": 352,
+    "Name": "WAIT-1"
+  },
+  {
+    "Id": 353,
+    "Name": "HEED"
+  },
+  {
+    "Id": 354,
+    "Name": "CHET9"
+  },
+  {
+    "Id": 355,
+    "Name": "JJAZ1"
+  },
+  {
+    "Id": 356,
+    "Name": "KIAA0160"
+  },
+  {
+    "Id": 357,
+    "Name": "NLRA"
+  },
+  {
+    "Id": 358,
+    "Name": "MHC2TA"
+  },
+  {
+    "Id": 359,
+    "Name": "B7H1"
+  },
+  {
+    "Id": 360,
+    "Name": "PD-L1"
+  },
+  {
+    "Id": 361,
+    "Name": "PDCD1LG1"
+  },
+  {
+    "Id": 362,
+    "Name": "B7-H1"
+  },
+  {
+    "Id": 363,
+    "Name": "PDL1"
+  },
+  {
+    "Id": 364,
+    "Name": "B7-H"
+  },
+  {
+    "Id": 365,
+    "Name": "CD127"
+  },
+  {
+    "Id": 366,
+    "Name": "IL7RA"
+  },
+  {
+    "Id": 367,
+    "Name": "AF10"
+  },
+  {
+    "Id": 368,
+    "Name": "JTK3"
+  },
+  {
+    "Id": 369,
+    "Name": "JAK1B"
+  },
+  {
+    "Id": 370,
+    "Name": "JAK1A"
+  },
+  {
+    "Id": 371,
+    "Name": "TP73L"
+  },
+  {
+    "Id": 372,
+    "Name": "TP53CP"
+  },
+  {
+    "Id": 373,
+    "Name": "EEC3"
+  },
+  {
+    "Id": 374,
+    "Name": "p73L"
+  },
+  {
+    "Id": 375,
+    "Name": "TP53L"
+  },
+  {
+    "Id": 376,
+    "Name": "OFC8"
+  },
+  {
+    "Id": 377,
+    "Name": "p53CP"
+  },
+  {
+    "Id": 378,
+    "Name": "SHFM4"
+  },
+  {
+    "Id": 379,
+    "Name": "KET"
+  },
+  {
+    "Id": 380,
+    "Name": "p63"
+  },
+  {
+    "Id": 381,
+    "Name": "p73H"
+  },
+  {
+    "Id": 382,
+    "Name": "CD273"
+  },
+  {
+    "Id": 383,
+    "Name": "bA574F11.2"
+  },
+  {
+    "Id": 384,
+    "Name": "PD-L2"
+  },
+  {
+    "Id": 385,
+    "Name": "B7-DC"
+  },
+  {
+    "Id": 386,
+    "Name": "Btdc"
+  },
+  {
+    "Id": 387,
+    "Name": "PDL2"
+  },
+  {
+    "Id": 388,
+    "Name": "MLT"
+  },
+  {
+    "Id": 389,
+    "Name": "PCASP1"
+  },
+  {
+    "Id": 390,
+    "Name": "IGB"
+  },
+  {
+    "Id": 391,
+    "Name": "B29"
+  },
+  {
+    "Id": 392,
+    "Name": "c-E10"
+  },
+  {
+    "Id": 393,
+    "Name": "CIPER"
+  },
+  {
+    "Id": 394,
+    "Name": "mE10"
+  },
+  {
+    "Id": 395,
+    "Name": "CLAP"
+  },
+  {
+    "Id": 396,
+    "Name": "IDDM20"
+  },
+  {
+    "Id": 397,
+    "Name": "LNK"
+  },
+  {
+    "Id": 398,
+    "Name": "HSPC215"
+  },
+  {
+    "Id": 399,
+    "Name": "12CC4"
+  },
+  {
+    "Id": 400,
+    "Name": "hFKH1B"
+  },
+  {
+    "Id": 401,
+    "Name": "QRF1"
+  },
+  {
+    "Id": 402,
+    "Name": "MLL2"
+  },
+  {
+    "Id": 403,
+    "Name": "TNRC21"
+  },
+  {
+    "Id": 404,
+    "Name": "ALR"
+  },
+  {
+    "Id": 405,
+    "Name": "CAGL114"
+  },
+  {
+    "Id": 406,
+    "Name": "JAK3_HUMAN"
+  },
+  {
+    "Id": 407,
+    "Name": "L-JAK"
+  },
+  {
+    "Id": 408,
+    "Name": "JAKL"
+  },
+  {
+    "Id": 409,
+    "Name": "LJAK"
+  },
+  {
+    "Id": 410,
+    "Name": "JAK-3"
+  },
+  {
+    "Id": 411,
+    "Name": "SSI-1"
+  },
+  {
+    "Id": 412,
+    "Name": "Cish1"
+  },
+  {
+    "Id": 413,
+    "Name": "JAB"
+  },
+  {
+    "Id": 414,
+    "Name": "SOCS-1"
+  },
+  {
+    "Id": 415,
+    "Name": "TIP3"
+  },
+  {
+    "Id": 416,
+    "Name": "ARH12"
+  },
+  {
+    "Id": 417,
+    "Name": "ARHA"
+  },
+  {
+    "Id": 418,
+    "Name": "RHOH12"
+  },
+  {
+    "Id": 419,
+    "Name": "Rho12"
+  },
+  {
+    "Id": 420,
+    "Name": "p300"
+  },
+  {
+    "Id": 421,
+    "Name": "KAT3B"
+  },
+  {
+    "Id": 422,
+    "Name": "LKLF"
+  },
+  {
+    "Id": 423,
+    "Name": "APRF"
+  },
+  {
+    "Id": 424,
+    "Name": "PRO1598"
+  },
+  {
+    "Id": 425,
+    "Name": "RL"
+  },
+  {
+    "Id": 426,
+    "Name": "HEIR-1"
+  },
+  {
+    "Id": 427,
+    "Name": "bHLHb25"
+  },
+  {
+    "Id": 428,
+    "Name": "NFE1B"
+  },
+  {
+    "Id": 429,
+    "Name": "RSRFR2"
+  },
+  {
+    "Id": 430,
+    "Name": "OTUD7C"
+  },
+  {
+    "Id": 431,
+    "Name": "A20"
+  },
+  {
+    "Id": 432,
+    "Name": "C6orf91"
+  },
+  {
+    "Id": 433,
+    "Name": "ARHGEF32"
+  },
+  {
+    "Id": 434,
+    "Name": "FBXO49"
+  },
+  {
+    "Id": 435,
+    "Name": "LFDH"
+  },
+  {
+    "Id": 436,
+    "Name": "CARMA1"
+  },
+  {
+    "Id": 437,
+    "Name": "BIMP3"
+  },
+  {
+    "Id": 438,
+    "Name": "MIHC"
+  },
+  {
+    "Id": 439,
+    "Name": "API2"
+  },
+  {
+    "Id": 440,
+    "Name": "RNF49"
+  },
+  {
+    "Id": 441,
+    "Name": "cIAP2"
+  },
+  {
+    "Id": 442,
+    "Name": "c-IAP2"
+  },
+  {
+    "Id": 443,
+    "Name": "hiap-1"
+  },
+  {
+    "Id": 444,
+    "Name": "MALT2"
+  },
+  {
+    "Id": 445,
+    "Name": "HVEM"
+  },
+  {
+    "Id": 446,
+    "Name": "CD270"
+  },
+  {
+    "Id": 447,
+    "Name": "HVEA"
+  },
+  {
+    "Id": 448,
+    "Name": "ATAR"
+  },
+  {
+    "Id": 449,
+    "Name": "LIGHTR"
+  },
+  {
+    "Id": 450,
+    "Name": "HDR"
+  },
+  {
+    "Id": 451,
+    "Name": "LFS1"
+  },
+  {
+    "Id": 452,
+    "Name": "p53"
+  },
+  {
+    "Id": 453,
+    "Name": "CSFR"
+  },
+  {
+    "Id": 454,
+    "Name": "C-FMS"
+  },
+  {
+    "Id": 455,
+    "Name": "CD115"
+  },
+  {
+    "Id": 456,
+    "Name": "FMS"
+  },
+  {
+    "Id": 457,
+    "Name": "c-MAF"
+  },
+  {
+    "Id": 458,
+    "Name": "KRML"
+  },
+  {
+    "Id": 459,
+    "Name": "GUD"
+  },
+  {
+    "Id": 460,
+    "Name": "NPHS4"
+  },
+  {
+    "Id": 461,
+    "Name": "WIT-2"
+  },
+  {
+    "Id": 462,
+    "Name": "WAGR"
+  },
+  {
+    "Id": 463,
+    "Name": "AWT1"
+  },
+  {
+    "Id": 464,
+    "Name": "MKPX"
+  },
+  {
+    "Id": 465,
+    "Name": "JKAP"
+  },
+  {
+    "Id": 466,
+    "Name": "VHX"
+  },
+  {
+    "Id": 467,
+    "Name": "JSP1"
+  },
+  {
+    "Id": 468,
+    "Name": "HSY3RR"
+  },
+  {
+    "Id": 469,
+    "Name": "CD184"
+  },
+  {
+    "Id": 470,
+    "Name": "D2S201E"
+  },
+  {
+    "Id": 471,
+    "Name": "NPY3R"
+  },
+  {
+    "Id": 472,
+    "Name": "LESTR"
+  },
+  {
+    "Id": 473,
+    "Name": "HM89"
+  },
+  {
+    "Id": 474,
+    "Name": "NPYY3R"
+  },
+  {
+    "Id": 475,
+    "Name": "fusin"
+  },
+  {
+    "Id": 476,
+    "Name": "IMD1"
+  },
+  {
+    "Id": 477,
+    "Name": "AGMX1"
+  },
+  {
+    "Id": 478,
+    "Name": "ATK"
+  },
+  {
+    "Id": 479,
+    "Name": "XLA"
+  },
+  {
+    "Id": 480,
+    "Name": "PSCTK1"
+  }
+]

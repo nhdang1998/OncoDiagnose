@@ -1,0 +1,2634 @@
+[
+  {
+    "Id": 1,
+    "Synonym": "Anti-erbB2 Monoclonal Antibody"
+  },
+  {
+    "Id": 2,
+    "Synonym": "Anti-p185-HER2"
+  },
+  {
+    "Id": 3,
+    "Synonym": "SB3"
+  },
+  {
+    "Id": 4,
+    "Synonym": "Trastuzumab Biosimilar ABP 980"
+  },
+  {
+    "Id": 5,
+    "Synonym": "Trastuzumab Biosimilar PF-05280014"
+  },
+  {
+    "Id": 6,
+    "Synonym": "Anti-ERB-2"
+  },
+  {
+    "Id": 7,
+    "Synonym": "Herceptin"
+  },
+  {
+    "Id": 8,
+    "Synonym": "Trastuzumab-dkst"
+  },
+  {
+    "Id": 9,
+    "Synonym": "PF-05280014"
+  },
+  {
+    "Id": 10,
+    "Synonym": "Trastuzumab Biosimilar SIBP-01"
+  },
+  {
+    "Id": 11,
+    "Synonym": "MoAb HER2"
+  },
+  {
+    "Id": 12,
+    "Synonym": "c-erb-2 Monoclonal Antibody"
+  },
+  {
+    "Id": 13,
+    "Synonym": "Trazimera"
+  },
+  {
+    "Id": 14,
+    "Synonym": "Anti-c-erbB2 Monoclonal Antibody"
+  },
+  {
+    "Id": 15,
+    "Synonym": "Trastuzumab Biosimilar ALT02"
+  },
+  {
+    "Id": 16,
+    "Synonym": "trastuzumab biosimilar EG12014"
+  },
+  {
+    "Id": 17,
+    "Synonym": "Herzuma"
+  },
+  {
+    "Id": 18,
+    "Synonym": "Anti-erbB-2"
+  },
+  {
+    "Id": 19,
+    "Synonym": "Trastuzumab-pkrb"
+  },
+  {
+    "Id": 20,
+    "Synonym": "Trastuzumab-anns"
+  },
+  {
+    "Id": 21,
+    "Synonym": "Ontruzant"
+  },
+  {
+    "Id": 22,
+    "Synonym": "Trastuzumab-qyyp"
+  },
+  {
+    "Id": 23,
+    "Synonym": "TRASTUZUMAB"
+  },
+  {
+    "Id": 24,
+    "Synonym": "Trastuzumab Biosimilar HLX02"
+  },
+  {
+    "Id": 25,
+    "Synonym": "Anti-HER2/c-erbB2 Monoclonal Antibody"
+  },
+  {
+    "Id": 26,
+    "Synonym": "Trastuzumab-dttb"
+  },
+  {
+    "Id": 27,
+    "Synonym": "RO0452317"
+  },
+  {
+    "Id": 28,
+    "Synonym": "ABP 980"
+  },
+  {
+    "Id": 29,
+    "Synonym": "Monoclonal Antibody HER2"
+  },
+  {
+    "Id": 30,
+    "Synonym": "Monoclonal Antibody c-erb-2"
+  },
+  {
+    "Id": 31,
+    "Synonym": "Immunoglobulin G 1 (Human-Mouse Monoclonal RhuMab HER2gamma1-Chain Antihuman p185(Sup c-erbB2) Receptor), Disulfide with Human-Mouse Monoclonal RhuMab HER2 Light Chain, Dimer"
+  },
+  {
+    "Id": 32,
+    "Synonym": "rhuMAb HER2"
+  },
+  {
+    "Id": 33,
+    "Synonym": "HER2 Monoclonal Antibody"
+  },
+  {
+    "Id": 34,
+    "Synonym": "Anti-c-ERB-2"
+  },
+  {
+    "Id": 35,
+    "Synonym": "Ogivri"
+  },
+  {
+    "Id": 36,
+    "Synonym": "Herceptin Biosimilar PF-05280014"
+  },
+  {
+    "Id": 37,
+    "Synonym": "Herceptin Trastuzumab Biosimilar PF-05280014"
+  },
+  {
+    "Id": 38,
+    "Synonym": "ALT02"
+  },
+  {
+    "Id": 39,
+    "Synonym": "Kanjinti"
+  },
+  {
+    "Id": 40,
+    "Synonym": "Trastuzumab Biosimilar SB3"
+  },
+  {
+    "Id": 41,
+    "Synonym": "Chemo"
+  },
+  {
+    "Id": 42,
+    "Synonym": "Chemotherapy"
+  },
+  {
+    "Id": 43,
+    "Synonym": "Chemotherapy (NOS)"
+  },
+  {
+    "Id": 44,
+    "Synonym": "Chemotherapy, Cancer, General"
+  },
+  {
+    "Id": 45,
+    "Synonym": "Immunoglobulin G4, Anti-(Human Programmed Cell Death 1); Humanized Mouse Monoclonal (228-L-proline(H10-S>P))gamma 4 Heavy Chain (134-218')-disulfide with Humanized Mouse Monoclonal Kappa Light Chain Dimer (226-226'':229-229'')-bisdisulfide"
+  },
+  {
+    "Id": 46,
+    "Synonym": "Pembrolizumab"
+  },
+  {
+    "Id": 47,
+    "Synonym": "MK-3475"
+  },
+  {
+    "Id": 48,
+    "Synonym": "Keytruda"
+  },
+  {
+    "Id": 49,
+    "Synonym": "Lambrolizumab"
+  },
+  {
+    "Id": 50,
+    "Synonym": "SCH 900475"
+  },
+  {
+    "Id": 51,
+    "Synonym": "Vemurafenib"
+  },
+  {
+    "Id": 52,
+    "Synonym": "BRAF(V600E) Kinase Inhibitor RO5185426"
+  },
+  {
+    "Id": 53,
+    "Synonym": "RO 5185426"
+  },
+  {
+    "Id": 54,
+    "Synonym": "PLX4032"
+  },
+  {
+    "Id": 55,
+    "Synonym": "PLX-4032"
+  },
+  {
+    "Id": 56,
+    "Synonym": "1-propanesulfonamide, n-(3-((5-(4-chlorophenyl)-1h-pyrrolo(2,3-b)pyridin-3-yl)carbonyl)-2,4-difluorophenyl)-"
+  },
+  {
+    "Id": 57,
+    "Synonym": "RG 7204"
+  },
+  {
+    "Id": 58,
+    "Synonym": "Zelboraf"
+  },
+  {
+    "Id": 59,
+    "Synonym": "BRAF (V600E) kinase inhibitor RO5185426"
+  },
+  {
+    "Id": 60,
+    "Synonym": "RG7204"
+  },
+  {
+    "Id": 61,
+    "Synonym": "TRAMETINIB"
+  },
+  {
+    "Id": 62,
+    "Synonym": "JTP-74057"
+  },
+  {
+    "Id": 63,
+    "Synonym": "MEK Inhibitor GSK1120212"
+  },
+  {
+    "Id": 64,
+    "Synonym": "N-(3-{3-cyclopropyl-5-[(2-fluoro-4-iodophenyl)amino]-6,8-dimethyl-2,4,7-trioxo-3,4,6,7-tetrahydropyrido[4,3-d]pyrimidin-1(2H)-yl}phenyl)acetamide"
+  },
+  {
+    "Id": 65,
+    "Synonym": "GSK1120212"
+  },
+  {
+    "Id": 66,
+    "Synonym": "DABRAFENIB"
+  },
+  {
+    "Id": 67,
+    "Synonym": "GSK-2118436"
+  },
+  {
+    "Id": 68,
+    "Synonym": "GSK-2118436A"
+  },
+  {
+    "Id": 69,
+    "Synonym": "BRAF Inhibitor GSK2118436"
+  },
+  {
+    "Id": 70,
+    "Synonym": "GSK2118436"
+  },
+  {
+    "Id": 71,
+    "Synonym": "Benzenesulfonamide, N-(3-(5-(2-amino-4-pyrimidinyl)-2-(1,1-dimethylethyl)-4-thiazolyl)-2-fluorophenyl)-2,6-difluoro-"
+  },
+  {
+    "Id": 72,
+    "Synonym": "Imatinib"
+  },
+  {
+    "Id": 73,
+    "Synonym": "4-[(4-Methyl-1-piperazinyl)methyl]-N-[4-methyl-3-[[4-(3-pyridinyl)-2-pyrimidinyl]amino]phenyl]benzamide"
+  },
+  {
+    "Id": 74,
+    "Synonym": "CETUXIMAB"
+  },
+  {
+    "Id": 75,
+    "Synonym": "Cetuximab Biosimilar CMAB009"
+  },
+  {
+    "Id": 76,
+    "Synonym": "IMC-C225"
+  },
+  {
+    "Id": 77,
+    "Synonym": "Chimeric Anti-EGFR Monoclonal Antibody"
+  },
+  {
+    "Id": 78,
+    "Synonym": "Cetuximab Biosimilar KL 140"
+  },
+  {
+    "Id": 79,
+    "Synonym": "Cetuximab Biosimilar CDP-1"
+  },
+  {
+    "Id": 80,
+    "Synonym": "Chimeric Monoclonal Antibody C225"
+  },
+  {
+    "Id": 81,
+    "Synonym": "Chimeric MoAb C225"
+  },
+  {
+    "Id": 82,
+    "Synonym": "Erbitux"
+  },
+  {
+    "Id": 83,
+    "Synonym": "LGX-818"
+  },
+  {
+    "Id": 84,
+    "Synonym": "Encorafenib"
+  },
+  {
+    "Id": 85,
+    "Synonym": "LGX818"
+  },
+  {
+    "Id": 86,
+    "Synonym": "LGX 818"
+  },
+  {
+    "Id": 87,
+    "Synonym": "Braftovi"
+  },
+  {
+    "Id": 88,
+    "Synonym": "Selumetinib"
+  },
+  {
+    "Id": 89,
+    "Synonym": "AZD6244"
+  },
+  {
+    "Id": 90,
+    "Synonym": "ARRY-142886"
+  },
+  {
+    "Id": 91,
+    "Synonym": "MEK Inhibitor AZD6244"
+  },
+  {
+    "Id": 92,
+    "Synonym": "RAD 001"
+  },
+  {
+    "Id": 93,
+    "Synonym": "everolimus"
+  },
+  {
+    "Id": 94,
+    "Synonym": "(1R,9S,12S,15R,16E,18R,19R,21R,23S,24E,26E,28E,30S,32S,35R)-1,18-Dihydroxy-12-((1R)-2-((1S,3R,4R)-4-(2-hydroxyethoxy)-3-methoxycyclohexyl)-1-methylethyl)-19,30-dimethoxy-15,17,21,23,29,35-hexamethyl-11,36-dioxa-4-azatricyclo(30.3.1.04,9)hexatriaconta-16,24,26,28-tetraene-2,3,10,14,20-pentaone"
+  },
+  {
+    "Id": 95,
+    "Synonym": "42-O-(2-Hydroxy)ethyl Rapamycin"
+  },
+  {
+    "Id": 96,
+    "Synonym": "Zortress"
+  },
+  {
+    "Id": 97,
+    "Synonym": "Certican"
+  },
+  {
+    "Id": 98,
+    "Synonym": "Votubia"
+  },
+  {
+    "Id": 99,
+    "Synonym": "Afinitor"
+  },
+  {
+    "Id": 100,
+    "Synonym": "RAD001"
+  },
+  {
+    "Id": 101,
+    "Synonym": "OLAPARIB"
+  },
+  {
+    "Id": 102,
+    "Synonym": "AZD-2281"
+  },
+  {
+    "Id": 103,
+    "Synonym": "AZD2281"
+  },
+  {
+    "Id": 104,
+    "Synonym": "KU-0059436"
+  },
+  {
+    "Id": 105,
+    "Synonym": "PARP Inhibitor AZD2281"
+  },
+  {
+    "Id": 106,
+    "Synonym": "AZD 2281"
+  },
+  {
+    "Id": 107,
+    "Synonym": "Lynparza"
+  },
+  {
+    "Id": 108,
+    "Synonym": "Bevacizumab Biosimilar HD204"
+  },
+  {
+    "Id": 109,
+    "Synonym": "Anti-VEGF rhuMAb"
+  },
+  {
+    "Id": 110,
+    "Synonym": "Bevacizumab Biosimilar Zirabev"
+  },
+  {
+    "Id": 111,
+    "Synonym": "Zirabev"
+  },
+  {
+    "Id": 112,
+    "Synonym": "rhuMab-VEGF"
+  },
+  {
+    "Id": 113,
+    "Synonym": "Anti-VEGF Humanized Monoclonal Antibody"
+  },
+  {
+    "Id": 114,
+    "Synonym": "Bevacizumab Biosimilar FKB238"
+  },
+  {
+    "Id": 115,
+    "Synonym": "Bevacizumab-bvzr"
+  },
+  {
+    "Id": 116,
+    "Synonym": "SCT501"
+  },
+  {
+    "Id": 117,
+    "Synonym": "Bevacizumab Biosimilar SCT501"
+  },
+  {
+    "Id": 118,
+    "Synonym": "ABP 215"
+  },
+  {
+    "Id": 119,
+    "Synonym": "Bevacizumab Biosimilar Mvasi"
+  },
+  {
+    "Id": 120,
+    "Synonym": "Bevacizumab"
+  },
+  {
+    "Id": 121,
+    "Synonym": "Bevacizumab Biosimilar LY01008"
+  },
+  {
+    "Id": 122,
+    "Synonym": "Bevacizumab awwb"
+  },
+  {
+    "Id": 123,
+    "Synonym": "Bevacizumab Biosimilar BEVZ92"
+  },
+  {
+    "Id": 124,
+    "Synonym": "Bevacizumab-awwb"
+  },
+  {
+    "Id": 125,
+    "Synonym": "Bevacizumab Biosimilar ABP 215"
+  },
+  {
+    "Id": 126,
+    "Synonym": "Bevacizumab Biosimilar HLX04"
+  },
+  {
+    "Id": 127,
+    "Synonym": "Bevacizumab Biosimilar CT-P16"
+  },
+  {
+    "Id": 128,
+    "Synonym": "Bevacizumab Biosimilar QL 1101"
+  },
+  {
+    "Id": 129,
+    "Synonym": "BP102"
+  },
+  {
+    "Id": 130,
+    "Synonym": "Bevacizumab Biosimilar BI 695502"
+  },
+  {
+    "Id": 131,
+    "Synonym": "Bevacizumab Biosimilar IBI305"
+  },
+  {
+    "Id": 132,
+    "Synonym": "Bevacizumab Biosimilar RPH-001"
+  },
+  {
+    "Id": 133,
+    "Synonym": "Bevacizumab Biosimilar MIL60"
+  },
+  {
+    "Id": 134,
+    "Synonym": "HD204"
+  },
+  {
+    "Id": 135,
+    "Synonym": "Avastin"
+  },
+  {
+    "Id": 136,
+    "Synonym": "Immunoglobulin G1 (Human-Mouse Monoclonal rhuMab-VEGF Gamma-Chain Anti-Human Vascular Endothelial Growth Factor), Disulfide With Human-Mouse Monoclonal rhuMab-VEGF Light Chain, Dimer"
+  },
+  {
+    "Id": 137,
+    "Synonym": "Bevacizumab Biosimilar CBT 124"
+  },
+  {
+    "Id": 138,
+    "Synonym": "Bevacizumab Biosimilar GB-222"
+  },
+  {
+    "Id": 139,
+    "Synonym": "BP102 Biosimilar"
+  },
+  {
+    "Id": 140,
+    "Synonym": "Mvasi"
+  },
+  {
+    "Id": 141,
+    "Synonym": "Anti-VEGF"
+  },
+  {
+    "Id": 142,
+    "Synonym": "Recombinant Humanized Anti-VEGF Monoclonal Antibody"
+  },
+  {
+    "Id": 143,
+    "Synonym": "8-Fluoro-2-(4-((methylamino)methyl)phenyl)-1,3,4,5-tetrahydro-6H-azepino(5,4,3-cd)indol-6-one"
+  },
+  {
+    "Id": 144,
+    "Synonym": "Rucaparib"
+  },
+  {
+    "Id": 145,
+    "Synonym": "6H-Pyrrolo(4,3,2-ef)(2)benzazepin-6-one, 8-Fluoro-1,3,4,5-tetrahydro-2-(4-((methylamino)methyl)phenyl)-"
+  },
+  {
+    "Id": 146,
+    "Synonym": "MK-4827"
+  },
+  {
+    "Id": 147,
+    "Synonym": "MK4827"
+  },
+  {
+    "Id": 148,
+    "Synonym": "Niraparib"
+  },
+  {
+    "Id": 149,
+    "Synonym": "1,2-Ethanediamine, N1-(3,5-dimethoxyphenyl)-N2-(1-methylethyl)-N1-(3-(1-methyl-1H-pyrazol-4-yl)-6-quinoxalinyl)-"
+  },
+  {
+    "Id": 150,
+    "Synonym": "JNJ-42756493"
+  },
+  {
+    "Id": 151,
+    "Synonym": "Balversa"
+  },
+  {
+    "Id": 152,
+    "Synonym": "Erdafitinib"
+  },
+  {
+    "Id": 153,
+    "Synonym": "EGFR/HER2 Inhibitor TAK-788"
+  },
+  {
+    "Id": 154,
+    "Synonym": "TAK 788"
+  },
+  {
+    "Id": 155,
+    "Synonym": "TAK-788"
+  },
+  {
+    "Id": 156,
+    "Synonym": "TAK788"
+  },
+  {
+    "Id": 157,
+    "Synonym": "AP-32788"
+  },
+  {
+    "Id": 158,
+    "Synonym": "Mobocertinib"
+  },
+  {
+    "Id": 159,
+    "Synonym": "AP 32788"
+  },
+  {
+    "Id": 160,
+    "Synonym": "AP32788"
+  },
+  {
+    "Id": 161,
+    "Synonym": "MPDL 3280A"
+  },
+  {
+    "Id": 162,
+    "Synonym": "MPDL328OA"
+  },
+  {
+    "Id": 163,
+    "Synonym": "MPDL 328OA"
+  },
+  {
+    "Id": 164,
+    "Synonym": "Tecentriq"
+  },
+  {
+    "Id": 165,
+    "Synonym": "Immunoglobulin G1, Anti-(human CD Antigen cd274) (Human Monoclonal MPDL3280A Heavy Chain), Disulfide with Human Monoclonal MPDL3280A Kappa-chain, Dimer"
+  },
+  {
+    "Id": 166,
+    "Synonym": "ATEZOLIZUMAB"
+  },
+  {
+    "Id": 167,
+    "Synonym": "MPDL-3280A"
+  },
+  {
+    "Id": 168,
+    "Synonym": "RG7446"
+  },
+  {
+    "Id": 169,
+    "Synonym": "MPDL3280A"
+  },
+  {
+    "Id": 170,
+    "Synonym": "RO5541267"
+  },
+  {
+    "Id": 171,
+    "Synonym": "Cotellic"
+  },
+  {
+    "Id": 172,
+    "Synonym": "Cobimetinib"
+  },
+  {
+    "Id": 173,
+    "Synonym": "XL518"
+  },
+  {
+    "Id": 174,
+    "Synonym": "GDC-0973"
+  },
+  {
+    "Id": 175,
+    "Synonym": "MEK Inhibitor GDC-0973"
+  },
+  {
+    "Id": 176,
+    "Synonym": "Brigatinib"
+  },
+  {
+    "Id": 177,
+    "Synonym": "AP26113"
+  },
+  {
+    "Id": 178,
+    "Synonym": "Alunbrig"
+  },
+  {
+    "Id": 179,
+    "Synonym": "5-Chloro-N4-[2-(dimethylphosphoryl)phenyl]-N2-{2-methoxy-4[4-(4-methylpiperazin-1-yl)piperidin-1-yl]phenyl}pyrimidine-2,4-diamine"
+  },
+  {
+    "Id": 180,
+    "Synonym": "AP-26113"
+  },
+  {
+    "Id": 181,
+    "Synonym": "AP 26113"
+  },
+  {
+    "Id": 182,
+    "Synonym": "(2-((5-Chloro-2-((2-methoxy-4-(4-(4-methylpiperazin-1-yl)piperidin-1-yl)phenyl)amino)pyrimidin-4-yl)amino)phenyl)dimethyl-,delta5-phosphanone"
+  },
+  {
+    "Id": 183,
+    "Synonym": "PONATINIB"
+  },
+  {
+    "Id": 184,
+    "Synonym": "AP-24534"
+  },
+  {
+    "Id": 185,
+    "Synonym": "AP24534"
+  },
+  {
+    "Id": 186,
+    "Synonym": "Benzamide, 3-(2-Imidazo(1,2-B)Pyridazin-3-Ylethynyl)-4-Methyl-N-(4-((4-Methyl-1- Piperazinyl)Methyl)-3-(Trifluoromethyl)Phenyl)"
+  },
+  {
+    "Id": 187,
+    "Synonym": "ABL001"
+  },
+  {
+    "Id": 188,
+    "Synonym": "ASCIMINIB"
+  },
+  {
+    "Id": 189,
+    "Synonym": "RET Inhibitor LOXO-292"
+  },
+  {
+    "Id": 190,
+    "Synonym": "SELPERCATINIB"
+  },
+  {
+    "Id": 191,
+    "Synonym": "6-(2-Hydroxy-2-methylpropoxy)-4-(6-(6-((6-methoxypyridin-3-yl)methyl)-3,6-diazabicyclo(3.1.1)heptan-3-yl)pyridin-3-yl)pyrazolo(1,5-a)pyridine-3-carbonitril"
+  },
+  {
+    "Id": 192,
+    "Synonym": "RET Kinase Inhibitor LOXO-292"
+  },
+  {
+    "Id": 193,
+    "Synonym": "LOXO-292"
+  },
+  {
+    "Id": 194,
+    "Synonym": "Retevmo"
+  },
+  {
+    "Id": 195,
+    "Synonym": "WHO 10967"
+  },
+  {
+    "Id": 196,
+    "Synonym": "Pralsetinib"
+  },
+  {
+    "Id": 197,
+    "Synonym": "(cis)-N-((S)-1-(6-(4-Fluoro-1H-pyrazol-1-yl)pyridin-3-yl)ethyl)-1-methoxy-4-(4-methyl-6-(5-methyl-1H-pyrazol-3-ylamino)pyrimidin-2-yl)cyclohexanecarboxamide"
+  },
+  {
+    "Id": 198,
+    "Synonym": "BLU667"
+  },
+  {
+    "Id": 199,
+    "Synonym": "BLU-667"
+  },
+  {
+    "Id": 200,
+    "Synonym": "Gavreto"
+  },
+  {
+    "Id": 201,
+    "Synonym": "TAZEMETOSTAT"
+  },
+  {
+    "Id": 202,
+    "Synonym": "E7438"
+  },
+  {
+    "Id": 203,
+    "Synonym": "N-((4,6-dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)-5-(ethyl(tetrahydro-2H-pyran-4-yl)amino)-4-methyl-4'-(morpholinomethyl)-[1,1'-biphenyl]-3-carboxamide"
+  },
+  {
+    "Id": 204,
+    "Synonym": "EPZ-6438"
+  },
+  {
+    "Id": 205,
+    "Synonym": "EPZ6438"
+  },
+  {
+    "Id": 206,
+    "Synonym": "N-((4,6-Dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)-5-(ethyl(oxan-4-yl)amino)-4-methyl-4'-((morpholin-4-yl)methyl)(1,1'-biphenyl)-3-carboxamide"
+  },
+  {
+    "Id": 207,
+    "Synonym": "RIPRETINIB"
+  },
+  {
+    "Id": 208,
+    "Synonym": "DCC-2618"
+  },
+  {
+    "Id": 209,
+    "Synonym": "Qinlock"
+  },
+  {
+    "Id": 210,
+    "Synonym": "KIT/PDGFR Inhibitor DCC-2618"
+  },
+  {
+    "Id": 211,
+    "Synonym": "DCC2618"
+  },
+  {
+    "Id": 212,
+    "Synonym": "1-N'-[2,5-difluoro-4-[2-(1-methylpyrazol-4-yl)pyridin-4-yl]oxyphenyl]-1-N'-phenylcyclopropane-1,1-dicarboxamide"
+  },
+  {
+    "Id": 213,
+    "Synonym": "ARRY-438162"
+  },
+  {
+    "Id": 214,
+    "Synonym": "Mektovi"
+  },
+  {
+    "Id": 215,
+    "Synonym": "Binimetinib"
+  },
+  {
+    "Id": 216,
+    "Synonym": "ARRY-162"
+  },
+  {
+    "Id": 217,
+    "Synonym": "MEK162"
+  },
+  {
+    "Id": 218,
+    "Synonym": "MET Tyrosine Kinase Inhibitor PF-02341066"
+  },
+  {
+    "Id": 219,
+    "Synonym": "Xalkori"
+  },
+  {
+    "Id": 220,
+    "Synonym": "Crizotinib"
+  },
+  {
+    "Id": 221,
+    "Synonym": "2-Pyridinamine, 3-((1R)-1-(2,6-Dichloro-3-Fluorophenyl)Ethoxy)-5-(1-(4-Piperidinyl)-1H-Pyrazol-4-yl)-"
+  },
+  {
+    "Id": 222,
+    "Synonym": "PF-02341066"
+  },
+  {
+    "Id": 223,
+    "Synonym": "PF-2341066"
+  },
+  {
+    "Id": 224,
+    "Synonym": "(R)-3-(1-(2,6-Dichloro-3-Fluorophenyl)Ethoxy)-5-(1-(Piperidin-4-Yl)-1h-Pyrazol-4-Yl)Pyridin-2-Amine"
+  },
+  {
+    "Id": 225,
+    "Synonym": "2H-Pyrrolo(3',2':5,6)pyrido(4,3-d)pyrimidin-2-one, 3-(2,6-difluoro-3,5-dimethoxyphenyl)-1-ethyl-1,3,4,7-tetrahydro-8-(4-morpholinylmethyl)-"
+  },
+  {
+    "Id": 226,
+    "Synonym": "PEMIGATINIB"
+  },
+  {
+    "Id": 227,
+    "Synonym": "INCB054828"
+  },
+  {
+    "Id": 228,
+    "Synonym": "Pemazyre"
+  },
+  {
+    "Id": 229,
+    "Synonym": "ENTRECTINIB"
+  },
+  {
+    "Id": 230,
+    "Synonym": "RXDX-101"
+  },
+  {
+    "Id": 231,
+    "Synonym": "N-(5-(3,5-Difluorobenzyl)-1H-indazol-3-yl)-4-(4-methylpiperazin-1yl)-2-(tetrahydro-2H-pyran-4-ylamino)benzamide"
+  },
+  {
+    "Id": 232,
+    "Synonym": "RXDX101"
+  },
+  {
+    "Id": 233,
+    "Synonym": "RXDX 101"
+  },
+  {
+    "Id": 234,
+    "Synonym": "Rozlytrek"
+  },
+  {
+    "Id": 235,
+    "Synonym": "3-(2,6-Dichloro-3,5-dimethoxyphenyl)-1-(6-((4-(4-ethylpiperazin-1-yl)phenyl)amino)pyrimidin-4-yl)-1-methylurea"
+  },
+  {
+    "Id": 236,
+    "Synonym": "BGJ-398"
+  },
+  {
+    "Id": 237,
+    "Synonym": "BGJ398"
+  },
+  {
+    "Id": 238,
+    "Synonym": "INFIGRATINIB"
+  },
+  {
+    "Id": 239,
+    "Synonym": "LAROTRECTINIB"
+  },
+  {
+    "Id": 240,
+    "Synonym": "LOXO-101"
+  },
+  {
+    "Id": 241,
+    "Synonym": "1-Pyrrolidinecarboxamide, N-(5-((2R)-2-(2,5-difluorophenyl)-1-pyrrolidinyl)pyrazolo(1,5-a)pyrimidin-3-yl)-3-hydroxy-, (3S)-"
+  },
+  {
+    "Id": 242,
+    "Synonym": "LOXO 101"
+  },
+  {
+    "Id": 243,
+    "Synonym": "ARRY 470"
+  },
+  {
+    "Id": 244,
+    "Synonym": "3S)-N-(5-((2R)-2-(2,5-Difluorophenyl)pyrrolidin-1-yl)pyrazolo(1,5-a)pyrimidin-3-yl)-3-hydroxypyrrolidine- 1-carboxamide"
+  },
+  {
+    "Id": 245,
+    "Synonym": "Piqray"
+  },
+  {
+    "Id": 246,
+    "Synonym": "BYL719"
+  },
+  {
+    "Id": 247,
+    "Synonym": "ALPELISIB"
+  },
+  {
+    "Id": 248,
+    "Synonym": "Phosphoinositide 3-kinase Inhibitor BYL719"
+  },
+  {
+    "Id": 249,
+    "Synonym": "ICI 182,780"
+  },
+  {
+    "Id": 250,
+    "Synonym": "ICI 182780"
+  },
+  {
+    "Id": 251,
+    "Synonym": "FULVESTRANT"
+  },
+  {
+    "Id": 252,
+    "Synonym": "Faslodex(ICI 182,780)"
+  },
+  {
+    "Id": 253,
+    "Synonym": "ZD9238"
+  },
+  {
+    "Id": 254,
+    "Synonym": "7a-[9-[(4,4,5,5,5,-Pentafluoropentyl)sulphinyl]nonyl]-estra-1,3,5(10)-triene-3,17b-diol"
+  },
+  {
+    "Id": 255,
+    "Synonym": "Faslodex"
+  },
+  {
+    "Id": 256,
+    "Synonym": "PDGFR alpha/KIT Mutant-specific Inhibitor BLU-285"
+  },
+  {
+    "Id": 257,
+    "Synonym": "BLU-285"
+  },
+  {
+    "Id": 258,
+    "Synonym": "Avapritinib"
+  },
+  {
+    "Id": 259,
+    "Synonym": "CS3007"
+  },
+  {
+    "Id": 260,
+    "Synonym": "AYVAKIT"
+  },
+  {
+    "Id": 261,
+    "Synonym": "(S)-1-(4-fluorophenyl)-1-(2-(4-(6-(1-methyl-1Hpyrazol-4-yl)pyrrolo[2,1-f][1,2,4]triazin-4-yl)piperazin-yl)pyrimidin-5-yl)ethan-1-amine"
+  },
+  {
+    "Id": 262,
+    "Synonym": "ABX-EGF, Clone E7.6.3"
+  },
+  {
+    "Id": 263,
+    "Synonym": "PANITUMUMAB"
+  },
+  {
+    "Id": 264,
+    "Synonym": "Vectibix"
+  },
+  {
+    "Id": 265,
+    "Synonym": "MoAb ABX-EGF"
+  },
+  {
+    "Id": 266,
+    "Synonym": "ABX-EGF"
+  },
+  {
+    "Id": 267,
+    "Synonym": "ABX-EGF Monoclonal Antibody"
+  },
+  {
+    "Id": 268,
+    "Synonym": "Monoclonal Antibody ABX-EGF"
+  },
+  {
+    "Id": 269,
+    "Synonym": "LDK378"
+  },
+  {
+    "Id": 270,
+    "Synonym": "2,4-Pyrimidinediamine, 5-chloro-N4-(2-((1-methylethyl)sulfonyl)phenyl)-N2-(5-methyl-2-(1-methylethoxy)-4-(4-piperidinyl)phenyl)-"
+  },
+  {
+    "Id": 271,
+    "Synonym": "LDK 378"
+  },
+  {
+    "Id": 272,
+    "Synonym": "CERITINIB"
+  },
+  {
+    "Id": 273,
+    "Synonym": "Zykadia"
+  },
+  {
+    "Id": 274,
+    "Synonym": "AF802"
+  },
+  {
+    "Id": 275,
+    "Synonym": "Alectinib"
+  },
+  {
+    "Id": 276,
+    "Synonym": "5H-benzo(b)carbazole-3-carbonitrile, 9-Ethyl-6,11-dihydro-6,6-dimethyl-8-(4-(4-morpholinyl)-1-piperidinyl)-11-oxo-"
+  },
+  {
+    "Id": 277,
+    "Synonym": "AF-802"
+  },
+  {
+    "Id": 278,
+    "Synonym": "Alecensa"
+  },
+  {
+    "Id": 279,
+    "Synonym": "CH5424802"
+  },
+  {
+    "Id": 280,
+    "Synonym": "RG7853"
+  },
+  {
+    "Id": 281,
+    "Synonym": "RO5424802"
+  },
+  {
+    "Id": 282,
+    "Synonym": "Lorlatinib"
+  },
+  {
+    "Id": 283,
+    "Synonym": "Lorbrena"
+  },
+  {
+    "Id": 284,
+    "Synonym": "2H-4,8-Methenopyrazolo(4,3-H)(2,5,11)benzoxadiazacyclotetradecine-3-carbonitrile, 7-amino-12-fluoro-10,15,16,17-tetrahydro-2,10,16-trimethyl-15-oxo-, (10R)-"
+  },
+  {
+    "Id": 285,
+    "Synonym": "7-Amino-12-fluoro-2,10,16-trimethyl-15-oxo-10,15,16,17-tetrahydro-2H-8,4-(metheno)pyrazolo(4,3-h)(2,5,11)benzoxadiazacyclotetradecine-3-carbonitrile"
+  },
+  {
+    "Id": 286,
+    "Synonym": "PF-06463922"
+  },
+  {
+    "Id": 287,
+    "Synonym": "6-Ethyl-3-((3-methoxy-4-(4-(4-methylpiperazin-1-yl)piperidin-1-yl)phenyl)amino)-5-((tetrahydro-2H-pyran-4-yl)amino)pyrazine-2-carboxamide"
+  },
+  {
+    "Id": 288,
+    "Synonym": "GILTERITINIB"
+  },
+  {
+    "Id": 289,
+    "Synonym": "ASP2215"
+  },
+  {
+    "Id": 290,
+    "Synonym": "ASP-2215"
+  },
+  {
+    "Id": 291,
+    "Synonym": "High Dose Chemotherapy"
+  },
+  {
+    "Id": 292,
+    "Synonym": "high-dose chemotherapy"
+  },
+  {
+    "Id": 293,
+    "Synonym": "CGP 41251"
+  },
+  {
+    "Id": 294,
+    "Synonym": "N-Benzoyl-Staurosporine"
+  },
+  {
+    "Id": 295,
+    "Synonym": "N-Benzoylstaurosporine"
+  },
+  {
+    "Id": 296,
+    "Synonym": "midostaurin"
+  },
+  {
+    "Id": 297,
+    "Synonym": "PKC-412"
+  },
+  {
+    "Id": 298,
+    "Synonym": "CGP41251"
+  },
+  {
+    "Id": 299,
+    "Synonym": "Rydapt"
+  },
+  {
+    "Id": 300,
+    "Synonym": "PKC412"
+  },
+  {
+    "Id": 301,
+    "Synonym": "AG-120"
+  },
+  {
+    "Id": 302,
+    "Synonym": "Tibsovo"
+  },
+  {
+    "Id": 303,
+    "Synonym": "Ivosidenib"
+  },
+  {
+    "Id": 304,
+    "Synonym": "BIBW 2992"
+  },
+  {
+    "Id": 305,
+    "Synonym": "Afatinib"
+  },
+  {
+    "Id": 306,
+    "Synonym": "BIBW2992"
+  },
+  {
+    "Id": 307,
+    "Synonym": "(2e)-N-(4-(3-Chloro-4-Fluoroanilino)-7-(((3s)-Oxolan-3-yl)Oxy)Quinoxazolin-6-yl)-4-(Dimethylamino)But-2-Enamide"
+  },
+  {
+    "Id": 308,
+    "Synonym": "sunitinib"
+  },
+  {
+    "Id": 309,
+    "Synonym": "1H-Pyrrole-3-carboxamide, N-(2-(diethylamino)ethyl)-5-((Z)-(5-fluoro-1,2-dihydro-2-oxo-3H-indol-3-ylidene)methyl)-2,4-dimethyl-"
+  },
+  {
+    "Id": 310,
+    "Synonym": "Regorafenib"
+  },
+  {
+    "Id": 311,
+    "Synonym": "Stivarga"
+  },
+  {
+    "Id": 312,
+    "Synonym": "BAY 73-4506"
+  },
+  {
+    "Id": 313,
+    "Synonym": "4-(4-(((4-chloro-3-(trifluoromethyl)phenyl)carbamoyl)amino)-3-fluorophenoxy)-N-methylpyridine-2-carboxamide"
+  },
+  {
+    "Id": 314,
+    "Synonym": "OSIMERTINIB"
+  },
+  {
+    "Id": 315,
+    "Synonym": "Tagrisso"
+  },
+  {
+    "Id": 316,
+    "Synonym": "AZD-9291"
+  },
+  {
+    "Id": 317,
+    "Synonym": "Mereletinib"
+  },
+  {
+    "Id": 318,
+    "Synonym": "2-Propenamide, N-(2-((2-(dimethylamino)ethyl)methylamino)-4-methoxy-5-((4-(1-methyl-1H-indol-3-yl)-2-pyrimidinyl)amino)phenyl)-"
+  },
+  {
+    "Id": 319,
+    "Synonym": "AZD9291"
+  },
+  {
+    "Id": 320,
+    "Synonym": "INC280"
+  },
+  {
+    "Id": 321,
+    "Synonym": "INCB028060"
+  },
+  {
+    "Id": 322,
+    "Synonym": "INCB 28060"
+  },
+  {
+    "Id": 323,
+    "Synonym": "2-Fluoro-N-methyl-4-(7-(quinolin-6-ylmethyl)imidazo[1,2-b][1,2,4]triazin-2-yl)benzamide"
+  },
+  {
+    "Id": 324,
+    "Synonym": "Capmatinib"
+  },
+  {
+    "Id": 325,
+    "Synonym": "INCB28060"
+  },
+  {
+    "Id": 326,
+    "Synonym": "INC-280"
+  },
+  {
+    "Id": 327,
+    "Synonym": "Tepotinib"
+  },
+  {
+    "Id": 328,
+    "Synonym": "EMD1214063"
+  },
+  {
+    "Id": 329,
+    "Synonym": "Benzonitrile, 3-(1,6-Dihydro-1-((3-(5-((1-methyl-4-piperidinyl)methoxy)-2-pyrimidinyl)phenyl)methyl)-6-oxo-3-pyridazinyl)-"
+  },
+  {
+    "Id": 330,
+    "Synonym": "EMD-1214063"
+  },
+  {
+    "Id": 331,
+    "Synonym": "EMD 1214063"
+  },
+  {
+    "Id": 332,
+    "Synonym": "Erlotinib"
+  },
+  {
+    "Id": 333,
+    "Synonym": "RAMUCIRUMAB"
+  },
+  {
+    "Id": 334,
+    "Synonym": "anti-VEGFR-2 fully human monoclonal antibody IMC-1121B"
+  },
+  {
+    "Id": 335,
+    "Synonym": "LY3009806"
+  },
+  {
+    "Id": 336,
+    "Synonym": "IMC-1121B"
+  },
+  {
+    "Id": 337,
+    "Synonym": "Monoclonal Antibody HGS-ETR2"
+  },
+  {
+    "Id": 338,
+    "Synonym": "Cyramza"
+  },
+  {
+    "Id": 339,
+    "Synonym": "GEFITINIB"
+  },
+  {
+    "Id": 340,
+    "Synonym": "Iressa"
+  },
+  {
+    "Id": 341,
+    "Synonym": "N-(3-chloro-4-fluorophenyl)-7-methoxy-6-[3-(4-morpholin) propoxy]-4-quinazolinamine"
+  },
+  {
+    "Id": 342,
+    "Synonym": "ZD 1839"
+  },
+  {
+    "Id": 343,
+    "Synonym": "4-(3'-Chloro-4'-fluoroanilino)-7-methoxy-6-(3-morpholinopropoxy)quinazoline"
+  },
+  {
+    "Id": 344,
+    "Synonym": "ZD1839"
+  },
+  {
+    "Id": 345,
+    "Synonym": "DACOMITINIB"
+  },
+  {
+    "Id": 346,
+    "Synonym": "EGFR Inhibitor PF-00299804"
+  },
+  {
+    "Id": 347,
+    "Synonym": "(2E)-N-(4-((3-Chloro-4-Fluorophenyl)Amino)-7-Methoxyquinazolin-6-yl)-4-Piperidin-1-ylbut-2-Enamide"
+  },
+  {
+    "Id": 348,
+    "Synonym": "PF-00299804"
+  },
+  {
+    "Id": 349,
+    "Synonym": "PF-00299804-03"
+  },
+  {
+    "Id": 350,
+    "Synonym": "PF-299804"
+  },
+  {
+    "Id": 351,
+    "Synonym": "Vizimpro"
+  },
+  {
+    "Id": 352,
+    "Synonym": "NIVO"
+  },
+  {
+    "Id": 353,
+    "Synonym": "Nivolumab"
+  },
+  {
+    "Id": 354,
+    "Synonym": "ONO-4538"
+  },
+  {
+    "Id": 355,
+    "Synonym": "Opdivo"
+  },
+  {
+    "Id": 356,
+    "Synonym": "BMS-936558"
+  },
+  {
+    "Id": 357,
+    "Synonym": "MDX-1106"
+  },
+  {
+    "Id": 358,
+    "Synonym": "Ipilimumab Biosimilar CS1002"
+  },
+  {
+    "Id": 359,
+    "Synonym": "BMS-734016"
+  },
+  {
+    "Id": 360,
+    "Synonym": "MDX-010"
+  },
+  {
+    "Id": 361,
+    "Synonym": "Ipilimumab"
+  },
+  {
+    "Id": 362,
+    "Synonym": "Anti-Cytotoxic T-Lymphocyte-Associated Antigen-4 Monoclonal Antibody"
+  },
+  {
+    "Id": 363,
+    "Synonym": "MDX-CTLA4"
+  },
+  {
+    "Id": 364,
+    "Synonym": "Yervoy"
+  },
+  {
+    "Id": 365,
+    "Synonym": "AMG510"
+  },
+  {
+    "Id": 366,
+    "Synonym": "AMG-510"
+  },
+  {
+    "Id": 367,
+    "Synonym": "Sotorasib"
+  },
+  {
+    "Id": 368,
+    "Synonym": "AMG 510"
+  },
+  {
+    "Id": 369,
+    "Synonym": "2171511-58-1"
+  },
+  {
+    "Id": 370,
+    "Synonym": "AMIVANTAMAB"
+  },
+  {
+    "Id": 371,
+    "Synonym": "JNJ-61186372"
+  },
+  {
+    "Id": 372,
+    "Synonym": "Anti-EGFR/c-Met Bispecific Antibody JNJ-61186372"
+  },
+  {
+    "Id": 373,
+    "Synonym": "Dasatinib"
+  },
+  {
+    "Id": 374,
+    "Synonym": "Sprycel"
+  },
+  {
+    "Id": 375,
+    "Synonym": "Dasatinib Monohydrate"
+  },
+  {
+    "Id": 376,
+    "Synonym": "BMS-354825"
+  },
+  {
+    "Id": 377,
+    "Synonym": "5-Thiazolecarboxamide, N-(2-chloro-6-methylphenyl)-2-((6-(4-(2-hydroxyethyl)-1-piperazinyl)-2-methyl-4-pyrimidinyl)amino)-, Monohydrate"
+  },
+  {
+    "Id": 378,
+    "Synonym": "Dasatinib Hydrate"
+  },
+  {
+    "Id": 379,
+    "Synonym": "AG-221"
+  },
+  {
+    "Id": 380,
+    "Synonym": "Enasidenib"
+  },
+  {
+    "Id": 381,
+    "Synonym": "CC-90007 Free Base"
+  },
+  {
+    "Id": 382,
+    "Synonym": "Nilotinib"
+  },
+  {
+    "Id": 383,
+    "Synonym": "AMN 107 Base Form"
+  },
+  {
+    "Id": 384,
+    "Synonym": "4-Methyl-3-((4-(3-pyridinyl)-2-pyrimidinyl)amino)-N-(5-(4-methyl-1H-imidazol-1-yl)-3-(trifluoromethyl)phenyl)benzamide"
+  },
+  {
+    "Id": 385,
+    "Synonym": "4-Anilino-3-quinolinecarbonitrile"
+  },
+  {
+    "Id": 386,
+    "Synonym": "BOSUTINIB"
+  },
+  {
+    "Id": 387,
+    "Synonym": "4-[(2,4-dichloro-5-methoxyphenyl)amino]-6-methoxy-7-[3-(4-methylpiperazin-1-yl)propoxy]quinoline-3-carbonitrile"
+  },
+  {
+    "Id": 388,
+    "Synonym": "SKI 606"
+  },
+  {
+    "Id": 389,
+    "Synonym": "Bosulif"
+  },
+  {
+    "Id": 390,
+    "Synonym": "SKI-606"
+  },
+  {
+    "Id": 391,
+    "Synonym": "4-Anilinobenzo(g)quinoline-3-carbonitrile"
+  },
+  {
+    "Id": 392,
+    "Synonym": "ADO-TRASTUZUMAB EMTANSINE"
+  },
+  {
+    "Id": 393,
+    "Synonym": "Trastuzumab Emtansine"
+  },
+  {
+    "Id": 394,
+    "Synonym": "Immunoglobulin G1, Anti-(Human p185neu Receptor) (Human-Mouse Monoclonal RhuMab HER2 Gamma1-Chain), Disulfide with Human-Mouse Monoclonal RhuMab HER2 Light Chain, Dimer, Tetraamide with N2'-(3-((1-((4-carboxycyclohexyl)methyl)-2,5-dioxo-3-pyrrolidinyl)thio)-1-oxopropyl)-N2'-deacetylMaytansine"
+  },
+  {
+    "Id": 395,
+    "Synonym": "Trastuzumab-DM1"
+  },
+  {
+    "Id": 396,
+    "Synonym": "Kadcyla"
+  },
+  {
+    "Id": 397,
+    "Synonym": "Trastuzumab-MCC-DM1 Immunoconjugate"
+  },
+  {
+    "Id": 398,
+    "Synonym": "Ado Trastuzumab Emtansine"
+  },
+  {
+    "Id": 399,
+    "Synonym": "Trastuzumab-MCC-DM1 Antibody-Drug Conjugate"
+  },
+  {
+    "Id": 400,
+    "Synonym": "RO5304020"
+  },
+  {
+    "Id": 401,
+    "Synonym": "T-DM1"
+  },
+  {
+    "Id": 402,
+    "Synonym": "PRO132365"
+  },
+  {
+    "Id": 403,
+    "Synonym": "Trastuzumab-MCC-DM1"
+  },
+  {
+    "Id": 404,
+    "Synonym": "LAPATINIB"
+  },
+  {
+    "Id": 405,
+    "Synonym": "GW572016"
+  },
+  {
+    "Id": 406,
+    "Synonym": "GW 2016"
+  },
+  {
+    "Id": 407,
+    "Synonym": "GW2016"
+  },
+  {
+    "Id": 408,
+    "Synonym": "GSK572016"
+  },
+  {
+    "Id": 409,
+    "Synonym": "CAPECITABINE"
+  },
+  {
+    "Id": 410,
+    "Synonym": "Xeloda"
+  },
+  {
+    "Id": 411,
+    "Synonym": "5'-Deoxy-5-fluoro-N-[(pentyloxy)carbonyl]-cytidine"
+  },
+  {
+    "Id": 412,
+    "Synonym": "Ro 09-1978/000"
+  },
+  {
+    "Id": 413,
+    "Synonym": "letrozole"
+  },
+  {
+    "Id": 414,
+    "Synonym": "CGS 20267"
+  },
+  {
+    "Id": 415,
+    "Synonym": "Femara"
+  },
+  {
+    "Id": 416,
+    "Synonym": "4,4'-(1H-1,2,4triazol-1-ylmethylene)dibenzonitrile"
+  },
+  {
+    "Id": 417,
+    "Synonym": "Perjeta"
+  },
+  {
+    "Id": 418,
+    "Synonym": "2C4"
+  },
+  {
+    "Id": 419,
+    "Synonym": "2C4 Antibody"
+  },
+  {
+    "Id": 420,
+    "Synonym": "rhuMAb2C4"
+  },
+  {
+    "Id": 421,
+    "Synonym": "MoAb 2C4"
+  },
+  {
+    "Id": 422,
+    "Synonym": "Omnitarg"
+  },
+  {
+    "Id": 423,
+    "Synonym": "PERTUZUMAB"
+  },
+  {
+    "Id": 424,
+    "Synonym": "HS627"
+  },
+  {
+    "Id": 425,
+    "Synonym": "Monoclonal Antibody 2C4"
+  },
+  {
+    "Id": 426,
+    "Synonym": "Pertuzumab Biosimilar HS627"
+  },
+  {
+    "Id": 427,
+    "Synonym": "RO4368451"
+  },
+  {
+    "Id": 428,
+    "Synonym": "Immunoglobulin G1, Anti-(Human V (Receptor)) (Human-Mouse Monoclonal 2C4 Heavy Chain), Disulfide with Human-Mouse Monoclonal 2C4 Kappa-Chain, Dimer"
+  },
+  {
+    "Id": 429,
+    "Synonym": "HKI-272"
+  },
+  {
+    "Id": 430,
+    "Synonym": "HKI 272"
+  },
+  {
+    "Id": 431,
+    "Synonym": "(2E)-N-(4-((3-chloro-4-((pyridin-2-yl)methoxy)phenyl)amino)-3-cyano-7-ethoxyquinolin-6-yl)-4-(dimethylamino)but-2-enamide"
+  },
+  {
+    "Id": 432,
+    "Synonym": "PB-272"
+  },
+  {
+    "Id": 433,
+    "Synonym": "NERATINIB"
+  },
+  {
+    "Id": 434,
+    "Synonym": "PB 272"
+  },
+  {
+    "Id": 435,
+    "Synonym": "2-Butenamide, N-(4-((3-chloro-4-(2-pyridinylmethoxy)phenyl)amino)-3-cyano-7-ethoxy-6-quinolinyl)-4-(dimethylamino)-, (2E)-"
+  },
+  {
+    "Id": 436,
+    "Synonym": "Irbinitinib"
+  },
+  {
+    "Id": 437,
+    "Synonym": "ARRY-380"
+  },
+  {
+    "Id": 438,
+    "Synonym": "Tucatinib"
+  },
+  {
+    "Id": 439,
+    "Synonym": "Tukysa"
+  },
+  {
+    "Id": 440,
+    "Synonym": "ONT-380"
+  },
+  {
+    "Id": 441,
+    "Synonym": "N6-(4,4-Dimethyl-4,5-dihydrooxazol-2-yl)-N4-(3-methyl-4-((1,2,4)triazolo(1,5-a)pyridin-7-yloxy)phenyl)quinazoline-4,6-diamine"
+  },
+  {
+    "Id": 442,
+    "Synonym": "Enhertu"
+  },
+  {
+    "Id": 443,
+    "Synonym": "DS-8201a"
+  },
+  {
+    "Id": 444,
+    "Synonym": "Fam-trastuzumab Deruxtecan-nxki"
+  },
+  {
+    "Id": 445,
+    "Synonym": "TRASTUZUMAB DERUXTECAN"
+  },
+  {
+    "Id": 446,
+    "Synonym": "DS-8201"
+  },
+  {
+    "Id": 447,
+    "Synonym": "WHO 10516"
+  },
+  {
+    "Id": 448,
+    "Synonym": "Margetuximab"
+  },
+  {
+    "Id": 449,
+    "Synonym": "MGAH-22"
+  },
+  {
+    "Id": 450,
+    "Synonym": "Margenza"
+  },
+  {
+    "Id": 451,
+    "Synonym": "Immunoglobulin G1, Anti-(human Neu (Receptor)) (Human-Mus musculus Monoclonal MGAH22 Clone ch4D5 Heavy Chain), Disulfide with Human-Mus musculus Monoclonal MGAH22 Clone ch4D5 Light Chain, Dimer"
+  },
+  {
+    "Id": 452,
+    "Synonym": "MGAH22"
+  },
+  {
+    "Id": 453,
+    "Synonym": "Carboplatin-Taxol"
+  },
+  {
+    "Id": 454,
+    "Synonym": "PC Regimen"
+  },
+  {
+    "Id": 455,
+    "Synonym": "Carboplatin-Paclitaxel"
+  },
+  {
+    "Id": 456,
+    "Synonym": "CaT Regimen"
+  },
+  {
+    "Id": 457,
+    "Synonym": "Paclitaxel/Carboplatin Regimen"
+  },
+  {
+    "Id": 458,
+    "Synonym": "Carbo-Tax Regimen"
+  },
+  {
+    "Id": 459,
+    "Synonym": "TC Regimen"
+  },
+  {
+    "Id": 460,
+    "Synonym": "Carboplatin-Paclitaxel Regimen"
+  },
+  {
+    "Id": 461,
+    "Synonym": "Paclitaxel-Carboplatin Regimen"
+  },
+  {
+    "Id": 462,
+    "Synonym": "carboplatin-Taxol regimen"
+  },
+  {
+    "Id": 463,
+    "Synonym": "Carboplatin/Paclitaxel Regimen"
+  },
+  {
+    "Id": 464,
+    "Synonym": "Paclitaxel-Carboplatin"
+  },
+  {
+    "Id": 465,
+    "Synonym": "Carboplatin/Paclitaxel"
+  },
+  {
+    "Id": 466,
+    "Synonym": "Paclitaxel/Carboplatin"
+  },
+  {
+    "Id": 467,
+    "Synonym": "CABOZANTINIB"
+  },
+  {
+    "Id": 468,
+    "Synonym": "1,1-Cyclopropanedicarboxamide, N'-[4-[(6,7-dimethoxy-4-quinolinyl)oxy]phenyl]-N-(4- fluorophenyl)-"
+  },
+  {
+    "Id": 469,
+    "Synonym": "N-{4-[(6,7-dimethoxyquinolin-4-yl)oxy]phenyl}-N'-(4-fluorophenyl)cyclopropane-1,1- dicarboxamide"
+  },
+  {
+    "Id": 470,
+    "Synonym": "Fedratinib"
+  },
+  {
+    "Id": 471,
+    "Synonym": "SAR302503"
+  },
+  {
+    "Id": 472,
+    "Synonym": "Benzenesulfonamide, N-(1,1-dimethylethyl)-3-((5-methyl-2-((4-(2-(1-pyrrolidinyl)ethoxy)phenyl)amino)-4-pyrimidinyl)amino)-"
+  },
+  {
+    "Id": 473,
+    "Synonym": "TG101348"
+  },
+  {
+    "Id": 474,
+    "Synonym": "Ruxolitinib"
+  },
+  {
+    "Id": 475,
+    "Synonym": "Oral JAK Inhibitor INCB18424"
+  },
+  {
+    "Id": 476,
+    "Synonym": "INCB18424"
+  },
+  {
+    "Id": 477,
+    "Synonym": "(3R)-3-cyclopentyl-3-(4-(7h-pyrrolo(2,3-d)pyrimidin-4-yl)pyrazol-1-yl)propanenitrile"
+  },
+  {
+    "Id": 478,
+    "Synonym": "INCB-18424"
+  },
+  {
+    "Id": 479,
+    "Synonym": "Jakafi"
+  },
+  {
+    "Id": 480,
+    "Synonym": "BA4 43 9006"
+  },
+  {
+    "Id": 481,
+    "Synonym": "sorafenib"
+  },
+  {
+    "Id": 482,
+    "Synonym": "Bay-439006"
+  },
+  {
+    "Id": 483,
+    "Synonym": "BAY 43-9006"
+  },
+  {
+    "Id": 484,
+    "Synonym": "POZIOTINIB"
+  },
+  {
+    "Id": 485,
+    "Synonym": "NOV120101"
+  },
+  {
+    "Id": 486,
+    "Synonym": "HM781-36"
+  },
+  {
+    "Id": 487,
+    "Synonym": "Vandetanib"
+  },
+  {
+    "Id": 488,
+    "Synonym": "ZD-6474"
+  },
+  {
+    "Id": 489,
+    "Synonym": "Zactima"
+  },
+  {
+    "Id": 490,
+    "Synonym": "AZD6474"
+  },
+  {
+    "Id": 491,
+    "Synonym": "Caprelsa"
+  },
+  {
+    "Id": 492,
+    "Synonym": "ZD6474"
+  },
+  {
+    "Id": 493,
+    "Synonym": "CAPIVASERTIB"
+  },
+  {
+    "Id": 494,
+    "Synonym": "AZD-9496"
+  },
+  {
+    "Id": 495,
+    "Synonym": "AZD 9496"
+  },
+  {
+    "Id": 496,
+    "Synonym": "Selective Estrogen Receptor Degrader AZD9496"
+  },
+  {
+    "Id": 497,
+    "Synonym": "(E)-3-(3,5-Difluoro-4-((1R,3R)-2-(2-fluoro-2-methylpropyl)-3-methyl-2,3,4,9-tetrahydro-1H-pyrido[3,4-b]indol-1-yl)phenyl)acrylic Acid"
+  },
+  {
+    "Id": 498,
+    "Synonym": "SERD AZD9496"
+  },
+  {
+    "Id": 499,
+    "Synonym": "4-Piperidinamine, 1-[2-[5-[(3-methyl-3-oxetanyl)methoxy]-1Hbenzimidazol-1-yl]-8-quinolinyl]-"
+  },
+  {
+    "Id": 500,
+    "Synonym": "Crenolanib"
+  },
+  {
+    "Id": 501,
+    "Synonym": "[1-[2-[5-(3-Methyloxetan-3-ylmethoxy)benzimidazol-1-yl]quinolin-8-yl]piperidin-4-yl]amine"
+  },
+  {
+    "Id": 502,
+    "Synonym": "CP-868596"
+  },
+  {
+    "Id": 503,
+    "Synonym": "CP-868,596"
+  },
+  {
+    "Id": 504,
+    "Synonym": "PDGFR Inhibitor CP-868596"
+  },
+  {
+    "Id": 505,
+    "Synonym": "AC-220"
+  },
+  {
+    "Id": 506,
+    "Synonym": "N-(5-tert-butyl-isoxazol-3-yl)-N'-{4-[7-(2-morpholin-4-yl-ethoxy)imidazo [2,1-b] [1,3] benzothiazol 2-yl]phenyl}urea"
+  },
+  {
+    "Id": 507,
+    "Synonym": "Quizartinib"
+  },
+  {
+    "Id": 508,
+    "Synonym": "AC010220"
+  },
+  {
+    "Id": 509,
+    "Synonym": "(2E)-N-(4-(3-Chloro-4-Fluoroanilino)-7-(((3S)-Oxolan-3-Yl)Oxy)Quinoxazolin-6-yl)-4-(Dimethylamino)but-2-Enamide"
+  },
+  {
+    "Id": 510,
+    "Synonym": "AC220"
+  },
+  {
+    "Id": 511,
+    "Synonym": "CCI-779 Rapamycin Analog"
+  },
+  {
+    "Id": 512,
+    "Synonym": "temsirolimus"
+  },
+  {
+    "Id": 513,
+    "Synonym": "42-(3-Hydroxy-2-(hydroxymethyl)-2-methylpropanoate)rapamycin"
+  },
+  {
+    "Id": 514,
+    "Synonym": "CCI-779"
+  },
+  {
+    "Id": 515,
+    "Synonym": "Torisel"
+  },
+  {
+    "Id": 516,
+    "Synonym": "Rapamycin Analog CCI-779"
+  },
+  {
+    "Id": 517,
+    "Synonym": "Rapamycin Analog"
+  },
+  {
+    "Id": 518,
+    "Synonym": "Cell Cycle Inhibitor 779"
+  },
+  {
+    "Id": 519,
+    "Synonym": "TIPIFARNIB"
+  },
+  {
+    "Id": 520,
+    "Synonym": "R115777"
+  },
+  {
+    "Id": 521,
+    "Synonym": "Zarnestra"
+  },
+  {
+    "Id": 522,
+    "Synonym": "(+)-6-[Amino(4-chlorophenyl)(1-methyl-1H-imidazol-5-yl)methyl]-4-(3-chlorophenyl)-1-methyl-2(1H)-quinolinone"
+  },
+  {
+    "Id": 523,
+    "Synonym": "Nanoparticle Albumin-Bound Rapamycin"
+  },
+  {
+    "Id": 524,
+    "Synonym": "Nab-Rapamycin"
+  },
+  {
+    "Id": 525,
+    "Synonym": "MCLA-128"
+  },
+  {
+    "Id": 526,
+    "Synonym": "Anti-HER2 x Anti-HER3 Bispecific Monoclonal Antibody MCLA-128"
+  },
+  {
+    "Id": 527,
+    "Synonym": "Anti-HER2/Anti-HER3 Bispecific Monoclonal Antibody MCLA-128"
+  },
+  {
+    "Id": 528,
+    "Synonym": "MCLA 128"
+  },
+  {
+    "Id": 529,
+    "Synonym": "MCLA128"
+  },
+  {
+    "Id": 530,
+    "Synonym": "ZENOCUTUZUMAB"
+  },
+  {
+    "Id": 531,
+    "Synonym": "TALAZOPARIB"
+  },
+  {
+    "Id": 532,
+    "Synonym": "BMN-673"
+  },
+  {
+    "Id": 533,
+    "Synonym": "BMN 673"
+  },
+  {
+    "Id": 534,
+    "Synonym": "LDE-225"
+  },
+  {
+    "Id": 535,
+    "Synonym": "(1,1'-Biphenyl)-3-carboxamide, N-(6-((2R,6S)-2,6-dimethyl-4-morpholinyl)-3-pyridinyl)-2- methyl-4'-(trifluoromethoxy)-, rel-"
+  },
+  {
+    "Id": 536,
+    "Synonym": "Smoothened Antagonist LDE225"
+  },
+  {
+    "Id": 537,
+    "Synonym": "Erismodegib"
+  },
+  {
+    "Id": 538,
+    "Synonym": "Sonidegib"
+  },
+  {
+    "Id": 539,
+    "Synonym": "LDE225"
+  },
+  {
+    "Id": 540,
+    "Synonym": "Odomzo"
+  },
+  {
+    "Id": 541,
+    "Synonym": "GDC-0449"
+  },
+  {
+    "Id": 542,
+    "Synonym": "2-chloro-N-[4-chloro-3-(pyridin-2-yl)phenyl]-4-(methylsulfonyl)benzamide"
+  },
+  {
+    "Id": 543,
+    "Synonym": "VISMODEGIB"
+  },
+  {
+    "Id": 544,
+    "Synonym": "Erivedge"
+  },
+  {
+    "Id": 545,
+    "Synonym": "Hedgehog Antagonist GDC-0449"
+  },
+  {
+    "Id": 546,
+    "Synonym": "Cisplatyl"
+  },
+  {
+    "Id": 547,
+    "Synonym": "Cis-platinum"
+  },
+  {
+    "Id": 548,
+    "Synonym": "Platosin"
+  },
+  {
+    "Id": 549,
+    "Synonym": "Cisplatina"
+  },
+  {
+    "Id": 550,
+    "Synonym": "Plastistil"
+  },
+  {
+    "Id": 551,
+    "Synonym": "Platinol"
+  },
+  {
+    "Id": 552,
+    "Synonym": "Platiblastin"
+  },
+  {
+    "Id": 553,
+    "Synonym": "Cis-diammine-dichloroplatinum"
+  },
+  {
+    "Id": 554,
+    "Synonym": "Citoplatino"
+  },
+  {
+    "Id": 555,
+    "Synonym": "Placis"
+  },
+  {
+    "Id": 556,
+    "Synonym": "Cis-diamminedichloro Platinum (II)"
+  },
+  {
+    "Id": 557,
+    "Synonym": "Cismaplat"
+  },
+  {
+    "Id": 558,
+    "Synonym": "Platiblastin-S"
+  },
+  {
+    "Id": 559,
+    "Synonym": "Platinum, Diaminedichloro-, cis- (8CI)"
+  },
+  {
+    "Id": 560,
+    "Synonym": "Platistin"
+  },
+  {
+    "Id": 561,
+    "Synonym": "Neoplatin"
+  },
+  {
+    "Id": 562,
+    "Synonym": "Platinol-AQ VHA Plus"
+  },
+  {
+    "Id": 563,
+    "Synonym": "DDP"
+  },
+  {
+    "Id": 564,
+    "Synonym": "Peyrone's Salt"
+  },
+  {
+    "Id": 565,
+    "Synonym": "Platinum Diamminodichloride"
+  },
+  {
+    "Id": 566,
+    "Synonym": "CISPLATIN"
+  },
+  {
+    "Id": 567,
+    "Synonym": "Platinum"
+  },
+  {
+    "Id": 568,
+    "Synonym": "Lederplatin"
+  },
+  {
+    "Id": 569,
+    "Synonym": "Platinol- AQ"
+  },
+  {
+    "Id": 570,
+    "Synonym": "Briplatin"
+  },
+  {
+    "Id": 571,
+    "Synonym": "Abiplatin"
+  },
+  {
+    "Id": 572,
+    "Synonym": "Platamine"
+  },
+  {
+    "Id": 573,
+    "Synonym": "(SP-4-2)-Diamminedichloroplatinum"
+  },
+  {
+    "Id": 574,
+    "Synonym": "Metaplatin"
+  },
+  {
+    "Id": 575,
+    "Synonym": "Blastolem"
+  },
+  {
+    "Id": 576,
+    "Synonym": "Cysplatyna"
+  },
+  {
+    "Id": 577,
+    "Synonym": "Platinoxan"
+  },
+  {
+    "Id": 578,
+    "Synonym": "Cis-platinum II Diamine Dichloride"
+  },
+  {
+    "Id": 579,
+    "Synonym": "Cisplatinum"
+  },
+  {
+    "Id": 580,
+    "Synonym": "Cis-diamminedichloridoplatinum"
+  },
+  {
+    "Id": 581,
+    "Synonym": "Citosin"
+  },
+  {
+    "Id": 582,
+    "Synonym": "CDDP"
+  },
+  {
+    "Id": 583,
+    "Synonym": "Cis-platinum II"
+  },
+  {
+    "Id": 584,
+    "Synonym": "Cis-platinous Diamine Dichloride"
+  },
+  {
+    "Id": 585,
+    "Synonym": "Platinol-AQ"
+  },
+  {
+    "Id": 586,
+    "Synonym": "Peyrone's Chloride"
+  },
+  {
+    "Id": 587,
+    "Synonym": "Cis-dichloroammine Platinum (II)"
+  },
+  {
+    "Id": 588,
+    "Synonym": "Platiran"
+  },
+  {
+    "Id": 589,
+    "Synonym": "Cis-diamminedichloroplatinum"
+  },
+  {
+    "Id": 590,
+    "Synonym": "Platinex"
+  },
+  {
+    "Id": 591,
+    "Synonym": "CH5183284"
+  },
+  {
+    "Id": 592,
+    "Synonym": "Debiopharm 1347"
+  },
+  {
+    "Id": 593,
+    "Synonym": "FF284"
+  },
+  {
+    "Id": 594,
+    "Synonym": "FGFR Inhibitor Debio 1347"
+  },
+  {
+    "Id": 595,
+    "Synonym": "debio 1347"
+  },
+  {
+    "Id": 596,
+    "Synonym": "debio 1347-101"
+  },
+  {
+    "Id": 597,
+    "Synonym": "Radioiodine-Labeled Norcholesterol"
+  },
+  {
+    "Id": 598,
+    "Synonym": "Iodine I 131-6-Beta-Iodomethyl-19-Norcholesterol"
+  },
+  {
+    "Id": 599,
+    "Synonym": "I-131 NP-59"
+  },
+  {
+    "Id": 600,
+    "Synonym": "Splicing Modulator H3B-8800"
+  },
+  {
+    "Id": 601,
+    "Synonym": "H3B 8800"
+  },
+  {
+    "Id": 602,
+    "Synonym": "Splicing Inhibitor H3B-8800"
+  },
+  {
+    "Id": 603,
+    "Synonym": "Splicing Factor Inhibitor H3B-8800"
+  },
+  {
+    "Id": 604,
+    "Synonym": "FGFR Inhibitor AZD4547"
+  },
+  {
+    "Id": 605,
+    "Synonym": "BRAF Inhibitor PLX8394"
+  },
+  {
+    "Id": 606,
+    "Synonym": "RIBOCICLIB"
+  },
+  {
+    "Id": 607,
+    "Synonym": "7-Cyclopentyl-N,N-dimethyl-2-((5-(piperazin-1-yl)pyridin-2-yl)amino)-7H-pyrrolo[2,3-d]pyrimidine-6-carboxamide"
+  },
+  {
+    "Id": 608,
+    "Synonym": "LEE-011"
+  },
+  {
+    "Id": 609,
+    "Synonym": "LEE011"
+  },
+  {
+    "Id": 610,
+    "Synonym": "Kisqali"
+  },
+  {
+    "Id": 611,
+    "Synonym": "6-Acetyl-8-cyclopentyl-5-methyl-2-((5-(piperazin-1-yl)pyridin-2-yl)amino)-8h-pyrido(2,3-d)pyrimidin-7-one"
+  },
+  {
+    "Id": 612,
+    "Synonym": "PALBOCICLIB"
+  },
+  {
+    "Id": 613,
+    "Synonym": "PD 991"
+  },
+  {
+    "Id": 614,
+    "Synonym": "PD-0332991"
+  },
+  {
+    "Id": 615,
+    "Synonym": "Pyrido(2,3-d)pyrimidin-7(8H)-one, 6-Acetyl-8-cyclopentyl-5-methyl-2-((5-(1-piperazinyl)-2-pyridinyl)amino)-"
+  },
+  {
+    "Id": 616,
+    "Synonym": "PD 332991"
+  },
+  {
+    "Id": 617,
+    "Synonym": "PD 0332991"
+  },
+  {
+    "Id": 618,
+    "Synonym": "Ibrance"
+  },
+  {
+    "Id": 619,
+    "Synonym": "Abemaciclib"
+  },
+  {
+    "Id": 620,
+    "Synonym": "LY-2835219"
+  },
+  {
+    "Id": 621,
+    "Synonym": "2-Pyrimidinamine, N-(5-((4-ethyl-1-piperazinyl)methyl)-2-pyridinyl)-5-fluoro-4-(4-fluoro-2-methyl-1-(1-methylethyl)-1H-benzimidazol-6-yl)"
+  },
+  {
+    "Id": 622,
+    "Synonym": "LY2835219"
+  },
+  {
+    "Id": 623,
+    "Synonym": "Verzenio"
+  },
+  {
+    "Id": 624,
+    "Synonym": "WHO 10631"
+  },
+  {
+    "Id": 625,
+    "Synonym": "BGB 324"
+  },
+  {
+    "Id": 626,
+    "Synonym": "R-428"
+  },
+  {
+    "Id": 627,
+    "Synonym": "AXL Inhibitor BGB324"
+  },
+  {
+    "Id": 628,
+    "Synonym": "1H-1,2,4-Triazole-3,5-diamine, 1-(6,7-Dihydro-5H-benzo(6,7)cyclohepta(1,2-C)pyridazin-3-yl)-N3-((7S)-6,7,8,9-tetrahydro-7-(1-pyrrolidinyl)-5H-benzocyclohepten-2-yl)-"
+  },
+  {
+    "Id": 629,
+    "Synonym": "R428"
+  },
+  {
+    "Id": 630,
+    "Synonym": "BEMCENTINIB"
+  },
+  {
+    "Id": 631,
+    "Synonym": "BGB-324"
+  },
+  {
+    "Id": 632,
+    "Synonym": "BGB324"
+  },
+  {
+    "Id": 633,
+    "Synonym": "AZD-8186"
+  },
+  {
+    "Id": 634,
+    "Synonym": "PI3Kbeta Inhibitor AZD8186"
+  },
+  {
+    "Id": 635,
+    "Synonym": "PI3K-beta Inhibitor GSK2636771"
+  },
+  {
+    "Id": 636,
+    "Synonym": "2,6-Anhydro-5-((((3&apos;R,4&apos;S,5&apos;R)-6&apos;&quot;-chloro-4&apos;-(2-chloro-3-fluoro-4-pyridinyl)-1&apos;&quot;,2&apos;&quot;-dihydro-4,4-dimethyl-2&apos;&apos;-oxodispiro(cyclohexane-1,2&apos;-pyrrolidine-3&apos;,3&apos;&apos;-(3H)indol)-5&apos;-yl)carbonyl)amino)-3,4,5-trideoxy-L-erythro-hexonamide"
+  },
+  {
+    "Id": 637,
+    "Synonym": "DS-3032"
+  },
+  {
+    "Id": 638,
+    "Synonym": "MILADEMETAN"
+  },
+  {
+    "Id": 639,
+    "Synonym": "PLX 2853"
+  },
+  {
+    "Id": 640,
+    "Synonym": "PLX-2853"
+  },
+  {
+    "Id": 641,
+    "Synonym": "BRD4 Inhibitor PLX2853"
+  },
+  {
+    "Id": 642,
+    "Synonym": "Ets-family Transcription Factor Inhibitor TK216"
+  },
+  {
+    "Id": 643,
+    "Synonym": "TK-216"
+  },
+  {
+    "Id": 644,
+    "Synonym": "REGN2810"
+  },
+  {
+    "Id": 645,
+    "Synonym": "Cemiplimab"
+  },
+  {
+    "Id": 646,
+    "Synonym": "Libtayo"
+  },
+  {
+    "Id": 647,
+    "Synonym": "Immunoglobulin G4, Anti-(Human Programmed Cell Death Protein 1) (Human Monoclonal REGN2810 Heavy Chain), Disulfide with Human Monoclonal REGN2810 kappa-chain, Dimer"
+  },
+  {
+    "Id": 648,
+    "Synonym": "Cemiplimab-rwlc"
+  },
+  {
+    "Id": 649,
+    "Synonym": "Cemiplimab RWLC"
+  },
+  {
+    "Id": 650,
+    "Synonym": "PAZOPANIB"
+  },
+  {
+    "Id": 651,
+    "Synonym": "GW786034"
+  },
+  {
+    "Id": 652,
+    "Synonym": "Benzenesulfonamide, 5-((4-((2,3-dimethyl-2H-indazol-6-yl)methylamino)-2-pyrimidinyl)amino)-2-methyl-"
+  },
+  {
+    "Id": 653,
+    "Synonym": "Imbruvica"
+  },
+  {
+    "Id": 654,
+    "Synonym": "CRA-032765"
+  },
+  {
+    "Id": 655,
+    "Synonym": "BTK Inhibitor PCI-32765"
+  },
+  {
+    "Id": 656,
+    "Synonym": "IBRUTINIB"
+  },
+  {
+    "Id": 657,
+    "Synonym": "PCI-32765"
+  },
+  {
+    "Id": 658,
+    "Synonym": "2-Propen-1-one, 1-((3R)-3-(4-amino-3-(4-phenoxyphenyl)-1h-pyrazolo(3,4-d)pyrimidin-1-yl)-1-piperidinyl)-"
+  }
+]

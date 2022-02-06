@@ -1,0 +1,2894 @@
+[
+  {
+    "DrugId": 1,
+    "TreatmentId": 63
+  },
+  {
+    "DrugId": 1,
+    "TreatmentId": 436
+  },
+  {
+    "DrugId": 1,
+    "TreatmentId": 443
+  },
+  {
+    "DrugId": 2,
+    "TreatmentId": 250
+  },
+  {
+    "DrugId": 2,
+    "TreatmentId": 253
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 17
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 18
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 44
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 267
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 301
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 302
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 303
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 317
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 318
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 319
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 320
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 338
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 339
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 340
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 341
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 346
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 347
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 348
+  },
+  {
+    "DrugId": 3,
+    "TreatmentId": 349
+  },
+  {
+    "DrugId": 4,
+    "TreatmentId": 356
+  },
+  {
+    "DrugId": 4,
+    "TreatmentId": 357
+  },
+  {
+    "DrugId": 5,
+    "TreatmentId": 1
+  },
+  {
+    "DrugId": 5,
+    "TreatmentId": 104
+  },
+  {
+    "DrugId": 5,
+    "TreatmentId": 110
+  },
+  {
+    "DrugId": 5,
+    "TreatmentId": 366
+  },
+  {
+    "DrugId": 5,
+    "TreatmentId": 367
+  },
+  {
+    "DrugId": 5,
+    "TreatmentId": 368
+  },
+  {
+    "DrugId": 6,
+    "TreatmentId": 30
+  },
+  {
+    "DrugId": 6,
+    "TreatmentId": 122
+  },
+  {
+    "DrugId": 6,
+    "TreatmentId": 226
+  },
+  {
+    "DrugId": 6,
+    "TreatmentId": 342
+  },
+  {
+    "DrugId": 6,
+    "TreatmentId": 362
+  },
+  {
+    "DrugId": 6,
+    "TreatmentId": 371
+  },
+  {
+    "DrugId": 7,
+    "TreatmentId": 356
+  },
+  {
+    "DrugId": 7,
+    "TreatmentId": 357
+  },
+  {
+    "DrugId": 8,
+    "TreatmentId": 132
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 301
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 302
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 303
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 317
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 318
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 319
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 320
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 338
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 339
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 340
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 341
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 346
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 347
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 348
+  },
+  {
+    "DrugId": 9,
+    "TreatmentId": 349
+  },
+  {
+    "DrugId": 10,
+    "TreatmentId": 321
+  },
+  {
+    "DrugId": 10,
+    "TreatmentId": 326
+  },
+  {
+    "DrugId": 10,
+    "TreatmentId": 351
+  },
+  {
+    "DrugId": 11,
+    "TreatmentId": 65
+  },
+  {
+    "DrugId": 12,
+    "TreatmentId": 68
+  },
+  {
+    "DrugId": 12,
+    "TreatmentId": 78
+  },
+  {
+    "DrugId": 12,
+    "TreatmentId": 172
+  },
+  {
+    "DrugId": 12,
+    "TreatmentId": 264
+  },
+  {
+    "DrugId": 13,
+    "TreatmentId": 23
+  },
+  {
+    "DrugId": 13,
+    "TreatmentId": 137
+  },
+  {
+    "DrugId": 14,
+    "TreatmentId": 47
+  },
+  {
+    "DrugId": 14,
+    "TreatmentId": 50
+  },
+  {
+    "DrugId": 14,
+    "TreatmentId": 55
+  },
+  {
+    "DrugId": 14,
+    "TreatmentId": 128
+  },
+  {
+    "DrugId": 14,
+    "TreatmentId": 412
+  },
+  {
+    "DrugId": 15,
+    "TreatmentId": 62
+  },
+  {
+    "DrugId": 15,
+    "TreatmentId": 240
+  },
+  {
+    "DrugId": 16,
+    "TreatmentId": 49
+  },
+  {
+    "DrugId": 16,
+    "TreatmentId": 54
+  },
+  {
+    "DrugId": 16,
+    "TreatmentId": 127
+  },
+  {
+    "DrugId": 16,
+    "TreatmentId": 380
+  },
+  {
+    "DrugId": 16,
+    "TreatmentId": 381
+  },
+  {
+    "DrugId": 16,
+    "TreatmentId": 386
+  },
+  {
+    "DrugId": 16,
+    "TreatmentId": 396
+  },
+  {
+    "DrugId": 17,
+    "TreatmentId": 73
+  },
+  {
+    "DrugId": 17,
+    "TreatmentId": 88
+  },
+  {
+    "DrugId": 17,
+    "TreatmentId": 373
+  },
+  {
+    "DrugId": 17,
+    "TreatmentId": 428
+  },
+  {
+    "DrugId": 17,
+    "TreatmentId": 438
+  },
+  {
+    "DrugId": 17,
+    "TreatmentId": 439
+  },
+  {
+    "DrugId": 17,
+    "TreatmentId": 440
+  },
+  {
+    "DrugId": 17,
+    "TreatmentId": 446
+  },
+  {
+    "DrugId": 17,
+    "TreatmentId": 447
+  },
+  {
+    "DrugId": 17,
+    "TreatmentId": 448
+  },
+  {
+    "DrugId": 18,
+    "TreatmentId": 66
+  },
+  {
+    "DrugId": 19,
+    "TreatmentId": 366
+  },
+  {
+    "DrugId": 19,
+    "TreatmentId": 367
+  },
+  {
+    "DrugId": 19,
+    "TreatmentId": 368
+  },
+  {
+    "DrugId": 20,
+    "TreatmentId": 46
+  },
+  {
+    "DrugId": 20,
+    "TreatmentId": 229
+  },
+  {
+    "DrugId": 21,
+    "TreatmentId": 350
+  },
+  {
+    "DrugId": 22,
+    "TreatmentId": 256
+  },
+  {
+    "DrugId": 22,
+    "TreatmentId": 257
+  },
+  {
+    "DrugId": 23,
+    "TreatmentId": 57
+  },
+  {
+    "DrugId": 23,
+    "TreatmentId": 118
+  },
+  {
+    "DrugId": 24,
+    "TreatmentId": 31
+  },
+  {
+    "DrugId": 24,
+    "TreatmentId": 34
+  },
+  {
+    "DrugId": 24,
+    "TreatmentId": 37
+  },
+  {
+    "DrugId": 24,
+    "TreatmentId": 39
+  },
+  {
+    "DrugId": 24,
+    "TreatmentId": 40
+  },
+  {
+    "DrugId": 24,
+    "TreatmentId": 41
+  },
+  {
+    "DrugId": 24,
+    "TreatmentId": 228
+  },
+  {
+    "DrugId": 25,
+    "TreatmentId": 125
+  },
+  {
+    "DrugId": 26,
+    "TreatmentId": 365
+  },
+  {
+    "DrugId": 27,
+    "TreatmentId": 19
+  },
+  {
+    "DrugId": 28,
+    "TreatmentId": 147
+  },
+  {
+    "DrugId": 28,
+    "TreatmentId": 150
+  },
+  {
+    "DrugId": 28,
+    "TreatmentId": 156
+  },
+  {
+    "DrugId": 28,
+    "TreatmentId": 238
+  },
+  {
+    "DrugId": 29,
+    "TreatmentId": 316
+  },
+  {
+    "DrugId": 29,
+    "TreatmentId": 324
+  },
+  {
+    "DrugId": 29,
+    "TreatmentId": 327
+  },
+  {
+    "DrugId": 29,
+    "TreatmentId": 328
+  },
+  {
+    "DrugId": 29,
+    "TreatmentId": 330
+  },
+  {
+    "DrugId": 29,
+    "TreatmentId": 334
+  },
+  {
+    "DrugId": 29,
+    "TreatmentId": 337
+  },
+  {
+    "DrugId": 29,
+    "TreatmentId": 352
+  },
+  {
+    "DrugId": 29,
+    "TreatmentId": 361
+  },
+  {
+    "DrugId": 29,
+    "TreatmentId": 364
+  },
+  {
+    "DrugId": 29,
+    "TreatmentId": 372
+  },
+  {
+    "DrugId": 29,
+    "TreatmentId": 374
+  },
+  {
+    "DrugId": 30,
+    "TreatmentId": 25
+  },
+  {
+    "DrugId": 30,
+    "TreatmentId": 38
+  },
+  {
+    "DrugId": 30,
+    "TreatmentId": 43
+  },
+  {
+    "DrugId": 31,
+    "TreatmentId": 24
+  },
+  {
+    "DrugId": 31,
+    "TreatmentId": 36
+  },
+  {
+    "DrugId": 31,
+    "TreatmentId": 42
+  },
+  {
+    "DrugId": 32,
+    "TreatmentId": 14
+  },
+  {
+    "DrugId": 32,
+    "TreatmentId": 60
+  },
+  {
+    "DrugId": 32,
+    "TreatmentId": 108
+  },
+  {
+    "DrugId": 32,
+    "TreatmentId": 117
+  },
+  {
+    "DrugId": 32,
+    "TreatmentId": 266
+  },
+  {
+    "DrugId": 33,
+    "TreatmentId": 256
+  },
+  {
+    "DrugId": 33,
+    "TreatmentId": 257
+  },
+  {
+    "DrugId": 34,
+    "TreatmentId": 359
+  },
+  {
+    "DrugId": 35,
+    "TreatmentId": 363
+  },
+  {
+    "DrugId": 36,
+    "TreatmentId": 281
+  },
+  {
+    "DrugId": 37,
+    "TreatmentId": 114
+  },
+  {
+    "DrugId": 38,
+    "TreatmentId": 291
+  },
+  {
+    "DrugId": 39,
+    "TreatmentId": 294
+  },
+  {
+    "DrugId": 40,
+    "TreatmentId": 294
+  },
+  {
+    "DrugId": 41,
+    "TreatmentId": 295
+  },
+  {
+    "DrugId": 42,
+    "TreatmentId": 295
+  },
+  {
+    "DrugId": 43,
+    "TreatmentId": 138
+  },
+  {
+    "DrugId": 43,
+    "TreatmentId": 139
+  },
+  {
+    "DrugId": 43,
+    "TreatmentId": 143
+  },
+  {
+    "DrugId": 43,
+    "TreatmentId": 146
+  },
+  {
+    "DrugId": 43,
+    "TreatmentId": 149
+  },
+  {
+    "DrugId": 43,
+    "TreatmentId": 152
+  },
+  {
+    "DrugId": 43,
+    "TreatmentId": 153
+  },
+  {
+    "DrugId": 44,
+    "TreatmentId": 275
+  },
+  {
+    "DrugId": 44,
+    "TreatmentId": 280
+  },
+  {
+    "DrugId": 45,
+    "TreatmentId": 96
+  },
+  {
+    "DrugId": 45,
+    "TreatmentId": 97
+  },
+  {
+    "DrugId": 45,
+    "TreatmentId": 389
+  },
+  {
+    "DrugId": 45,
+    "TreatmentId": 390
+  },
+  {
+    "DrugId": 45,
+    "TreatmentId": 391
+  },
+  {
+    "DrugId": 45,
+    "TreatmentId": 392
+  },
+  {
+    "DrugId": 46,
+    "TreatmentId": 263
+  },
+  {
+    "DrugId": 46,
+    "TreatmentId": 331
+  },
+  {
+    "DrugId": 46,
+    "TreatmentId": 332
+  },
+  {
+    "DrugId": 47,
+    "TreatmentId": 87
+  },
+  {
+    "DrugId": 47,
+    "TreatmentId": 254
+  },
+  {
+    "DrugId": 47,
+    "TreatmentId": 325
+  },
+  {
+    "DrugId": 47,
+    "TreatmentId": 382
+  },
+  {
+    "DrugId": 47,
+    "TreatmentId": 383
+  },
+  {
+    "DrugId": 47,
+    "TreatmentId": 384
+  },
+  {
+    "DrugId": 47,
+    "TreatmentId": 398
+  },
+  {
+    "DrugId": 47,
+    "TreatmentId": 399
+  },
+  {
+    "DrugId": 47,
+    "TreatmentId": 400
+  },
+  {
+    "DrugId": 47,
+    "TreatmentId": 438
+  },
+  {
+    "DrugId": 47,
+    "TreatmentId": 439
+  },
+  {
+    "DrugId": 47,
+    "TreatmentId": 440
+  },
+  {
+    "DrugId": 47,
+    "TreatmentId": 450
+  },
+  {
+    "DrugId": 48,
+    "TreatmentId": 58
+  },
+  {
+    "DrugId": 48,
+    "TreatmentId": 59
+  },
+  {
+    "DrugId": 48,
+    "TreatmentId": 98
+  },
+  {
+    "DrugId": 48,
+    "TreatmentId": 99
+  },
+  {
+    "DrugId": 48,
+    "TreatmentId": 389
+  },
+  {
+    "DrugId": 48,
+    "TreatmentId": 390
+  },
+  {
+    "DrugId": 48,
+    "TreatmentId": 391
+  },
+  {
+    "DrugId": 48,
+    "TreatmentId": 392
+  },
+  {
+    "DrugId": 49,
+    "TreatmentId": 67
+  },
+  {
+    "DrugId": 50,
+    "TreatmentId": 101
+  },
+  {
+    "DrugId": 51,
+    "TreatmentId": 141
+  },
+  {
+    "DrugId": 51,
+    "TreatmentId": 142
+  },
+  {
+    "DrugId": 51,
+    "TreatmentId": 155
+  },
+  {
+    "DrugId": 51,
+    "TreatmentId": 358
+  },
+  {
+    "DrugId": 51,
+    "TreatmentId": 375
+  },
+  {
+    "DrugId": 52,
+    "TreatmentId": 249
+  },
+  {
+    "DrugId": 53,
+    "TreatmentId": 300
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 130
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 135
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 154
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 189
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 190
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 394
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 395
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 403
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 404
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 405
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 406
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 408
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 409
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 410
+  },
+  {
+    "DrugId": 54,
+    "TreatmentId": 411
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 134
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 191
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 223
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 235
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 378
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 397
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 401
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 403
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 404
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 405
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 406
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 408
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 409
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 410
+  },
+  {
+    "DrugId": 55,
+    "TreatmentId": 411
+  },
+  {
+    "DrugId": 56,
+    "TreatmentId": 8
+  },
+  {
+    "DrugId": 56,
+    "TreatmentId": 11
+  },
+  {
+    "DrugId": 56,
+    "TreatmentId": 262
+  },
+  {
+    "DrugId": 56,
+    "TreatmentId": 265
+  },
+  {
+    "DrugId": 56,
+    "TreatmentId": 331
+  },
+  {
+    "DrugId": 56,
+    "TreatmentId": 332
+  },
+  {
+    "DrugId": 57,
+    "TreatmentId": 144
+  },
+  {
+    "DrugId": 57,
+    "TreatmentId": 145
+  },
+  {
+    "DrugId": 57,
+    "TreatmentId": 304
+  },
+  {
+    "DrugId": 57,
+    "TreatmentId": 306
+  },
+  {
+    "DrugId": 58,
+    "TreatmentId": 343
+  },
+  {
+    "DrugId": 58,
+    "TreatmentId": 344
+  },
+  {
+    "DrugId": 58,
+    "TreatmentId": 345
+  },
+  {
+    "DrugId": 58,
+    "TreatmentId": 376
+  },
+  {
+    "DrugId": 58,
+    "TreatmentId": 377
+  },
+  {
+    "DrugId": 59,
+    "TreatmentId": 210
+  },
+  {
+    "DrugId": 59,
+    "TreatmentId": 415
+  },
+  {
+    "DrugId": 59,
+    "TreatmentId": 416
+  },
+  {
+    "DrugId": 59,
+    "TreatmentId": 417
+  },
+  {
+    "DrugId": 60,
+    "TreatmentId": 89
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 136
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 219
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 221
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 222
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 388
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 393
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 403
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 404
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 405
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 406
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 408
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 409
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 410
+  },
+  {
+    "DrugId": 61,
+    "TreatmentId": 411
+  },
+  {
+    "DrugId": 62,
+    "TreatmentId": 220
+  },
+  {
+    "DrugId": 62,
+    "TreatmentId": 255
+  },
+  {
+    "DrugId": 62,
+    "TreatmentId": 312
+  },
+  {
+    "DrugId": 62,
+    "TreatmentId": 313
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 4
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 32
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 52
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 53
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 70
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 75
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 90
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 93
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 102
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 111
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 129
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 133
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 224
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 237
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 385
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 402
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 403
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 404
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 405
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 406
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 407
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 408
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 409
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 410
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 411
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 413
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 418
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 419
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 422
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 434
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 437
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 444
+  },
+  {
+    "DrugId": 63,
+    "TreatmentId": 449
+  },
+  {
+    "DrugId": 64,
+    "TreatmentId": 259
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 2
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 9
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 20
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 33
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 164
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 165
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 166
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 174
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 175
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 180
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 181
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 186
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 187
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 232
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 278
+  },
+  {
+    "DrugId": 65,
+    "TreatmentId": 279
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 83
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 84
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 167
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 252
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 336
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 382
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 383
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 384
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 398
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 399
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 400
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 438
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 439
+  },
+  {
+    "DrugId": 66,
+    "TreatmentId": 440
+  },
+  {
+    "DrugId": 67,
+    "TreatmentId": 7
+  },
+  {
+    "DrugId": 67,
+    "TreatmentId": 173
+  },
+  {
+    "DrugId": 67,
+    "TreatmentId": 242
+  },
+  {
+    "DrugId": 67,
+    "TreatmentId": 307
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 69
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 85
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 120
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 123
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 251
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 260
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 329
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 333
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 335
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 370
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 382
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 383
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 384
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 398
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 399
+  },
+  {
+    "DrugId": 68,
+    "TreatmentId": 400
+  },
+  {
+    "DrugId": 69,
+    "TreatmentId": 100
+  },
+  {
+    "DrugId": 69,
+    "TreatmentId": 366
+  },
+  {
+    "DrugId": 69,
+    "TreatmentId": 367
+  },
+  {
+    "DrugId": 69,
+    "TreatmentId": 368
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 158
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 159
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 160
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 161
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 162
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 163
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 168
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 169
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 170
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 171
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 176
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 177
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 178
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 179
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 182
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 183
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 184
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 185
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 192
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 193
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 194
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 195
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 196
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 197
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 198
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 199
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 200
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 201
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 202
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 203
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 204
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 205
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 206
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 207
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 208
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 209
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 211
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 212
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 213
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 214
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 215
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 216
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 243
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 244
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 268
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 269
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 271
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 272
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 273
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 274
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 285
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 286
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 292
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 293
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 298
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 299
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 308
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 309
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 310
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 311
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 314
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 315
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 322
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 323
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 353
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 354
+  },
+  {
+    "DrugId": 70,
+    "TreatmentId": 355
+  },
+  {
+    "DrugId": 71,
+    "TreatmentId": 261
+  },
+  {
+    "DrugId": 72,
+    "TreatmentId": 71
+  },
+  {
+    "DrugId": 72,
+    "TreatmentId": 77
+  },
+  {
+    "DrugId": 72,
+    "TreatmentId": 91
+  },
+  {
+    "DrugId": 72,
+    "TreatmentId": 94
+  },
+  {
+    "DrugId": 72,
+    "TreatmentId": 103
+  },
+  {
+    "DrugId": 72,
+    "TreatmentId": 113
+  },
+  {
+    "DrugId": 72,
+    "TreatmentId": 225
+  },
+  {
+    "DrugId": 72,
+    "TreatmentId": 414
+  },
+  {
+    "DrugId": 72,
+    "TreatmentId": 420
+  },
+  {
+    "DrugId": 72,
+    "TreatmentId": 421
+  },
+  {
+    "DrugId": 72,
+    "TreatmentId": 423
+  },
+  {
+    "DrugId": 72,
+    "TreatmentId": 435
+  },
+  {
+    "DrugId": 72,
+    "TreatmentId": 441
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 10
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 12
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 13
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 16
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 28
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 51
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 74
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 79
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 82
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 86
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 106
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 107
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 112
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 116
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 119
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 121
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 124
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 126
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 270
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 282
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 284
+  },
+  {
+    "DrugId": 73,
+    "TreatmentId": 288
+  },
+  {
+    "DrugId": 74,
+    "TreatmentId": 289
+  },
+  {
+    "DrugId": 74,
+    "TreatmentId": 290
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 45
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 61
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 64
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 188
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 233
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 239
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 245
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 246
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 247
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 360
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 415
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 416
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 417
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 424
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 425
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 433
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 442
+  },
+  {
+    "DrugId": 75,
+    "TreatmentId": 445
+  },
+  {
+    "DrugId": 76,
+    "TreatmentId": 276
+  },
+  {
+    "DrugId": 77,
+    "TreatmentId": 379
+  },
+  {
+    "DrugId": 78,
+    "TreatmentId": 217
+  },
+  {
+    "DrugId": 78,
+    "TreatmentId": 218
+  },
+  {
+    "DrugId": 78,
+    "TreatmentId": 277
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 29
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 158
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 159
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 160
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 161
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 162
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 163
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 168
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 169
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 170
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 171
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 176
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 177
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 178
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 179
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 182
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 183
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 184
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 185
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 192
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 193
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 194
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 195
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 196
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 197
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 198
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 199
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 200
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 201
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 202
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 203
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 204
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 205
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 206
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 207
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 208
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 209
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 211
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 212
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 213
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 214
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 215
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 216
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 243
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 244
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 268
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 269
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 271
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 272
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 273
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 274
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 285
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 286
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 292
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 293
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 296
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 297
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 298
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 299
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 308
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 309
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 310
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 311
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 314
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 315
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 322
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 323
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 353
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 354
+  },
+  {
+    "DrugId": 79,
+    "TreatmentId": 355
+  },
+  {
+    "DrugId": 80,
+    "TreatmentId": 72
+  },
+  {
+    "DrugId": 80,
+    "TreatmentId": 81
+  },
+  {
+    "DrugId": 80,
+    "TreatmentId": 92
+  },
+  {
+    "DrugId": 80,
+    "TreatmentId": 95
+  },
+  {
+    "DrugId": 80,
+    "TreatmentId": 105
+  },
+  {
+    "DrugId": 80,
+    "TreatmentId": 115
+  },
+  {
+    "DrugId": 80,
+    "TreatmentId": 227
+  },
+  {
+    "DrugId": 81,
+    "TreatmentId": 15
+  },
+  {
+    "DrugId": 81,
+    "TreatmentId": 109
+  },
+  {
+    "DrugId": 82,
+    "TreatmentId": 387
+  },
+  {
+    "DrugId": 82,
+    "TreatmentId": 426
+  },
+  {
+    "DrugId": 82,
+    "TreatmentId": 427
+  },
+  {
+    "DrugId": 82,
+    "TreatmentId": 429
+  },
+  {
+    "DrugId": 82,
+    "TreatmentId": 430
+  },
+  {
+    "DrugId": 82,
+    "TreatmentId": 431
+  },
+  {
+    "DrugId": 82,
+    "TreatmentId": 432
+  },
+  {
+    "DrugId": 83,
+    "TreatmentId": 289
+  },
+  {
+    "DrugId": 83,
+    "TreatmentId": 290
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 3
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 5
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 27
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 151
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 165
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 166
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 174
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 175
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 180
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 181
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 186
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 187
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 231
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 258
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 278
+  },
+  {
+    "DrugId": 84,
+    "TreatmentId": 279
+  },
+  {
+    "DrugId": 85,
+    "TreatmentId": 140
+  },
+  {
+    "DrugId": 85,
+    "TreatmentId": 236
+  },
+  {
+    "DrugId": 86,
+    "TreatmentId": 305
+  },
+  {
+    "DrugId": 86,
+    "TreatmentId": 353
+  },
+  {
+    "DrugId": 86,
+    "TreatmentId": 354
+  },
+  {
+    "DrugId": 86,
+    "TreatmentId": 355
+  },
+  {
+    "DrugId": 86,
+    "TreatmentId": 369
+  },
+  {
+    "DrugId": 87,
+    "TreatmentId": 317
+  },
+  {
+    "DrugId": 87,
+    "TreatmentId": 318
+  },
+  {
+    "DrugId": 87,
+    "TreatmentId": 319
+  },
+  {
+    "DrugId": 87,
+    "TreatmentId": 320
+  },
+  {
+    "DrugId": 87,
+    "TreatmentId": 338
+  },
+  {
+    "DrugId": 87,
+    "TreatmentId": 339
+  },
+  {
+    "DrugId": 87,
+    "TreatmentId": 340
+  },
+  {
+    "DrugId": 87,
+    "TreatmentId": 341
+  },
+  {
+    "DrugId": 87,
+    "TreatmentId": 346
+  },
+  {
+    "DrugId": 87,
+    "TreatmentId": 347
+  },
+  {
+    "DrugId": 87,
+    "TreatmentId": 348
+  },
+  {
+    "DrugId": 87,
+    "TreatmentId": 349
+  },
+  {
+    "DrugId": 88,
+    "TreatmentId": 217
+  },
+  {
+    "DrugId": 88,
+    "TreatmentId": 218
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 48
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 301
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 302
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 303
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 317
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 318
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 319
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 320
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 338
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 339
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 340
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 341
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 346
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 347
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 348
+  },
+  {
+    "DrugId": 89,
+    "TreatmentId": 349
+  },
+  {
+    "DrugId": 90,
+    "TreatmentId": 80
+  },
+  {
+    "DrugId": 90,
+    "TreatmentId": 245
+  },
+  {
+    "DrugId": 90,
+    "TreatmentId": 246
+  },
+  {
+    "DrugId": 90,
+    "TreatmentId": 247
+  },
+  {
+    "DrugId": 91,
+    "TreatmentId": 76
+  },
+  {
+    "DrugId": 91,
+    "TreatmentId": 245
+  },
+  {
+    "DrugId": 91,
+    "TreatmentId": 246
+  },
+  {
+    "DrugId": 91,
+    "TreatmentId": 247
+  },
+  {
+    "DrugId": 91,
+    "TreatmentId": 415
+  },
+  {
+    "DrugId": 91,
+    "TreatmentId": 416
+  },
+  {
+    "DrugId": 91,
+    "TreatmentId": 417
+  },
+  {
+    "DrugId": 91,
+    "TreatmentId": 424
+  },
+  {
+    "DrugId": 91,
+    "TreatmentId": 425
+  },
+  {
+    "DrugId": 92,
+    "TreatmentId": 148
+  },
+  {
+    "DrugId": 93,
+    "TreatmentId": 56
+  },
+  {
+    "DrugId": 93,
+    "TreatmentId": 234
+  },
+  {
+    "DrugId": 94,
+    "TreatmentId": 343
+  },
+  {
+    "DrugId": 94,
+    "TreatmentId": 344
+  },
+  {
+    "DrugId": 94,
+    "TreatmentId": 345
+  },
+  {
+    "DrugId": 95,
+    "TreatmentId": 283
+  },
+  {
+    "DrugId": 95,
+    "TreatmentId": 287
+  },
+  {
+    "DrugId": 96,
+    "TreatmentId": 22
+  },
+  {
+    "DrugId": 96,
+    "TreatmentId": 26
+  },
+  {
+    "DrugId": 96,
+    "TreatmentId": 131
+  },
+  {
+    "DrugId": 97,
+    "TreatmentId": 343
+  },
+  {
+    "DrugId": 97,
+    "TreatmentId": 344
+  },
+  {
+    "DrugId": 97,
+    "TreatmentId": 345
+  },
+  {
+    "DrugId": 97,
+    "TreatmentId": 376
+  },
+  {
+    "DrugId": 97,
+    "TreatmentId": 377
+  },
+  {
+    "DrugId": 98,
+    "TreatmentId": 6
+  },
+  {
+    "DrugId": 98,
+    "TreatmentId": 35
+  },
+  {
+    "DrugId": 98,
+    "TreatmentId": 157
+  },
+  {
+    "DrugId": 98,
+    "TreatmentId": 230
+  },
+  {
+    "DrugId": 99,
+    "TreatmentId": 21
+  },
+  {
+    "DrugId": 99,
+    "TreatmentId": 241
+  },
+  {
+    "DrugId": 100,
+    "TreatmentId": 248
+  },
+  {
+    "DrugId": 101,
+    "TreatmentId": 20
+  },
+  {
+    "DrugId": 102,
+    "TreatmentId": 350
+  },
+  {
+    "DrugId": 103,
+    "TreatmentId": 56
+  },
+  {
+    "DrugId": 103,
+    "TreatmentId": 234
+  },
+  {
+    "DrugId": 104,
+    "TreatmentId": 141
+  },
+  {
+    "DrugId": 104,
+    "TreatmentId": 142
+  },
+  {
+    "DrugId": 105,
+    "TreatmentId": 58
+  },
+  {
+    "DrugId": 105,
+    "TreatmentId": 59
+  },
+  {
+    "DrugId": 105,
+    "TreatmentId": 96
+  },
+  {
+    "DrugId": 105,
+    "TreatmentId": 97
+  },
+  {
+    "DrugId": 105,
+    "TreatmentId": 98
+  },
+  {
+    "DrugId": 105,
+    "TreatmentId": 99
+  },
+  {
+    "DrugId": 105,
+    "TreatmentId": 138
+  },
+  {
+    "DrugId": 105,
+    "TreatmentId": 139
+  },
+  {
+    "DrugId": 105,
+    "TreatmentId": 148
+  },
+  {
+    "DrugId": 105,
+    "TreatmentId": 149
+  },
+  {
+    "DrugId": 106,
+    "TreatmentId": 67
+  },
+  {
+    "DrugId": 107,
+    "TreatmentId": 1
+  },
+  {
+    "DrugId": 107,
+    "TreatmentId": 155
+  },
+  {
+    "DrugId": 108,
+    "TreatmentId": 6
+  },
+  {
+    "DrugId": 108,
+    "TreatmentId": 294
+  },
+  {
+    "DrugId": 108,
+    "TreatmentId": 295
+  },
+  {
+    "DrugId": 109,
+    "TreatmentId": 141
+  },
+  {
+    "DrugId": 109,
+    "TreatmentId": 142
+  },
+  {
+    "DrugId": 109,
+    "TreatmentId": 144
+  },
+  {
+    "DrugId": 109,
+    "TreatmentId": 145
+  },
+  {
+    "DrugId": 110,
+    "TreatmentId": 157
+  },
+  {
+    "DrugId": 111,
+    "TreatmentId": 12
+  },
+  {
+    "DrugId": 111,
+    "TreatmentId": 13
+  },
+  {
+    "DrugId": 111,
+    "TreatmentId": 106
+  },
+  {
+    "DrugId": 111,
+    "TreatmentId": 107
+  },
+  {
+    "DrugId": 112,
+    "TreatmentId": 143
+  },
+  {
+    "DrugId": 112,
+    "TreatmentId": 153
+  },
+  {
+    "DrugId": 113,
+    "TreatmentId": 152
+  },
+  {
+    "DrugId": 114,
+    "TreatmentId": 101
+  },
+  {
+    "DrugId": 115,
+    "TreatmentId": 33
+  },
+  {
+    "DrugId": 115,
+    "TreatmentId": 165
+  },
+  {
+    "DrugId": 115,
+    "TreatmentId": 166
+  },
+  {
+    "DrugId": 115,
+    "TreatmentId": 180
+  },
+  {
+    "DrugId": 115,
+    "TreatmentId": 181
+  },
+  {
+    "DrugId": 115,
+    "TreatmentId": 186
+  },
+  {
+    "DrugId": 115,
+    "TreatmentId": 187
+  },
+  {
+    "DrugId": 115,
+    "TreatmentId": 232
+  },
+  {
+    "DrugId": 116,
+    "TreatmentId": 83
+  },
+  {
+    "DrugId": 116,
+    "TreatmentId": 84
+  },
+  {
+    "DrugId": 117,
+    "TreatmentId": 307
+  },
+  {
+    "DrugId": 118,
+    "TreatmentId": 146
+  },
+  {
+    "DrugId": 119,
+    "TreatmentId": 3
+  },
+  {
+    "DrugId": 119,
+    "TreatmentId": 5
+  },
+  {
+    "DrugId": 119,
+    "TreatmentId": 27
+  },
+  {
+    "DrugId": 119,
+    "TreatmentId": 165
+  },
+  {
+    "DrugId": 119,
+    "TreatmentId": 166
+  },
+  {
+    "DrugId": 119,
+    "TreatmentId": 180
+  },
+  {
+    "DrugId": 119,
+    "TreatmentId": 181
+  },
+  {
+    "DrugId": 119,
+    "TreatmentId": 186
+  },
+  {
+    "DrugId": 119,
+    "TreatmentId": 187
+  },
+  {
+    "DrugId": 119,
+    "TreatmentId": 231
+  },
+  {
+    "DrugId": 119,
+    "TreatmentId": 258
+  },
+  {
+    "DrugId": 120,
+    "TreatmentId": 35
+  },
+  {
+    "DrugId": 120,
+    "TreatmentId": 230
+  },
+  {
+    "DrugId": 121,
+    "TreatmentId": 369
+  },
+  {
+    "DrugId": 122,
+    "TreatmentId": 1
+  },
+  {
+    "DrugId": 122,
+    "TreatmentId": 143
+  },
+  {
+    "DrugId": 123,
+    "TreatmentId": 146
+  },
+  {
+    "DrugId": 124,
+    "TreatmentId": 20
+  }
+]
