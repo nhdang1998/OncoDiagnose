@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using OncoDiagnose.Web.ViewModels.DrugViewModels;
 
 namespace OncoDiagnose.Web.ViewModels
 {
@@ -10,7 +11,6 @@ namespace OncoDiagnose.Web.ViewModels
 
         public MutationViewModel Mutation { get; set; }
         public int Priority { get; set; }
-        public ICollection<DrugViewModel> Drugs { get; set; }
         public List<TreatmentDrugViewModel> TreatmentDrugsList { get; set; }
     }
 }

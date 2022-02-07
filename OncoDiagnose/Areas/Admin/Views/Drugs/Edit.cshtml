@@ -1,0 +1,79 @@
+﻿@model OncoDiagnose.Web.ViewModels.DrugViewModels.DrugEditViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    var allSynonym = ViewData["Synonym"];
+}
+<h1>Edit</h1>
+
+<h4>Drug</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NcitCode" class="control-label"></label>
+                <input asp-for="NcitCode" class="form-control" />
+                <span asp-validation-for="NcitCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DrugName" class="control-label"></label>
+                <input asp-for="DrugName" class="form-control" />
+                <span asp-validation-for="DrugName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Priority" class="control-label"></label>
+                <input asp-for="Priority" class="form-control" />
+                <span asp-validation-for="Priority" class="text-danger"></span>
+            </div>
+           @* <div class="form-group">
+                <label asp-for="SelectedSynonyms" class="control-label"></label>
+                <select asp-for="SelectedSynonyms" asp-items="Model.Synonyms" multiple>
+                    <option></option>
+                </select>
+                <input type="checkbox" name="Assigned_Synonym" checked="checked" asp-for="SelectedSynonyms" as/>
+                <span asp-validation-for="SelectedSynonyms" class="text-danger"></span>
+            </div>*@
+            
+            <div class="form-group">
+                <div class="table">
+                    <table>
+                        <tr>
+                            @{
+                                var cnt = 0;
+                                foreach (var synonym in Model.Synonyms)
+                                {
+                                    if (cnt++ % 3 == 0)
+                                    {
+                                        @:</tr><tr>
+                                    }
+                                    @:<td>
+                                    <input type="checkbox"
+                                           name="selectedSynonym"
+                                           value="@synonym"
+                                           @Html.Raw(Model.SelectedSynonyms.ToList().Contains(int.Parse(synonym.Value)) ? "checked=\"checked\"" : "")/>
+                                    @synonym.Value @:  @synonym.Text
+                                    @:</td>
+
+                                }
+                            }
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

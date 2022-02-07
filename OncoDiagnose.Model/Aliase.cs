@@ -8,6 +8,5 @@ namespace OncoDiagnose.Models
         [Display(Name = "Tên aliases")]
         public string Name { get; set; }
         public List<GeneAliase> GeneAliases { get; set; }
-        public List<Gene> Genes { get; set; }
     }
 }

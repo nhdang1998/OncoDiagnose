@@ -3,6 +3,7 @@ using AutoMapper.Extensions.EnumMapping;
 using OncoDiagnose.Models;
 using OncoDiagnose.Models.Technician;
 using OncoDiagnose.Web.ViewModels;
+using OncoDiagnose.Web.ViewModels.DrugViewModels;
 
 namespace OncoDiagnose.Web.Automapper
 {

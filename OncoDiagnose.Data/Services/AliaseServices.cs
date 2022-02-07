@@ -20,16 +20,16 @@ namespace OncoDiagnose.DataAccess.Services
         {
             return await _context.Aliases
                 .Include(a => a.GeneAliases)
-                .Include(a => a.Genes)
+                .ThenInclude(ga => ga.Gene)
                 .ToListAsync();
         }
 
         public async Task<Aliase> GetAliaseByIdAsync(int id)
         {
             return await _context.Aliases
-                .AsNoTracking()
                 .Include(a => a.GeneAliases)
-                .Include(a => a.Genes)
+                .ThenInclude(ga => ga.Gene)
+                .AsNoTracking()
                 .FirstOrDefaultAsync(a => a.Id == id);
         }
     }

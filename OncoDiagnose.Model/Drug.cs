@@ -10,8 +10,6 @@ namespace OncoDiagnose.Models
 
         public int Priority { get; set; }
         public List<DrugSynonym> DrugSynonyms { get; set; }
-        public ICollection<Synonym> Synonyms { get; set; }
-        public ICollection<Treatment> Treatments { get; set; }
         public List<TreatmentDrugs> TreatmentDrugs { get; set; }
     }
 }

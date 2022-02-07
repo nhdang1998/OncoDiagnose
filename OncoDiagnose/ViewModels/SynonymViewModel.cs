@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using OncoDiagnose.Web.ViewModels.DrugViewModels;
 
 namespace OncoDiagnose.Web.ViewModels
 {
@@ -9,6 +10,5 @@ namespace OncoDiagnose.Web.ViewModels
         public string SynonymInformation { get; set; }
 
         public List<DrugSynonymViewModel> DrugSynonyms { get; set; }
-        public ICollection<DrugViewModel> Drugs { get; set; }
     }
 }

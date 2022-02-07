@@ -11,6 +11,7 @@ namespace OncoDiagnose.DataAccess.Services
     public class DrugServices : GenericRepository<Drug>, IDrugRepo
     {
         private readonly OncoDbContext _context;
+        public List<AssignedSynonyms> AssignedSynonymsList;
 
         public DrugServices(OncoDbContext context) : base(context)
         {
@@ -20,17 +21,21 @@ namespace OncoDiagnose.DataAccess.Services
         public async Task<IReadOnlyList<Drug>> GetDrugsAsync()
         {
             return await _context.Drugs
-                .Include(d => d.Synonyms)
-                .Include(d => d.Treatments)
+                .Include(d => d.DrugSynonyms)
+                .ThenInclude(ds => ds.Synonym)
+                .Include(d => d.TreatmentDrugs)
+                .ThenInclude(td => td.Drug)
                 .ToListAsync();
         }
 
         public async Task<Drug> GetDrugByIdAsync(int id)
         {
             return await _context.Drugs
+                .Include(d => d.DrugSynonyms)
+                .ThenInclude(ds => ds.Synonym)
+                .Include(d => d.TreatmentDrugs)
+                .ThenInclude(td => td.Treatment)
                 .AsNoTracking()
-                .Include(d => d.Synonyms)
-                .Include(d => d.Treatments)
                 .FirstOrDefaultAsync(d => d.Id == id);
         }
 

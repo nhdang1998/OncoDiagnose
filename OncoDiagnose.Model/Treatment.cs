@@ -10,8 +10,7 @@ namespace OncoDiagnose.Models
         public Mutation Mutation { get; set; }
 
         public int Priority { get; set; }
-        public ICollection<Drug> Drugs { get; set; }
-        public List<TreatmentDrugs> TreatmentDrugsList { get; set; }
+        public List<TreatmentDrugs> TreatmentDrugs { get; set; }
 
     }
 }

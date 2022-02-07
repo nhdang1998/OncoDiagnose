@@ -19,14 +19,18 @@ namespace OncoDiagnose.DataAccess.Services
         public async Task<IReadOnlyList<Synonym>> GetSynonymsAsync()
         {
             return await _context.Synonyms
-                .Include(s => s.Drugs)
+                .Include(s => s.DrugSynonyms)
+                .ThenInclude(ds => ds.Drug)
+                .AsNoTracking()
                 .ToListAsync();
         }
 
         public async Task<Synonym> GetSynonymByIdAsync(int id)
         {
             return await _context.Synonyms
-                .Include(s => s.Drugs)
+                .Include(s => s.DrugSynonyms)
+                .ThenInclude(ds => ds.Drug)
+                .AsNoTracking()
                 .FirstOrDefaultAsync(s => s.Id == id);
         }
     }

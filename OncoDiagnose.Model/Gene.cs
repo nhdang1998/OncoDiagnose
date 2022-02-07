@@ -22,7 +22,6 @@ namespace OncoDiagnose.Models
 
         public string Tsg { get; set; }
         public List<Alteration> Alterations { get; set; }
-        public List<Aliase> Aliases { get; set; }
         public List<GeneAliase> GeneAliases { get; set; }
     }
 }

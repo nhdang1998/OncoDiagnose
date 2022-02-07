@@ -20,7 +20,9 @@ namespace OncoDiagnose.DataAccess.Services
         {
             return await _context.Treatments
                 .Include(t => t.Mutation)
-                .Include(t => t.Drugs)
+                .Include(t => t.TreatmentDrugs)
+                .ThenInclude(td => td.Drug)
+                .AsNoTracking()
                 .ToListAsync();
         }
 
@@ -28,7 +30,9 @@ namespace OncoDiagnose.DataAccess.Services
         {
             return await _context.Treatments
                 .Include(t => t.Mutation)
-                .Include(t => t.Drugs)
+                .Include(t => t.TreatmentDrugs)
+                .ThenInclude(td => td.Drug)
+                .AsNoTracking()
                 .FirstOrDefaultAsync(t => t.Id == id);
         }
         public IEnumerable<Mutation> GetMutations()

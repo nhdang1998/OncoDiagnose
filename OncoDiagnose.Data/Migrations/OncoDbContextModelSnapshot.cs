@@ -471,6 +471,9 @@ namespace OncoDiagnose.DataAccess.Migrations
                     b.Property<string>("AdditionalInfor")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("ArticleId")
+                        .HasColumnType("int");
+
                     b.Property<int?>("CancerTypeId")
                         .HasColumnType("int");
 
@@ -499,6 +502,8 @@ namespace OncoDiagnose.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ArticleId");
 
                     b.HasIndex("CancerTypeId");
 
@@ -882,6 +887,10 @@ namespace OncoDiagnose.DataAccess.Migrations
 
             modelBuilder.Entity("OncoDiagnose.Models.Mutation", b =>
                 {
+                    b.HasOne("OncoDiagnose.Models.Article", null)
+                        .WithMany("Mutations")
+                        .HasForeignKey("ArticleId");
+
                     b.HasOne("OncoDiagnose.Models.CancerType", "CancerType")
                         .WithMany("Mutations")
                         .HasForeignKey("CancerTypeId")
@@ -952,13 +961,13 @@ namespace OncoDiagnose.DataAccess.Migrations
             modelBuilder.Entity("OncoDiagnose.Models.TreatmentDrugs", b =>
                 {
                     b.HasOne("OncoDiagnose.Models.Drug", "Drug")
-                        .WithMany("TreatmentDrugsList")
+                        .WithMany("TreatmentDrugs")
                         .HasForeignKey("DrugId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("OncoDiagnose.Models.Treatment", "Treatment")
-                        .WithMany("TreatmentDrugsList")
+                        .WithMany("TreatmentDrugs")
                         .HasForeignKey("TreatmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -976,6 +985,8 @@ namespace OncoDiagnose.DataAccess.Migrations
             modelBuilder.Entity("OncoDiagnose.Models.Article", b =>
                 {
                     b.Navigation("MutationArticles");
+
+                    b.Navigation("Mutations");
                 });
 
             modelBuilder.Entity("OncoDiagnose.Models.CancerType", b =>
@@ -992,7 +1003,7 @@ namespace OncoDiagnose.DataAccess.Migrations
                 {
                     b.Navigation("DrugSynonyms");
 
-                    b.Navigation("TreatmentDrugsList");
+                    b.Navigation("TreatmentDrugs");
                 });
 
             modelBuilder.Entity("OncoDiagnose.Models.Gene", b =>
@@ -1033,7 +1044,7 @@ namespace OncoDiagnose.DataAccess.Migrations
 
             modelBuilder.Entity("OncoDiagnose.Models.Treatment", b =>
                 {
-                    b.Navigation("TreatmentDrugsList");
+                    b.Navigation("TreatmentDrugs");
                 });
 #pragma warning restore 612, 618
         }

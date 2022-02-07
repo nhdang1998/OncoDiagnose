@@ -19,7 +19,8 @@ namespace OncoDiagnose.DataAccess.Services
         public async Task<IReadOnlyList<Gene>> GetGenesAsync()
         {
             return await _context.Genes
-                .Include(g => g.Aliases)
+                .Include(g => g.GeneAliases)
+                .ThenInclude(ga => ga.Aliase)
                 .Include(g => g.Alterations)
                 .ToListAsync();
         }
@@ -27,7 +28,8 @@ namespace OncoDiagnose.DataAccess.Services
         public async Task<Gene> GetGeneByIdAsync(int id)
         {
             return await _context.Genes
-                .Include(g => g.Aliases)
+                .Include(g => g.GeneAliases)
+                .ThenInclude(ga => ga.Aliase)
                 .Include(g => g.Alterations)
                 .FirstOrDefaultAsync(g => g.Id == id);
         }

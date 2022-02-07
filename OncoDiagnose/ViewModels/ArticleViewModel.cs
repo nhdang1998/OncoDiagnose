@@ -6,10 +6,6 @@ namespace OncoDiagnose.Web.ViewModels
     {
         public int Id { get; set; }
 
-        public int MutationId { get; set; }
-
-        public MutationViewModel Mutation { get; set; }
-
         public string Pmid { get; set; }
 
         public string Title { get; set; }

@@ -38,7 +38,6 @@ namespace OncoDiagnose.Models
         [JsonPropertyName("CancerTypeId")]
         public int? CancerTypeId { get; set; }
         public CancerType CancerType { get; set; }
-        public List<Article> Articles { get; set; }
         public List<MutationArticle> MutationArticles { get; set; }
 
         public List<Alteration> Alterations { get; set; }

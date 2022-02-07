@@ -5,6 +5,7 @@ using OncoDiagnose.Web.ViewModels;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using OncoDiagnose.Web.ViewModels.DrugViewModels;
 
 namespace OncoDiagnose.Web.Business
 {
@@ -56,8 +57,8 @@ namespace OncoDiagnose.Web.Business
 
         public async Task Add(DrugViewModel drugViewModel)
         {
-            var Drug = _mapper.Map<Drug>(drugViewModel);
-            _unitOfWork.Drug.Add(Drug);
+            var drug = _mapper.Map<Drug>(drugViewModel);
+            _unitOfWork.Drug.Add(drug);
             await _unitOfWork.Save();
         }
 

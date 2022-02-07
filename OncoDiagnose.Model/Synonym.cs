@@ -9,6 +9,5 @@ namespace OncoDiagnose.Models
         public string SynonymInformation { get; set; }
 
         public List<DrugSynonym> DrugSynonyms { get; set; }
-        public ICollection<Drug> Drugs { get; set; }
     }
 }

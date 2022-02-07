@@ -56,39 +56,29 @@ namespace OncoDiagnose.DataAccess
                 .HasForeignKey<Test>(t => t.RunId)
                 .OnDelete(DeleteBehavior.ClientCascade);
 
+            modelBuilder.Entity<DrugSynonym>().HasKey(ds => new { ds.DrugId, ds.SynonymId });
+
             modelBuilder.Entity<Drug>()
-                .HasMany(d => d.Synonyms)
-                .WithMany(s => s.Drugs)
-                .UsingEntity<DrugSynonym>(
-                    j => j
-                        .HasOne(ds => ds.Synonym)
-                        .WithMany(s => s.DrugSynonyms)
-                        .HasForeignKey(ds => ds.SynonymId),
-                    j => j
-                        .HasOne(ds => ds.Drug)
-                        .WithMany(d => d.DrugSynonyms)
-                        .HasForeignKey(ds => ds.DrugId),
-                    j =>
-                    {
-                        j.HasKey(t => new { t.DrugId, t.SynonymId });
-                    });
+                .HasMany(d => d.DrugSynonyms)
+                .WithOne(ds => ds.Drug)
+                .HasForeignKey(ds => ds.DrugId);
+
+            modelBuilder.Entity<Synonym>()
+                .HasMany(s => s.DrugSynonyms)
+                .WithOne(ds => ds.Synonym)
+                .HasForeignKey(ds => ds.SynonymId);
+
+            modelBuilder.Entity<GeneAliase>().HasKey(ga => new { ga.AliaseId, ga.GeneId });
 
             modelBuilder.Entity<Gene>()
-                .HasMany(g => g.Aliases)
-                .WithMany(a => a.Genes)
-                .UsingEntity<GeneAliase>(
-                j => j
-                    .HasOne(ga => ga.Aliase)
-                    .WithMany(a => a.GeneAliases)
-                    .HasForeignKey(ga => ga.AliaseId),
-                j => j
-                    .HasOne(ga => ga.Gene)
-                    .WithMany(g => g.GeneAliases)
-                    .HasForeignKey(ga => ga.GeneId),
-                j =>
-                {
-                    j.HasKey(t => new { t.AliaseId, t.GeneId });
-                });
+                .HasMany(g => g.GeneAliases)
+                .WithOne(ga => ga.Gene)
+                .HasForeignKey(ga => ga.GeneId);
+
+            modelBuilder.Entity<Aliase>()
+                .HasMany(a => a.GeneAliases)
+                .WithOne(ga => ga.Aliase)
+                .HasForeignKey(ga => ga.AliaseId);
 
             //Enum GeneName
             modelBuilder
@@ -121,30 +111,24 @@ namespace OncoDiagnose.DataAccess
                 .WithOne(a => a.Consequence)
                 .HasForeignKey(a => a.ConsequenceId)
                 .OnDelete(DeleteBehavior.ClientCascade);
-                
-
+            
             modelBuilder.Entity<Gene>()
                 .HasMany(g => g.Alterations)
                 .WithOne(a => a.Gene)
                 .HasForeignKey(a => a.GeneId)
                 .OnDelete(DeleteBehavior.ClientCascade);
 
+            modelBuilder.Entity<MutationArticle>().HasKey(ma => new { ma.ArticleId, ma.MutationId });
+
             modelBuilder.Entity<Mutation>()
-                .HasMany(m => m.Articles)
-                .WithMany(a => a.Mutations)
-                .UsingEntity<MutationArticle>(
-                    j => j
-                        .HasOne(ma => ma.Article)
-                        .WithMany(a => a.MutationArticles)
-                        .HasForeignKey(ma => ma.ArticleId),
-                    j => j
-                        .HasOne(ma => ma.Mutation)
-                        .WithMany(m => m.MutationArticles)
-                        .HasForeignKey(ma => ma.MutationId),
-                    j =>
-                    {
-                        j.HasKey(t => new { t.ArticleId, t.MutationId });
-                    });
+                .HasMany(m => m.MutationArticles)
+                .WithOne(ma => ma.Mutation)
+                .HasForeignKey(ma => ma.MutationId);
+
+            modelBuilder.Entity<Article>()
+                .HasMany(a => a.MutationArticles)
+                .WithOne(ma => ma.Article)
+                .HasForeignKey(ma => ma.ArticleId);
 
             modelBuilder.Entity<Mutation>()
                 .HasMany(m => m.Alterations)
@@ -164,23 +148,17 @@ namespace OncoDiagnose.DataAccess
                 .HasForeignKey(m => m.CancerTypeId)
                 .OnDelete(DeleteBehavior.ClientCascade);
 
+            modelBuilder.Entity<TreatmentDrugs>().HasKey(td => new { td.DrugId, td.TreatmentId });
+
             modelBuilder.Entity<Treatment>()
-                .HasMany(t => t.Drugs)
-                .WithMany(d => d.Treatments)
-                .UsingEntity<TreatmentDrugs>(
-                    j => j
-                        .HasOne(td => td.Drug)
-                        .WithMany(d => d.TreatmentDrugs)
-                        .HasForeignKey(td => td.DrugId),
-                    j => j
-                        .HasOne(td => td.Treatment)
-                        .WithMany(t => t.TreatmentDrugsList)
-                        .HasForeignKey(td => td.TreatmentId),
-                    j =>
-                    {
-                        j.HasKey(t => new { t.DrugId, t.TreatmentId });
-                    }
-                );
+                .HasMany(t => t.TreatmentDrugs)
+                .WithOne(td => td.Treatment)
+                .HasForeignKey(td => td.TreatmentId);
+
+            modelBuilder.Entity<Drug>()
+                .HasMany(d => d.TreatmentDrugs)
+                .WithOne(td => td.Drug)
+                .HasForeignKey(td => td.DrugId);
 
         }
     }
