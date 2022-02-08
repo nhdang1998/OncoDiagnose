@@ -88,10 +88,10 @@ namespace OncoDiagnose.DataAccess.Repositories.Base
             return await query.ToListAsync();
         }
 
-        public void Update(T entity)
+        public void Update(T updatedEntity)
         {
-            dbSet.Attach(entity);
-            _context.Entry(entity).State = EntityState.Modified;
+            dbSet.Attach(updatedEntity);
+            _context.Entry(updatedEntity).State = EntityState.Modified;
         }
     }
 }

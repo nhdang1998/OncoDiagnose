@@ -11,7 +11,6 @@ namespace OncoDiagnose.DataAccess.Services
     public class DrugServices : GenericRepository<Drug>, IDrugRepo
     {
         private readonly OncoDbContext _context;
-        public List<AssignedSynonyms> AssignedSynonymsList;
 
         public DrugServices(OncoDbContext context) : base(context)
         {
@@ -41,12 +40,12 @@ namespace OncoDiagnose.DataAccess.Services
 
         public IEnumerable<Treatment> GetTreatments()
         {
-            return _context.Treatments;
+            return _context.Treatments.AsNoTracking();
         }
 
         public IEnumerable<Synonym> GetSynonyms()
         {
-            return _context.Synonyms;
+            return _context.Synonyms.AsNoTracking();
         }
     }
 }

@@ -19,7 +19,10 @@ function loadDataTable() {
                 "render": function (data) {
                     return `
                             <div class="text-center">
-                                <a href="/Admin/${controllerName}/Upsert/${data}" class="btn btn-success text-white" style="cursor: pointer">
+                                <a href="/Admin/${controllerName}/Details/${data}" class="btn btn-warning text-white" style="cursor: pointer">
+                                    <i class="fas fa-info-circle"></i>
+                                </a>
+                                <a href="/Admin/${controllerName}/Edit/${data}" class="btn btn-success text-white" style="cursor: pointer">
                                     <i class="fas fa-edit"></i>
                                 </a>
                                 <a onclick=Delete("/Admin/${controllerName}/Delete/${data}") class="btn btn-danger text-white" style="cursor: pointer">

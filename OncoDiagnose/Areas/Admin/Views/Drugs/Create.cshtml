@@ -4,8 +4,8 @@
     ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<h1>Create</h1>
+<div class="container-fluid">
+    <h1>Create</h1>
 
 <h4>Drug</h4>
 <hr />
@@ -29,10 +29,33 @@
                 <span asp-validation-for="Priority" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <select asp-for="SelectedSynonyms" asp-items="Model.Synonyms" multiple>
-                    <option>-- Synonym --</option>
-                </select>
-                
+                <label asp-for="SelectedSynonyms" class="control-label"></label>
+                <div class="table">
+                    <table>
+                        @*Chu y la trong thuoc tinh name cua input phai trung ten voi thuoc tinh muon map
+                        VD o day la can map danh sach synonym lua chon voi thuoc tinh SelectedSynonyms
+                        Can dung tung ky tu mot*@
+                        <tr>
+                            @{
+                                var cnt = 0;
+                                foreach (var synonym in Model.Synonyms)
+                                {
+                                    if (cnt++ % 3 == 0)
+                                    {
+                                        @:</tr><tr>
+                                    }
+                                    @:<td>
+                                    <input type="checkbox"
+                                           name="SelectedSynonyms"
+                                           value="@int.Parse(synonym.Value)"/>
+                                    //@synonym.Value
+                                    @: @synonym.Text
+                                    @:</td>
+                                }
+                            }
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
@@ -44,4 +67,7 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+</div>
 
+
+@*@Html.Raw(Model.SelectedSynonyms.ToList().Contains(int.Parse(synonym.Value)) ? "checked=\"checked\"" : "")*@

@@ -58,7 +58,6 @@ namespace OncoDiagnose.DataAccess.Repositories
 
         public async Task Save()
         {
-            var db = await _db.SaveChangesAsync();
             await _db.SaveChangesAsync();
         }
     }

@@ -1,37 +1,63 @@
-﻿@model OncoDiagnose.Models.Drug
+﻿@using System.Linq
+@using OncoDiagnose.Web.ViewModels
+@model OncoDiagnose.Web.ViewModels.DrugViewModels.DrugViewModel
 
 @{
     ViewData["Title"] = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@{
+    var selectSynonyms = Model.DrugSynonyms.Select(x => new SynonymViewModel()
+    {
+        Id = x.Synonym.Id,
+        SynonymInformation = x.Synonym.SynonymInformation
+    });
 
-<h1>Details</h1>
+    var selectList = new List<SelectListItem>();
 
-<div>
-    <h4>Drug</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NcitCode)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NcitCode)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DrugName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DrugName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Priority)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Priority)
-        </dd>
-    </dl>
+    selectSynonyms.ToList().ForEach(i => selectList.Add
+        (new SelectListItem(i.SynonymInformation, i.Id.ToString(), selectSynonyms.Select(x => x.Id)
+            .Contains(i.Id)))); 
+
+}
+<div class="container-fluid">
+    <h1>Details</h1>
+
+    <div>
+        <h4>Drug</h4>
+        <hr />
+        <dl class="row">
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.NcitCode)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.NcitCode)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.DrugName)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.DrugName)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Priority)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Priority)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.DrugSynonyms)
+            </dt>
+            <dd class = "col-sm-10">
+                <select asp-for="DrugSynonyms" asp-items="@selectList">
+                    <option>-- Các tên gọi khác --</option>
+                </select>
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+        <a asp-action="Index">Back to List</a>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+

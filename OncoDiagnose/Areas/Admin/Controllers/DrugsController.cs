@@ -21,10 +21,17 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
             _drugBusiness = drugBusiness;
         }
 
-        // GET: Admin/Drugs
-        public async Task<IActionResult> Index()
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
         {
-            return View(await _drugBusiness.GetAll());
+            var allObj = await _drugBusiness.GetAll();
+            return Json(new { data = allObj });
+        }
+
+        // GET: Admin/Drugs
+        public IActionResult Index()
+        {
+            return View();
         }
 
         // GET: Admin/Drugs/Details/5
@@ -45,10 +52,10 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
         }
 
         // GET: Admin/Drugs/Create
-        public async Task<IActionResult> Create()
+        public IActionResult Create()
         {
-            var synonyms = await _drugBusiness.GetAll();
-            var selectList = synonyms.Select(synonym => new SelectListItem(synonym.DrugName, synonym.Id.ToString())).ToList();
+            var synonyms = _drugBusiness.GetSynonyms();
+            var selectList = synonyms.Select(synonym => new SelectListItem(synonym.SynonymInformation, synonym.Id.ToString())).ToList();
 
             var vm = new DrugCreateViewModel()
             {
@@ -72,7 +79,7 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                     NcitCode = drugViewModel.NcitCode,
                     Priority = drugViewModel.Priority
                 };
-
+                
                 foreach (var selectedSynonym in drugViewModel.SelectedSynonyms)
                 {
                     drugVM.DrugSynonyms.Add(new DrugSynonymViewModel()
@@ -139,7 +146,7 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("NcitCode,DrugName,Priority,Id")] DrugEditViewModel drugEditViewModel)
+        public async Task<IActionResult> Edit(int id, DrugEditViewModel drugEditViewModel)
         {
             if (id != drugEditViewModel.Id)
             {
@@ -153,6 +160,7 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                     {
                         var drugViewModel = new DrugViewModel()
                         {
+                            Id = drugEditViewModel.Id,
                             NcitCode = drugEditViewModel.NcitCode,
                             DrugName = drugEditViewModel.DrugName,
                             Priority = drugEditViewModel.Priority
@@ -190,36 +198,16 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
         }
 
         // GET: Admin/Drugs1/Delete/5
+        [HttpDelete]
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
+            var objFromDb = await _drugBusiness.GetById(id);
+            if (objFromDb == null)
             {
-                return NotFound();
+                return Json(new { success = false, message = "Error while deleting" });
             }
-
-            var drug = await _drugBusiness.GetById(id);
-            if (drug == null)
-            {
-                return NotFound();
-            }
-
-
-            return View(drug);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(DrugViewModel drugViewModel)
-        {
-            try
-            {
-                await _drugBusiness.Delete(drugViewModel);
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            await _drugBusiness.Delete(objFromDb);
+            return Json(new { success = true, message = "Delete Successful" });
         }
 
         private async Task<bool> DrugExists(int id)
