@@ -29,12 +29,10 @@ namespace OncoDiagnose.Models
 
         [JsonPropertyName("GeneId")]
         public int? GeneId { get; set; }
-
         public Gene Gene { get; set; }
 
         [JsonPropertyName("ConsequenceId")]
         public int? ConsequenceId { get; set; }
-
         public Consequence Consequence { get; set; }
     }
 }

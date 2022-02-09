@@ -1,0 +1,180 @@
+﻿@model OncoDiagnose.Web.ViewModels.MutationViewModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid">
+    <h1>Details</h1>
+
+<div>
+    <h4>Mutation</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EvidenceType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EvidenceType)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Desciption)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Desciption)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AdditionalInfor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AdditionalInfor)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.KnownEffect)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.KnownEffect)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LastEdit)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LastEdit)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LastReview)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LastReview)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LevelOfEvidence)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LevelOfEvidence)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SolidPropagationLevel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SolidPropagationLevel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LiquidPropagationLevel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LiquidPropagationLevel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CancerType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CancerType.MainType)
+        </dd>
+    </dl>
+
+    <br/>
+    <h5>Molecular Information Details</h5>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Alteration</th>
+            <th scope="col">RefResidue</th>
+            <th scope="col">VarResidue</th>
+            <th scope="col">Gene</th>
+            <th scope="col">Is Oncogene</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var alteration in Model.Alterations)
+        {
+            <tr>
+                <td>
+                    <a href="/Admin/Alterations/Upsert/@alteration.Id">@Html.DisplayFor(item => alteration.AlterationInformation)</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(item => alteration.RefResidues)
+                </td>
+                <td>
+                    @Html.DisplayFor(item => alteration.VariantResidues)
+                </td>
+                <td>
+                    <a href="/Admin/Genes/Details/@alteration.Gene.Id">@Html.DisplayFor(item => alteration.Gene.HugoSymbol)</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(item => alteration.Gene.OncoGene)
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+    <br/>
+    <h5>Treatments</h5>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Treatment Priority</th>
+            <th scope="col">NcitCode</th>
+            <th scope="col">Drug Name</th>
+            <th scope="col">Drug Priority</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var treatment in Model.Treatments)
+        {
+            foreach (var treatmentDrug in treatment.TreatmentDrugs)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(item => treatment.Priority)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(item => treatmentDrug.Drug.NcitCode)
+                    </td>
+                    <td>
+                        <a href="/Admin/Drugs/Details/@treatmentDrug.DrugId">@Html.DisplayFor(item => treatmentDrug.Drug.DrugName)</a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(item => treatmentDrug.Drug.Priority)
+                    </td>
+                </tr>
+            }
+        }
+        </tbody>
+    </table>
+    <br/>
+    <h5>Reference Articles</h5>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Journal</th>
+            <th scope="col">References</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var mutationArticle in Model.MutationArticles)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(item => mutationArticle.Article.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(item => mutationArticle.Article.Journal)
+                </td>
+                <td>
+                    @Html.DisplayFor(item => mutationArticle.Article.Reference)
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+<br/>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+</div>
+

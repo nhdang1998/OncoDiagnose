@@ -1,5 +1,5 @@
 ﻿var dataTable;
-var controllerName = "Alterations";
+var controllerName = "Genes";
 
 $(document).ready(function () {
     loadDataTable();
@@ -11,18 +11,18 @@ function loadDataTable() {
             "url": `/Admin/${controllerName}/GetAll`
         },
         "columns": [
-            { "data": "name"},
-            { "data": "refResidues" },
-            { "data": "variantResidues" },
-            { "data": "proteinStart" },
-            { "data": "proteinEnd" },
-            { "data": "gene.hugoSymbol" },
+            { "data": "hugoSymbol", "width": "35%" },
+            { "data": "oncoGene", "width": "35%" },
+            { "data": "tsg", "width": "15%" },
             {
                 "data": "id",
                 "render": function (data) {
                     return `
                             <div class="text-center">
-                                <a href="/Admin/${controllerName}/Upsert/${data}" class="btn btn-success text-white" style="cursor: pointer">
+                                <a href="/Admin/${controllerName}/Details/${data}" class="btn btn-warning text-white" style="cursor: pointer">
+                                    <i class="fas fa-info-circle"></i>
+                                </a>
+                                <a href="/Admin/${controllerName}/Edit/${data}" class="btn btn-success text-white" style="cursor: pointer">
                                     <i class="fas fa-edit"></i>
                                 </a>
                                 <a onclick=Delete("/Admin/${controllerName}/Delete/${data}") class="btn btn-danger text-white" style="cursor: pointer">
@@ -31,7 +31,7 @@ function loadDataTable() {
                             </div>
                             `;
                 },
-                "width": "20%"
+                "width": "15%"
             }
         ]
     });

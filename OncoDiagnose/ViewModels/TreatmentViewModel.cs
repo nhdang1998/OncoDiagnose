@@ -11,6 +11,6 @@ namespace OncoDiagnose.Web.ViewModels
 
         public MutationViewModel Mutation { get; set; }
         public int Priority { get; set; }
-        public List<TreatmentDrugViewModel> TreatmentDrugsList { get; set; }
+        public List<TreatmentDrugViewModel> TreatmentDrugs { get; set; }
     }
 }

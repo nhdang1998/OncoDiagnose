@@ -5,6 +5,7 @@ using OncoDiagnose.Web.ViewModels;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using OncoDiagnose.Web.ViewModels.GeneViewModels;
 
 namespace OncoDiagnose.Web.Business
 {
@@ -18,9 +19,16 @@ namespace OncoDiagnose.Web.Business
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
+
+        public IEnumerable<AliaseViewModel> GetAliases()
+        {
+            var aliases = _unitOfWork.Gene.GetAliases();
+            return aliases.Any() ? _mapper.Map<IEnumerable<AliaseViewModel>>(aliases) : null;
+        }
+
         public async Task<List<GeneViewModel>> GetAll()
         {
-            var genes = await _unitOfWork.Gene.GetAllAsync();
+            var genes = await _unitOfWork.Gene.GetGenesAsync();
             return genes.Any() ? _mapper.Map<List<GeneViewModel>>(genes) : null;
         }
 
@@ -30,7 +38,7 @@ namespace OncoDiagnose.Web.Business
             {
                 return null;
             }
-            var gene = await _unitOfWork.Gene.GetByIdAsync(id);
+            var gene = await _unitOfWork.Gene.GetGeneByIdAsync(id.GetValueOrDefault());
             return gene == null ? null : _mapper.Map<GeneViewModel>(gene);
         }
 

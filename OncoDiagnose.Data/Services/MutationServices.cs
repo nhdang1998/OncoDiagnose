@@ -23,7 +23,11 @@ namespace OncoDiagnose.DataAccess.Services
                 .Include(m => m.MutationArticles)
                 .ThenInclude(ma => ma.Article)
                 .Include(m => m.Alterations)
+                .ThenInclude(a => a.Gene)
                 .Include(m => m.Treatments)
+                .ThenInclude(t => t.TreatmentDrugs)
+                .ThenInclude(td => td.Drug)
+                .AsNoTracking()
                 .ToListAsync();
         }
 
@@ -34,7 +38,11 @@ namespace OncoDiagnose.DataAccess.Services
                 .Include(m => m.MutationArticles)
                 .ThenInclude(ma => ma.Article)
                 .Include(m => m.Alterations)
+                .ThenInclude(a => a.Gene)
                 .Include(m => m.Treatments)
+                .ThenInclude(t => t.TreatmentDrugs)
+                .ThenInclude(td => td.Drug)
+                .AsNoTracking()
                 .FirstOrDefaultAsync(m => m.Id == id);
         }
     }

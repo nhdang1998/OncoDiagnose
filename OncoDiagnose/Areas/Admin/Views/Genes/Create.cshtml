@@ -1,11 +1,11 @@
-﻿@model OncoDiagnose.Models.Gene
+﻿@model OncoDiagnose.Web.ViewModels.GeneViewModels.GeneCreateViewModel
 
 @{
     ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<h1>Create</h1>
+<div class="container-fluid">
+    <h1>Create</h1>
 
 <h4>Gene</h4>
 <hr />
@@ -49,6 +49,32 @@
                 <span asp-validation-for="Tsg" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="SelectedAliases" class="control-label"></label>
+                <div class="table">
+                    <table>
+                        <tr>
+                            @{
+                                var cnt = 0;
+                                foreach (var alias in Model.Aliases)
+                                {
+                                    if (cnt++ % 3 == 0)
+                                    {
+                                        @:</tr><tr>
+                                    }
+                                    @:<td>
+                                    <input type="checkbox"
+                                           name="SelectedAliases"
+                                           value="@int.Parse(alias.Value)"/>
+                                    //@synonym.Value
+                                    @: @alias.Text
+                                    @:</td>
+                                }
+                            }
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
@@ -58,4 +84,6 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+</div>
+
 

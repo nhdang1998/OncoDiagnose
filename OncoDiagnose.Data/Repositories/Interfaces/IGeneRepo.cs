@@ -9,5 +9,6 @@ namespace OncoDiagnose.DataAccess.Repositories.Interfaces
     {
         Task<IReadOnlyList<Gene>> GetGenesAsync();
         Task<Gene> GetGeneByIdAsync(int id);
+        IEnumerable<Aliase> GetAliases();
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace OncoDiagnose.Web.ViewModels
+﻿using OncoDiagnose.Web.ViewModels.GeneViewModels;
+
+namespace OncoDiagnose.Web.ViewModels
 {
     public class GeneAliaseViewModel
     {

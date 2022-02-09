@@ -4,6 +4,7 @@ using OncoDiagnose.Models;
 using OncoDiagnose.Models.Technician;
 using OncoDiagnose.Web.ViewModels;
 using OncoDiagnose.Web.ViewModels.DrugViewModels;
+using OncoDiagnose.Web.ViewModels.GeneViewModels;
 
 namespace OncoDiagnose.Web.Automapper
 {

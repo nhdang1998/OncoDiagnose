@@ -1,45 +1,68 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OncoDiagnose.DataAccess;
-using OncoDiagnose.Models;
 using OncoDiagnose.Web.Business;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using OncoDiagnose.Web.ViewModels;
+using OncoDiagnose.Web.ViewModels.GeneViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class GenesController : Controller
     {
-        private readonly OncoDbContext _context;
         private readonly GeneBusiness _geneBusiness;
 
-
-        public GenesController(OncoDbContext context, GeneBusiness geneBusiness)
+        public GenesController(GeneBusiness geneBusiness)
         {
-            _context = context;
             _geneBusiness = geneBusiness;
         }
 
-        // GET: Admin/Genes
-        public async Task<IActionResult> Index()
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
         {
-            return View(await _context.Genes.ToListAsync());
+            var allObj = await _geneBusiness.GetAll();
+            return Json(new { data = allObj });
+        }
+
+        // GET: Admin/Genes
+        public IActionResult Index()
+        {
+            return View();
         }
 
         // GET: Admin/Genes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            var response = await _geneBusiness.GetById(id);
+            if (id == null)
+            {
+                return NotFound();
+            }
 
-            return Json(new { data = response });
-            //return View(gene);
+            var geneViewModel = await _geneBusiness.GetById(id);
+            if (geneViewModel == null)
+            {
+                return NotFound();
+            }
+
+            return View(geneViewModel);
         }
 
         // GET: Admin/Genes/Create
         public IActionResult Create()
         {
-            return View();
+            var aliases = _geneBusiness.GetAliases();
+            var selectList = aliases.Select(synonym => new SelectListItem(synonym.Name, synonym.Id.ToString())).ToList();
+
+            var vm = new GeneCreateViewModel()
+            {
+                Aliases = selectList
+            };
+            return View(vm);
         }
 
         // POST: Admin/Genes/Create
@@ -47,15 +70,38 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,HugoSymbol,OncoGene,Grch37Isoform,Grch37RefSeq,Grch38Isoform,Grch38RefSeq,Tsg")] Gene gene)
+        public async Task<IActionResult> Create(GeneCreateViewModel geneCreateViewModel)
         {
-            if (ModelState.IsValid)
+            try
             {
-                _context.Add(gene);
-                await _context.SaveChangesAsync();
+                var geneVM = new GeneViewModel()
+                {
+                    HugoSymbol = geneCreateViewModel.HugoSymbol,
+                    OncoGene = geneCreateViewModel.OncoGene,
+                    Grch37Isoform = geneCreateViewModel.Grch37Isoform,
+                    Grch37RefSeq = geneCreateViewModel.Grch37RefSeq,
+                    Grch38Isoform = geneCreateViewModel.Grch38Isoform,
+                    Grch38RefSeq = geneCreateViewModel.Grch38RefSeq,
+                    Tsg = geneCreateViewModel.Tsg
+                };
+
+                foreach (var selectedAlias in geneCreateViewModel.SelectedAliases)
+                {
+                    geneVM.GeneAliases.Add(new GeneAliaseViewModel
+                    {
+                        AliaseId = selectedAlias
+                    });
+                }
+
+                await _geneBusiness.Add(geneVM);
                 return RedirectToAction(nameof(Index));
+
             }
-            return View(gene);
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
 
         // GET: Admin/Genes/Edit/5
@@ -66,12 +112,38 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var gene = await _context.Genes.FindAsync(id);
+            var gene = await _geneBusiness.GetById(id);
             if (gene == null)
             {
                 return NotFound();
             }
-            return View(gene);
+
+            var aliases = _geneBusiness.GetAliases();
+            var selectedAliases = gene.GeneAliases.Select(ga => new AliaseViewModel
+            {
+                Id = ga.AliaseId,
+                Name = ga.Aliase.Name
+            });
+
+            var selectList = new List<SelectListItem>();
+
+            aliases.ToList().ForEach(a => selectList.Add(new SelectListItem(a.Name, a.Id.ToString(), selectedAliases.Select(a => a.Id).Contains(a.Id))));
+            var selectedAliaseId = gene.GeneAliases.Select(ga => ga.Aliase.Id).ToArray();
+
+            var vm = new GeneEditViewModel
+            {
+                Id = gene.Id,
+                HugoSymbol = gene.HugoSymbol,
+                OncoGene = gene.OncoGene,
+                Grch37Isoform = gene.Grch37Isoform,
+                Grch37RefSeq = gene.Grch37RefSeq,
+                Grch38Isoform = gene.Grch38Isoform,
+                Grch38RefSeq = gene.Grch38RefSeq,
+                Tsg = gene.Tsg,
+                SelectedAliases = selectedAliaseId,
+                Aliases = selectList
+            };
+            return View(vm);
         }
 
         // POST: Admin/Genes/Edit/5
@@ -79,34 +151,62 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,HugoSymbol,OncoGene,Grch37Isoform,Grch37RefSeq,Grch38Isoform,Grch38RefSeq,Tsg")] Gene gene)
+        public async Task<IActionResult> Edit(int id, GeneEditViewModel geneEditViewModel)
         {
-            if (id != gene.Id)
+            if (id != geneEditViewModel.Id)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            switch (ModelState.IsValid)
             {
-                try
-                {
-                    _context.Update(gene);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!GeneExists(gene.Id))
+                case true:
+                    try
                     {
-                        return NotFound();
+                        var geneViewModel = new GeneViewModel
+                        {
+                            Id = geneEditViewModel.Id,
+                            HugoSymbol = geneEditViewModel.HugoSymbol,
+                            OncoGene = geneEditViewModel.OncoGene,
+                            Grch37Isoform = geneEditViewModel.Grch37Isoform,
+                            Grch37RefSeq = geneEditViewModel.Grch37RefSeq,
+                            Grch38Isoform = geneEditViewModel.Grch38Isoform,
+                            Grch38RefSeq = geneEditViewModel.Grch38RefSeq,
+                            Tsg = geneEditViewModel.Tsg
+                        };
+
+                        var selectedAliases = geneEditViewModel.SelectedAliases;
+                        var existingAliases = geneViewModel.GeneAliases.Select(ga => ga.AliaseId).ToList();
+                        var toAdd = selectedAliases.Except(existingAliases.ToList());
+                        var toRemove = existingAliases.Except(selectedAliases).ToList();
+
+                        geneViewModel.GeneAliases = geneViewModel.GeneAliases
+                            .Where(ga => !toRemove.Contains(ga.AliaseId)).ToList();
+
+                        foreach (var item in toAdd)
+                        {
+                            geneViewModel.GeneAliases.Add(new GeneAliaseViewModel
+                            {
+                                AliaseId = item,
+                                GeneId = geneViewModel.Id
+                            });
+                        }
+
+                        await _geneBusiness.Update(geneViewModel);
+                        return RedirectToAction(nameof(Index));
                     }
-                    else
+                    catch (DbUpdateConcurrencyException)
                     {
+                        if (!await GeneExists(geneEditViewModel.Id))
+                        {
+                            return NotFound();
+                        }
+
                         throw;
                     }
-                }
-                return RedirectToAction(nameof(Index));
+                default:
+                    return View(geneEditViewModel);
             }
-            return View(gene);
         }
 
         // GET: Admin/Genes/Delete/5
@@ -117,30 +217,20 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var gene = await _context.Genes
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (gene == null)
+            var objFromDb = await _geneBusiness.GetById(id);
+            if (objFromDb == null)
             {
-                return NotFound();
+                return Json(new { success = false, message = "Error while deleting" });
             }
-
-            return View(gene);
+            await _geneBusiness.Delete(objFromDb);
+            return Json(new { success = true, message = "Delete Successful" });
         }
 
-        // POST: Admin/Genes/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var gene = await _context.Genes.FindAsync(id);
-            _context.Genes.Remove(gene);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
 
-        private bool GeneExists(int id)
+        private async Task<bool> GeneExists(int id)
         {
-            return _context.Genes.Any(e => e.Id == id);
+            var tmp = await _geneBusiness.GetAll();
+            return tmp.Any(d => d.Id == id);
         }
     }
 }

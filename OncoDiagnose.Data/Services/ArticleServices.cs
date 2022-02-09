@@ -20,7 +20,9 @@ namespace OncoDiagnose.DataAccess.Services
         public async Task<IReadOnlyList<Article>> GetArticlesAsync()
         {
             return await _context.Articles
-                .Include(a => a.Mutations)
+                .Include(a => a.MutationArticles)
+                .ThenInclude(ma => ma.Mutation)
+                .AsNoTracking()
                 .ToListAsync();
         }
 
@@ -28,7 +30,8 @@ namespace OncoDiagnose.DataAccess.Services
         {
             return await _context.Articles
                 .AsNoTracking()
-                .Include(a => a.Mutations)
+                .Include(a => a.MutationArticles)
+                .ThenInclude(ma => ma.Mutation)
                 .FirstOrDefaultAsync(a => a.Id == id);
         }
 

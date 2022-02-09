@@ -37,7 +37,6 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Areas\Admin\Views\Consequences\Upsert.cshtml" />
-    <_ContentIncludedByDefault Remove="Areas\Admin\Views\DrugSynonyms\Upsert.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Doctor\Views\Home\IntroBreastCancer.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Doctor\Views\Home\IntroColorectalCancer.cshtml" />
   </ItemGroup>
@@ -57,10 +56,6 @@
 
   <ItemGroup>
     <UpToDateCheckInput Remove="Areas\Admin\Views\Consequences\Upsert.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Areas\Admin\Views\DrugSynonyms\Upsert.cshtml" />
   </ItemGroup>
 
 </Project>

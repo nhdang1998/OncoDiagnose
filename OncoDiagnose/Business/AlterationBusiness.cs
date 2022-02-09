@@ -5,6 +5,7 @@ using OncoDiagnose.Web.ViewModels;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using OncoDiagnose.Web.ViewModels.GeneViewModels;
 
 namespace OncoDiagnose.Web.Business
 {

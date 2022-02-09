@@ -15,9 +15,9 @@
 
     var selectList = new List<SelectListItem>();
 
-    selectSynonyms.ToList().ForEach(i => selectList.Add
-        (new SelectListItem(i.SynonymInformation, i.Id.ToString(), selectSynonyms.Select(x => x.Id)
-            .Contains(i.Id)))); 
+    selectSynonyms.ToList().ForEach(s => selectList.Add
+        (new SelectListItem(s.SynonymInformation, s.Id.ToString(), selectSynonyms.Select(x => x.Id)
+            .Contains(s.Id)))); 
 
 }
 <div class="container-fluid">

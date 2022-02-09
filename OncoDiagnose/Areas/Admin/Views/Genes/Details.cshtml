@@ -1,11 +1,26 @@
-﻿@model OncoDiagnose.Models.Gene
+﻿@using OncoDiagnose.Web.ViewModels
+@model OncoDiagnose.Web.ViewModels.GeneViewModels.GeneViewModel
 
 @{
     ViewData["Title"] = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@{
+    var selectedAliases = Model.GeneAliases.Select(ga => new AliaseViewModel
+    {
+        Id = ga.Aliase.Id,
+        Name = ga.Aliase.Name
+    });
 
-<h1>Details</h1>
+    var selectList = new List<SelectListItem>();
+
+    selectedAliases.ToList().ForEach(a => selectList.Add(
+        new SelectListItem(a.Name, a.Id.ToString(), selectedAliases.Select(a => a.Id)
+            .Contains(a.Id))));
+}
+
+<div class="container-fluid">
+    <h1>Details</h1>
 
 <div>
     <h4>Gene</h4>
@@ -53,9 +68,19 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Tsg)
         </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GeneAliases)
+        </dt>
+        <dd class = "col-sm-10">
+            <select asp-for="GeneAliases" asp-items="@selectList">
+                <option>-- Các aliases tương ứng --</option>
+            </select>
+        </dd>
     </dl>
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
+</div>
+
 </div>

@@ -33,6 +33,11 @@ namespace OncoDiagnose.DataAccess.Services
                 .Include(g => g.Alterations)
                 .FirstOrDefaultAsync(g => g.Id == id);
         }
+
+        public IEnumerable<Aliase> GetAliases()
+        {
+            return _context.Aliases;
+        }
     }
 
 }

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace OncoDiagnose.Web.ViewModels
+namespace OncoDiagnose.Web.ViewModels.GeneViewModels
 {
     public class GeneViewModel
     {
@@ -18,6 +18,7 @@ namespace OncoDiagnose.Web.ViewModels
         public string Grch38RefSeq { get; set; }
 
         public string Tsg { get; set; }
+
         public AlterationViewModel Alteration { get; set; }
         public List<GeneAliaseViewModel> GeneAliases { get; set; }
     }

@@ -15,7 +15,6 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
     {
         private readonly DrugBusiness _drugBusiness;
 
-
         public DrugsController(DrugBusiness drugBusiness)
         {
             _drugBusiness = drugBusiness;
@@ -135,7 +134,7 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                 NcitCode = drug.NcitCode,
                 Priority = drug.Priority,
                 SelectedSynonyms = selectedSynonymId,
-                Synonyms = selectList,
+                Synonyms = selectList
             };
             
             return View(vm);
@@ -201,6 +200,10 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
         [HttpDelete]
         public async Task<IActionResult> Delete(int? id)
         {
+            if (id == null)
+            {
+                return NotFound();
+            }
             var objFromDb = await _drugBusiness.GetById(id);
             if (objFromDb == null)
             {

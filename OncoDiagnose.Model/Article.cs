@@ -6,8 +6,6 @@ namespace OncoDiagnose.Models
 {
     public class Article : BaseEntity
     {
-        public List<Mutation> Mutations { get; set; }
-
         [JsonConverter(typeof(InfoToString))]
         public string Pmid { get; set; }
 
