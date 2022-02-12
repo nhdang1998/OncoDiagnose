@@ -471,9 +471,6 @@ namespace OncoDiagnose.DataAccess.Migrations
                     b.Property<string>("AdditionalInfor")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ArticleId")
-                        .HasColumnType("int");
-
                     b.Property<int?>("CancerTypeId")
                         .HasColumnType("int");
 
@@ -502,8 +499,6 @@ namespace OncoDiagnose.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ArticleId");
 
                     b.HasIndex("CancerTypeId");
 
@@ -887,10 +882,6 @@ namespace OncoDiagnose.DataAccess.Migrations
 
             modelBuilder.Entity("OncoDiagnose.Models.Mutation", b =>
                 {
-                    b.HasOne("OncoDiagnose.Models.Article", null)
-                        .WithMany("Mutations")
-                        .HasForeignKey("ArticleId");
-
                     b.HasOne("OncoDiagnose.Models.CancerType", "CancerType")
                         .WithMany("Mutations")
                         .HasForeignKey("CancerTypeId")
@@ -985,8 +976,6 @@ namespace OncoDiagnose.DataAccess.Migrations
             modelBuilder.Entity("OncoDiagnose.Models.Article", b =>
                 {
                     b.Navigation("MutationArticles");
-
-                    b.Navigation("Mutations");
                 });
 
             modelBuilder.Entity("OncoDiagnose.Models.CancerType", b =>

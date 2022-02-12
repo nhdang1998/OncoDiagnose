@@ -1,151 +1,74 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using OncoDiagnose.DataAccess;
-using OncoDiagnose.Models.Technician;
-using System.Linq;
 using System.Threading.Tasks;
+using OncoDiagnose.Web.Business;
+using OncoDiagnose.Web.ViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class PatientsController : Controller
     {
-        private readonly OncoDbContext _context;
+        private readonly PatientBusiness _patientBusiness;
 
-        public PatientsController(OncoDbContext context)
+        public PatientsController(PatientBusiness patientBusiness)
         {
-            _context = context;
+            _patientBusiness = patientBusiness;
         }
 
-        // GET: Admin/Patients
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Patients.ToListAsync());
-        }
-
-        // GET: Admin/Patients/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var patient = await _context.Patients
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (patient == null)
-            {
-                return NotFound();
-            }
-
-            return View(patient);
-        }
-
-        // GET: Admin/Patients/Create
-        public IActionResult Create()
+        public IActionResult Index()
         {
             return View();
         }
 
-        // POST: Admin/Patients/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var allObj = await _patientBusiness.GetAll();
+            return Json(new { data = allObj });
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var objFromDb = await _patientBusiness.GetById(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            await _patientBusiness.Delete(objFromDb);
+            return Json(new { success = true, message = "Delete Successful" });
+        }
+
+        public async Task<IActionResult> Upsert(int? id)
+        {
+            var patientViewModel = new PatientViewModel();
+            if (id == null) return View(patientViewModel);
+            patientViewModel = await _patientBusiness.GetById(id.GetValueOrDefault());
+            if (patientViewModel == null) return NotFound();
+            return View(patientViewModel);
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Gender,Age,BirthPlace,Country,PhoneNumber,Address,Origin,SampleType,OtherDisease,ReceiveDate,BarCode,KeepMethod,TransportMethod,InspectHospital,InspectDepartment,InsectDoctor,InspectDate,ReceiveState,DoctorPhone,Sales,Agent,Explain")] Patient patient)
+        public async Task<IActionResult> Upsert(PatientViewModel patientViewModel)
         {
-            if (ModelState.IsValid)
+            switch (ModelState.IsValid)
             {
-                _context.Add(patient);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(patient);
-        }
-
-        // GET: Admin/Patients/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var patient = await _context.Patients.FindAsync(id);
-            if (patient == null)
-            {
-                return NotFound();
-            }
-            return View(patient);
-        }
-
-        // POST: Admin/Patients/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Gender,Age,BirthPlace,Country,PhoneNumber,Address,Origin,SampleType,OtherDisease,ReceiveDate,BarCode,KeepMethod,TransportMethod,InspectHospital,InspectDepartment,InsectDoctor,InspectDate,ReceiveState,DoctorPhone,Sales,Agent,Explain")] Patient patient)
-        {
-            if (id != patient.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(patient);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!PatientExists(patient.Id))
+                case true:
                     {
-                        return NotFound();
+                        if (patientViewModel.Id == 0)
+                        {
+                            await _patientBusiness.Add(patientViewModel);
+                        }
+                        else
+                        {
+                            await _patientBusiness.Update(patientViewModel);
+                        }
+                        return RedirectToAction("Index");
                     }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                default:
+                    return View(patientViewModel);
             }
-            return View(patient);
-        }
-
-        // GET: Admin/Patients/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var patient = await _context.Patients
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (patient == null)
-            {
-                return NotFound();
-            }
-
-            return View(patient);
-        }
-
-        // POST: Admin/Patients/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var patient = await _context.Patients.FindAsync(id);
-            _context.Patients.Remove(patient);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool PatientExists(int id)
-        {
-            return _context.Patients.Any(e => e.Id == id);
         }
     }
 }

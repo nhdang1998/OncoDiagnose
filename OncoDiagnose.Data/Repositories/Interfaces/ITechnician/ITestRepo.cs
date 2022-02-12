@@ -2,16 +2,24 @@
 using OncoDiagnose.Models.Technician;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using OncoDiagnose.Models;
 
 namespace OncoDiagnose.DataAccess.Repositories.Interfaces.ITechnician
 {
     public interface ITestRepo : IGenericRepository<Test>
     {
-        Task<List<string>> GetResultGeneNameByTestId(int id);
-        Task<List<string>> GetResultVariantByTestId(int id);
-        Task<List<double>> GetResultFrequenceByTestId(int id);
-        Task<List<Result>> GetResultByTestId(int id);
         Task<IReadOnlyList<Test>> GetTestsAsync();
+
         Task<Test> GetTestByIdAsync(int id);
+
+        IEnumerable<Result> GetResults();
+
+        IEnumerable<Run> GetRuns();
+
+        IEnumerable<Patient> GetPatients();
+
+        Task<Result> GetResultById(int id);
+
+        Task<List<Mutation>> GetMutations();
     }
 }

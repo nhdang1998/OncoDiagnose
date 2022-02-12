@@ -1,151 +1,74 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using OncoDiagnose.DataAccess;
-using OncoDiagnose.Models.Technician;
-using System.Linq;
 using System.Threading.Tasks;
+using OncoDiagnose.Web.Business;
+using OncoDiagnose.Web.ViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class RunsController : Controller
     {
-        private readonly OncoDbContext _context;
+        private readonly RunBusiness _runBusiness;
 
-        public RunsController(OncoDbContext context)
+        public RunsController(RunBusiness runBusiness)
         {
-            _context = context;
+            _runBusiness = runBusiness;
         }
 
-        // GET: Admin/Runs
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Runs.ToListAsync());
-        }
-
-        // GET: Admin/Runs/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var run = await _context.Runs
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (run == null)
-            {
-                return NotFound();
-            }
-
-            return View(run);
-        }
-
-        // GET: Admin/Runs/Create
-        public IActionResult Create()
+        public IActionResult Index()
         {
             return View();
         }
 
-        // POST: Admin/Runs/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var allObj = await _runBusiness.GetAll();
+            return Json(new { data = allObj });
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var objFromDb = await _runBusiness.GetById(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            await _runBusiness.Delete(objFromDb);
+            return Json(new { success = true, message = "Delete Successful" });
+        }
+
+        public async Task<IActionResult> Upsert(int? id)
+        {
+            var runViewModel = new RunViewModel();
+            if (id == null) return View(runViewModel);
+            runViewModel = await _runBusiness.GetById(id.GetValueOrDefault());
+            if (runViewModel == null) return NotFound();
+            return View(runViewModel);
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Status,FinishDate,TotalBase,KeySignal,TotalRead,UsableRead,MeanLength,MedianLength,ModeLength,ISPLoading,PolyClonal,LowQuality,Score,ISPLoadingPic,QualityPic,LengthPic")] Run run)
+        public async Task<IActionResult> Upsert(RunViewModel runViewModel)
         {
-            if (ModelState.IsValid)
+            switch (ModelState.IsValid)
             {
-                _context.Add(run);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(run);
-        }
-
-        // GET: Admin/Runs/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var run = await _context.Runs.FindAsync(id);
-            if (run == null)
-            {
-                return NotFound();
-            }
-            return View(run);
-        }
-
-        // POST: Admin/Runs/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Status,FinishDate,TotalBase,KeySignal,TotalRead,UsableRead,MeanLength,MedianLength,ModeLength,ISPLoading,PolyClonal,LowQuality,Score,ISPLoadingPic,QualityPic,LengthPic")] Run run)
-        {
-            if (id != run.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(run);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!RunExists(run.Id))
+                case true:
                     {
-                        return NotFound();
+                        if (runViewModel.Id == 0)
+                        {
+                            await _runBusiness.Add(runViewModel);
+                        }
+                        else
+                        {
+                            await _runBusiness.Update(runViewModel);
+                        }
+                        return RedirectToAction("Index");
                     }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                default:
+                    return View(runViewModel);
             }
-            return View(run);
-        }
-
-        // GET: Admin/Runs/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var run = await _context.Runs
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (run == null)
-            {
-                return NotFound();
-            }
-
-            return View(run);
-        }
-
-        // POST: Admin/Runs/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var run = await _context.Runs.FindAsync(id);
-            _context.Runs.Remove(run);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool RunExists(int id)
-        {
-            return _context.Runs.Any(e => e.Id == id);
         }
     }
 }

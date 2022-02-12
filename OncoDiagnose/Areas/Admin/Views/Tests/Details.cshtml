@@ -1,43 +1,176 @@
-﻿@model OncoDiagnose.Models.Technician.Test
+﻿@using MoreLinq
+@model OncoDiagnose.Web.ViewModels.TestDetailViewModel
 
 @{
     ViewData["Title"] = "Details";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "_Layout";
+}
+@{
+    var mutations = Model.Mutations;
 }
 
-<h1>Details</h1>
+<div class="container-fluid">
+    <h1>Details</h1>
 
-<div>
-    <h4>Test</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TestName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TestName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Patient)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Patient.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TestDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TestDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Run)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Run.Id)
-        </dd>
-    </dl>
+    <div>
+        <h4>Test</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.TestName)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.TestName)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Patient)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Patient.Name) @*Doan nay se link den trang chi tiet benh nhan*@
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.TestDate)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.TestDate)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Run)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Run.Id) @*Doan nay se link den trang chi run*@
+            </dd>
+        </dl>
+    </div>
+
+    <br />
+    <h5>Phụ lục kết quả giải trình tự 50 gene trong điều trị đích ung thư</h5>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Gene</th>
+                <th scope="col">Result</th>
+                <th scope="col">Frequency</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var resultViewModel in Model.Results)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(item => resultViewModel.GeneName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(item => resultViewModel.Variant)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(item => resultViewModel.Frequence)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br />
+    <h6><b>Medication guidance</b></h6>
+    <br />
+    <h6><b>Being approved by FDA/CFDA to be used for guidance of individualized medication of cancer</b></h6>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Gene</th>
+                <th scope="col">Mutation</th>
+                <th scope="col">Drug</th>
+                <th scope="col">Approved indication</th>
+                <th scope="col">Drug reaction</th>
+                <th scope="col">Evidence</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var resultViewModel in Model.Results)
+            {
+                if (resultViewModel.Frequence > 0)
+                {
+                    //z.Name == resultViewModel.Variant
+                    //z.Gene.HugoSymbol == resultViewModel.GeneName.ToString()
+                    var mutationFilter = mutations.Where(x => x.Alterations
+                    .Any(z => z.Name == resultViewModel.Variant //Co the doi thanh Oncogenic Mutations demo
+                              && z.Gene.HugoSymbol == resultViewModel.GeneName.ToString())) //Co the doi thanh "MTOR" demo
+                        .ToList(); 
+
+                    var drugFilter = mutationFilter.SelectMany(n => n.Treatments)
+                    .SelectMany(u => u.TreatmentDrugs)
+                    .DistinctBy(u => u.DrugId)
+                    .Select(m => m.Drug.DrugName)
+                    .ToList();
+
+                    var cancerFilter = mutationFilter.Select(x => x.CancerType.MainType).Distinct().ToList();
+                    var levelOfEvidence = mutationFilter.Select(x => x.LevelOfEvidence).Distinct().ToList();
+                    var articleFilter = mutationFilter.SelectMany(x => x.MutationArticles).Select(z => z.Article.Reference).Distinct().ToList();
+                    
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(item => resultViewModel.GeneName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(item => resultViewModel.Variant)
+                        </td>
+                        <td>
+                            @if (drugFilter.Count == 0)
+                            {
+                                <p>No drug found</p>
+                            }
+                            else
+                            {
+                                @string.Join(", ", drugFilter)
+                            }
+                        </td>
+                        <td>
+                            @if (cancerFilter.Count == 0)
+                            {
+                                <p>No cancer found</p>
+                            }
+                            else
+                            {
+                                @string.Join(", ", cancerFilter)
+                            }
+                        </td>
+                        <td>
+                            @if (levelOfEvidence.Count == 0)
+                            {
+                                <p>No indication</p>
+                            }
+                            else
+                            {
+                                @string.Join(", ", levelOfEvidence)
+                            }
+                        </td>
+                        <td>
+                            @if (articleFilter.Count == 0)
+                            {
+                                <p>No reference found</p>
+                            }
+                            else
+                            {
+                                <ol>
+                                    @foreach (var article in articleFilter)
+                                    {
+                                        <li>
+                                            @article
+                                        </li>
+                                    }
+                                </ol>
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+        <a asp-action="Index">Back to List</a>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+

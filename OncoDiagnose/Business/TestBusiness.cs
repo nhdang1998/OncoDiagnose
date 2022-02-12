@@ -18,10 +18,42 @@ namespace OncoDiagnose.Web.Business
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
+
+        public async Task<List<MutationViewModel>> GetMutations()
+        {
+            var mutations = await _unitOfWork.Test.GetMutations();
+            return mutations.Any() ? _mapper.Map<List<MutationViewModel>>(mutations) : null;
+        }
+
         public async Task<List<TestViewModel>> GetAll()
         {
-            var tests = await _unitOfWork.Test.GetAllAsync();
+            var tests = await _unitOfWork.Test.GetTestsAsync();
             return tests.Any() ? _mapper.Map<List<TestViewModel>>(tests) : null;
+        }
+
+        public List<PatientViewModel> GetPatients()
+        {
+            var patients = _unitOfWork.Test.GetPatients();
+            return patients.Any() ? _mapper.Map<List<PatientViewModel>>(patients) : null;
+        }
+
+        public List<RunViewModel> GetRuns()
+        {
+            var runs = _unitOfWork.Test.GetRuns();
+            return runs.Any() ? _mapper.Map<List<RunViewModel>>(runs) : null;
+        }
+
+        public List<ResultViewModel> GetResults()
+        {
+            var results = _unitOfWork.Test.GetResults();
+            return results.Any() ? _mapper.Map<List<ResultViewModel>>(results) : null;
+        }
+
+        public async Task<ResultViewModel> GetResultById(int? id)
+        {
+            if (id == null) return null;
+            var result = await _unitOfWork.Test.GetResultById(id.GetValueOrDefault());
+            return result == null ? null : _mapper.Map<ResultViewModel>(result);
         }
 
         public async Task<TestViewModel> GetById(int? id)
@@ -30,7 +62,7 @@ namespace OncoDiagnose.Web.Business
             {
                 return null;
             }
-            var test = await _unitOfWork.Test.GetByIdAsync(id);
+            var test = await _unitOfWork.Test.GetTestByIdAsync(id.GetValueOrDefault());
             return test == null ? null : _mapper.Map<TestViewModel>(test);
         }
 

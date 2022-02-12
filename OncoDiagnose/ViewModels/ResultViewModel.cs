@@ -1,4 +1,7 @@
-﻿namespace OncoDiagnose.Web.ViewModels
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+
+namespace OncoDiagnose.Web.ViewModels
 {
     public class ResultViewModel
     {
@@ -7,12 +10,13 @@
         public int TestId { get; set; }
 
         public TestViewModel Test { get; set; }
+
+        [JsonConverter(typeof(StringEnumConverter))]
         public GeneNameViewModel GeneName { get; set; }
 
         public string Variant { get; set; }
 
         public double Frequence { get; set; }
-
     }
 
     public enum GeneNameViewModel

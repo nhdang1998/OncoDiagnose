@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OncoDiagnose.DataAccess.Repositories.Base;
 using OncoDiagnose.DataAccess.Repositories.Interfaces.ITechnician;
-using OncoDiagnose.Models.Converter;
 using OncoDiagnose.Models.Technician;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using OncoDiagnose.Models;
 
 namespace OncoDiagnose.DataAccess.Services.Technician
 {
@@ -18,30 +18,39 @@ namespace OncoDiagnose.DataAccess.Services.Technician
             _context = context;
         }
 
-        public async Task<List<string>> GetResultGeneNameByTestId(int id)
+        public async Task<List<Mutation>> GetMutations()
         {
-            var test = await GetByIdAsync(id);
-            return test.Results.Select(result => result.GeneName)
-                .Select(Converter.GeneNameToString)
-                .ToList();
+            return await _context.Mutations
+                .Include(m => m.CancerType)
+                .Include(m => m.MutationArticles)
+                .ThenInclude(ma => ma.Article)
+                .Include(m => m.Alterations)
+                .ThenInclude(a => a.Gene)
+                .Include(m => m.Treatments)
+                .ThenInclude(t => t.TreatmentDrugs)
+                .ThenInclude(td => td.Drug)
+                .AsNoTracking()
+                .ToListAsync();
         }
 
-        public async Task<List<string>> GetResultVariantByTestId(int id)
+        public IEnumerable<Result> GetResults()
         {
-            var test = await GetByIdAsync(id);
-            return test.Results.Select(result => result.Variant).ToList();
+            return _context.Results;
         }
 
-        public async Task<List<double>> GetResultFrequenceByTestId(int id)
+        public async Task<Result> GetResultById(int id)
         {
-            var test = await GetByIdAsync(id);
-            return test.Results.Select(result => result.Frequence).ToList();
+            return await _context.Results.FirstOrDefaultAsync(r => r.Id == id);
         }
 
-        public async Task<List<Result>> GetResultByTestId(int id)
+        public IEnumerable<Run> GetRuns()
         {
-            var test = await GetByIdAsync(id);
-            return test.Results;
+            return _context.Runs;
+        }
+
+        public IEnumerable<Patient> GetPatients()
+        {
+            return _context.Patients;
         }
 
         public async Task<IReadOnlyList<Test>> GetTestsAsync()
@@ -50,7 +59,7 @@ namespace OncoDiagnose.DataAccess.Services.Technician
                 .Include(t => t.Run)
                 .Include(t => t.Results)
                 .Include(t => t.Patient)
-                .Include(t => t.Results)
+                .AsNoTracking()
                 .ToListAsync();
         }
 
@@ -60,7 +69,7 @@ namespace OncoDiagnose.DataAccess.Services.Technician
                 .Include(t => t.Run)
                 .Include(t => t.Results)
                 .Include(t => t.Patient)
-                .Include(t => t.Results)
+                .AsNoTracking()
                 .FirstOrDefaultAsync(t => t.Id == id);
         }
     }

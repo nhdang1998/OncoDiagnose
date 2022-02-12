@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace OncoDiagnose.DataAccess.Migrations
 {
-    public partial class InitialDb : Migration
+    public partial class IninitalDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -348,18 +348,11 @@ namespace OncoDiagnose.DataAccess.Migrations
                     LevelOfEvidence = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     SolidPropagationLevel = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     LiquidPropagationLevel = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CancerTypeId = table.Column<int>(type: "int", nullable: true),
-                    ArticleId = table.Column<int>(type: "int", nullable: true)
+                    CancerTypeId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Mutations", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Mutations_Articles_ArticleId",
-                        column: x => x.ArticleId,
-                        principalTable: "Articles",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Mutations_CancerTypes_CancerTypeId",
                         column: x => x.CancerTypeId,
@@ -643,11 +636,6 @@ namespace OncoDiagnose.DataAccess.Migrations
                 column: "MutationId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Mutations_ArticleId",
-                table: "Mutations",
-                column: "ArticleId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Mutations_CancerTypeId",
                 table: "Mutations",
                 column: "CancerTypeId");
@@ -733,6 +721,9 @@ namespace OncoDiagnose.DataAccess.Migrations
                 name: "Genes");
 
             migrationBuilder.DropTable(
+                name: "Articles");
+
+            migrationBuilder.DropTable(
                 name: "Tests");
 
             migrationBuilder.DropTable(
@@ -749,9 +740,6 @@ namespace OncoDiagnose.DataAccess.Migrations
 
             migrationBuilder.DropTable(
                 name: "Mutations");
-
-            migrationBuilder.DropTable(
-                name: "Articles");
 
             migrationBuilder.DropTable(
                 name: "CancerTypes");

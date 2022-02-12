@@ -1,159 +1,74 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using OncoDiagnose.DataAccess;
-using OncoDiagnose.Models.Technician;
-using System.Linq;
 using System.Threading.Tasks;
+using OncoDiagnose.Web.Business;
+using OncoDiagnose.Web.ViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class ResultsController : Controller
     {
-        private readonly OncoDbContext _context;
+        private readonly ResultBusiness _resultBusiness;
 
-        public ResultsController(OncoDbContext context)
+        public ResultsController(ResultBusiness resultBusiness)
         {
-            _context = context;
+            _resultBusiness = resultBusiness;
         }
 
-        // GET: Admin/Results
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            var oncoDbContext = _context.Results.Include(r => r.Test);
-            return View(await oncoDbContext.ToListAsync());
-        }
-
-        // GET: Admin/Results/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var result = await _context.Results
-                .Include(r => r.Test)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (result == null)
-            {
-                return NotFound();
-            }
-
-            return View(result);
-        }
-
-        // GET: Admin/Results/Create
-        public IActionResult Create()
-        {
-            ViewData["TestId"] = new SelectList(_context.Tests, "Id", "Id");
             return View();
         }
 
-        // POST: Admin/Results/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var allObj = await _resultBusiness.GetAll();
+            return Json(new { data = allObj });
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var objFromDb = await _resultBusiness.GetById(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            await _resultBusiness.Delete(objFromDb);
+            return Json(new { success = true, message = "Delete Successful" });
+        }
+
+        public async Task<IActionResult> Upsert(int? id)
+        {
+            var resultViewModel = new ResultViewModel();
+            if (id == null) return View(resultViewModel);
+            resultViewModel = await _resultBusiness.GetById(id.GetValueOrDefault());
+            if (resultViewModel == null) return NotFound();
+            return View(resultViewModel);
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,TestId,GeneName,Variant,Frequence")] Result result)
+        public async Task<IActionResult> Upsert(ResultViewModel resultViewModel)
         {
-            if (ModelState.IsValid)
+            switch (ModelState.IsValid)
             {
-                _context.Add(result);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["TestId"] = new SelectList(_context.Tests, "Id", "Id", result.TestId);
-            return View(result);
-        }
-
-        // GET: Admin/Results/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var result = await _context.Results.FindAsync(id);
-            if (result == null)
-            {
-                return NotFound();
-            }
-            ViewData["TestId"] = new SelectList(_context.Tests, "Id", "Id", result.TestId);
-            return View(result);
-        }
-
-        // POST: Admin/Results/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,TestId,GeneName,Variant,Frequence")] Result result)
-        {
-            if (id != result.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(result);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ResultExists(result.Id))
+                case true:
                     {
-                        return NotFound();
+                        if (resultViewModel.Id == 0)
+                        {
+                            await _resultBusiness.Add(resultViewModel);
+                        }
+                        else
+                        {
+                            await _resultBusiness.Update(resultViewModel);
+                        }
+                        return RedirectToAction("Index");
                     }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                default:
+                    return View(resultViewModel);
             }
-            ViewData["TestId"] = new SelectList(_context.Tests, "Id", "Id", result.TestId);
-            return View(result);
-        }
-
-        // GET: Admin/Results/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var result = await _context.Results
-                .Include(r => r.Test)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (result == null)
-            {
-                return NotFound();
-            }
-
-            return View(result);
-        }
-
-        // POST: Admin/Results/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var result = await _context.Results.FindAsync(id);
-            _context.Results.Remove(result);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool ResultExists(int id)
-        {
-            return _context.Results.Any(e => e.Id == id);
         }
     }
 }

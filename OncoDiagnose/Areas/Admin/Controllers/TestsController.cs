@@ -1,31 +1,48 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using OncoDiagnose.DataAccess;
-using OncoDiagnose.Models.Technician;
 using System.Linq;
 using System.Threading.Tasks;
+using OncoDiagnose.Web.Business;
+using OncoDiagnose.Web.ViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class TestsController : Controller
     {
-        private readonly OncoDbContext _context;
+        private readonly TestBusiness _testBusiness;
 
-        public TestsController(OncoDbContext context)
+        public TestsController(TestBusiness testBusiness)
         {
-            _context = context;
+            _testBusiness = testBusiness;
         }
 
-        // GET: Admin/Tests
-        public async Task<IActionResult> Index()
+        // GET: Admin/Aliases
+        public IActionResult Index()
         {
-            var oncoDbContext = _context.Tests.Include(t => t.Patient).Include(t => t.Run);
-            return View(await oncoDbContext.ToListAsync());
+            return View();
         }
 
-        // GET: Admin/Tests/Details/5
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var allObj = await _testBusiness.GetAll();
+            return Json(new { data = allObj });
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var objFromDb = await _testBusiness.GetById(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            await _testBusiness.Delete(objFromDb);
+            return Json(new { success = true, message = "Delete Successful" });
+        }
+
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -33,45 +50,56 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var test = await _context.Tests
-                .Include(t => t.Patient)
-                .Include(t => t.Run)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (test == null)
+            var testViewModel = await _testBusiness.GetById(id);
+
+            if (testViewModel == null)
             {
                 return NotFound();
             }
 
-            return View(test);
+            var testDetailView = new TestDetailViewModel
+            {
+                Id = testViewModel.Id,
+                TestDate = testViewModel.TestDate,
+                TestName = testViewModel.TestName,
+                PatientId = testViewModel.PatientId,
+                Patient = testViewModel.Patient,
+                RunId = testViewModel.RunId,
+                Run = testViewModel.Run,
+                Results = testViewModel.Results,
+                Mutations = await _testBusiness.GetMutations()
+            };
+
+            return View(testDetailView);
         }
 
-        // GET: Admin/Tests/Create
+        // GET: Admin/Drugs/Create
         public IActionResult Create()
         {
-            ViewData["PatientId"] = new SelectList(_context.Patients, "Id", "Id");
-            ViewData["RunId"] = new SelectList(_context.Runs, "Id", "Id");
+            ViewData["PatientId"] = new SelectList(_testBusiness.GetPatients(), "Id", "Name");
+            ViewData["RunId"] = new SelectList(_testBusiness.GetRuns(), "Id", "Id");
+
             return View();
         }
 
-        // POST: Admin/Tests/Create
+        // POST: Admin/Drugs/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,TestName,PatientId,TestDate,RunId")] Test test)
+        public async Task<IActionResult> Create(TestViewModel testView)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(test);
-                await _context.SaveChangesAsync();
+                await _testBusiness.Add(testView);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PatientId"] = new SelectList(_context.Patients, "Id", "Id", test.PatientId);
-            ViewData["RunId"] = new SelectList(_context.Runs, "Id", "Id", test.RunId);
-            return View(test);
+            ViewData["PatientId"] = new SelectList(_testBusiness.GetPatients(), "Id", "Name", testView.PatientId);
+            ViewData["RunId"] = new SelectList(_testBusiness.GetRuns(), "Id", "Id", testView.RunId);
+            return View(testView);
         }
 
-        // GET: Admin/Tests/Edit/5
+        // GET: Admin/Drugs1/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -79,22 +107,22 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var test = await _context.Tests.FindAsync(id);
+            var test = await _testBusiness.GetById(id);
             if (test == null)
             {
                 return NotFound();
             }
-            ViewData["PatientId"] = new SelectList(_context.Patients, "Id", "Id", test.PatientId);
-            ViewData["RunId"] = new SelectList(_context.Runs, "Id", "Id", test.RunId);
+            ViewData["PatientId"] = new SelectList(_testBusiness.GetPatients(), "Id", "Id", test.PatientId);
+            ViewData["RunId"] = new SelectList(_testBusiness.GetRuns(), "Id", "Id", test.RunId);
             return View(test);
         }
 
-        // POST: Admin/Tests/Edit/5
+        // POST: Admin/Drugs1/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,TestName,PatientId,TestDate,RunId")] Test test)
+        public async Task<IActionResult> Edit(int id, TestViewModel test)
         {
             if (id != test.Id)
             {
@@ -105,61 +133,30 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
             {
                 try
                 {
-                    _context.Update(test);
-                    await _context.SaveChangesAsync();
+                    await _testBusiness.Update(test);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!TestExists(test.Id))
+                    if (await TestExists(test.Id))
                     {
-                        return NotFound();
+                        throw;
                     }
                     else
                     {
-                        throw;
+                        return NotFound();
                     }
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PatientId"] = new SelectList(_context.Patients, "Id", "Id", test.PatientId);
-            ViewData["RunId"] = new SelectList(_context.Runs, "Id", "Id", test.RunId);
+            ViewData["PatientId"] = new SelectList(_testBusiness.GetPatients(), "Id", "Id", test.PatientId);
+            ViewData["RunId"] = new SelectList(_testBusiness.GetRuns(), "Id", "Id", test.RunId);
             return View(test);
         }
 
-        // GET: Admin/Tests/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        private async Task<bool> TestExists(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var test = await _context.Tests
-                .Include(t => t.Patient)
-                .Include(t => t.Run)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (test == null)
-            {
-                return NotFound();
-            }
-
-            return View(test);
-        }
-
-        // POST: Admin/Tests/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var test = await _context.Tests.FindAsync(id);
-            _context.Tests.Remove(test);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool TestExists(int id)
-        {
-            return _context.Tests.Any(e => e.Id == id);
+            var tests = await _testBusiness.GetAll();
+            return tests.Any(e => e.Id == id);
         }
     }
 }

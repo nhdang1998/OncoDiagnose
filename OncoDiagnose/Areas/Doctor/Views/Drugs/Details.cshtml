@@ -1,0 +1,64 @@
+﻿@using System.Linq
+@using OncoDiagnose.Web.ViewModels
+@model OncoDiagnose.Web.ViewModels.DrugViewModels.DrugViewModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    var selectSynonyms = Model.DrugSynonyms.Select(x => new SynonymViewModel()
+    {
+        Id = x.Synonym.Id,
+        SynonymInformation = x.Synonym.SynonymInformation
+    });
+
+    var selectList = new List<SelectListItem>();
+
+    selectSynonyms.ToList().ForEach(s => selectList.Add
+        (new SelectListItem(s.SynonymInformation, s.Id.ToString(), selectSynonyms.Select(x => x.Id)
+            .Contains(s.Id)))); 
+
+}
+<br/>
+<div class="container-fluid">
+    <h1>Details</h1>
+
+    <div>
+        <h4>Drug</h4>
+        <hr />
+        <dl class="row">
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.NcitCode)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.NcitCode)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.DrugName)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.DrugName)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Priority)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Priority)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.DrugSynonyms)
+            </dt>
+            <dd class = "col-sm-10">
+                <select asp-for="DrugSynonyms" asp-items="@selectList">
+                    <option>-- Các tên gọi khác --</option>
+                </select>
+            </dd>
+        </dl>
+    </div>
+    <br/>
+    <div>
+        <a class="btn btn-primary" href="/Doctor/Mutations">Back to list</a>
+    </div>
+</div>
+<br/>   

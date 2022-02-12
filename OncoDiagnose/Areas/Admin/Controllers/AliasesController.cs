@@ -40,7 +40,6 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
             return Json(new { success = true, message = "Delete Successful" });
         }
 
-
         public async Task<IActionResult> Upsert(int? id)
         {
             var aliase = new AliaseViewModel();
