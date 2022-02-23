@@ -8,7 +8,11 @@ namespace OncoDiagnose.DataAccess.Repositories.Interfaces.ITechnician
     public interface IResultRepo : IGenericRepository<Result>
     {
         Task<string> GetGeneNameByResultId(int id);
+
         Task<IReadOnlyList<Result>> GetResultsAsync();
+
         Task<Result> GetResultByIdAsync(int id);
+
+        IEnumerable<Test> GetTests();
     }
 }

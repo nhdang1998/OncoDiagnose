@@ -18,9 +18,14 @@ namespace OncoDiagnose.DataAccess.Repositories.Interfaces.Base
 
         void Add(T entity);
 
+        void AddRange(List<T> entity);
+
         void Update(T updatedEntity);
+
         void Remove(int id);
+
         void Remove(T entity);
+
         void RemoveRange(IEnumerable<T> entities);
     }
 }

@@ -18,10 +18,17 @@ namespace OncoDiagnose.Web.Business
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
+
         public async Task<List<ResultViewModel>> GetAll()
         {
-            var results = await _unitOfWork.Result.GetAllAsync();
+            var results = await _unitOfWork.Result.GetResultsAsync();
             return results.Any() ? _mapper.Map<List<ResultViewModel>>(results) : null;
+        }
+
+        public IEnumerable<TestViewModel> GetTestsTestViewModels()
+        {
+            var tests = _unitOfWork.Result.GetTests();
+            return tests.Any() ? _mapper.Map<IEnumerable<TestViewModel>>(tests) : null;
         }
 
         public async Task<ResultViewModel> GetById(int? id)
@@ -30,7 +37,7 @@ namespace OncoDiagnose.Web.Business
             {
                 return null;
             }
-            var result = await _unitOfWork.Result.GetByIdAsync(id);
+            var result = await _unitOfWork.Result.GetResultByIdAsync(id.GetValueOrDefault());
             return result == null ? null : _mapper.Map<ResultViewModel>(result);
         }
 
@@ -52,6 +59,13 @@ namespace OncoDiagnose.Web.Business
         {
             var result = _mapper.Map<Result>(resultViewModel);
             _unitOfWork.Result.Update(result);
+            await _unitOfWork.Save();
+        }
+
+        public async Task AddRange(List<ResultViewModel> resultViewModels)
+        {
+            var results = _mapper.Map<List<Result>>(resultViewModels);
+            _unitOfWork.Result.AddRange(results);
             await _unitOfWork.Save();
         }
     }

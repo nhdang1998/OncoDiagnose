@@ -37,5 +37,10 @@ namespace OncoDiagnose.DataAccess.Services.Technician
                 .Include(r => r.Test)
                 .FirstOrDefaultAsync(r => r.Id == id);
         }
+
+        public IEnumerable<Test> GetTests()
+        {
+            return _context.Tests;
+        }
     }
 }

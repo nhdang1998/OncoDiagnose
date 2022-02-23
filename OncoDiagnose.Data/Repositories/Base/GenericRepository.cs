@@ -45,6 +45,11 @@ namespace OncoDiagnose.DataAccess.Repositories.Base
             dbSet.Add(entity);
         }
 
+        public void AddRange(List<T> entity)
+        {
+            dbSet.AddRange(entity);
+        }
+
         public void Remove(int id)
         {
             var entity = dbSet.Find(id);

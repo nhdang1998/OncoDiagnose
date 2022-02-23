@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using OncoDiagnose.DataAccess;
-using OncoDiagnose.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using OncoDiagnose.Web.Business;
 using OncoDiagnose.Web.ViewModels;
-using OncoDiagnose.Web.ViewModels.GeneViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
@@ -78,12 +72,6 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                 default:
                     return View(mutationViewModel);
             }
-        }
-
-        private async Task<bool> MutationExists(int id)
-        {
-            var tmp = await _mutationBusiness.GetAll();
-            return tmp.Any(d => d.Id == id);
         }
     }
 }

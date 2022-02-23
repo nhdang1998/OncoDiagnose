@@ -1,0 +1,62 @@
+﻿@using OncoDiagnose.Web.ViewModels
+@model List<OncoDiagnose.Web.ViewModels.ResultViewModel>
+
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+@{
+    var genes = Html.GetEnumSelectList<GeneNameViewModel>().ToList();
+}
+
+<div class="container-fluid">
+    <h1>Create</h1>
+    
+    <h4>Result</h4>
+    <br/>
+    
+    @using (Html.BeginForm("Create", "Results", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        
+        <table id="dataTable" class="table">
+            
+            <tr>
+                <th scope="col">Gene</th>
+                <th scope="col">Variant</th>
+                <th scope="col">Frequency</th>
+                <th scope="col">TestId</th>
+            </tr>
+            
+            
+            @if (Model != null && Model.Count > 0)
+            {
+                //Bat buoc dung for vi nhu vay moi gan dc cho model
+                @for(var i = 0; i < Model.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            @Html.TextBoxFor(r => r[i].GeneName, new { @readonly = true })
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(r => r[i].Variant, new { @placeholder = "No mutation detected" })
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(r => r[i].Frequence, new { type = "number", min = "0", step = "0.01" })
+                            @Html.ValidationMessageFor(r => r[i].Frequence)
+                        </td>
+                        <td>
+                            @Html.DropDownListFor(r => r[i].TestId, ViewBag.TestId as SelectList, null, new {name = "Test", id = "TestId", style="width: 80px;" })
+                        </td>
+                    </tr>
+                }
+            }
+        </table>
+        <br/>
+        <input type="submit" value="Create" class="btn btn-primary"/>
+        <br/>
+    }
+</div>
+<br/>

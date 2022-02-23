@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using System.ComponentModel.DataAnnotations;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 namespace OncoDiagnose.Web.ViewModels
@@ -7,6 +8,7 @@ namespace OncoDiagnose.Web.ViewModels
     {
         public int Id { get; set; }
 
+        [Display(Name = "Test")]
         public int TestId { get; set; }
 
         public TestViewModel Test { get; set; }
@@ -16,6 +18,7 @@ namespace OncoDiagnose.Web.ViewModels
 
         public string Variant { get; set; }
 
+        [Required]
         public double Frequence { get; set; }
     }
 
