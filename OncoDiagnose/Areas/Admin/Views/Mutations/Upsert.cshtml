@@ -1,0 +1,142 @@
+﻿@model OncoDiagnose.Web.ViewModels.MutationViewModel
+
+@{
+    ViewBag.Title = "title";
+    var title = "Thêm mới";
+    Layout = "_Layout";
+}
+
+<br/>
+<div class="container">
+    <form method="post">
+        <div class="row p-3 border">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (Model.Id != 0)
+            {
+                title = "Chỉnh sửa";
+            }
+            <div class="col-12 border-bottom">
+                <h2 class="text-primary">@title</h2>
+            </div>
+            <div class="col-8 pt-4">
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Id"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Id" class="form-control" readonly/>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="EvidenceType"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="EvidenceType" class="form-control"/>
+                        <span asp-validation-for="EvidenceType" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Desciption"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Desciption" class="form-control"/>
+                        <span asp-validation-for="Desciption" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="AdditionalInfor"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="AdditionalInfor" class="form-control"/>
+                        <span asp-validation-for="AdditionalInfor" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="KnownEffect"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="KnownEffect" class="form-control"/>
+                        <span asp-validation-for="KnownEffect" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="LastEdit"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="LastEdit" class="form-control"/>
+                        <span asp-validation-for="LastEdit" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="LastReview"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="LastReview" class="form-control"/>
+                        <span asp-validation-for="LastReview" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="CancerTypeId"></label>
+                    </div>
+                    <div class="col-8">
+                        <select asp-for="CancerTypeId" class="form-control" asp-items="ViewBag.CancerTypeId"></select>
+                    </div>
+                </div>
+
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="LevelOfEvidence"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="LevelOfEvidence" class="form-control"/>
+                        <span asp-validation-for="LevelOfEvidence" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="SolidPropagationLevel"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="SolidPropagationLevel" class="form-control"/>
+                        <span asp-validation-for="SolidPropagationLevel" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-8 offset-4">
+                        @if (Model.Id != 0)
+                        {
+                            <partial name="_EditAndbackToListButton" model="Model.Id"/>
+                        }
+                        else
+                        {
+                            <partial name="_CreateAndbackToListButton"/>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<br/>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}

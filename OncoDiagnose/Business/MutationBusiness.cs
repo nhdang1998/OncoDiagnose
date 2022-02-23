@@ -18,6 +18,13 @@ namespace OncoDiagnose.Web.Business
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
+
+        public IEnumerable<CancerTypeViewModel> GetCancerTypeViewModels()
+        {
+            var cancerTypes = _unitOfWork.Mutation.GetCancerTypes();
+            return cancerTypes.Any() ? _mapper.Map<IEnumerable<CancerTypeViewModel>>(cancerTypes) : null;
+        }
+
         public async Task<List<MutationViewModel>> GetAll()
         {
             var mutations = await _unitOfWork.Mutation.GetMutationsAsync();

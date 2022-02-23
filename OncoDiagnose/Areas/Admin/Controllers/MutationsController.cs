@@ -1,153 +1,89 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OncoDiagnose.DataAccess;
 using OncoDiagnose.Models;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using OncoDiagnose.Web.Business;
+using OncoDiagnose.Web.ViewModels;
+using OncoDiagnose.Web.ViewModels.GeneViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class MutationsController : Controller
     {
-        private readonly OncoDbContext _context;
+        private readonly MutationBusiness _mutationBusiness;
 
-        public MutationsController(OncoDbContext context)
+        public MutationsController(MutationBusiness mutationBusiness)
         {
-            _context = context;
+            _mutationBusiness = mutationBusiness;
         }
 
-        // GET: Admin/Mutations
-        public async Task<IActionResult> Index()
-        {
-            var mutations = await _context.Mutations.ToListAsync();
-            return Json(new { data = mutations });
-            //return View();
-        }
-
-        // GET: Admin/Mutations/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var mutation = await _context.Mutations
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (mutation == null)
-            {
-                return NotFound();
-            }
-
-            return View(mutation);
-        }
-
-        // GET: Admin/Mutations/Create
-        public IActionResult Create()
+        public IActionResult Index()
         {
             return View();
         }
 
-        // POST: Admin/Mutations/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var allObj = await _mutationBusiness.GetAll();
+            return Json(new { data = allObj });
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var objFromDb = await _mutationBusiness.GetById(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            await _mutationBusiness.Delete(objFromDb);
+            return Json(new { success = true, message = "Delete Successful" });
+        }
+
+        public async Task<IActionResult> Upsert(int? id)
+        {
+            var mutationViewModel = new MutationViewModel();
+            ViewData["CancerTypeId"] = new SelectList(_mutationBusiness.GetCancerTypeViewModels(), "Id", "MainType", mutationViewModel.CancerTypeId);
+            if (id == null) return View(mutationViewModel);
+            mutationViewModel = await _mutationBusiness.GetById(id.GetValueOrDefault());
+            if (mutationViewModel == null) return NotFound();
+            return View(mutationViewModel);
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,EvidenceType,Desciption,AdditionalInfor,KnownEffect,LastEdit,LastReview,LevelOfEvidence,SolidPropagationLevel,LiquidPropagationLevel")] Mutation mutation)
+        public async Task<IActionResult> Upsert(MutationViewModel mutationViewModel)
         {
-            if (ModelState.IsValid)
+            switch (ModelState.IsValid)
             {
-                _context.Add(mutation);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(mutation);
-        }
-
-        // GET: Admin/Mutations/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var mutation = await _context.Mutations.FindAsync(id);
-            if (mutation == null)
-            {
-                return NotFound();
-            }
-            return View(mutation);
-        }
-
-        // POST: Admin/Mutations/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,EvidenceType,Desciption,AdditionalInfor,KnownEffect,LastEdit,LastReview,LevelOfEvidence,SolidPropagationLevel,LiquidPropagationLevel")] Mutation mutation)
-        {
-            if (id != mutation.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(mutation);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!MutationExists(mutation.Id))
+                case true:
                     {
-                        return NotFound();
+                        if (mutationViewModel.Id == 0)
+                        {
+                            await _mutationBusiness.Add(mutationViewModel);
+                        }
+                        else
+                        {
+                            await _mutationBusiness.Update(mutationViewModel);
+                        }
+                        return RedirectToAction("Index");
                     }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                default:
+                    return View(mutationViewModel);
             }
-            return View(mutation);
         }
 
-        // GET: Admin/Mutations/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        private async Task<bool> MutationExists(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var mutation = await _context.Mutations
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (mutation == null)
-            {
-                return NotFound();
-            }
-
-            return View(mutation);
-        }
-
-        // POST: Admin/Mutations/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var mutation = await _context.Mutations.FindAsync(id);
-            _context.Mutations.Remove(mutation);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool MutationExists(int id)
-        {
-            return _context.Mutations.Any(e => e.Id == id);
+            var tmp = await _mutationBusiness.GetAll();
+            return tmp.Any(d => d.Id == id);
         }
     }
 }

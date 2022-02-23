@@ -8,6 +8,9 @@ namespace OncoDiagnose.DataAccess.Repositories.Interfaces
     public interface IMutationRepo : IGenericRepository<Mutation>
     {
         Task<IReadOnlyList<Mutation>> GetMutationsAsync();
+
         Task<Mutation> GetMutationByIdAsync(int id);
+
+        IEnumerable<CancerType> GetCancerTypes();
     }
 }

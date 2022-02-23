@@ -45,5 +45,10 @@ namespace OncoDiagnose.DataAccess.Services
                 .AsNoTracking()
                 .FirstOrDefaultAsync(m => m.Id == id);
         }
+
+        public IEnumerable<CancerType> GetCancerTypes()
+        {
+            return _context.CancerTypes;
+        }
     }
 }
