@@ -10,8 +10,8 @@ using OncoDiagnose.DataAccess;
 namespace OncoDiagnose.DataAccess.Migrations
 {
     [DbContext(typeof(OncoDbContext))]
-    [Migration("20220212090417_IninitalDb")]
-    partial class IninitalDb
+    [Migration("20220224161900_InitialDb")]
+    partial class InitialDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -652,8 +652,8 @@ namespace OncoDiagnose.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("FinishDate")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime?>("FinishDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("ISPLoading")
                         .HasColumnType("nvarchar(max)");

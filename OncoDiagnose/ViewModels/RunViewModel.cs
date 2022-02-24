@@ -1,4 +1,7 @@
-﻿namespace OncoDiagnose.Web.ViewModels
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
+
+namespace OncoDiagnose.Web.ViewModels
 {
     public class RunViewModel
     {
@@ -6,7 +9,8 @@
 
         public string Status { get; set; }
 
-        public string FinishDate { get; set; }
+        [BindProperty]
+        public DateTime FinishDate { get; set; }
 
         public string TotalBase { get; set; }
 
@@ -21,7 +25,6 @@
         public int MedianLength { get; set; }
 
         public int ModeLength { get; set; }
-
         public string ISPLoading { get; set; }
 
         public string PolyClonal { get; set; }

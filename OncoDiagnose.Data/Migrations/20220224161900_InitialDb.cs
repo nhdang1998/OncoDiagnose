@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace OncoDiagnose.DataAccess.Migrations
 {
-    public partial class IninitalDb : Migration
+    public partial class InitialDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -193,7 +193,7 @@ namespace OncoDiagnose.DataAccess.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Status = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    FinishDate = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    FinishDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     TotalBase = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     KeySignal = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     TotalRead = table.Column<int>(type: "int", nullable: false),

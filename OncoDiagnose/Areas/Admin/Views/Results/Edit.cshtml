@@ -1,0 +1,49 @@
+﻿@using OncoDiagnose.Web.ViewModels
+@model OncoDiagnose.Web.ViewModels.ResultViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+<br/>
+<div class="container-fluid">
+    <h1>Edit</h1>
+
+    <h4>Gene</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <label asp-for="TestId" class="control-label"></label>
+                    <select asp-for="TestId" class ="form-control" asp-items="ViewBag.TestId"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="GeneName" class="control-label"></label>
+                    <select asp-for="GeneName" asp-items="Html.GetEnumSelectList<GeneNameViewModel>()"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Variant" class="control-label"></label>
+                    <input asp-for="Variant" class="form-control" />
+                    <span asp-validation-for="Variant" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Frequence" class="control-label"></label>
+                    <input asp-for="Frequence" class="form-control" />
+                    <span asp-validation-for="Frequence" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+    </div>
+
+</div>
+<br/>

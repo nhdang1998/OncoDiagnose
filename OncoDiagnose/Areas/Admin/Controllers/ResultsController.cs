@@ -99,10 +99,9 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
 
         public IActionResult Create()
         {
-            var resultView = new ResultViewModel();
-            ViewBag.TestId = new SelectList(_resultBusiness.GetTestsTestViewModels(), "Id", "Id");
-            var resultViewModels = _result;
-            return View(resultViewModels);
+            var tests = _resultBusiness.GetTestsTestViewModels().Where(t => t.Results.Count < 50);
+            ViewBag.TestId = new SelectList(tests, "Id", "Id");
+            return View(_result);
         }
 
         [HttpPost]
@@ -125,7 +124,6 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        //Todo: Can bo sung phan edit
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -166,10 +164,8 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                     {
                         throw;
                     }
-                    else
-                    {
-                        return NotFound();
-                    }
+
+                    return NotFound();
                 }
                 return RedirectToAction(nameof(Index));
             }

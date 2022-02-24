@@ -20,6 +20,7 @@ namespace OncoDiagnose.DataAccess.Services.Technician
         {
             return await _context.Runs
                 .Include(r => r.Test)
+                .AsNoTracking()
                 .ToListAsync();
         }
 
@@ -27,6 +28,7 @@ namespace OncoDiagnose.DataAccess.Services.Technician
         {
             return await _context.Runs
                 .Include(r => r.Test)
+                .AsNoTracking()
                 .FirstOrDefaultAsync(r => r.Id == id);
         }
     }

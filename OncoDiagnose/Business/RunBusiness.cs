@@ -18,9 +18,10 @@ namespace OncoDiagnose.Web.Business
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
+
         public async Task<List<RunViewModel>> GetAll()
         {
-            var runs = await _unitOfWork.Run.GetAllAsync();
+            var runs = await _unitOfWork.Run.GetRunsAsync();
             return runs.Any() ? _mapper.Map<List<RunViewModel>>(runs) : null;
         }
 
@@ -30,7 +31,7 @@ namespace OncoDiagnose.Web.Business
             {
                 return null;
             }
-            var run = await _unitOfWork.Run.GetByIdAsync(id);
+            var run = await _unitOfWork.Run.GetRunByIdAsync(id.GetValueOrDefault());
             return run == null ? null : _mapper.Map<RunViewModel>(run);
         }
 

@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System;
+using System.Text.Json.Serialization;
 
 namespace OncoDiagnose.Models.Technician
 {
@@ -8,7 +9,7 @@ namespace OncoDiagnose.Models.Technician
         public string Status { get; set; }
 
         [JsonPropertyName("FinishDate")]
-        public string FinishDate { get; set; }
+        public DateTime? FinishDate { get; set; }
 
         [JsonPropertyName("TotalBase")]
         public string TotalBase { get; set; }
@@ -51,6 +52,7 @@ namespace OncoDiagnose.Models.Technician
 
         [JsonPropertyName("LengthPic")]
         public string LengthPic { get; set; }
+
         public Test Test { get; set; }
     }
 }

@@ -1,13 +1,8 @@
-﻿@using OncoDiagnose.Web.ViewModels
-@model List<OncoDiagnose.Web.ViewModels.ResultViewModel>
-
+﻿@model List<OncoDiagnose.Web.ViewModels.ResultViewModel>
 
 @{
     ViewBag.Title = "title";
     Layout = "_Layout";
-}
-@{
-    var genes = Html.GetEnumSelectList<GeneNameViewModel>().ToList();
 }
 
 <div class="container-fluid">

@@ -1,5 +1,5 @@
 ﻿var dataTable;
-var controllerName = "Results";
+var controllerName = "Runs";
 
 $(document).ready(function () {
     loadDataTable();
@@ -12,17 +12,15 @@ function loadDataTable() {
         },
         "columns": [
             { "data": "id" },
-            { "data": "test.testName" },
-            { "data": "test.patientId" },
-            { "data": "geneName" },
-            { "data": "variant" },
-            { "data": "frequence" },
+            { "data": "status" },
+            { "data": "finishDate" },
+            { "data": "test.id" },
             {
                 "data": "id",
                 "render": function (data) {
                     return `
                             <div class="text-center">
-                                <a href="/Admin/${controllerName}/Edit/${data}" class="btn btn-success text-white" style="cursor: pointer">
+                                <a href="/Admin/${controllerName}/Upsert/${data}" class="btn btn-success text-white" style="cursor: pointer">
                                     <i class="fas fa-edit"></i>
                                 </a>
                                 <a onclick=Delete("/Admin/${controllerName}/Delete/${data}") class="btn btn-danger text-white" style="cursor: pointer">

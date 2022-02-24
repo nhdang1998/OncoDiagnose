@@ -1,0 +1,246 @@
+﻿@model OncoDiagnose.Web.ViewModels.RunViewModel
+
+@{
+    var title = "Thêm mới";
+    Layout = "_Layout";
+}
+
+<br />
+<div class="container">
+    <form method="post" enctype="multipart/form-data">
+        <div class="row p-3 border">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (Model.Id != 0)
+            {
+                title = "Chỉnh sửa";
+                <input type="hidden" asp-for="Id" />
+            }
+            <div class="col-12 border-bottom">
+                <h2 class="text-primary">@title</h2>
+            </div>
+            <div class="col-8 pt-4">
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Status"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Status" class="form-control" />
+                        <span asp-validation-for="Status" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="FinishDate"></label>
+                    </div>
+                    <div class="col-8">
+                        <input class="form-control" asp-for="FinishDate" asp-format="{0:yyyy-MM-ddTHH:mm}" />
+                        <span asp-validation-for="FinishDate" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="TotalBase"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="TotalBase" class="form-control" />
+                        <span asp-validation-for="TotalBase" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="TotalRead"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="TotalRead" class="form-control" />
+                        <span asp-validation-for="TotalRead" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="KeySignal"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="KeySignal" class="form-control" />
+                        <span asp-validation-for="KeySignal" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="UsableRead"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="UsableRead" class="form-control" />
+                        <span asp-validation-for="UsableRead" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="MeanLength"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="MeanLength" class="form-control" />
+                        <span asp-validation-for="MeanLength" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="MedianLength"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="MedianLength" class="form-control" />
+                        <span asp-validation-for="MedianLength" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="ModeLength"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="ModeLength" class="form-control" />
+                        <span asp-validation-for="ModeLength" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="ISPLoading"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="ISPLoading" class="form-control" />
+                        <span asp-validation-for="ISPLoading" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="ISPLoadingPic"></label>
+                    </div>
+                    <div class="col-8">
+                        <input type="file" asp-for="ISPLoadingPic" name="ISPLoadingPic" id="ISPLoadingPic" multiple class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="PolyClonal"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="PolyClonal" class="form-control" />
+                        <span asp-validation-for="PolyClonal" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="LowQuality"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="LowQuality" class="form-control" />
+                        <span asp-validation-for="LowQuality" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="QualityPic"></label>
+                    </div>
+                    <div class="col-8">
+                        <input type="file" name="QualityPic" id="QualityPic" multiple class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="LengthPic"></label>
+                    </div>
+                    <div class="col-8">
+                        <input type="file" name="LengthPic" id="LengthPic" multiple class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="PolyClonal"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="PolyClonal" class="form-control" />
+                        <span asp-validation-for="PolyClonal" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-8 offset-4">
+                        @if (Model.Id != 0)
+                        {
+                            <partial name="_EditAndbackToListButton" model="Model.Id" />
+                        }
+                        else
+                        {
+                            <div class="row">
+                                <div class="col">
+                                    <button type="submit" onclick="return validateInput()" class="btn btn-primary form-control">Thêm</button>
+                                </div>
+
+                                <div class="col">
+                                    <a asp-action="Index" class="btn btn-primary form-control">Quay lại</a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            @if (Model.Id != 0)
+            {
+                <div class="col-3 offset-1 pt-4">
+                    <figure>
+                        <img src="@Model.ISPLoadingPic" alt="ISPLoadingPic" width="100%" style="border-radius: 5px; border: 1px solid #bbb9b9" />
+                        <figcaption>ISPLoadingPic</figcaption>
+                    </figure>
+                    <br />
+
+                    <figure>
+                        <img src="@Model.QualityPic" alt="QualityPic" width="100%" style="border-radius: 5px; border: 1px solid #bbb9b9" />
+                        <figcaption>QualityPic</figcaption>
+                    </figure>
+                    <br />
+
+                    <figure>
+                        <img src="@Model.LengthPic" alt="LengthPic" width="100%" style="border-radius: 5px; border: 1px solid #bbb9b9" />
+                        <figcaption>LengthPic</figcaption>
+                    </figure>
+                </div>
+            }
+        </div>
+    </form>
+</div>
+<br />
+
+@section Scripts
+{
+<partial name="_ValidationScriptsPartial" />
+<script>
+    function validateInput() {
+        if (document.getElementById("ISPLoadingPic").value == "") {
+            swal("Error", "Please select an image for ISPLoadingPic again", "error");
+            return false;
+        }
+        if (document.getElementById("QualityPic").value == "") {
+            swal("Error", "Please select an image for QualityPic again", "error");
+            return false;
+        }
+        if (document.getElementById("LengthPic").value == "") {
+            swal("Error", "Please select an image for LengthPic again", "error");
+            return false;
+        }
+        return true;
+    };
+</script>
+}
+

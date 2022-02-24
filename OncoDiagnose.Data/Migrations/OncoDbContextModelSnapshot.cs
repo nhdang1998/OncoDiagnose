@@ -650,8 +650,8 @@ namespace OncoDiagnose.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("FinishDate")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime?>("FinishDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("ISPLoading")
                         .HasColumnType("nvarchar(max)");

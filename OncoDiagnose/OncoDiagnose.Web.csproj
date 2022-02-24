@@ -41,6 +41,7 @@
     <_ContentIncludedByDefault Remove="Areas\Admin\Views\Patients\Upsert.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Admin\Views\Results\Create.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Admin\Views\Results\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Runs\Upsert.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Admin\Views\Tests\Create.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Doctor\Views\Home\IntroBreastCancer.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Doctor\Views\Home\IntroColorectalCancer.cshtml" />
@@ -56,10 +57,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Views\Runs\" />
     <Folder Include="Areas\Doctor\Views\Alterations\" />
     <Folder Include="Areas\Doctor\Views\Drugs\" />
     <Folder Include="SeedData\TechnicianUsecaseSeedData\" />
+    <Folder Include="wwwroot\photo\ISPLoadingPic\" />
+    <Folder Include="wwwroot\photo\LengthPic\" />
+    <Folder Include="wwwroot\photo\QualityPic\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -80,6 +83,10 @@
 
   <ItemGroup>
     <UpToDateCheckInput Remove="Areas\Admin\Views\Results\Create.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Areas\Admin\Views\Runs\Upsert.cshtml" />
   </ItemGroup>
 
 </Project>
