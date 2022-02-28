@@ -1,16 +1,19 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using OncoDiagnose.Web.Business;
+using OncoDiagnose.Web.Utility;
 using OncoDiagnose.Web.ViewModels;
 using OncoDiagnose.Web.ViewModels.DrugViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Database_Manager)]
     public class DrugsController : Controller
     {
         private readonly DrugBusiness _drugBusiness;
@@ -78,7 +81,7 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                     NcitCode = drugViewModel.NcitCode,
                     Priority = drugViewModel.Priority
                 };
-                
+
                 foreach (var selectedSynonym in drugViewModel.SelectedSynonyms)
                 {
                     drugVM.DrugSynonyms.Add(new DrugSynonymViewModel()
@@ -122,7 +125,7 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
 
             synonyms.ToList().ForEach(i => selectList.Add
                 (new SelectListItem(i.SynonymInformation, i.Id.ToString(), selectSynonyms.Select(x => x.Id)
-                    .Contains(i.Id)))); 
+                    .Contains(i.Id))));
 
             // Truyen nhung Synonym dang duoc gan voi thuoc len tren view
             var selectedSynonymId = drug.DrugSynonyms.Select(ds => ds.SynonymId).ToArray();
@@ -136,7 +139,7 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                 SelectedSynonyms = selectedSynonymId,
                 Synonyms = selectList
             };
-            
+
             return View(vm);
         }
 

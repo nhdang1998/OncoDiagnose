@@ -2,10 +2,13 @@
 using Microsoft.Extensions.Logging;
 using OncoDiagnose.Models;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
+using OncoDiagnose.Web.Utility;
 
 namespace OncoDiagnose.Web.Areas.Doctor.Controllers
 {
     [Area("Doctor")]
+    [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Database_Manager + "," + SD.Role_User_Laboratory + "," + SD.Role_User_Doctor + "," + SD.Role_User)]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

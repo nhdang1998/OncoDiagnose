@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using OncoDiagnose.Models;
 using OncoDiagnose.Models.Technician;
 using System;
+using OncoDiagnose.Models.AuthenticateAndAuthorize;
 
 namespace OncoDiagnose.DataAccess
 {
@@ -29,14 +30,23 @@ namespace OncoDiagnose.DataAccess
 
         ////  Technician database
         public DbSet<Patient> Patients { get; set; }
+
         public DbSet<Result> Results { get; set; }
         public DbSet<Run> Runs { get; set; }
         public DbSet<Test> Tests { get; set; }
 
+        public DbSet<TechnicianAdminUser> TechnicianAdminUsers { get; set; }
+        public DbSet<Laboratory> Laboratories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Laboratory>()
+                .HasMany(l => l.TechnicianAdminUser)
+                .WithOne(tu => tu.Laboratory)
+                .HasForeignKey(tu => tu.LaboratoryId)
+                .OnDelete(DeleteBehavior.ClientCascade);
 
             modelBuilder.Entity<Patient>()
                 .HasMany(p => p.Tests)
@@ -111,7 +121,7 @@ namespace OncoDiagnose.DataAccess
                 .WithOne(a => a.Consequence)
                 .HasForeignKey(a => a.ConsequenceId)
                 .OnDelete(DeleteBehavior.ClientCascade);
-            
+
             modelBuilder.Entity<Gene>()
                 .HasMany(g => g.Alterations)
                 .WithOne(a => a.Gene)
@@ -159,7 +169,6 @@ namespace OncoDiagnose.DataAccess
                 .HasMany(d => d.TreatmentDrugs)
                 .WithOne(td => td.Drug)
                 .HasForeignKey(td => td.DrugId);
-
         }
     }
 }

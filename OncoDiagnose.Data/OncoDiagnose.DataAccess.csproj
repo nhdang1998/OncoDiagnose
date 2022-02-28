@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OncoDiagnose.Model\OncoDiagnose.Models.csproj" />
+    <ProjectReference Include="..\OncoDiagnose.Utility\OncoDiagnose.Utility.csproj" />
   </ItemGroup>
 
 </Project>

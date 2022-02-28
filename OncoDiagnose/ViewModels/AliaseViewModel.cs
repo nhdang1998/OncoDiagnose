@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace OncoDiagnose.Web.ViewModels
 {
@@ -7,13 +8,9 @@ namespace OncoDiagnose.Web.ViewModels
     {
         public int Id { get; set; }
 
+        [Required]
         public string Name { get; set; }
 
         public List<GeneAliaseViewModel> GeneAliases { get; set; }
-
-        public static implicit operator AliaseViewModel(AlterationViewModel v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

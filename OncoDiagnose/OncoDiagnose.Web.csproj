@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+    <UserSecretsId>6331f50e-23d5-454e-9390-5ed6994c9f7a</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,14 +24,17 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
     <PackageReference Include="morelinq" Version="3.3.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="SendGrid" Version="9.25.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\OncoDiagnose.Data\OncoDiagnose.DataAccess.csproj" />
     <ProjectReference Include="..\OncoDiagnose.Model\OncoDiagnose.Models.csproj" />
+    <ProjectReference Include="..\OncoDiagnose.Utility\OncoDiagnose.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,12 +42,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\User\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Laboratories\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Treatments\Index.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Admin\Views\Consequences\Upsert.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Admin\Views\Patients\Upsert.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Admin\Views\Results\Create.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Admin\Views\Results\Index.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Admin\Views\Runs\Upsert.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Synonyms\Upsert.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Admin\Views\Tests\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Treatments\Upsert.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Doctor\Views\Home\IntroBreastCancer.cshtml" />
     <_ContentIncludedByDefault Remove="Areas\Doctor\Views\Home\IntroColorectalCancer.cshtml" />
   </ItemGroup>
@@ -59,7 +69,6 @@
   <ItemGroup>
     <Folder Include="Areas\Doctor\Views\Alterations\" />
     <Folder Include="Areas\Doctor\Views\Drugs\" />
-    <Folder Include="SeedData\TechnicianUsecaseSeedData\" />
     <Folder Include="wwwroot\photo\ISPLoadingPic\" />
     <Folder Include="wwwroot\photo\LengthPic\" />
     <Folder Include="wwwroot\photo\QualityPic\" />
@@ -87,6 +96,26 @@
 
   <ItemGroup>
     <UpToDateCheckInput Remove="Areas\Admin\Views\Runs\Upsert.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Areas\Admin\Views\Synonyms\Upsert.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Areas\Admin\Views\Treatments\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Areas\Admin\Views\Treatments\Upsert.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Areas\Admin\Views\Laboratories\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Areas\Admin\Views\User\Index.cshtml" />
   </ItemGroup>
 
 </Project>

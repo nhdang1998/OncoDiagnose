@@ -1,42 +1,43 @@
 ﻿using OncoDiagnose.Model.Converter;
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace OncoDiagnose.Models
 {
     public class Mutation : BaseEntity
     {
-
-        [JsonPropertyName("EvidenceType")]
+        [JsonProperty("EvidenceType", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string EvidenceType { get; set; }
 
-        [JsonPropertyName("Desciption")]
+        [JsonProperty("Desciption", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string Desciption { get; set; }
 
-        [JsonPropertyName("AdditionalInfor")]
+        [JsonProperty("AdditionalInfor", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string AdditionalInfor { get; set; }
 
-        [JsonPropertyName("KnownEffect")]
+        [JsonProperty("KnownEffect", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string KnownEffect { get; set; }
 
-        [JsonPropertyName("LastEdit")]
-        [JsonConverter(typeof(InfoToString))]
+        [JsonProperty("LastEdit", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
+        [System.Text.Json.Serialization.JsonConverter(typeof(InfoToString))]
         public string LastEdit { get; set; }
 
-        [JsonPropertyName("LastReview")]
+        [JsonProperty("LastReview", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string LastReview { get; set; }
 
-        [JsonPropertyName("LevelOfEvidence")]
-        [JsonConverter(typeof(InfoToString))]
+        [JsonProperty("LevelOfEvidence", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
+        [System.Text.Json.Serialization.JsonConverter(typeof(InfoToString))]
         public string LevelOfEvidence { get; set; }
 
-        [JsonPropertyName("SolidPropagationLevel")]
+        [JsonProperty("SolidPropagationLevel", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string SolidPropagationLevel { get; set; }
 
-        [JsonPropertyName("LiquidPropagationLevel")]
+        [JsonProperty("LiquidPropagationLevel", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string LiquidPropagationLevel { get; set; }
-        [JsonPropertyName("CancerTypeId")]
+
+        [JsonProperty("CancerTypeId", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public int? CancerTypeId { get; set; }
+
         public CancerType CancerType { get; set; }
         public List<MutationArticle> MutationArticles { get; set; }
 

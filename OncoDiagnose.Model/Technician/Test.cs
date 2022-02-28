@@ -1,23 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace OncoDiagnose.Models.Technician
 {
     public class Test : BaseEntity
     {
-        [JsonPropertyName("TestName")]
+        [JsonProperty("TestName", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string TestName { get; set; }
 
-        [JsonPropertyName("PatientId")]
+        [JsonProperty("PatientId", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public int PatientId { get; set; }
 
         public Patient Patient { get; set; }
 
-        [JsonPropertyName("TestDate")]
+        [JsonProperty("TestDate", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public DateTime? TestDate { get; set; }
 
-        [JsonPropertyName("RunId")]
+        [JsonProperty("RunId", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public int RunId { get; set; }
 
         public Run Run { get; set; }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
 
 namespace OncoDiagnose.Web.ViewModels
@@ -7,9 +8,11 @@ namespace OncoDiagnose.Web.ViewModels
     {
         public int Id { get; set; }
 
+        [Required]
         public string Status { get; set; }
 
         [BindProperty]
+        [Required]
         public DateTime FinishDate { get; set; }
 
         public string TotalBase { get; set; }
@@ -31,6 +34,7 @@ namespace OncoDiagnose.Web.ViewModels
 
         public int LowQuality { get; set; }
 
+        [Required]
         public int Score { get; set; }
 
         public string ISPLoadingPic { get; set; }

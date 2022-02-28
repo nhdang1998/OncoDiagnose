@@ -1,11 +1,14 @@
 ﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using OncoDiagnose.Web.Business;
+using OncoDiagnose.Web.Utility;
 using OncoDiagnose.Web.ViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Database_Manager)]
     public class ConsequencesController : Controller
     {
         private readonly ConsequenceBusiness _consequenceBusiness;
@@ -56,17 +59,17 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
             switch (ModelState.IsValid)
             {
                 case true:
-                {
-                    if (consequenceViewModel.Id == 0)
                     {
-                        await _consequenceBusiness.Add(consequenceViewModel);
+                        if (consequenceViewModel.Id == 0)
+                        {
+                            await _consequenceBusiness.Add(consequenceViewModel);
+                        }
+                        else
+                        {
+                            await _consequenceBusiness.Update(consequenceViewModel);
+                        }
+                        return RedirectToAction("Index");
                     }
-                    else
-                    {
-                        await _consequenceBusiness.Update(consequenceViewModel);
-                    }
-                    return RedirectToAction("Index");
-                }
                 default:
                     return View(consequenceViewModel);
             }

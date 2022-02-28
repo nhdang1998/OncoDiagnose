@@ -1,6 +1,7 @@
 ﻿using OncoDiagnose.DataAccess.Repositories.Interfaces.ITechnician;
 using System;
 using System.Threading.Tasks;
+using OncoDiagnose.DataAccess.Repositories.Interfaces.ISecurity;
 
 namespace OncoDiagnose.DataAccess.Repositories.Interfaces.Base
 {
@@ -22,7 +23,10 @@ namespace OncoDiagnose.DataAccess.Repositories.Interfaces.Base
         IResultRepo Result { get; }
         IRunRepo Run { get; }
         ITestRepo Test { get; }
-        Task Save();
 
+        ILaboratoryRepo Laboratory { get; }
+        IUserRepo User { get; }
+
+        Task Save();
     }
 }

@@ -2,11 +2,14 @@
 using OncoDiagnose.Web.Business;
 using OncoDiagnose.Web.ViewModels;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using OncoDiagnose.Web.Utility;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Database_Manager)]
     public class AlterationsController : Controller
     {
         private readonly AlterationBusiness _alterationBusiness;
@@ -47,13 +50,13 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
             ViewData["MutationId"] = new SelectList(_alterationBusiness.GetMutations(), "Id", "Id", alteration.MutationId);
             ViewData["GeneId"] = new SelectList(_alterationBusiness.GetGenes(), "Id", "HugoSymbol", alteration.GeneId);
             ViewData["ConsequenceId"] = new SelectList(_alterationBusiness.GetConsequences(), "Id", "Description", alteration.ConsequenceId);
-            
+
             if (id == null) return View(alteration);
             alteration = await _alterationBusiness.GetById(id.GetValueOrDefault());
             if (alteration == null) return NotFound();
             return View(alteration);
         }
-        
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Upsert(AlterationViewModel alterationViewModel)

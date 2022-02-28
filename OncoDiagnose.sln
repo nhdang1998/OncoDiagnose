@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32106.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OncoDiagnose.Web", "OncoDiagnose\OncoDiagnose.Web.csproj", "{9415EBE3-8B11-415B-8CCA-9B08C6646446}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -12,6 +12,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OncoDiagnose.DataAccess", "OncoDiagnose.Data\OncoDiagnose.DataAccess.csproj", "{D730FF4D-1A2E-4DEF-BEA6-45FFBD628359}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OncoDiagnose.Models", "OncoDiagnose.Model\OncoDiagnose.Models.csproj", "{EDCB7BB7-5BA7-4398-8621-F8CB75B57DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OncoDiagnose.Utility", "OncoDiagnose.Utility\OncoDiagnose.Utility.csproj", "{FBA526CA-4362-4AC9-8337-60340E2A1174}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{EDCB7BB7-5BA7-4398-8621-F8CB75B57DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDCB7BB7-5BA7-4398-8621-F8CB75B57DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDCB7BB7-5BA7-4398-8621-F8CB75B57DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA526CA-4362-4AC9-8337-60340E2A1174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA526CA-4362-4AC9-8337-60340E2A1174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA526CA-4362-4AC9-8337-60340E2A1174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA526CA-4362-4AC9-8337-60340E2A1174}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,202 +1,215 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using OncoDiagnose.Models;
 using OncoDiagnose.Models.Technician;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Threading.Tasks;
-using JsonSerializer = System.Text.Json.JsonSerializer;
+using System.Linq;
 
 namespace OncoDiagnose.DataAccess
 {
     public class OncoDbInitializer
     {
-        public static async Task SeedMutation(OncoDbContext context)
+        public static void SeedMutation(OncoDbContext context)
         {
-            if (await context.Mutations.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/Mutations.json");
-            var mutations = await JsonSerializer.DeserializeAsync<List<Mutation>>(stream);
+            if (context.Mutations.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/Mutations.json");
+            var text = File.ReadAllText(stream.Name);
+            var mutations = JsonConvert.DeserializeObject<List<Mutation>>(text);
 
             if (mutations != null)
-                await context.Mutations.AddRangeAsync(mutations);
-            
-            await context.SaveChangesAsync();
+                context.Mutations.AddRange(mutations);
+
+            context.SaveChanges();
         }
 
-        public static async Task SeedCancerType(OncoDbContext context)
+        public static void SeedCancerType(OncoDbContext context)
         {
-            if (await context.CancerTypes.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/CancerTypes.json");
-            var cancerTypes = await JsonSerializer.DeserializeAsync<List<CancerType>>(stream);
+            if (context.CancerTypes.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/CancerTypes.json");
+            var text = File.ReadAllText(stream.Name);
+            var cancerTypes = JsonConvert.DeserializeObject<List<CancerType>>(text);
 
             if (cancerTypes != null)
-                await context.CancerTypes.AddRangeAsync(cancerTypes);
+                context.CancerTypes.AddRange(cancerTypes);
 
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public static async Task SeedArticle(OncoDbContext context)
+        public static void SeedArticle(OncoDbContext context)
         {
-            if (await context.Articles.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/Articles.json");
-            var articles = await JsonSerializer.DeserializeAsync<List<Article>>(stream);
+            if (context.Articles.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/Articles.json");
+            var text = File.ReadAllText(stream.Name);
+            var articles = JsonConvert.DeserializeObject<List<Article>>(text);
 
             if (articles != null)
-                await context.Articles.AddRangeAsync(articles);
-            await context.SaveChangesAsync();
+                context.Articles.AddRange(articles);
+            context.SaveChanges();
         }
 
-        public static async Task SeedAlteration(OncoDbContext context)
+        public static void SeedAlteration(OncoDbContext context)
         {
-            if (await context.Alterations.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/Alterations.json");
-            var alterations = await JsonSerializer.DeserializeAsync<List<Alteration>>(stream);
+            if (context.Alterations.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/Alterations.json");
+            var text = File.ReadAllText(stream.Name);
+            var alterations = JsonConvert.DeserializeObject<List<Alteration>>(text);
 
             if (alterations != null)
-                await context.Alterations.AddRangeAsync(alterations);
-            await context.SaveChangesAsync();
+                context.Alterations.AddRange(alterations);
+            context.SaveChanges();
         }
 
-        public static async Task SeedTreatment(OncoDbContext context)
+        public static void SeedTreatment(OncoDbContext context)
         {
-            if (await context.Treatments.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/Treatments.json");
-            var treatments = await JsonSerializer.DeserializeAsync<List<Treatment>>(stream);
+            if (context.Treatments.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/Treatments.json");
+            var text = File.ReadAllText(stream.Name);
+            var treatments = JsonConvert.DeserializeObject<List<Treatment>>(text);
 
             if (treatments != null)
-                await context.Treatments.AddRangeAsync(treatments);
+                context.Treatments.AddRange(treatments);
 
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public static async Task SeedConsequence(OncoDbContext context)
+        public static void SeedConsequence(OncoDbContext context)
         {
-            if (await context.Consequences.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/Consequences.json");
-            var consequences = await JsonSerializer.DeserializeAsync<List<Consequence>>(stream);
+            if (context.Consequences.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/Consequences.json");
+            var text = File.ReadAllText(stream.Name);
+            var consequences = JsonConvert.DeserializeObject<List<Consequence>>(text);
 
             if (consequences != null)
-                await context.Consequences.AddRangeAsync(consequences);
+                context.Consequences.AddRange(consequences);
 
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public static async Task SeedDrug(OncoDbContext context)
+        public static void SeedDrug(OncoDbContext context)
         {
-            if (await context.Drugs.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/Drugs.json");
-            var drugs = await JsonSerializer.DeserializeAsync<List<Drug>>(stream);
+            if (context.Drugs.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/Drugs.json");
+            var text = File.ReadAllText(stream.Name);
+            var drugs = JsonConvert.DeserializeObject<List<Drug>>(text);
 
             if (drugs != null)
-                await context.Drugs.AddRangeAsync(drugs);
+                context.Drugs.AddRange(drugs);
 
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public static async Task SeedSynonym(OncoDbContext context)
+        public static void SeedSynonym(OncoDbContext context)
         {
-            if (await context.Synonyms.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/Synonyms.json");
-            var synonyms = await JsonSerializer.DeserializeAsync<List<Synonym>>(stream);
+            if (context.Synonyms.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/Synonyms.json");
+            var text = File.ReadAllText(stream.Name);
+            var synonyms = JsonConvert.DeserializeObject<List<Synonym>>(text);
 
             if (synonyms != null)
-                await context.Synonyms.AddRangeAsync(synonyms);
+                context.Synonyms.AddRange(synonyms);
 
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public static async Task SeedDrugSynonym(OncoDbContext context)
+        public static void SeedDrugSynonym(OncoDbContext context)
         {
-            if (await context.DrugSynonyms.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/DrugSynonyms.json");
-            var drugSynonyms = await JsonSerializer.DeserializeAsync<List<DrugSynonym>>(stream);
+            if (context.DrugSynonyms.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/DrugSynonyms.json");
+            var text = File.ReadAllText(stream.Name);
+            var drugSynonyms = JsonConvert.DeserializeObject<List<DrugSynonym>>(text);
 
             if (drugSynonyms != null)
-                await context.DrugSynonyms.AddRangeAsync(drugSynonyms);
+                context.DrugSynonyms.AddRange(drugSynonyms);
 
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public static async Task SeedGene(OncoDbContext context)
+        public static void SeedGene(OncoDbContext context)
         {
-            if (await context.Genes.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/Genes.json");
-            var genes = await JsonSerializer.DeserializeAsync<List<Gene>>(stream);
+            if (context.Genes.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/Genes.json");
+            var text = File.ReadAllText(stream.Name);
+            var genes = JsonConvert.DeserializeObject<List<Gene>>(text);
 
             if (genes != null)
-                await context.Genes.AddRangeAsync(genes);
+                context.Genes.AddRange(genes);
 
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public static async Task SeedAliase(OncoDbContext context)
+        public static void SeedAliase(OncoDbContext context)
         {
-            if (await context.Aliases.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/Aliases.json");
-            var aliases = await JsonSerializer.DeserializeAsync<List<Aliase>>(stream);
+            if (context.Aliases.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/Aliases.json");
+            var text = File.ReadAllText(stream.Name);
+            var aliases = JsonConvert.DeserializeObject<List<Aliase>>(text);
 
             if (aliases != null)
-                await context.Aliases.AddRangeAsync(aliases);
+                context.Aliases.AddRange(aliases);
 
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public static async Task SeedGeneAliase(OncoDbContext context)
+        public static void SeedGeneAliase(OncoDbContext context)
         {
-            if (await context.GeneAliases.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/GeneAliases.json");
-            var geneAliases = await JsonSerializer.DeserializeAsync<List<GeneAliase>>(stream);
+            if (context.GeneAliases.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/GeneAliases.json");
+            var text = File.ReadAllText(stream.Name);
+            var geneAliases = JsonConvert.DeserializeObject<List<GeneAliase>>(text);
 
             if (geneAliases != null)
-                await context.GeneAliases.AddRangeAsync(geneAliases);
-            await context.SaveChangesAsync();
+                context.GeneAliases.AddRange(geneAliases);
+            context.SaveChanges();
         }
 
-        public static async Task SeedResult(OncoDbContext context)
+        public static void SeedResult(OncoDbContext context)
         {
-            if (await context.Results.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/TechnicianUsecaseSeedData/Result.json");
-            var text = await File.ReadAllTextAsync(stream.Name);
+            if (context.Results.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/TechnicianUsecaseSeedData/Result.json");
+            var text = File.ReadAllText(stream.Name);
 
             //// Using Newtonsoft instead of System.Text.Json because its allow enum type json parsing
             var results = JsonConvert.DeserializeObject<List<Result>>(text);
 
             if (results != null)
-                await context.Results.AddRangeAsync(results);
+                context.Results.AddRange(results);
 
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public static async Task SeedPatient(OncoDbContext context)
+        public static void SeedPatient(OncoDbContext context)
         {
-            if (await context.Patients.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/TechnicianUsecaseSeedData/Patient.json");
-            var patients = await JsonSerializer.DeserializeAsync<List<Patient>>(stream);
+            if (context.Patients.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/TechnicianUsecaseSeedData/Patient.json");
+            var text = File.ReadAllText(stream.Name);
+            var patients = JsonConvert.DeserializeObject<List<Patient>>(text);
 
             if (patients != null)
-                await context.Patients.AddRangeAsync(patients);
+                context.Patients.AddRange(patients);
 
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public static async Task SeedRun(OncoDbContext context)
+        public static void SeedRun(OncoDbContext context)
         {
-            if (await context.Runs.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/TechnicianUsecaseSeedData/Run.json");
-            var runs = await JsonSerializer.DeserializeAsync<List<Run>>(stream);
+            if (context.Runs.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/TechnicianUsecaseSeedData/Run.json");
+            var text = File.ReadAllText(stream.Name);
+            var runs = JsonConvert.DeserializeObject<List<Run>>(text);
 
             if (runs != null)
-                await context.Runs.AddRangeAsync(runs);
+                context.Runs.AddRange(runs);
 
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public static async Task SeedTest(OncoDbContext context)
+        public static void SeedTest(OncoDbContext context)
         {
-            if (await context.Tests.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/TechnicianUsecaseSeedData/Test.json");
-            var tests = await JsonSerializer.DeserializeAsync<List<Test>>(stream);
+            if (context.Tests.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/TechnicianUsecaseSeedData/Test.json");
+            var text = File.ReadAllText(stream.Name);
+            var tests = JsonConvert.DeserializeObject<List<Test>>(text);
 
             if (tests != null)
                 foreach (var test in tests)
@@ -204,31 +217,33 @@ namespace OncoDiagnose.DataAccess
                     test.TestDate = DateTime.Now;
                     context.Tests.Add(test);
                 }
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public static async Task SeedMutationArticle(OncoDbContext context)
+        public static void SeedMutationArticle(OncoDbContext context)
         {
-            if (await context.MutationArticles.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/MutationArticles.json");
-            var mutationArticles = await JsonSerializer.DeserializeAsync<List<MutationArticle>>(stream);
+            if (context.MutationArticles.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/MutationArticles.json");
+            var text = File.ReadAllText(stream.Name);
+            var mutationArticles = JsonConvert.DeserializeObject<List<MutationArticle>>(text);
 
             if (mutationArticles != null)
-                await context.MutationArticles.AddRangeAsync(mutationArticles);
+                context.MutationArticles.AddRange(mutationArticles);
 
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public static async Task SeedTreatmentDrug(OncoDbContext context)
+        public static void SeedTreatmentDrug(OncoDbContext context)
         {
-            if (await context.TreatmentDrugs.AnyAsync()) return;
-            await using var stream = File.OpenRead("SeedData/TreatmentDrugs.json");
-            var treatmentDrugsList = await JsonSerializer.DeserializeAsync<List<TreatmentDrugs>>(stream);
+            if (context.TreatmentDrugs.Any()) return;
+            using var stream = File.OpenRead("wwwroot/SeedData/TreatmentDrugs.json");
+            var text = File.ReadAllText(stream.Name);
+            var treatmentDrugsList = JsonConvert.DeserializeObject<List<TreatmentDrugs>>(text);
 
             if (treatmentDrugsList != null)
-                await context.TreatmentDrugs.AddRangeAsync(treatmentDrugsList);
+                context.TreatmentDrugs.AddRange(treatmentDrugsList);
 
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
     }
 }

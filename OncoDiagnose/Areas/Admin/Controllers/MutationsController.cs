@@ -1,13 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using OncoDiagnose.Web.Business;
+using OncoDiagnose.Web.Utility;
 using OncoDiagnose.Web.ViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Database_Manager)]
     public class MutationsController : Controller
     {
         private readonly MutationBusiness _mutationBusiness;

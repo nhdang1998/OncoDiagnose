@@ -73,7 +73,7 @@ namespace OncoDiagnose.DataAccess.Repositories.Base
 
         public async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null)
         {
-            IQueryable<T> query = dbSet;
+            var query = dbSet.AsNoTracking();
 
             if (filter != null)
             {

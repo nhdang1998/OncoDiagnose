@@ -1,15 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using OncoDiagnose.DataAccess;
-using OncoDiagnose.Models;
-using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using OncoDiagnose.Web.Business;
+using OncoDiagnose.Web.Utility;
 using OncoDiagnose.Web.ViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Database_Manager)]
     public class SynonymsController : Controller
     {
         private readonly SynonymBusiness _synonymBusiness;

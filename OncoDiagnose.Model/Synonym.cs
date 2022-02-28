@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace OncoDiagnose.Models
 {
     public class Synonym : BaseEntity
     {
-        [JsonPropertyName("Synonym")]
+        [JsonProperty("Synonym", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string SynonymInformation { get; set; }
 
         public List<DrugSynonym> DrugSynonyms { get; set; }

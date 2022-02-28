@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using OncoDiagnose.Web.Utility
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -24,17 +25,79 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                            <a class="nav-link text-white" asp-area="Doctor" asp-controller="Home" asp-action="Index">Trang chủ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Intro">Giới thiệu</a>
+                            <a class="nav-link text-white" asp-area="Doctor" asp-controller="Home" asp-action="Intro">Giới thiệu</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="Doctor" asp-controller="Mutations" asp-action="Index">Tra cứu</a>
-                        </li>
+                        @if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Database_Manager) || User.IsInRole(SD.Role_User_Laboratory) || User.IsInRole(SD.Role_User_Doctor))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="Doctor" asp-controller="Mutations" asp-action="Index">Tra cứu</a>
+                            </li>
+                        }
+                        
+                        @if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Database_Manager) || User.IsInRole(SD.Role_User_Laboratory))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Xét nghiệm
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <h6 class="dropdown-header">Thông tin xét nghiệm bệnh nhân</h6>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Runs" asp-action="Index">Giải trình tự</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Patients" asp-action="Index">Bệnh nhân</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Tests" asp-action="Index">Xét nghiệm</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Results" asp-action="Index">Kết quả chẩn đoán</a>
+                                </div>
+                            </li>
+                        }
+                        
+                        @if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Database_Manager))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Nội dung
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <h6 class="dropdown-header">Thuốc điều trị</h6>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Drugs" asp-action="Index">Thuốc</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Synonyms" asp-action="Index">Tên gọi khác</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Treatments" asp-action="Index">Điều trị</a>
+                                    <div class="dropdown-divider"></div>
+                                    <h6 class="dropdown-header">Bài báo khoa học</h6>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Articles" asp-action="Index">Bài báo</a>
+                                    <div class="dropdown-divider"></div>
+                                    <h6 class="dropdown-header">Thông tin các ca bệnh</h6>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="CancerTypes" asp-action="Index">Bệnh ung thư</a>
+                                    <div class="dropdown-divider"></div>
+                                    <h6 class="dropdown-header">Gene và đột biến</h6>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Genes" asp-action="Index">Gene</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Aliases" asp-action="Index">Tên gọi khác</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Alterations" asp-action="Index">Đột biến</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Mutations" asp-action="Index">Chấn đoán tổng quát</a>
+                                </div>
+                            </li>
+                        }
+
+                        @if (User.IsInRole(SD.Role_Admin))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Đối tượng sử dụng
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Laboratories" asp-action="Index">Phòng xét nghiệm</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="User" asp-action="Index">Người dùng</a>
+
+                                </div>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
@@ -42,7 +105,7 @@
     </header>
     <div>
         <main role="main">
-            @RenderBody()
+                @RenderBody()
         </main>
     </div>
 

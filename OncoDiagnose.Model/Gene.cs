@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace OncoDiagnose.Models
 {
@@ -8,16 +8,16 @@ namespace OncoDiagnose.Models
         public string HugoSymbol { get; set; }
         public string OncoGene { get; set; }
 
-        [JsonPropertyName("Grch37Isoform")]
+        [JsonProperty("Grch37Isoform", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string Grch37Isoform { get; set; }
 
-        [JsonPropertyName("Grch37RefSeq")]
+        [JsonProperty("Grch37RefSeq", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string Grch37RefSeq { get; set; }
 
-        [JsonPropertyName("grch38Isoform")]
+        [JsonProperty("Grch38Isoform", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string Grch38Isoform { get; set; }
 
-        [JsonPropertyName("grch38RefSeq")]
+        [JsonProperty("Grch38RefSeq", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string Grch38RefSeq { get; set; }
 
         public string Tsg { get; set; }

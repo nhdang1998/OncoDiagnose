@@ -18,9 +18,10 @@ namespace OncoDiagnose.Web.Business
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
+
         public async Task<List<SynonymViewModel>> GetAll()
         {
-            var synonyms = await _unitOfWork.Synonym.GetAllAsync();
+            var synonyms = await _unitOfWork.Synonym.GetSynonymsAsync();
             return synonyms.Any() ? _mapper.Map<List<SynonymViewModel>>(synonyms) : null;
         }
 
@@ -30,7 +31,7 @@ namespace OncoDiagnose.Web.Business
             {
                 return null;
             }
-            var synonym = await _unitOfWork.Synonym.GetByIdAsync(id);
+            var synonym = await _unitOfWork.Synonym.GetSynonymByIdAsync(id.GetValueOrDefault());
             return synonym == null ? null : _mapper.Map<SynonymViewModel>(synonym);
         }
 

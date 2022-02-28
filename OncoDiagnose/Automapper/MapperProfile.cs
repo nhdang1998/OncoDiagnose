@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
 using AutoMapper.Extensions.EnumMapping;
 using OncoDiagnose.Models;
+using OncoDiagnose.Models.AuthenticateAndAuthorize;
 using OncoDiagnose.Models.Technician;
 using OncoDiagnose.Web.ViewModels;
 using OncoDiagnose.Web.ViewModels.DrugViewModels;
 using OncoDiagnose.Web.ViewModels.GeneViewModels;
+using OncoDiagnose.Web.ViewModels.Security;
 
 namespace OncoDiagnose.Web.Automapper
 {
@@ -85,6 +87,8 @@ namespace OncoDiagnose.Web.Automapper
             CreateMap<Result, ResultViewModel>().ReverseMap();
             CreateMap<Run, RunViewModel>().ReverseMap();
             CreateMap<Test, TestViewModel>().ReverseMap();
+
+            CreateMap<Laboratory, LaboratoryViewModel>().ReverseMap();
         }
     }
 }

@@ -10,7 +10,7 @@ using OncoDiagnose.DataAccess;
 namespace OncoDiagnose.DataAccess.Migrations
 {
     [DbContext(typeof(OncoDbContext))]
-    [Migration("20220224161900_InitialDb")]
+    [Migration("20220228151956_InitialDb")]
     partial class InitialDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -84,6 +84,10 @@ namespace OncoDiagnose.DataAccess.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -135,6 +139,8 @@ namespace OncoDiagnose.DataAccess.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("IdentityUser");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -323,6 +329,33 @@ namespace OncoDiagnose.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Articles");
+                });
+
+            modelBuilder.Entity("OncoDiagnose.Models.AuthenticateAndAuthorize.Laboratory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsAuthorized")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Laboratories");
                 });
 
             modelBuilder.Entity("OncoDiagnose.Models.CancerType", b =>
@@ -769,6 +802,22 @@ namespace OncoDiagnose.DataAccess.Migrations
                     b.ToTable("TreatmentDrugs");
                 });
 
+            modelBuilder.Entity("OncoDiagnose.Models.AuthenticateAndAuthorize.TechnicianAdminUser", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+
+                    b.Property<int?>("LaboratoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasIndex("LaboratoryId");
+
+                    b.HasDiscriminator().HasValue("TechnicianAdminUser");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -970,6 +1019,16 @@ namespace OncoDiagnose.DataAccess.Migrations
                     b.Navigation("Treatment");
                 });
 
+            modelBuilder.Entity("OncoDiagnose.Models.AuthenticateAndAuthorize.TechnicianAdminUser", b =>
+                {
+                    b.HasOne("OncoDiagnose.Models.AuthenticateAndAuthorize.Laboratory", "Laboratory")
+                        .WithMany("TechnicianAdminUser")
+                        .HasForeignKey("LaboratoryId")
+                        .OnDelete(DeleteBehavior.ClientCascade);
+
+                    b.Navigation("Laboratory");
+                });
+
             modelBuilder.Entity("OncoDiagnose.Models.Aliase", b =>
                 {
                     b.Navigation("GeneAliases");
@@ -978,6 +1037,11 @@ namespace OncoDiagnose.DataAccess.Migrations
             modelBuilder.Entity("OncoDiagnose.Models.Article", b =>
                 {
                     b.Navigation("MutationArticles");
+                });
+
+            modelBuilder.Entity("OncoDiagnose.Models.AuthenticateAndAuthorize.Laboratory", b =>
+                {
+                    b.Navigation("TechnicianAdminUser");
                 });
 
             modelBuilder.Entity("OncoDiagnose.Models.CancerType", b =>

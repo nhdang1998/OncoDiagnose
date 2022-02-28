@@ -4,6 +4,8 @@ using OncoDiagnose.DataAccess.Repositories.Interfaces.ITechnician;
 using OncoDiagnose.DataAccess.Services;
 using OncoDiagnose.DataAccess.Services.Technician;
 using System.Threading.Tasks;
+using OncoDiagnose.DataAccess.Repositories.Interfaces.ISecurity;
+using OncoDiagnose.DataAccess.Services.Security;
 
 namespace OncoDiagnose.DataAccess.Repositories
 {
@@ -30,6 +32,8 @@ namespace OncoDiagnose.DataAccess.Repositories
             Result = new ResultServices(_db);
             Run = new RunServices(_db);
             Test = new TestServices(_db);
+            Laboratory = new LaboratoryServices(_db);
+            User = new UserServices(_db);
             SpCall = new SP_Call(_db);
         }
 
@@ -51,14 +55,17 @@ namespace OncoDiagnose.DataAccess.Repositories
         public IRunRepo Run { get; private set; }
         public ITestRepo Test { get; private set; }
 
-        public void Dispose()
-        {
-            _db.Dispose();
-        }
+        public ILaboratoryRepo Laboratory { get; private set; }
+        public IUserRepo User { get; private set; }
 
         public async Task Save()
         {
             await _db.SaveChangesAsync();
+        }
+
+        public void Dispose()
+        {
+            _db.Dispose();
         }
     }
 }

@@ -2,14 +2,17 @@
 using System.IO;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using OncoDiagnose.Web.Business;
+using OncoDiagnose.Web.Utility;
 using OncoDiagnose.Web.ViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Database_Manager + "," + SD.Role_User_Laboratory)]
     public class RunsController : Controller
     {
         private readonly RunBusiness _runBusiness;
@@ -168,7 +171,7 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                             continue;
                     }
                 }
-
+                //Make sure the update don't affect other images
                 VerifyImageChanges(runViewModel, runFromDb, tmpISPLoadingPic, tmpQualityPic, tmpLengthPic);
             }
             else
@@ -211,7 +214,6 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
         private static void VerifyImageChanges(RunViewModel runViewModel, RunViewModel runFromDb, string pathISPLoadingPic,
             string pathQualityPic, string pathLengthPic)
         {
-            //Make sure the update don't effect to other images
             if (pathISPLoadingPic == null)
             {
                 runViewModel.ISPLoadingPic = runFromDb.ISPLoadingPic;

@@ -1,56 +1,56 @@
 ﻿using System;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace OncoDiagnose.Models.Technician
 {
     public class Run : BaseEntity
     {
-        [JsonPropertyName("Status")]
+        [JsonProperty("Status", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string Status { get; set; }
 
-        [JsonPropertyName("FinishDate")]
+        [JsonProperty("FinishDate", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public DateTime? FinishDate { get; set; }
 
-        [JsonPropertyName("TotalBase")]
+        [JsonProperty("TotalBase", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string TotalBase { get; set; }
 
-        [JsonPropertyName("KeySignal")]
+        [JsonProperty("KeySignal", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string KeySignal { get; set; }
 
-        [JsonPropertyName("TotalRead")]
+        [JsonProperty("TotalRead", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public int TotalRead { get; set; }
 
-        [JsonPropertyName("UsableRead")]
+        [JsonProperty("UsableRead", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public double UsableRead { get; set; }
 
-        [JsonPropertyName("MeanLength")]
+        [JsonProperty("MeanLength", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public double MeanLength { get; set; }
 
-        [JsonPropertyName("MedianLength")]
+        [JsonProperty("MedianLength", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public int MedianLength { get; set; }
 
-        [JsonPropertyName("ModeLength")]
+        [JsonProperty("ModeLength", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public int ModeLength { get; set; }
 
-        [JsonPropertyName("ISPLoading")]
+        [JsonProperty("ISPLoading", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string ISPLoading { get; set; }
 
-        [JsonPropertyName("PolyClonal")]
+        [JsonProperty("PolyClonal", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string PolyClonal { get; set; }
 
-        [JsonPropertyName("LowQuality")]
+        [JsonProperty("LowQuality", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public int LowQuality { get; set; }
 
-        [JsonPropertyName("Score")]
+        [JsonProperty("Score", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public int Score { get; set; }
 
-        [JsonPropertyName("ISPLoadingPic")]
+        [JsonProperty("ISPLoadingPic", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string ISPLoadingPic { get; set; }
 
-        [JsonPropertyName("QualityPic")]
+        [JsonProperty("QualityPic", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string QualityPic { get; set; }
 
-        [JsonPropertyName("LengthPic")]
+        [JsonProperty("LengthPic", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string LengthPic { get; set; }
 
         public Test Test { get; set; }

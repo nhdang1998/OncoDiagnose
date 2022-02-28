@@ -9,13 +9,16 @@ namespace OncoDiagnose.Web.ViewModels
         public int Id { get; set; }
 
         [Display(Name = "Test")]
+        [Required]
         public int TestId { get; set; }
 
         public TestViewModel Test { get; set; }
 
         [JsonConverter(typeof(StringEnumConverter))]
+        [Required]
         public GeneNameViewModel GeneName { get; set; }
 
+        [Required]
         public string Variant { get; set; }
 
         [Required]

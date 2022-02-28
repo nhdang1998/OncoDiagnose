@@ -1,38 +1,40 @@
-﻿using System.Text.Json.Serialization;
+﻿using Newtonsoft.Json;
 
 namespace OncoDiagnose.Models
 {
     public class Alteration : BaseEntity
     {
-        [JsonPropertyName("MutationId")]
+        [JsonProperty("MutationId", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public int? MutationId { get; set; }
 
         public Mutation Mutation { get; set; }
 
-        [JsonPropertyName("Alteration")]
+        [JsonProperty("Alteration", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string AlterationInformation { get; set; }
 
-        [JsonPropertyName("Name")]
+        [JsonProperty("Name", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string Name { get; set; }
 
-        [JsonPropertyName("RefResidues")]
+        [JsonProperty("RefResidues", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string RefResidues { get; set; }
 
-        [JsonPropertyName("ProteinStart")]
+        [JsonProperty("ProteinStart", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public int ProteinStart { get; set; }
 
-        [JsonPropertyName("ProteinEnd")]
+        [JsonProperty("ProteinEnd", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public int ProteinEnd { get; set; }
 
-        [JsonPropertyName("VariantResidues")]
+        [JsonProperty("VariantResidues", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string VariantResidues { get; set; }
 
-        [JsonPropertyName("GeneId")]
+        [JsonProperty("GeneId", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public int? GeneId { get; set; }
+
         public Gene Gene { get; set; }
 
-        [JsonPropertyName("ConsequenceId")]
+        [JsonProperty("ConsequenceId", Required = Required.AllowNull, NullValueHandling = NullValueHandling.Ignore)]
         public int? ConsequenceId { get; set; }
+
         public Consequence Consequence { get; set; }
     }
 }

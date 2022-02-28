@@ -1,16 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using OncoDiagnose.DataAccess;
-using OncoDiagnose.Models;
-using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using OncoDiagnose.Web.Business;
+using OncoDiagnose.Web.Utility;
 using OncoDiagnose.Web.ViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Database_Manager)]
     public class CancerTypesController : Controller
     {
         private readonly CancerTypeBusiness _cancerType;
@@ -62,17 +60,17 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
             switch (ModelState.IsValid)
             {
                 case true:
-                {
-                    if (cancerTypeViewModel.Id == 0)
                     {
-                        await _cancerType.Add(cancerTypeViewModel);
+                        if (cancerTypeViewModel.Id == 0)
+                        {
+                            await _cancerType.Add(cancerTypeViewModel);
+                        }
+                        else
+                        {
+                            await _cancerType.Update(cancerTypeViewModel);
+                        }
+                        return RedirectToAction("Index");
                     }
-                    else
-                    {
-                        await _cancerType.Update(cancerTypeViewModel);
-                    }
-                    return RedirectToAction("Index");
-                }
                 default:
                     return View(cancerTypeViewModel);
             }

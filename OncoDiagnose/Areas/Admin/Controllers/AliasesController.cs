@@ -2,10 +2,13 @@
 using OncoDiagnose.Web.Business;
 using OncoDiagnose.Web.ViewModels;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using OncoDiagnose.Web.Utility;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Database_Manager)]
     public class AliasesController : Controller
     {
         private readonly AliaseBusiness _aliasesBusiness;

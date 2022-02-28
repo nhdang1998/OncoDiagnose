@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using OncoDiagnose.DataAccess;
 using OncoDiagnose.Web.Business;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using OncoDiagnose.Web.Utility;
 using OncoDiagnose.Web.ViewModels;
 using OncoDiagnose.Web.ViewModels.GeneViewModels;
 
 namespace OncoDiagnose.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Database_Manager)]
     public class GenesController : Controller
     {
         private readonly GeneBusiness _geneBusiness;
@@ -95,7 +97,6 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
 
                 await _geneBusiness.Add(geneVM);
                 return RedirectToAction(nameof(Index));
-
             }
             catch (Exception e)
             {
@@ -225,7 +226,6 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
             await _geneBusiness.Delete(objFromDb);
             return Json(new { success = true, message = "Delete Successful" });
         }
-
 
         private async Task<bool> GeneExists(int id)
         {
