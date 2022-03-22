@@ -6,9 +6,7 @@
 }
 
 <div class="container-fluid">
-    <h1>Create</h1>
-    
-    <h4>Result</h4>
+    <h1>Thêm mới kết quả xét nghiệm 50 gene</h1>
     <br/>
     
     @using (Html.BeginForm("Create", "Results", FormMethod.Post))
@@ -36,10 +34,10 @@
                             @Html.TextBoxFor(r => r[i].GeneName, new { @readonly = true })
                         </td>
                         <td>
-                            @Html.TextBoxFor(r => r[i].Variant, new { @placeholder = "No mutation detected" })
+                            @Html.TextBoxFor(r => r[i].Variant, new { @placeholder = "No mutation detected", value = "No mutation detected" })
                         </td>
                         <td>
-                            @Html.TextBoxFor(r => r[i].Frequence, new { type = "number", min = "0", step = "0.01" })
+                            @Html.TextBoxFor(r => r[i].Frequence, new { type = "number", min = "0", step = "0.01", value = "0.0" })
                             @Html.ValidationMessageFor(r => r[i].Frequence)
                         </td>
                         <td>

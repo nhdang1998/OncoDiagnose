@@ -67,7 +67,7 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                         {
                             await _patientBusiness.Update(patientViewModel);
                         }
-                        return RedirectToAction("Index");
+                        return RedirectToAction("Upsert", "Runs");
                     }
                 default:
                     return View(patientViewModel);

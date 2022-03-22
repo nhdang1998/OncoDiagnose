@@ -1,7 +1,7 @@
 ﻿@model OncoDiagnose.Web.ViewModels.RunViewModel
 
 @{
-    var title = "Thêm mới";
+    var title = "Thêm mới thông tin giải trình tự";
     Layout = "_Layout";
 }
 
@@ -12,7 +12,7 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             @if (Model.Id != 0)
             {
-                title = "Chỉnh sửa";
+                title = "Chỉnh sửa thông tin giải trình tự";
                 <input type="hidden" asp-for="Id" />
             }
             <div class="col-12 border-bottom">

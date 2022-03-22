@@ -111,20 +111,19 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(List<ResultViewModel> resultViewModels)
         {
-            if (!ModelState.IsValid)
-            {
-                ModelState.Clear();
-                resultViewModels = _result;
-                return View(resultViewModels);
-            }
-
             foreach (var resultViewModel in resultViewModels)
             {
                 resultViewModel.Variant ??= "No mutation detected";
             }
+            if (!ModelState.IsValid)
+            {
+                ModelState.Clear();
+                return RedirectToAction("Details", "Tests", new { id = resultViewModels[0].TestId });
+            }
+
             await _resultBusiness.AddRange(resultViewModels);
             ModelState.Clear();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Details", "Tests", new { id = resultViewModels[0].TestId });
         }
 
         public async Task<IActionResult> Edit(int? id)

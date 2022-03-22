@@ -78,7 +78,7 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                         {
                             await _runBusiness.Update(runViewModel);
                         }
-                        return RedirectToAction("Index");
+                        return RedirectToAction("Create", "Tests");
                     }
                 default:
                     return View(runViewModel);
@@ -110,14 +110,11 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                                 runViewModel.ISPLoadingPic = @"\photo\ISPLoadingPic\" + fileName + extension;
                                 tmpISPLoadingPic = runViewModel.ISPLoadingPic;
 
-                                if (runViewModel.ISPLoadingPic != null)
+                                if (runViewModel.ISPLoadingPic != null && runFromDb is { ISPLoadingPic: { } })
+                                //This is an edit and we need to remove old image
                                 {
-                                    //This is an edit and we need to remove old image
-                                    if (runFromDb.ISPLoadingPic != null)
-                                    {
-                                        var imagePath = Path.Combine(webRootPath, runFromDb.ISPLoadingPic.TrimStart('\\'));
-                                        DeleteImage(imagePath);
-                                    }
+                                    var imagePath = Path.Combine(webRootPath, runFromDb.ISPLoadingPic.TrimStart('\\'));
+                                    DeleteImage(imagePath);
                                 }
 
                                 await AddImage(uploads, fileName, extension, file);
@@ -132,14 +129,11 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                                 runViewModel.QualityPic = @"\photo\QualityPic\" + fileName + extension;
                                 tmpQualityPic = runViewModel.QualityPic;
 
-                                if (runViewModel.QualityPic != null)
+                                if (runViewModel.QualityPic != null && runFromDb is { QualityPic: { } })
+                                //This is an edit and we need to remove old image
                                 {
-                                    //This is an edit and we need to remove old image
-                                    if (runFromDb.QualityPic != null)
-                                    {
-                                        var imagePath = Path.Combine(webRootPath, runFromDb.QualityPic.TrimStart('\\'));
-                                        DeleteImage(imagePath);
-                                    }
+                                    var imagePath = Path.Combine(webRootPath, runFromDb.QualityPic.TrimStart('\\'));
+                                    DeleteImage(imagePath);
                                 }
 
                                 await AddImage(uploads, fileName, extension, file);
@@ -154,14 +148,11 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
                                 runViewModel.LengthPic = @"\photo\LengthPic\" + fileName + extension;
                                 tmpLengthPic = runViewModel.LengthPic;
 
-                                if (runViewModel.LengthPic != null)
+                                if (runViewModel.LengthPic != null && runFromDb is { LengthPic: { } })
+                                //This is an edit and we need to remove old image
                                 {
-                                    //This is an edit and we need to remove old image
-                                    if (runFromDb.LengthPic != null)
-                                    {
-                                        var imagePath = Path.Combine(webRootPath, runFromDb.LengthPic.TrimStart('\\'));
-                                        DeleteImage(imagePath);
-                                    }
+                                    var imagePath = Path.Combine(webRootPath, runFromDb.LengthPic.TrimStart('\\'));
+                                    DeleteImage(imagePath);
                                 }
 
                                 await AddImage(uploads, fileName, extension, file);

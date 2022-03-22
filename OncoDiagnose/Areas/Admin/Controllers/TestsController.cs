@@ -95,11 +95,11 @@ namespace OncoDiagnose.Web.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 await _testBusiness.Add(testView);
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Create", "Results");
             }
             ViewData["PatientId"] = new SelectList(_testBusiness.GetPatients(), "Id", "Name", testView.PatientId);
             ViewData["RunId"] = new SelectList(_testBusiness.GetRuns(), "Id", "Id", testView.RunId);
-            return View(testView);
+            return RedirectToAction("Create", "Results");
         }
 
         // GET: Admin/Drugs1/Edit/5

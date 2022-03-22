@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json;
 using OncoDiagnose.Models;
 using OncoDiagnose.Models.Technician;
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -17,10 +16,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var mutations = JsonConvert.DeserializeObject<List<Mutation>>(text);
 
-            if (mutations != null)
-                context.Mutations.AddRange(mutations);
-
-            context.SaveChanges();
+            if (mutations == null) return;
+            context.BulkInsert(mutations);
         }
 
         public static void SeedCancerType(OncoDbContext context)
@@ -30,10 +27,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var cancerTypes = JsonConvert.DeserializeObject<List<CancerType>>(text);
 
-            if (cancerTypes != null)
-                context.CancerTypes.AddRange(cancerTypes);
-
-            context.SaveChanges();
+            if (cancerTypes == null) return;
+            context.BulkInsert(cancerTypes);
         }
 
         public static void SeedArticle(OncoDbContext context)
@@ -43,9 +38,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var articles = JsonConvert.DeserializeObject<List<Article>>(text);
 
-            if (articles != null)
-                context.Articles.AddRange(articles);
-            context.SaveChanges();
+            if (articles == null) return;
+            context.BulkInsert(articles);
         }
 
         public static void SeedAlteration(OncoDbContext context)
@@ -55,9 +49,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var alterations = JsonConvert.DeserializeObject<List<Alteration>>(text);
 
-            if (alterations != null)
-                context.Alterations.AddRange(alterations);
-            context.SaveChanges();
+            if (alterations == null) return;
+            context.BulkInsert(alterations);
         }
 
         public static void SeedTreatment(OncoDbContext context)
@@ -67,10 +60,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var treatments = JsonConvert.DeserializeObject<List<Treatment>>(text);
 
-            if (treatments != null)
-                context.Treatments.AddRange(treatments);
-
-            context.SaveChanges();
+            if (treatments == null) return;
+            context.BulkInsert(treatments);
         }
 
         public static void SeedConsequence(OncoDbContext context)
@@ -80,10 +71,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var consequences = JsonConvert.DeserializeObject<List<Consequence>>(text);
 
-            if (consequences != null)
-                context.Consequences.AddRange(consequences);
-
-            context.SaveChanges();
+            if (consequences == null) return;
+            context.BulkInsert(consequences);
         }
 
         public static void SeedDrug(OncoDbContext context)
@@ -93,10 +82,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var drugs = JsonConvert.DeserializeObject<List<Drug>>(text);
 
-            if (drugs != null)
-                context.Drugs.AddRange(drugs);
-
-            context.SaveChanges();
+            if (drugs == null) return;
+            context.BulkInsert(drugs);
         }
 
         public static void SeedSynonym(OncoDbContext context)
@@ -106,10 +93,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var synonyms = JsonConvert.DeserializeObject<List<Synonym>>(text);
 
-            if (synonyms != null)
-                context.Synonyms.AddRange(synonyms);
-
-            context.SaveChanges();
+            if (synonyms == null) return;
+            context.BulkInsert(synonyms);
         }
 
         public static void SeedDrugSynonym(OncoDbContext context)
@@ -119,10 +104,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var drugSynonyms = JsonConvert.DeserializeObject<List<DrugSynonym>>(text);
 
-            if (drugSynonyms != null)
-                context.DrugSynonyms.AddRange(drugSynonyms);
-
-            context.SaveChanges();
+            if (drugSynonyms == null) return;
+            context.BulkInsert(drugSynonyms);
         }
 
         public static void SeedGene(OncoDbContext context)
@@ -132,10 +115,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var genes = JsonConvert.DeserializeObject<List<Gene>>(text);
 
-            if (genes != null)
-                context.Genes.AddRange(genes);
-
-            context.SaveChanges();
+            if (genes == null) return;
+            context.BulkInsert(genes);
         }
 
         public static void SeedAliase(OncoDbContext context)
@@ -145,10 +126,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var aliases = JsonConvert.DeserializeObject<List<Aliase>>(text);
 
-            if (aliases != null)
-                context.Aliases.AddRange(aliases);
-
-            context.SaveChanges();
+            if (aliases == null) return;
+            context.BulkInsert(aliases);
         }
 
         public static void SeedGeneAliase(OncoDbContext context)
@@ -158,9 +137,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var geneAliases = JsonConvert.DeserializeObject<List<GeneAliase>>(text);
 
-            if (geneAliases != null)
-                context.GeneAliases.AddRange(geneAliases);
-            context.SaveChanges();
+            if (geneAliases == null) return;
+            context.BulkInsert(geneAliases);
         }
 
         public static void SeedResult(OncoDbContext context)
@@ -172,10 +150,8 @@ namespace OncoDiagnose.DataAccess
             //// Using Newtonsoft instead of System.Text.Json because its allow enum type json parsing
             var results = JsonConvert.DeserializeObject<List<Result>>(text);
 
-            if (results != null)
-                context.Results.AddRange(results);
-
-            context.SaveChanges();
+            if (results == null) return;
+            context.BulkInsert(results);
         }
 
         public static void SeedPatient(OncoDbContext context)
@@ -185,10 +161,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var patients = JsonConvert.DeserializeObject<List<Patient>>(text);
 
-            if (patients != null)
-                context.Patients.AddRange(patients);
-
-            context.SaveChanges();
+            if (patients == null) return;
+            context.BulkInsert(patients);
         }
 
         public static void SeedRun(OncoDbContext context)
@@ -198,10 +172,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var runs = JsonConvert.DeserializeObject<List<Run>>(text);
 
-            if (runs != null)
-                context.Runs.AddRange(runs);
-
-            context.SaveChanges();
+            if (runs == null) return;
+            context.BulkInsert(runs);
         }
 
         public static void SeedTest(OncoDbContext context)
@@ -211,13 +183,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var tests = JsonConvert.DeserializeObject<List<Test>>(text);
 
-            if (tests != null)
-                foreach (var test in tests)
-                {
-                    test.TestDate = DateTime.Now;
-                    context.Tests.Add(test);
-                }
-            context.SaveChanges();
+            if (tests == null) return;
+            context.BulkInsert(tests);
         }
 
         public static void SeedMutationArticle(OncoDbContext context)
@@ -227,10 +194,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var mutationArticles = JsonConvert.DeserializeObject<List<MutationArticle>>(text);
 
-            if (mutationArticles != null)
-                context.MutationArticles.AddRange(mutationArticles);
-
-            context.SaveChanges();
+            if (mutationArticles == null) return;
+            context.BulkInsert(mutationArticles);
         }
 
         public static void SeedTreatmentDrug(OncoDbContext context)
@@ -240,10 +205,8 @@ namespace OncoDiagnose.DataAccess
             var text = File.ReadAllText(stream.Name);
             var treatmentDrugsList = JsonConvert.DeserializeObject<List<TreatmentDrugs>>(text);
 
-            if (treatmentDrugsList != null)
-                context.TreatmentDrugs.AddRange(treatmentDrugsList);
-
-            context.SaveChanges();
+            if (treatmentDrugsList == null) return;
+            context.BulkInsert(treatmentDrugsList);
         }
     }
 }
